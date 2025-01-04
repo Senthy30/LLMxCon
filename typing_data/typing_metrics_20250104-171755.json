@@ -1,0 +1,89 @@
+{
+    "session_start_time": null,
+    "session_end_time": "2025-01-04T15:17:55.333Z",
+    "prompt_responses": {
+        "00001": {
+            "overall_metrics": {
+                "end_time": "2025-01-04T15:17:53.222Z",
+                "start_time": null,
+                "total_backspaces": 4,
+                "total_time_seconds": 8.455,
+                "total_words": 3,
+                "wpm": "21.29"
+            },
+            "prompt": "Describe the sights and sounds of a bustling farmers&#39; market.",
+            "response": "unde team du?",
+            "word_metrics": [
+                {
+                    "backspaces": 0,
+                    "delay_after_word_seconds": 0.44639999985694884,
+                    "end_time": "2025-01-04T15:17:46.124Z",
+                    "start_time": "2025-01-04T15:17:45.876Z",
+                    "time_taken_seconds": 0.248,
+                    "versions": [
+                        "unde"
+                    ],
+                    "was_deleted": false,
+                    "word": "unde",
+                    "word_length": 4
+                },
+                {
+                    "backspaces": 3,
+                    "delay_after_word_seconds": 0.8277000000476837,
+                    "end_time": "2025-01-04T15:17:49.746Z",
+                    "start_time": "2025-01-04T15:17:46.200Z",
+                    "time_taken_seconds": 3.546,
+                    "versions": [
+                        "te-ai",
+                        "team"
+                    ],
+                    "was_deleted": false,
+                    "word": "team",
+                    "word_length": 4
+                },
+                {
+                    "backspaces": 1,
+                    "delay_after_word_seconds": 0.9384000000953674,
+                    "end_time": "2025-01-04T15:17:52.283Z",
+                    "start_time": "2025-01-04T15:17:50.420Z",
+                    "time_taken_seconds": 1.863,
+                    "versions": [
+                        "dus",
+                        "du?"
+                    ],
+                    "was_deleted": false,
+                    "word": "du?",
+                    "word_length": 3
+                }
+            ]
+        },
+        "00002": {
+            "word_metrics": [
+                {
+                    "was_deleted": false,
+                    "time_taken_seconds": 0.299,
+                    "backspaces": 0,
+                    "word_length": 3,
+                    "delay_after_word_seconds": 0.5004000000953674,
+                    "start_time": "2025-01-04T15:17:54.534Z",
+                    "end_time": "2025-01-04T15:17:54.833Z",
+                    "word": "aaa",
+                    "versions": [
+                        "aaa"
+                    ]
+                }
+            ],
+            "overall_metrics": {
+                "total_time_seconds": 10.566700000047684,
+                "total_backspaces": 0,
+                "total_words": 1,
+                "wpm": "5.68",
+                "start_time": null,
+                "end_time": "2025-01-04T15:17:55.333Z"
+            },
+            "prompt": "Write about a sunrise you saw from the top of a mountain.",
+            "response": "aaa"
+        }
+    },
+    "total_prompts": 2
+}

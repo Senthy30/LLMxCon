@@ -24,6 +24,8 @@ def load_prompts():
             line = line.strip()
             if not line:
                 continue  # Skip empty lines
+            if line[0] == '#':
+                continue # Skip comments starting with '#'
             parts = line.split(' ', 1)
             if len(parts) != 2:
                 continue  # Skip malformed lines

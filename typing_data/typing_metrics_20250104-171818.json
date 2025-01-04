@@ -1,0 +1,101 @@
+{
+    "session_start_time": null,
+    "session_end_time": "2025-01-04T15:18:18.422Z",
+    "prompt_responses": {
+        "00001": {
+            "overall_metrics": {
+                "end_time": "2025-01-04T15:18:15.277Z",
+                "start_time": null,
+                "total_backspaces": 3,
+                "total_time_seconds": 9.35810000014305,
+                "total_words": 4,
+                "wpm": "25.65"
+            },
+            "prompt": "Describe the sights and sounds of a bustling farmers&#39; market.",
+            "response": "am fost la",
+            "word_metrics": [
+                {
+                    "backspaces": 0,
+                    "delay_after_word_seconds": 0.8096999998092651,
+                    "end_time": "2025-01-04T15:18:08.326Z",
+                    "start_time": "2025-01-04T15:18:08.197Z",
+                    "time_taken_seconds": 0.129,
+                    "versions": [
+                        "am"
+                    ],
+                    "was_deleted": false,
+                    "word": "am",
+                    "word_length": 2
+                },
+                {
+                    "backspaces": 1,
+                    "delay_after_word_seconds": 1.0231000001430512,
+                    "end_time": "2025-01-04T15:18:13.988Z",
+                    "start_time": "2025-01-04T15:18:08.953Z",
+                    "time_taken_seconds": 5.035,
+                    "versions": [
+                        "fosl",
+                        "fost"
+                    ],
+                    "was_deleted": false,
+                    "word": "fost",
+                    "word_length": 4
+                },
+                {
+                    "backspaces": 2,
+                    "delay_after_word_seconds": 0,
+                    "end_time": "2025-01-04T15:18:13.713Z",
+                    "start_time": "2025-01-04T15:18:11.697Z",
+                    "time_taken_seconds": 2.016,
+                    "versions": [
+                        "la"
+                    ],
+                    "was_deleted": true,
+                    "word": "",
+                    "word_length": 0
+                },
+                {
+                    "backspaces": 0,
+                    "delay_after_word_seconds": 0.927,
+                    "end_time": "2025-01-04T15:18:14.350Z",
+                    "start_time": "2025-01-04T15:18:14.087Z",
+                    "time_taken_seconds": 0.263,
+                    "versions": [
+                        "la"
+                    ],
+                    "was_deleted": false,
+                    "word": "la",
+                    "word_length": 2
+                }
+            ]
+        },
+        "00002": {
+            "word_metrics": [
+                {
+                    "was_deleted": false,
+                    "time_taken_seconds": 0.444,
+                    "backspaces": 0,
+                    "word_length": 5,
+                    "delay_after_word_seconds": 0.8552000000476837,
+                    "start_time": "2025-01-04T15:18:17.123Z",
+                    "end_time": "2025-01-04T15:18:17.567Z",
+                    "word": "unde?",
+                    "versions": [
+                        "unde?"
+                    ]
+                }
+            ],
+            "overall_metrics": {
+                "total_time_seconds": 12.502600000143051,
+                "total_backspaces": 0,
+                "total_words": 1,
+                "wpm": "4.80",
+                "start_time": null,
+                "end_time": "2025-01-04T15:18:18.422Z"
+            },
+            "prompt": "Write about a sunrise you saw from the top of a mountain.",
+            "response": "unde?"
+        }
+    },
+    "total_prompts": 2
+}

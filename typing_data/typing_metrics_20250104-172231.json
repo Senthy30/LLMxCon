@@ -1,0 +1,102 @@
+{
+    "session_start_time": 1056.7000000476837,
+    "session_end_time": "2025-01-04T15:22:31.237Z",
+    "prompt_responses": {
+        "00001": {
+            "overall_metrics": {
+                "end_time": "2025-01-04T15:22:28.557Z",
+                "start_time": 1056.7000000476837,
+                "total_backspaces": 22,
+                "total_time_seconds": 21.81660000014305,
+                "total_words": 4,
+                "wpm": "11.00"
+            },
+            "prompt": "Describe the sights and sounds of a bustling farmers&#39; market.",
+            "response": "ce?",
+            "word_metrics": [
+                {
+                    "backspaces": 14,
+                    "delay_after_word_seconds": 1.0674000000953674,
+                    "end_time": "2025-01-04T15:22:27.490Z",
+                    "start_time": "2025-01-04T15:22:06.740Z",
+                    "time_taken_seconds": 20.75,
+                    "versions": [
+                        "am",
+                        "ce?"
+                    ],
+                    "was_deleted": false,
+                    "word": "ce?",
+                    "word_length": 3
+                },
+                {
+                    "backspaces": 4,
+                    "delay_after_word_seconds": 0.45930000019073486,
+                    "end_time": "2025-01-04T15:22:24.069Z",
+                    "start_time": "2025-01-04T15:22:06.909Z",
+                    "time_taken_seconds": 17.16,
+                    "versions": [
+                        "fost"
+                    ],
+                    "was_deleted": true,
+                    "word": "",
+                    "word_length": 0
+                },
+                {
+                    "backspaces": 2,
+                    "delay_after_word_seconds": 5.346400000095367,
+                    "end_time": "2025-01-04T15:22:23.874Z",
+                    "start_time": "2025-01-04T15:22:07.529Z",
+                    "time_taken_seconds": 16.345,
+                    "versions": [
+                        "la"
+                    ],
+                    "was_deleted": true,
+                    "word": "",
+                    "word_length": 0
+                },
+                {
+                    "backspaces": 2,
+                    "delay_after_word_seconds": 0,
+                    "end_time": "2025-01-04T15:22:23.784Z",
+                    "start_time": "2025-01-04T15:22:07.887Z",
+                    "time_taken_seconds": 15.897,
+                    "versions": [
+                        "aa",
+                        "aaaaaaaaa"
+                    ],
+                    "was_deleted": true,
+                    "word": "aaaaaaaa",
+                    "word_length": 8
+                }
+            ]
+        },
+        "00002": {
+            "word_metrics": [
+                {
+                    "was_deleted": false,
+                    "time_taken_seconds": 0.253,
+                    "backspaces": 0,
+                    "word_length": 4,
+                    "delay_after_word_seconds": 0.7569000000953674,
+                    "start_time": "2025-01-04T15:22:30.227Z",
+                    "end_time": "2025-01-04T15:22:30.480Z",
+                    "word": "unde",
+                    "versions": [
+                        "unde"
+                    ]
+                }
+            ],
+            "overall_metrics": {
+                "total_time_seconds": 24.49690000009537,
+                "total_backspaces": 0,
+                "total_words": 1,
+                "wpm": "2.45",
+                "start_time": 1056.7000000476837,
+                "end_time": "2025-01-04T15:22:31.237Z"
+            },
+            "prompt": "Write about a sunrise you saw from the top of a mountain.",
+            "response": "unde"
+        }
+    },
+    "total_prompts": 2
+}

@@ -33,13 +33,17 @@
             response: ""
         };
 
-        let currentWord = "";
-        let wordStartTime = null;
-        let lastSpaceTime = null;
-        let backspaceCountCurrentWord = 0;
-        let totalBackspaces = 0;
         let totalStartTime = null;
-        let totalEndTime = null;
+        
+        let typingOnCurrentWordStarted = false;
+        let firstWordWasAdded = false;
+        let previousKeyWasBackspace = false;
+        let totalBackspaces = 0;
+        let timeWhenLastLetterWasTyped = null;
+        
+        let previousWordMetricsIndex = -1;
+        let currentWordMetricsIndex = -1;
+        let nextIndexWordMetrics = 0;
 
         // Store the current prompt ID
         let currentPromptId = "{{ prompt_id }}";
@@ -58,105 +62,170 @@
         const acceptableCharPattern = /^[a-zA-Z0-9.,!?'"():;@#$%^&*\-_=+\[\]{}|\\<>/`~ ]$/;
 
         // Event listeners for key presses
-        responseArea.addEventListener('keydown', (e) => {
-            const key = e.key;
-
-            // Ignore keys in the ignoreKeys set
-            if (ignoreKeys.has(key)) {
+        responseArea.addEventListener('keydown', (event) => {
+            const key = event.key;
+            if (ignoreKeys.has(event.key)) {
                 return;
             }
 
-            // Optionally, ensure the key is a single character
-            if (key.length > 1 && key !== "Enter" && key !== " " && key !== "Backspace") {
+            if (key.length > 1 && key !== " " && key === "Enter" && key !== "Backspace") {
                 return;
             }
 
-            if (totalStartTime === null) {
-                totalStartTime = performance.now();
-                metrics.overall_metrics.start_time = new Date().toISOString();
+            if (firstWordWasAdded === false || (key === " " && getCurrentWordMetrics()['word'].length > 0)) {
+                handleLastVersionOfWord();
+                addWordToMetrics();
+
+                if (firstWordWasAdded === true) 
+                    return;
+                firstWordWasAdded = true;
+                typingOnCurrentWordStarted = false;
             }
 
-            const currentTime = performance.now();
+            updateMetricsForCurrentWord(event);
+            updateOverallMetrics();
 
-            if (key === "Backspace") {
-                backspaceCountCurrentWord += 1;
+            setTimeout(() => {
+                responseArea.selectionStart = responseArea.selectionEnd = responseArea.value.length;
+            }, 0);
+        });
+
+        responseArea.addEventListener('mouseup', function (event) {
+            responseArea.selectionStart = responseArea.selectionEnd = responseArea.value.length;
+            event.preventDefault();
+        });
+
+        function updateMetricsForCurrentWord(event) {
+            const key = event.key;
+
+            if (key === " ") {
+                return;
+            } else if (key === "Enter") {
+                event.preventDefault(); // Prevent adding a newline in the textarea
+                submitResponse();
+
+                return;
+            } 
+            
+            if (typingOnCurrentWordStarted === false) {
+                typingOnCurrentWordStarted = true;
+                getCurrentWordMetrics()['start_time'] = new Date().toISOString();
+            }
+            getCurrentWordMetrics()['end_time'] = new Date().toISOString();
+            getCurrentWordMetrics()['time_taken_seconds'] = (new Date(getCurrentWordMetrics()['end_time']) - new Date(getCurrentWordMetrics()['start_time'])) / 1000;
+
+            console.log(getCurrentWordMetrics()['time_taken_seconds']);
+            
+            if (key == "Backspace") {
+                const lastCharacterFromResponseArea = responseArea.value[responseArea.value.length - 1];
+                if (lastCharacterFromResponseArea === " ") {
+                    getCurrentWordMetrics()['was_deleted'] = true;
+                    while (currentWordMetricsIndex >= 0 && getCurrentWordMetrics()['was_deleted'] === true) {
+                        currentWordMetricsIndex -= 1;
+                    }
+                    return;
+                }
+
+                if (previousKeyWasBackspace == false) {
+                    previousKeyWasBackspace = true;
+                    getCurrentWordMetrics()['versions'].push(getCurrentWordMetrics()['word']);
+                }
+
                 totalBackspaces += 1;
-                if (currentWord.length > 0) {
-                    currentWord = currentWord.slice(0, -1);
-                }
-                return;
-            }
+                getCurrentWordMetrics()['backspaces'] += 1;
+                getCurrentWordMetrics()['word'] = getCurrentWordMetrics()['word'].slice(0, -1);
+                timeWhenLastLetterWasTyped = performance.now();
+            } else {
+                previousKeyWasBackspace = false;
+                getCurrentWordMetrics()['word'] += key;
 
-            if (key === " " || key === "Enter") {
-                if (currentWord.length > 0) {
-                    const wordEndTime = currentTime;
-                    const timeTaken = (wordEndTime - wordStartTime) / 1000; // in seconds
-                    const wordLength = currentWord.length;
-
-                    metrics.word_metrics.push({
-                        word: currentWord,
-                        time_taken_seconds: timeTaken,
-                        backspaces: backspaceCountCurrentWord,
-                        word_length: wordLength
-                    });
-
-                    currentWord = "";
-                    backspaceCountCurrentWord = 0;
-                    lastSpaceTime = currentTime;
-                }
-
-                // If Enter key is pressed, trigger the submit
-                if (key === "Enter") {
-                    e.preventDefault(); // Prevent adding a newline in the textarea
-                    submitResponse();
-                }
-                return;
-            }
-
-            // Starting a new word
-            if (currentWord.length === 0) {
-                if (lastSpaceTime !== null) {
-                    const delay = (currentTime - lastSpaceTime) / 1000; // in seconds
-                    if (metrics.word_metrics.length > 0) {
-                        metrics.word_metrics[metrics.word_metrics.length - 1]['delay_after_word_seconds'] = delay;
+                if (getCurrentWordMetrics()['word'].length === 1 && timeWhenLastLetterWasTyped !== null) {
+                    previousWordMetrics = getPreviousWordMetrics();
+                    if (previousWordMetrics !== null) {
+                        previousWordMetrics['delay_after_word_seconds'] += (performance.now() - timeWhenLastLetterWasTyped) / 1000;
                     }
                 }
-                wordStartTime = currentTime;
+                timeWhenLastLetterWasTyped = performance.now();
             }
 
-            currentWord += key;
-        });
+            getCurrentWordMetrics()['word_length'] = getCurrentWordMetrics()['word'].length;
+        }
+
+        function updateOverallMetrics() {
+            if (totalStartTime === null) {
+                totalStartTime = performance.now();
+            }
+        }
+
+        function addWordToMetrics() {
+            previousWordMetricsIndex = currentWordMetricsIndex;
+            currentWordMetricsIndex = nextIndexWordMetrics;
+            nextIndexWordMetrics += 1;
+
+            metrics.word_metrics.push({
+                was_deleted: false,
+                time_taken_seconds: 0,
+                backspaces: 0,
+                word_length: 0,
+                delay_after_word_seconds: 0,
+                start_time: new Date().toISOString(),
+                end_time: new Date().toISOString(),
+                word: "",
+                versions: []
+            });
+        }
+
+        function getPreviousWordMetrics() {
+            if (previousWordMetricsIndex < 0 || previousWordMetricsIndex >= metrics.word_metrics.length) {
+                console.error("Invalid previousWordMetricsIndex");
+                return null;
+            }
+            return metrics.word_metrics[previousWordMetricsIndex];
+        }
+
+        function getCurrentWordMetrics() {
+            if (currentWordMetricsIndex < 0 || currentWordMetricsIndex >= metrics.word_metrics.length) {
+                return null;
+            }
+            return metrics.word_metrics[currentWordMetricsIndex];
+        }
+
+        function handleLastVersionOfWord() {
+            currentWordMetrics = getCurrentWordMetrics();
+            if (currentWordMetrics === null) {
+                return;
+            }
+
+            if (currentWordMetrics['versions'].length > 0) {
+                lastWordVersion = currentWordMetrics['versions'][currentWordMetrics['versions'].length - 1];
+                if (lastWordVersion !== currentWordMetrics['word']) {
+                    currentWordMetrics['versions'].push(currentWordMetrics['word']);
+                }
+            } else {
+                currentWordMetrics['versions'].push(currentWordMetrics['word']);
+            }
+        }
 
         // Function to handle submission
         function submitResponse() {
-            // Handle the last word if not followed by space
-            if (currentWord.length > 0) {
-                const wordEndTime = performance.now();
-                const timeTaken = (wordEndTime - wordStartTime) / 1000; // in seconds
-                const wordLength = currentWord.length;
-
-                metrics.word_metrics.push({
-                    word: currentWord,
-                    time_taken_seconds: timeTaken,
-                    backspaces: backspaceCountCurrentWord,
-                    word_length: wordLength
-                });
-
-                currentWord = "";
-                backspaceCountCurrentWord = 0;
-            }
-
             const totalEndTimeTemp = performance.now();
             const totalTime = (totalEndTimeTemp - totalStartTime) / 1000; // in seconds
 
             const wordsTyped = metrics.word_metrics.length;
             const wpm = (wordsTyped / totalTime) * 60;
+            const start_time = metrics.overall_metrics.start_time; 
+
+            if (timeWhenLastLetterWasTyped !== null) {
+                getCurrentWordMetrics()['delay_after_word_seconds'] = (performance.now() - timeWhenLastLetterWasTyped) / 1000;
+            }
+            handleLastVersionOfWord();
 
             metrics.overall_metrics = {
                 total_time_seconds: totalTime,
                 total_backspaces: totalBackspaces,
                 total_words: wordsTyped,
                 wpm: wpm.toFixed(2),
+                start_time: totalStartTime,
                 end_time: new Date().toISOString()
             };
 
@@ -190,12 +259,14 @@
                                 prompt: data.next_prompt,
                                 response: ""
                             };
-                            currentWord = "";
-                            wordStartTime = null;
-                            lastSpaceTime = null;
-                            backspaceCountCurrentWord = 0;
+                            timeWhenLastLetterWasTyped = null;
                             totalBackspaces = 0;
-                            totalStartTime = null;
+
+                            firstWordWasAdded = false;
+                            previousWordMetricsIndex = -1;
+                            currentWordMetricsIndex = -1;
+                            nextIndexWordMetrics = 0;
+
                             // Clear the textarea
                             responseArea.value = '';
                             submitBtn.disabled = false;

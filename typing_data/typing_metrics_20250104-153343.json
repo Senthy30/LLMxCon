@@ -1,0 +1,78 @@
+{
+    "session_start_time": "",
+    "session_end_time": "2025-01-04T13:33:43.968Z",
+    "prompt_responses": {
+        "00001": {
+            "overall_metrics": {
+                "end_time": "2025-01-04T13:33:41.968Z",
+                "total_backspaces": 7,
+                "total_time_seconds": 7.002399999856949,
+                "total_words": 3,
+                "wpm": "25.71"
+            },
+            "prompt": "Describe the sights and sounds of a bustling farmers&#39; market.",
+            "response": "maa aa la",
+            "word_metrics": [
+                {
+                    "backspaces": 0,
+                    "delay_after_word_seconds": 2.9377000000476836,
+                    "time_taken_seconds": 1.2285999999046326,
+                    "versions": [
+                        "maa"
+                    ],
+                    "word": "maa",
+                    "word_length": 3
+                },
+                {
+                    "backspaces": 7,
+                    "delay_after_word_seconds": 0.189,
+                    "time_taken_seconds": 1.6104000000953673,
+                    "versions": [
+                        "a",
+                        "a",
+                        "a",
+                        "a",
+                        "a",
+                        "a",
+                        "a",
+                        "aa"
+                    ],
+                    "word": "aa",
+                    "word_length": 2
+                },
+                {
+                    "backspaces": 0,
+                    "time_taken_seconds": 1.0366999998092652,
+                    "versions": [
+                        "la"
+                    ],
+                    "word": "la",
+                    "word_length": 2
+                }
+            ]
+        },
+        "00002": {
+            "word_metrics": [
+                {
+                    "word": "asd",
+                    "time_taken_seconds": 0.6116000001430512,
+                    "backspaces": 0,
+                    "word_length": 3,
+                    "versions": [
+                        "asd"
+                    ]
+                }
+            ],
+            "overall_metrics": {
+                "total_time_seconds": 0.6117999999523163,
+                "total_backspaces": 0,
+                "total_words": 1,
+                "wpm": "98.07",
+                "end_time": "2025-01-04T13:33:43.968Z"
+            },
+            "prompt": "Write about a sunrise you saw from the top of a mountain.",
+            "response": "asd"
+        }
+    },
+    "total_prompts": 2
+}
