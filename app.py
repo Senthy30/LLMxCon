@@ -26,8 +26,8 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 model_responses = []
 next_model_response_id = 0
 
-# tokenizer = AutoTokenizer.from_pretrained("google/gemma-2b-it")
-# model = AutoModelForCausalLM.from_pretrained("google/gemma-2b-it")
+tokenizer = AutoTokenizer.from_pretrained("google/gemma-2b-it")
+model = AutoModelForCausalLM.from_pretrained("google/gemma-2b-it")
 
 def load_prompts():
     """Load prompts from the prompts.txt file with their unique IDs."""
@@ -100,32 +100,25 @@ def generate_model_response():
     chat = [
         { "role": "user", "content": question},
     ]
-    # inputs = tokenizer.apply_chat_template(chat, tokenize=False, add_generation_prompt=True)
-    # inputs = tokenizer(inputs, return_tensors="pt")
+    inputs = tokenizer.apply_chat_template(chat, tokenize=False, add_generation_prompt=True)
+    inputs = tokenizer(inputs, return_tensors="pt")
 
-    # streamer = TextIteratorStreamer(tokenizer)
+    streamer = TextIteratorStreamer(tokenizer)
 
-    # generation_kwargs = dict(inputs, streamer=streamer, max_new_tokens=128)
-    # thread = Thread(target=model.generate, kwargs=generation_kwargs)
-    # thread.start()
+    generation_kwargs = dict(inputs, streamer=streamer, max_new_tokens=128)
+    thread = Thread(target=model.generate, kwargs=generation_kwargs)
+    thread.start()
     
-    # for new_text in streamer:
-    #     new_text = new_text.replace("\n", " ").replace("<eos>", "").replace("**", " ").replace("*", " ")
-    #     if "<start_of_turn>model" in new_text:
-    #         start_add_to_response = True
-    #         continue
-    #     if not start_add_to_response:
-    #         continue
-    #     new_model_reponse['response'] += new_text
+    for new_text in streamer:
+        new_text = new_text.replace("\n", " ").replace("<eos>", "").replace("**", " ").replace("*", " ")
+        if "<start_of_turn>model" in new_text:
+            start_add_to_response = True
+            continue
+        if not start_add_to_response:
+            continue
+        new_model_reponse['response'] += new_text
 
-    # thread.join()
-
-    for i in range(30):
-        for ch in question:
-            new_model_reponse['response'] += ch
-            time.sleep(0.01)
-        new_model_reponse['response'] += ' '
-        time.sleep(0.1)
+    thread.join()
 
     return jsonify({'status': 'success', 'response_id': response_id}), 200
     
