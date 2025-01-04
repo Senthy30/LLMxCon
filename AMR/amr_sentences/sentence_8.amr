@@ -1,0 +1,19 @@
+# Sentence: The salty breeze tickled my skin as I waded into the cool, endless expanse, waves playfully lapping against me.
+# ::tok The salty breeze tickled my skin as I waded into the cool , endless expanse , waves playfully lapping against me .
+(t / tickle-01~3
+    :ARG0 (b / breeze~2
+        :mod (s / salty~1))
+    :ARG1 (s2 / skin~5
+        :part-of (i / i~4))
+    :time (w / wade-01~8
+        :ARG0 i
+        :ARG1 (e2 / expanse~14
+            :ARG1-of (e / end-01~13
+                :polarity -~17)
+            :ARG1-of (c2 / cool-06~11)
+            :ARG1-of (c / condition-01~18
+                :ARG2 (p / play-01~17
+                    :ARG0 (w2 / wave~16)
+                    :ARG2 (s3 / swim-01~18
+                        :ARG0 w2
+                        :ARG2 i))))))

@@ -1,0 +1,20 @@
+# Sentence: Walking through the rainforest, you're enveloped by the earthy scent of damp soil and the melody of chirping birds, rustling leaves, and distant waterfalls.
+# ::tok Walking through the rainforest , you 're enveloped by the earthy scent of damp soil and the melody of chirping birds , rustling leaves , and distant waterfalls .
+(e / engulf-01~7
+    :ARG1 (y / you~5)
+    :ARG2 (a2 / and~15
+        :op1 (s / smell-01~11
+            :ARG1 (s2 / soil~14
+                :ARG1-of (d / damp-03~13))
+            :mod (a / Earth~10))
+        :op2 (m / melody~17
+            :topic (a3 / and~21
+                :op1 (b / bird~20
+                    :ARG0-of (c / chirp-01~19))
+                :op2 (l / leaf~23
+                    :ARG1-of (r2 / rust-01~22))
+                :op3 (w2 / waterfall~27
+                    :ARG1-of (d2 / distant-02~26)))))
+    :time (w / walk-01~0
+        :ARG0 y
+        :ARG2 (r / rainforest~3)))
