@@ -1,0 +1,61 @@
+{
+    "session_start_time": "2025-01-04T18:30:32.714Z",
+    "session_end_time": "2025-01-04T18:30:49.887Z",
+    "prompt_responses": {
+        "00001": {
+            "overall_metrics": {
+                "end_time": "2025-01-04T18:30:43.353Z",
+                "start_time": "2025-01-04T18:30:32.714Z",
+                "total_backspaces": 0,
+                "total_time_seconds": null,
+                "total_words": 1,
+                "wpm": "NaN"
+            },
+            "prompt": "Describe the sights and sounds of a bustling farmers&#39; market.",
+            "response": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahttps://huggingface.co/docs/transformers/internal/generation_utilshttps://huggingface.co/docs/transformers/internal/generation_utilshttps://huggingface.co/docs/transformers/internal/generation_utils",
+            "word_metrics": [
+                {
+                    "backspaces": 0,
+                    "delay_after_word_seconds": 0.7290999999046326,
+                    "end_time": "2025-01-04T18:30:42.624Z",
+                    "start_time": "2025-01-04T18:30:32.714Z",
+                    "time_taken_seconds": 9.91,
+                    "versions": [
+                        "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaavvv"
+                    ],
+                    "was_deleted": false,
+                    "word": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaavvv",
+                    "word_length": 51
+                }
+            ]
+        },
+        "00002": {
+            "word_metrics": [
+                {
+                    "was_deleted": false,
+                    "time_taken_seconds": 3.162,
+                    "backspaces": 0,
+                    "word_length": 11,
+                    "delay_after_word_seconds": 1.2932999999523163,
+                    "start_time": "2025-01-04T18:30:45.431Z",
+                    "end_time": "2025-01-04T18:30:48.593Z",
+                    "word": "vvvvvvvvvvv",
+                    "versions": [
+                        "vvvvvvvvvvv"
+                    ]
+                }
+            ],
+            "overall_metrics": {
+                "total_time_seconds": null,
+                "total_backspaces": 0,
+                "total_words": 1,
+                "wpm": "NaN",
+                "start_time": "2025-01-04T18:30:32.714Z",
+                "end_time": "2025-01-04T18:30:49.887Z"
+            },
+            "prompt": "Write about a sunrise you saw from the top of a mountain.",
+            "response": "https://huggingface.co/docs/transformers/internal/generation_utilsvvhttps://huggingface.co/docs/transformers/internal/generation_utilshttps://huggingface.co/docs/transformers/internal/generation_utilshttps://huggingface.co/docs/transformers/internal/generation_utilsvvvhttps://huggingface.co/docs/transformers/internal/generation_utilshttps://huggingface.co/docs/transformers/internal/generation_utils"
+        }
+    },
+    "total_prompts": 2
+}

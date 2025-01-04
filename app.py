@@ -1,18 +1,33 @@
-from flask import Flask, render_template, request, jsonify, session
-import json
 import os
+import time
+import json
+import torch
+import warnings
+
+warnings.filterwarnings("ignore")
+
+from threading import Thread
 from datetime import datetime
 from flask import redirect, url_for
+from flask import Flask, render_template, request, jsonify, session
+# from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline, TextIteratorStreamer
 
 app = Flask(__name__)
 app.secret_key = 'your_secure_secret_key'  # Replace with a secure key in production
 
 # Directory to store typing metrics
 DATA_DIR = 'typing_data'
-os.makedirs(DATA_DIR, exist_ok=True)
-
 # Path to the prompts file
 PROMPTS_FILE = 'prompts.txt'
+
+os.makedirs(DATA_DIR, exist_ok=True)
+
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
+model_responses = []
+next_model_response_id = 0
+
+# tokenizer = AutoTokenizer.from_pretrained("google/gemma-2b-it")
+# model = AutoModelForCausalLM.from_pretrained("google/gemma-2b-it")
 
 def load_prompts():
     """Load prompts from the prompts.txt file with their unique IDs."""
@@ -48,6 +63,72 @@ def index():
     
     first_prompt = prompts[0]
     return render_template('index.html', prompt=first_prompt['text'], prompt_id=first_prompt['id'], total_prompts=len(prompts), current_prompt_number=1)
+
+@app.route('/nextModelResponseId', methods=['GET'])
+def get_next_model_response_id():
+    global next_model_response_id
+    next_model_response_id += 1
+    return jsonify({'response_id': next_model_response_id})
+
+@app.route('/getModelResponses', methods=['GET'])
+def get_model_responses():
+    return jsonify(model_responses)
+
+@app.route('/getModelResponse/<int:response_id>', methods=['GET'])
+def get_model_response(response_id):
+    for model_response in model_responses:
+        if model_response['response_id'] == response_id:
+            return jsonify(model_response)
+    return jsonify({'error': 'Model response not found.'}), 404
+
+@app.route('/generateModelResponse', methods=['POST'])
+def generate_model_response():
+    data = request.get_json()
+    response_id = data.get('response_id', 0)
+    question = data.get('prompt', [])
+    new_model_reponse = {
+        'response_id': response_id,
+        'question': question,
+        'response': ''
+    }
+
+    model_responses.append(new_model_reponse)
+
+    print(f"Generating response for response ID: {response_id}")
+    print(f"Question: {question}")
+
+    chat = [
+        { "role": "user", "content": question},
+    ]
+    # inputs = tokenizer.apply_chat_template(chat, tokenize=False, add_generation_prompt=True)
+    # inputs = tokenizer(inputs, return_tensors="pt")
+
+    # streamer = TextIteratorStreamer(tokenizer)
+
+    # generation_kwargs = dict(inputs, streamer=streamer, max_new_tokens=128)
+    # thread = Thread(target=model.generate, kwargs=generation_kwargs)
+    # thread.start()
+    
+    # for new_text in streamer:
+    #     new_text = new_text.replace("\n", " ").replace("<eos>", "").replace("**", " ").replace("*", " ")
+    #     if "<start_of_turn>model" in new_text:
+    #         start_add_to_response = True
+    #         continue
+    #     if not start_add_to_response:
+    #         continue
+    #     new_model_reponse['response'] += new_text
+
+    # thread.join()
+
+    for i in range(30):
+        for ch in question:
+            new_model_reponse['response'] += ch
+            time.sleep(0.01)
+        new_model_reponse['response'] += ' '
+        time.sleep(0.1)
+
+    return jsonify({'status': 'success', 'response_id': response_id}), 200
+    
 
 @app.route('/submit', methods=['POST'])
 def submit():

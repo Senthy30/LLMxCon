@@ -16,6 +16,7 @@
         </div>
         <textarea id="response" class="form-control bg-secondary text-light" placeholder="Start typing here..."></textarea>
         <button id="submit-btn" class="btn btn-primary mt-3">Submit</button>
+        <button id="generate-btn" class="btn btn-primary mt-3">Generate</button>
     </div>
 
     <!-- Bootstrap JS Bundle -->
@@ -23,6 +24,7 @@
     <script>
         const responseArea = document.getElementById('response');
         const submitBtn = document.getElementById('submit-btn');
+        const generateBtn = document.getElementById('generate-btn');
         const promptElement = document.getElementById('prompt');
         const progressElement = document.getElementById('progress');
 
@@ -47,6 +49,8 @@
 
         // Store the current prompt ID
         let currentPromptId = "{{ prompt_id }}";
+        let currentModelResponseId = null;
+        let currentIndexModelResponse = 0;
 
         // Define a set of keys to ignore (non-typing keys)
         const ignoreKeys = new Set([
@@ -153,9 +157,11 @@
 
         function updateOverallMetrics() {
             if (totalStartTime === null) {
-                totalStartTime = performance.now();
+                totalStartTime = new Date().toISOString();
             }
         }
+
+        // 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
 
         function addWordToMetrics() {
             previousWordMetricsIndex = currentWordMetricsIndex;
@@ -231,8 +237,13 @@
 
             metrics.response = responseArea.value.trim();
 
+            currentModelResponseId = null;
+            currentIndexModelResponse = 0;
+
             // Disable the submit button to prevent multiple submissions
             submitBtn.disabled = true;
+
+            console.log(metrics);
 
             // Send data to the server
             fetch('/submit', {
@@ -290,6 +301,44 @@
             });
         }
 
+        function typeNextChar(contentToResponseArea) {
+            while (currentIndexModelResponse < contentToResponseArea.length) {
+                const char = contentToResponseArea[currentIndexModelResponse];
+                
+                // Simulate a keydown event for the character
+                const event = new KeyboardEvent('keydown', {
+                    'bubbles': true,
+                    'cancelable': true,
+                    'key': char, // The key being pressed
+                    'code': `Key${char.toUpperCase()}`, // A code for the key (optional)
+                    'charCode': char.charCodeAt(0), // The character code
+                    'keyCode': char.charCodeAt(0), // The keyCode
+                });
+
+                responseArea.dispatchEvent(event);
+                responseArea.value += char;
+                currentIndexModelResponse++;
+            }
+        }
+
+        function updateModelResponse() {
+            if (currentModelResponseId === null) {
+                return;
+            }
+
+            fetch('/getModelResponse/' + currentModelResponseId, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                response = data['response'];
+                typeNextChar(response);
+            })
+        }
+
         // Add an event listener for the Enter key on the textarea to submit
         responseArea.addEventListener('keypress', (e) => {
             if (e.key === 'Enter' && !e.shiftKey) {
@@ -302,6 +351,39 @@
         submitBtn.addEventListener('click', () => {
             submitResponse();
         });
+
+        // Event listener for the Generate button
+        generateBtn.addEventListener('click', () => {
+            fetch('/nextModelResponseId', {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                currentModelResponseId = data['response_id'];
+
+                question_data = {
+                    response_id: currentModelResponseId,
+                    prompt: metrics.prompt,
+                }
+
+                fetch('/generateModelResponse', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(question_data),
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data);
+                })
+            })
+        });
+
+        setInterval(updateModelResponse, 50);
     </script>
 </body>
 </html>

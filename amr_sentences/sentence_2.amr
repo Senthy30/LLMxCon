@@ -1,0 +1,18 @@
+# Sentence: From the mountain's peak, the sunrise painted the sky in streaks of gold and pink, illuminating the misty valleys below.
+# ::tok From the mountain 's peak , the sunrise painted the sky in streaks of gold and pink , illuminating the misty valleys below .
+(p / paint-01~8
+    :ARG0 (s3 / sunrise~7)
+    :ARG0-of (i / illuminate-01~18
+        :ARG1 (v / valley~21
+            :ARG1-of (m / mist-03~20)
+            :location (b / below~22
+                :op1 (p2 / peak~4
+                    :part-of (m2 / mountain~2)))))
+    :ARG1 (s / sky~10)
+    :ARG2 (m3 / multi-sentence~12
+        :snt1 p)
+    :ARG2 (s2 / strike-01~12
+        :ARG2 (a / and~15
+            :op1 (g / gold~14)
+            :op2 (p3 / pink-04~16)))
+    :source p2)

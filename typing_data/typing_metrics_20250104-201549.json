@@ -1,0 +1,321 @@
+{
+    "session_start_time": "2025-01-04T18:15:34.111Z",
+    "session_end_time": "2025-01-04T18:15:49.456Z",
+    "prompt_responses": {
+        "00001": {
+            "overall_metrics": {
+                "end_time": "2025-01-04T18:15:41.329Z",
+                "start_time": "2025-01-04T18:15:34.111Z",
+                "total_backspaces": 0,
+                "total_time_seconds": null,
+                "total_words": 10,
+                "wpm": "NaN"
+            },
+            "prompt": "Describe the sights and sounds of a bustling farmers&#39; market.",
+            "response": "Describe the sights and sounds of a bustling farmers&#39; market.",
+            "word_metrics": [
+                {
+                    "backspaces": 0,
+                    "delay_after_word_seconds": 0.21329999995231627,
+                    "end_time": "2025-01-04T18:15:34.796Z",
+                    "start_time": "2025-01-04T18:15:34.111Z",
+                    "time_taken_seconds": 0.685,
+                    "versions": [
+                        "Describe"
+                    ],
+                    "was_deleted": false,
+                    "word": "Describe",
+                    "word_length": 8
+                },
+                {
+                    "backspaces": 0,
+                    "delay_after_word_seconds": 0.18729999995231628,
+                    "end_time": "2025-01-04T18:15:35.209Z",
+                    "start_time": "2025-01-04T18:15:34.900Z",
+                    "time_taken_seconds": 0.309,
+                    "versions": [
+                        "the"
+                    ],
+                    "was_deleted": false,
+                    "word": "the",
+                    "word_length": 3
+                },
+                {
+                    "backspaces": 0,
+                    "delay_after_word_seconds": 0.20460000014305116,
+                    "end_time": "2025-01-04T18:15:35.906Z",
+                    "start_time": "2025-01-04T18:15:35.305Z",
+                    "time_taken_seconds": 0.601,
+                    "versions": [
+                        "sights"
+                    ],
+                    "was_deleted": false,
+                    "word": "sights",
+                    "word_length": 6
+                },
+                {
+                    "backspaces": 0,
+                    "delay_after_word_seconds": 0.19779999995231629,
+                    "end_time": "2025-01-04T18:15:36.312Z",
+                    "start_time": "2025-01-04T18:15:36.001Z",
+                    "time_taken_seconds": 0.311,
+                    "versions": [
+                        "and"
+                    ],
+                    "was_deleted": false,
+                    "word": "and",
+                    "word_length": 3
+                },
+                {
+                    "backspaces": 0,
+                    "delay_after_word_seconds": 0.2,
+                    "end_time": "2025-01-04T18:15:37.006Z",
+                    "start_time": "2025-01-04T18:15:36.404Z",
+                    "time_taken_seconds": 0.602,
+                    "versions": [
+                        "sounds"
+                    ],
+                    "was_deleted": false,
+                    "word": "sounds",
+                    "word_length": 6
+                },
+                {
+                    "backspaces": 0,
+                    "delay_after_word_seconds": 0.19959999990463256,
+                    "end_time": "2025-01-04T18:15:37.298Z",
+                    "start_time": "2025-01-04T18:15:37.100Z",
+                    "time_taken_seconds": 0.198,
+                    "versions": [
+                        "of"
+                    ],
+                    "was_deleted": false,
+                    "word": "of",
+                    "word_length": 2
+                },
+                {
+                    "backspaces": 0,
+                    "delay_after_word_seconds": 0.20140000009536743,
+                    "end_time": "2025-01-04T18:15:37.498Z",
+                    "start_time": "2025-01-04T18:15:37.407Z",
+                    "time_taken_seconds": 0.091,
+                    "versions": [
+                        "a"
+                    ],
+                    "was_deleted": false,
+                    "word": "a",
+                    "word_length": 1
+                },
+                {
+                    "backspaces": 0,
+                    "delay_after_word_seconds": 0.20239999985694884,
+                    "end_time": "2025-01-04T18:15:38.408Z",
+                    "start_time": "2025-01-04T18:15:37.609Z",
+                    "time_taken_seconds": 0.799,
+                    "versions": [
+                        "bustling"
+                    ],
+                    "was_deleted": false,
+                    "word": "bustling",
+                    "word_length": 8
+                },
+                {
+                    "backspaces": 0,
+                    "delay_after_word_seconds": 0.202,
+                    "end_time": "2025-01-04T18:15:39.701Z",
+                    "start_time": "2025-01-04T18:15:38.502Z",
+                    "time_taken_seconds": 1.199,
+                    "versions": [
+                        "farmers&#39;"
+                    ],
+                    "was_deleted": false,
+                    "word": "farmers&#39;",
+                    "word_length": 12
+                },
+                {
+                    "backspaces": 0,
+                    "delay_after_word_seconds": 0.8279000000953675,
+                    "end_time": "2025-01-04T18:15:40.501Z",
+                    "start_time": "2025-01-04T18:15:39.808Z",
+                    "time_taken_seconds": 0.693,
+                    "versions": [
+                        "market."
+                    ],
+                    "was_deleted": false,
+                    "word": "market.",
+                    "word_length": 7
+                }
+            ]
+        },
+        "00002": {
+            "word_metrics": [
+                {
+                    "was_deleted": false,
+                    "time_taken_seconds": 0.416,
+                    "backspaces": 0,
+                    "word_length": 5,
+                    "delay_after_word_seconds": 0.20439999985694884,
+                    "start_time": "2025-01-04T18:15:42.994Z",
+                    "end_time": "2025-01-04T18:15:43.410Z",
+                    "word": "Write",
+                    "versions": [
+                        "Write"
+                    ]
+                },
+                {
+                    "was_deleted": false,
+                    "time_taken_seconds": 0.512,
+                    "backspaces": 0,
+                    "word_length": 5,
+                    "delay_after_word_seconds": 0.187,
+                    "start_time": "2025-01-04T18:15:43.503Z",
+                    "end_time": "2025-01-04T18:15:44.015Z",
+                    "word": "about",
+                    "versions": [
+                        "about"
+                    ]
+                },
+                {
+                    "was_deleted": false,
+                    "time_taken_seconds": 0.094,
+                    "backspaces": 0,
+                    "word_length": 1,
+                    "delay_after_word_seconds": 0.19760000014305115,
+                    "start_time": "2025-01-04T18:15:44.108Z",
+                    "end_time": "2025-01-04T18:15:44.202Z",
+                    "word": "a",
+                    "versions": [
+                        "a"
+                    ]
+                },
+                {
+                    "was_deleted": false,
+                    "time_taken_seconds": 0.692,
+                    "backspaces": 0,
+                    "word_length": 7,
+                    "delay_after_word_seconds": 0.203,
+                    "start_time": "2025-01-04T18:15:44.307Z",
+                    "end_time": "2025-01-04T18:15:44.999Z",
+                    "word": "sunrise",
+                    "versions": [
+                        "sunrise"
+                    ]
+                },
+                {
+                    "was_deleted": false,
+                    "time_taken_seconds": 0.297,
+                    "backspaces": 0,
+                    "word_length": 3,
+                    "delay_after_word_seconds": 0.19609999990463256,
+                    "start_time": "2025-01-04T18:15:45.109Z",
+                    "end_time": "2025-01-04T18:15:45.406Z",
+                    "word": "you",
+                    "versions": [
+                        "you"
+                    ]
+                },
+                {
+                    "was_deleted": false,
+                    "time_taken_seconds": 0.29,
+                    "backspaces": 0,
+                    "word_length": 3,
+                    "delay_after_word_seconds": 0.2117999999523163,
+                    "start_time": "2025-01-04T18:15:45.505Z",
+                    "end_time": "2025-01-04T18:15:45.795Z",
+                    "word": "saw",
+                    "versions": [
+                        "saw"
+                    ]
+                },
+                {
+                    "was_deleted": false,
+                    "time_taken_seconds": 0.388,
+                    "backspaces": 0,
+                    "word_length": 4,
+                    "delay_after_word_seconds": 0.20080000019073485,
+                    "start_time": "2025-01-04T18:15:45.914Z",
+                    "end_time": "2025-01-04T18:15:46.302Z",
+                    "word": "from",
+                    "versions": [
+                        "from"
+                    ]
+                },
+                {
+                    "was_deleted": false,
+                    "time_taken_seconds": 0.294,
+                    "backspaces": 0,
+                    "word_length": 3,
+                    "delay_after_word_seconds": 0.2005,
+                    "start_time": "2025-01-04T18:15:46.410Z",
+                    "end_time": "2025-01-04T18:15:46.704Z",
+                    "word": "the",
+                    "versions": [
+                        "the"
+                    ]
+                },
+                {
+                    "was_deleted": false,
+                    "time_taken_seconds": 0.293,
+                    "backspaces": 0,
+                    "word_length": 3,
+                    "delay_after_word_seconds": 0.20090000009536743,
+                    "start_time": "2025-01-04T18:15:46.813Z",
+                    "end_time": "2025-01-04T18:15:47.106Z",
+                    "word": "top",
+                    "versions": [
+                        "top"
+                    ]
+                },
+                {
+                    "was_deleted": false,
+                    "time_taken_seconds": 0.205,
+                    "backspaces": 0,
+                    "word_length": 2,
+                    "delay_after_word_seconds": 0.2565,
+                    "start_time": "2025-01-04T18:15:47.198Z",
+                    "end_time": "2025-01-04T18:15:47.403Z",
+                    "word": "of",
+                    "versions": [
+                        "of"
+                    ]
+                },
+                {
+                    "was_deleted": false,
+                    "time_taken_seconds": 0.153,
+                    "backspaces": 0,
+                    "word_length": 1,
+                    "delay_after_word_seconds": 0.18760000014305114,
+                    "start_time": "2025-01-04T18:15:47.507Z",
+                    "end_time": "2025-01-04T18:15:47.660Z",
+                    "word": "a",
+                    "versions": [
+                        "a"
+                    ]
+                },
+                {
+                    "was_deleted": false,
+                    "time_taken_seconds": 0.943,
+                    "backspaces": 0,
+                    "word_length": 9,
+                    "delay_after_word_seconds": 0.805,
+                    "start_time": "2025-01-04T18:15:47.708Z",
+                    "end_time": "2025-01-04T18:15:48.651Z",
+                    "word": "mountain.",
+                    "versions": [
+                        "mountain."
+                    ]
+                }
+            ],
+            "overall_metrics": {
+                "total_time_seconds": null,
+                "total_backspaces": 0,
+                "total_words": 12,
+                "wpm": "NaN",
+                "start_time": "2025-01-04T18:15:34.111Z",
+                "end_time": "2025-01-04T18:15:49.456Z"
+            },
+            "prompt": "Write about a sunrise you saw from the top of a mountain.",
+            "response": "Write about a sunrise you saw from the top of a mountain."
+        }
+    },
+    "total_prompts": 2
+}
