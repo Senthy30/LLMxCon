@@ -1,0 +1,15 @@
+# Sentence: All the people crowd together at every farmers' market, happy to sell their goods.
+# ::tok All the people crowd together at every farmers ' market , happy to sell their goods .
+(c / crowd-01~3
+    :ARG1 (p / person~2
+        :ARG1-of (h / happy-01~11
+            :ARG0 (s / sell-01~13
+                :ARG0 (p2 / person~7
+                    :ARG0-of (f / farm-01~7))
+                :ARG1 (g / good~15
+                    :poss p2)))
+        :mod (a / all~0))
+    :location (m / market~9
+        :mod p2
+        :mod (e / every~6))
+    :mod (t / together~4))
