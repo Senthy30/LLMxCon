@@ -31,8 +31,9 @@
         let metrics = {
             word_metrics: [],
             overall_metrics: {},
-            prompt: "{{ prompt }}",
-            response: ""
+            prompt: "",
+            response: "",
+            typing_metrics_id: "{{ typing_metrics_id }}"
         };
 
         let totalStartTime = null;
@@ -49,6 +50,8 @@
 
         // Store the current prompt ID
         let currentPromptId = "{{ prompt_id }}";
+        let currentPromptNumber = 1;
+        let currentPrompt = null;
         let currentModelResponseId = null;
         let currentIndexModelResponse = 0;
 
@@ -117,8 +120,6 @@
             }
             getCurrentWordMetrics()['end_time'] = new Date().toISOString();
             getCurrentWordMetrics()['time_taken_seconds'] = (new Date(getCurrentWordMetrics()['end_time']) - new Date(getCurrentWordMetrics()['start_time'])) / 1000;
-
-            console.log(getCurrentWordMetrics()['time_taken_seconds']);
             
             if (key == "Backspace") {
                 const lastCharacterFromResponseArea = responseArea.value[responseArea.value.length - 1];
@@ -214,17 +215,17 @@
 
         // Function to handle submission
         function submitResponse() {
-            const totalEndTimeTemp = performance.now();
-            const totalTime = (totalEndTimeTemp - totalStartTime) / 1000; // in seconds
-
-            const wordsTyped = metrics.word_metrics.length;
-            const wpm = (wordsTyped / totalTime) * 60;
-            const start_time = metrics.overall_metrics.start_time; 
-
             if (timeWhenLastLetterWasTyped !== null) {
                 getCurrentWordMetrics()['delay_after_word_seconds'] = (performance.now() - timeWhenLastLetterWasTyped) / 1000;
             }
             handleLastVersionOfWord();
+
+            const totalEndTimeTemp = new Date();
+            const totalTime = (totalEndTimeTemp - new Date(totalStartTime)) / 1000;
+
+            const wordsTyped = metrics.word_metrics.length;
+            const wpm = (wordsTyped / totalTime) * 60;
+            const start_time = metrics.overall_metrics.start_time; 
 
             metrics.overall_metrics = {
                 total_time_seconds: totalTime,
@@ -235,7 +236,8 @@
                 end_time: new Date().toISOString()
             };
 
-            metrics.response = responseArea.value.trim();
+            metrics['response'] = responseArea.value.trim();
+            metrics['prompt_id'] = currentPromptId;
 
             currentModelResponseId = null;
             currentIndexModelResponse = 0;
@@ -255,44 +257,44 @@
             })
             .then(response => response.json())
             .then(data => {
-                if (data.status === 'success') {
-                    if (data.next_prompt) {
-                        // Display the next prompt after a 2-second pause
-                        setTimeout(() => {
-                            promptElement.textContent = data.next_prompt;
-                            currentPromptId = data.next_prompt_id;
-                            const currentPromptNumber = data.current_prompt_number;
-                            progressElement.textContent = `Prompt ${currentPromptNumber} of {{ total_prompts }}`;
-                            // Reset metrics for the next prompt
-                            metrics = {
-                                word_metrics: [],
-                                overall_metrics: {},
-                                prompt: data.next_prompt,
-                                response: ""
-                            };
-                            timeWhenLastLetterWasTyped = null;
-                            totalBackspaces = 0;
+                console.log(data);
 
-                            firstWordWasAdded = false;
-                            previousWordMetricsIndex = -1;
-                            currentWordMetricsIndex = -1;
-                            nextIndexWordMetrics = 0;
-
-                            // Clear the textarea
-                            responseArea.value = '';
-                            submitBtn.disabled = false;
-                        }, 1000);
-                    } else if (data.status === 'completed') {
-                        alert(`All prompts completed! Metrics saved to ${data.filename}`);
-                        // Redirect to the home page or show a completion message
-                        window.location.href = '/';
-                    }
-                } else {
-                    // Handle errors properly
-                    const errorMessage = data.message || 'An unknown error occurred.';
-                    alert(`Error: ${errorMessage}`);
+                if (data['status'] === 'error') {
+                    alert(data['message']);
                     submitBtn.disabled = false;
+                    return;
                 }
+
+                if (data['status'] === 'finished') {
+                    alert('All prompts completed!');
+                    window.location.href = '/';
+                    return;
+                }
+                
+                next_prompt_id = data['next_prompt_id'];
+                updatePrompt(next_prompt_id);
+                currentPromptId = next_prompt_id;
+                currentPromptNumber += 1;
+                progressElement.textContent = `Prompt ${currentPromptNumber} of {{ total_prompts }}`;
+
+                metrics = {
+                    word_metrics: [],
+                    overall_metrics: {},
+                    prompt: currentPrompt,
+                    response: "",
+                    typing_metrics_id: `{{ typing_metrics_id }}`
+                };
+
+                timeWhenLastLetterWasTyped = null;
+                totalBackspaces = 0;
+
+                firstWordWasAdded = false;
+                previousWordMetricsIndex = -1;
+                currentWordMetricsIndex = -1;
+                nextIndexWordMetrics = 0;
+
+                responseArea.value = '';
+                submitBtn.disabled = false;
             })
             .catch((error) => {
                 console.error('Error:', error);
@@ -339,6 +341,21 @@
             })
         }
 
+        function updatePrompt(prompt_id) {
+            fetch('/getPrompt/' + prompt_id, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                promptElement.textContent = data['prompt']['text'];
+                currentPrompt = data['prompt']['text'];
+                metrics.prompt = currentPrompt;
+            })
+        }
+
         // Add an event listener for the Enter key on the textarea to submit
         responseArea.addEventListener('keypress', (e) => {
             if (e.key === 'Enter' && !e.shiftKey) {
@@ -369,6 +386,8 @@
                     prompt: metrics.prompt,
                 }
 
+                console.log(question_data);
+
                 fetch('/generateModelResponse', {
                     method: 'POST',
                     headers: {
@@ -384,6 +403,9 @@
         });
 
         setInterval(updateModelResponse, 50);
+        updatePrompt(currentPromptId);
+
+        progressElement.textContent = `Prompt ${currentPromptNumber} of {{ total_prompts }}`;
     </script>
 </body>
 </html>
