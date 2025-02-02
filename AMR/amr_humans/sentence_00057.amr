@@ -1,0 +1,19 @@
+#00057 Sentence: 00057 Crows line the sidewalks, waving flags and cheering as colorful floats, dancers, and performers pass by.
+# ::tok 00057 Crows line the sidewalks , waving flags and cheering as colorful floats , dancers , and performers pass by .
+(l / line-01~2
+    :ARG0 (c3 / crow~1
+        :ARG0-of (w / wave-01~6
+            :ARG1 (f / flag~7))
+        :ARG0-of (c / cheer-02~9
+            :time (p / pass-by-17~18
+                :ARG0 (a / and~13
+                    :op1 (p3 / person~14
+                        :ARG1-of (f2 / float-01~12)
+                        :mod (c2 / colorful~11))
+                    :op2 (p4 / person~14
+                        :ARG0-of (d / dance-01~14))
+                    :op3 (p5 / person~17
+                        :ARG0-of (p2 / perform-01~17))))))
+    :ARG1 (s / sidewalk~4)
+    :time (d2 / date-entity~0
+        :time 00057~0))

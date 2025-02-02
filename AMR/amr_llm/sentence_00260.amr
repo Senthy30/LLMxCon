@@ -1,0 +1,18 @@
+#00260 Sentence: 00260 The hushed whispers and flickering flames of the candles painted a serene atmosphere, making the art seem to breathe.
+# ::tok 00260 The hushed whispers and flickering flames of the candles painted a serene atmosphere , making the art seem to breathe .
+(p / paint-02~10
+    :ARG0 (a / and~4
+        :op1 (w / whisper-01~3
+            :ARG1 (c / candle~9)
+            :ARG1-of (h / hush-01~2))
+        :op2 (f / flame-01~6
+            :ARG1 c
+            :ARG1-of (f2 / flicker-01~5)))
+    :ARG0-of (m / make-02~15
+        :ARG1 (s / seem-01~18
+            :ARG1 (b / breathe-01~20
+                :ARG0 (a2 / art~17))))
+    :ARG1 (a3 / atmosphere~13
+        :mod (s2 / serene~12))
+    :time (d / date-entity~0
+        :year 00260~0))

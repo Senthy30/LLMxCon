@@ -1,0 +1,27 @@
+#00203 Sentence: 00203 My girlfriend is working at the old art studio and she showed me some photos of their new pieces; there were a lot of paintings and canvases.
+# ::tok 00203 My girlfriend is working at the old art studio and she showed me some photos of their new pieces ; there were a lot of paintings and canvases .
+(a / and~10
+    :op1 (w / work-01~4
+        :ARG0 (p3 / person~2
+            :ARG0-of (h / have-rel-role-91~2
+                :ARG1 (i / i~1)
+                :ARG2 (g / girlfriend~2)))
+        :location (s3 / studio~9
+            :mod (a3 / art~8)
+            :mod (o / old~7)))
+    :op2 (s / show-01~12
+        :ARG0 p3
+        :ARG1 (p4 / photograph-01~15
+            :quant (s2 / some~14)
+            :ARG1 (p5 / piece~19
+                :ARG1-of (n / new-01~18)
+                :poss (t / they~17)))
+        :ARG2 i)
+    :op3 (a2 / and~27
+        :quant (l / lot~24)
+        :op1 (p / paint-02~26)
+        :op2 (p2 / paint-02~28))
+    :time (d / date-entity~0
+        :day 3~0
+        :month 6~0
+        :year 2005~0))

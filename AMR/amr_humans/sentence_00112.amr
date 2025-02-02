@@ -1,0 +1,17 @@
+#00112 Sentence: 00112 The park is quite, with joggers running on alleys being the only ones to disturb the peace as sun is rising slowly.
+# ::tok 00112 The park is quite , with joggers running on alleys being the only ones to disturb the peace as sun is rising slowly .
+(q / quite~4
+    :domain (p / park~2
+        :example (d2 / disturb-01~16
+            :ARG0 (p3 / person~7
+                :ARG0-of (j / jog-01~7)
+                :ARG0-of (r2 / run-02~8
+                    :location (a / alley~10))
+                :mod (o / only~13))
+            :ARG1 (p2 / peace~18)
+            :time (r / rise-01~22
+                :ARG1 (s2 / sun~20)
+                :ARG1-of (s / slow-05~23))))
+    :time (d / date-entity~0
+        :day 12~0
+        :month 00112~0))

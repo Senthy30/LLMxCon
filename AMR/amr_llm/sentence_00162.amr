@@ -1,0 +1,30 @@
+#00162 Sentence: 00162 The air crackled with energy as models flitted between lights, hairspray and makeup brushes clattered against backdrop fabric, and the photographer barked orders, a whirlwind of motion and chaos.
+# ::tok 00162 The air crackled with energy as models flitted between lights , hairspray and makeup brushes clattered against backdrop fabric , and the photographer barked orders , a whirlwind of motion and chaos .
+(a3 / and~21
+    :op1 (c3 / crack-02~3
+        :ARG1 (a / air~2)
+        :ARG3 (e / energy~5))
+    :op2 (a2 / and~13
+        :op1 (f2 / flutter-01~8
+            :ARG1 (m2 / model~7)
+            :ARG2 (b3 / between~9
+                :op1 (l / light~10)))
+        :op2 f2
+        :op3 (b4 / brush~15
+            :mod (m / makeup~14)))
+    :op3 (b2 / bark-01~24
+        :ARG0 (p / person~23
+            :ARG0-of (p2 / photograph-01~23))
+        :ARG1 (o / order-01~25
+            :ARG1 p)
+        :mod (w / whirlwind~28
+            :domain (a4 / and~31
+                :op1 (m3 / move-01~30)
+                :op2 (c / chaos~32))))
+    :rel (c2 / clatter-01~16
+        :ARG1 a2
+        :ARG2 (f / fabric~19
+            :mod (b / backdrop~18)))
+    :rel (h / hairspray~12)
+    :time (d / date-entity~0
+        :year 00162~0))

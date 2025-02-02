@@ -1,0 +1,27 @@
+#00109 Sentence: 00109 The air buzzed with the rhythmic hum of the tattoo machine, the scent of antiseptic and ink mingling with the vibrant colors of the artwork that adorned every inch of the walls.
+# ::tok 00109 The air buzzed with the rhythmic hum of the tattoo machine , the scent of antiseptic and ink mingling with the vibrant colors of the artwork that adorned every inch of the walls .
+(a3 / and~12
+    :op1 (b / beat-01~7
+        :ARG0 (m / machine~11
+            :instrument-of (t / tattoo-01~10))
+        :mod (r2 / rhythm~6))
+    :op2 (m2 / mingle-01~19
+        :ARG1 (s / smell-01~14
+            :ARG1 (a4 / and~17
+                :op1 (a6 / antiseptic~16))
+            :ARG1 (a5 / and~17
+                :op1 a6
+                :op2 (i2 / ink~18)))
+        :ARG2 (c / color-01~23
+            :ARG1 (a7 / artwork~26
+                :ARG2-of (a / adorn-01~28
+                    :ARG1 (i / inch~30
+                        :mod (e / every~29)
+                        :part-of (w / wall~33))))
+            :mod (v / vibrant~22)))
+    :rel (d / date-entity~0
+        :day 9~0
+        :month 9~0
+        :year 2001~0)
+    :time (r / register-01~3
+        :ARG1 (a2 / air~2)))

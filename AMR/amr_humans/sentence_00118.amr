@@ -1,0 +1,16 @@
+#00118 Sentence: 00118 The small of coffee fills the air and the baristas are rushing trying to serve everyone.
+# ::tok 00118 The small of coffee fills the air and the baristas are rushing trying to serve everyone .
+(a3 / and~8
+    :op1 (f / fill-01~5
+        :ARG1 (a2 / air~7)
+        :ARG2 (c / coffee~4
+            :mod (s2 / small~2)))
+    :op2 (r / rush-01~12
+        :ARG1 (a / Barack~10)
+        :ARG2 (t / try-01~13
+            :ARG0 a
+            :ARG1 (s / serve-02~15
+                :ARG0 a
+                :ARG2 (e / everyone~16))))
+    :time (d / date-entity~0
+        :day 00118~0))

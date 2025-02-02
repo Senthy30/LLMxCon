@@ -1,0 +1,20 @@
+#00044 Sentence: 00044 The Children's Science Museum was a wonderland of interactive exhibits, sparking curiosity and igniting a love for learning in young minds.
+# ::tok 00044 The Children 's Science Museum was a wonderland of interactive exhibits , sparking curiosity and igniting a love for learning in young minds .
+(w / wonderland~8
+    :ARG0-of (s / spark-01~13
+        :ARG1 (c / curiosity~14))
+    :ARG0-of (s2 / spark-01~16
+        :ARG1 (l2 / love-01~18
+            :ARG1 (l / learn-01~20
+                :location (m / mind~23
+                    :mod (y / young~22)))))
+    :consist-of (e / exhibit-01~11
+        :mod (i / interactive~10))
+    :domain (m2 / museum~5
+        :name (n / name~5
+            :op1 "Children's"~2
+            :op2 "Science"~4
+            :op3 "Museum"~5))
+    :time (d / date-entity~0
+        :day 44~0
+        :year 00044~0))

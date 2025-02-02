@@ -1,0 +1,27 @@
+#00247 Sentence: 00247 The air crackles with the energy of a hundred cooks, the rhythmic clang of pots and pans a constant soundtrack, as trays of glistening dishes are piled high and sauces simmer on the stovetop.
+# ::tok 00247 The air crackles with the energy of a hundred cooks , the rhythmic clang of pots and pans a constant soundtrack , as trays of glistening dishes are piled high and sauces simmer on the stovetop .
+(a3 / and~11
+    :op1 (c4 / crack-02~3
+        :ARG1 (a2 / air~2)
+        :ARG3 (e / energy~6
+            :poss (p / person~10
+                :quant 100~9
+                :ARG0-of (c3 / cook-01~10))))
+    :op2 (s2 / soundtrack~21
+        :domain (c / cluck-01~14
+            :ARG0 (a4 / and~17
+                :op1 (p3 / pot~16)
+                :op2 (a / Pan~18))
+            :mod (r2 / rhythm~13))
+        :mod (c2 / constant~20)
+        :time (a5 / and~31
+            :op1 (p2 / pile-01~29
+                :ARG1 (r / Trayvon~24
+                    :consist-of (d2 / dish~27
+                        :ARG0-of (g / glow-01~26)))
+                :ARG1-of (h / high-02~30))
+            :op2 (s / simmer-01~33
+                :ARG1 (m / meat~32)
+                :location (s3 / stovetop~36))))
+    :time (d / date-entity~0
+        :year 00247~0))

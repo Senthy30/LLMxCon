@@ -1,0 +1,23 @@
+#00262 Sentence: 00262 The artisans showcased their work and I saw a nice black bracelet which I bought for my girlfriend; she was so happy.
+# ::tok 00262 The artisans showcased their work and I saw a nice black bracelet which I bought for my girlfriend ; she was so happy .
+(m / multi-sentence~19
+    :li 00262~0
+    :snt1 (a / and~6
+        :op1 (s3 / showcase-01~3
+            :ARG0 (a2 / artist~2)
+            :ARG1 (w / work-01~5
+                :ARG0 a2))
+        :op2 (s / see-01~8
+            :ARG0 (i / i~7)
+            :ARG1 (b2 / bracelet~12
+                :ARG1-of (b / black-04~11)
+                :ARG1-of (n / nice-01~10)
+                :ARG1-of (b3 / buy-01~15
+                    :ARG0 i
+                    :ARG4 (p / person~18
+                        :ARG0-of (h2 / have-rel-role-91~18
+                            :ARG1 i
+                            :ARG2 (g / girlfriend~18)))))))
+    :snt2 (h / happy-01~23
+        :ARG1 (s2 / she~20)
+        :degree (s4 / so~22)))

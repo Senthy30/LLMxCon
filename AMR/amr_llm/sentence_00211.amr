@@ -1,0 +1,21 @@
+#00211 Sentence: 00211 A sea of vibrant jerseys, roaring crowds, and the electric energy of thousands of fans fills the stadium, creating a deafening roar that vibrates through the ground.
+# ::tok 00211 A sea of vibrant jerseys , roaring crowds , and the electric energy of thousands of fans fills the stadium , creating a deafening roar that vibrates through the ground .
+(f2 / fill-01~18
+    :li 00211~0
+    :ARG0-of (c / create-01~22
+        :ARG1 (r2 / roar-02~25
+            :ARG0-of (d / deafen-01~24)
+            :manner (l / loud~27
+                :location (g / ground~30))))
+    :ARG1 (s2 / stadium~20)
+    :ARG2 (a / and~10
+        :quant (s / sea~2)
+        :op1 (e / Jersey~5
+            :mod (v / vibrant~4))
+        :op2 (c2 / crowd~8
+            :ARG0-of (r / roar-02~7))
+        :op3 (e3 / energy~13
+            :mod (e2 / electric~12)
+            :poss (f / fan~17
+                :quant (m / multiple~15
+                    :op1 1000~15)))))

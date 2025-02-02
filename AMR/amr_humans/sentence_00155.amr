@@ -1,0 +1,12 @@
+#00155 Sentence: 00155 The sound of sneakers is squeaking while the crows is cheering when an important moment takes place.
+# ::tok 00155 The sound of sneakers is squeaking while the crows is cheering when an important moment takes place .
+(a / and~7
+    :op1 (s3 / squeak-01~6
+        :ARG1 (s2 / sound-02~2
+            :ARG1 (s / sneaker~4)))
+    :op2 (c / cheer-02~11
+        :ARG0 (c2 / crow~9)
+        :time (m / moment~15
+            :ARG1-of (i / important-01~14)))
+    :time (d / date-entity~0
+        :year 00155~0))

@@ -1,0 +1,42 @@
+#00006 Sentence: 00006 A lot of voices coming from every directions, with a lot of different people around you wearning a diverse pallet of colors for clothes. The train is arriving in the station while everyone is trying to get a place or a seat in it to arrive at home as soon as possible.
+# ::tok 00006 A lot of voices coming from every directions , with a lot of different people around you wearning a diverse pallet of colors for clothes . The train is arriving in the station while everyone is trying to get a place or a seat in it to arrive at home as soon as possible .
+(m / multi-sentence~26
+    :rel (c3 / come-01~5
+        :ARG1 (v / voice~4
+            :quant (l / lot~2))
+        :source (d3 / direction~8
+            :mod (e2 / every~7)))
+    :rel (w / we~18)
+    :snt1 (d / date-entity~0
+        :year 00006~0)
+    :snt2 (w2 / wear-01~18
+        :purpose (c / clothes~25)
+        :ARG0 (p2 / person~15
+            :quant (l2 / lot~12)
+            :ARG1-of (d2 / differ-02~14)
+            :location (a / around~16
+                :op1 (y / you~17)))
+        :ARG1 (p / pallet~21
+            :consist-of (c2 / color~23)
+            :mod (d4 / diverse~20)))
+    :snt3 (a2 / arrive-01~30
+        :ARG1 (t / train~28)
+        :ARG4 (s3 / station~33)
+        :time (t2 / try-01~37
+            :ARG0 (e3 / everyone~35)
+            :ARG1 (g / get-01~39
+                :ARG0 e3
+                :ARG1 (o / or~42
+                    :purpose (a3 / arrive-01~48
+                        :ARG1 t
+                        :ARG4 (h2 / home~50)
+                        :time (s2 / soon~52
+                            :ARG2-of (h / have-degree-91~51
+                                :ARG1 a3
+                                :ARG3 (e / equal~51)
+                                :ARG4 (p4 / possible-01~54
+                                    :ARG1 a3))))
+                    :op1 (p3 / place~41)
+                    :op2 (s / seat~44
+                        :location t)))))
+    :time d)

@@ -1,0 +1,30 @@
+#00050 Sentence: 00050 The cooks and waiters run from one place to another in the full kitchen to serve the orders as quickly as possible, while the smell of different foods covers the atmosphere.
+# ::tok 00050 The cooks and waiters run from one place to another in the full kitchen to serve the orders as quickly as possible , while the smell of different foods covers the atmosphere .
+(c / contrast-01~24
+    :ARG1 (r / run-02~5
+        :purpose (s / serve-02~16
+            :ARG0 (a / and~3
+                :op1 (p / person~2
+                    :ARG0-of (c2 / cook-01~2))
+                :op2 (p2 / person~4
+                    :ARG0-of (w / wait-01~4)))
+            :ARG1-of (q / quick-02~20
+                :ARG2-of (h / have-degree-91~19
+                    :ARG1 s
+                    :ARG3 (e / equal~19)
+                    :ARG4 (p5 / possible-01~22
+                        :ARG1 s))))
+        :ARG0 a
+        :ARG1 (p3 / place~8
+            :mod (a2 / another~10))
+        :location (k / kitchen~14
+            :ARG1-of (f2 / full-09~13))
+        :source (p4 / place~8))
+    :ARG2 (c3 / cover-02~30
+        :ARG1 (a3 / atmosphere~32)
+        :ARG2 (s2 / smell-01~26
+            :ARG1 (f / food~29
+                :ARG1-of (d2 / differ-02~28))))
+    :rel (o / order-02~18)
+    :time (d / date-entity~0
+        :year 00050~0))

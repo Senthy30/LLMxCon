@@ -1,0 +1,23 @@
+#00008 Sentence: 00008 Step back in time as you explore the grand halls, ornate tapestries, and ancient weaponry housed within a historic castle.
+# ::tok 00008 Step back in time as you explore the grand halls , ornate tapestries , and ancient weaponry housed within a historic castle .
+(s / step-01~1
+    :ARG1 (y / you~1)
+    :ARG2 (t / time~4)
+    :direction (b / back~2)
+    :rel (o / ornate~12)
+    :time (d / date-entity~0
+        :year 00008~0)
+    :time (e / explore-01~7
+        :ARG0 y
+        :ARG1 (a2 / and~11
+            :op1 (h / hall~10
+                :mod (g / grand~9))
+            :op2 (c2 / country~13
+                :name (n / name~13
+                    :op1 "river"~13))
+            :op3 (c3 / country~13)
+            :op4 (w / weaponry~17
+                :ARG1-of (h3 / house-01~18
+                    :ARG2 (c / castle~22
+                        :mod (h2 / history~21)))
+                :mod (a / ancient~16)))))

@@ -1,0 +1,35 @@
+#00031 Sentence: 00031 At least 5000 people gather at the main stadiom in the school to their representative team playing against the rival high school. Everyone is chanting their favorite team while the players are trying to give the best on the pitch.
+# ::tok 00031 At least 5000 people gather at the main stadiom in the school to their representative team playing against the rival high school . Everyone is chanting their favorite team while the players are trying to give the best on the pitch .
+(m3 / multi-sentence~23
+    :snt1 (g / gather-03~5
+        :ARG0 (p / person~4
+            :quant (a / at-least~2
+                :op1 5000~3))
+        :beneficiary (t / team~16
+            :ARG0-of (r / represent-01~15
+                :ARG1 p)
+            :ARG0-of (p4 / play-01~17
+                :ARG1 (h2 / high-school~22
+                    :ARG0-of (r2 / rival-01~20))))
+        :location (s2 / stadiom~9
+            :location (s / school~12)
+            :mod (m / main~8))
+        :time (d / date-entity~0
+            :day 31~0
+            :year 00031~0))
+    :snt2 (c / chant-01~26
+        :ARG0 (e / everyone~24)
+        :ARG1 (t2 / team~29
+            :mod (f / favorite~28
+                :poss e))
+        :time (t4 / try-01~34
+            :ARG0 (p2 / person~32
+                :ARG0-of (p5 / play-01~32))
+            :ARG1 (g2 / give-01~36
+                :ARG0 p2
+                :ARG1 (t3 / thing~37
+                    :ARG1-of (h / have-degree-91~38
+                        :ARG2 (g3 / good-02~38
+                            :ARG1 t3)
+                        :ARG3 (m2 / most~38)))
+                :location (p3 / pitch~41)))))

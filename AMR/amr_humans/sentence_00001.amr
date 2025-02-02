@@ -1,0 +1,39 @@
+#00001 Sentence: 00001 I was in a forest with my friends in a cold winter standing by the fireplace. The snow starting slow to fall and everything around us was white, but in the middle of the circle that we formed everything was beautiful.
+# ::tok 00001 I was in a forest with my friends in a cold winter standing by the fireplace . The snow starting slow to fall and everything around us was white , but in the middle of the circle that we formed everything was beautiful .
+(m2 / multi-sentence~17
+    :rel (s / slow-05~21
+        :ARG1 (f / fall-01~23
+            :ARG1 (s2 / snow~19)
+            :ARG1-of (s4 / start-01~20
+                :ARG1 s)))
+    :snt1 (b / be-located-at-91~3
+        :ARG1 (i / i~1)
+        :ARG2 (f3 / forest~5)
+        :accompanier (p / person~8
+            :ARG0-of (h / have-rel-role-91~8
+                :ARG1 i
+                :ARG2 (f5 / friend~8)))
+        :time (d / date-entity~0
+            :day 1~0
+            :month 10~0
+            :year 2008~0)
+        :time (d2 / date-entity~12
+            :season (w3 / winter~12
+                :ARG1-of (c2 / cold-01~11)))
+        :time (s3 / stand-01~13
+            :ARG1 i
+            :ARG2 (b3 / by~14
+                :op1 (f2 / fireplace~16))))
+    :snt2 (c3 / contrast-01~31
+        :ARG1 (a / and~24
+            :op1 b
+            :op2 (w2 / white-03~29
+                :ARG1 (e / everything~25
+                    :location (a2 / around~26
+                        :op1 (w / we~27)))))
+        :ARG2 (b2 / beautiful-02~43
+            :ARG1 e
+            :location (m / middle~34
+                :op1 (c / circle~37
+                    :ARG1-of (f4 / form-01~40
+                        :ARG0 w))))))

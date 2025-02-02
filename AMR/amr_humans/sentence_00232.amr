@@ -1,0 +1,28 @@
+#00232 Sentence: 00232 I could not believe when I found the last piece for my comic book collection at the flea market; it was so crowded, everyone was looking for hidden gems
+# ::tok 00232 I could not believe when I found the last piece for my comic book collection at the flea market ; it was so crowded , everyone was looking for hidden gems
+(m2 / multi-sentence~20
+    :snt1 (p2 / possible-01~2
+        :ARG1 (b / believe-01~4
+            :ARG0 (i / i~6)
+            :time (f / find-01~7
+                :ARG0 i
+                :ARG1 (p / piece~10
+                    :purpose (c2 / collect-01~15
+                        :ARG0 i
+                        :ARG1 (b2 / book~14
+                            :mod (c3 / comic~13)))
+                    :ord (o / ordinal-entity~9
+                        :value -1~9))
+                :location (m / market~19
+                    :mod (f2 / flea~18))))
+        :polarity -~3
+        :time (d / date-entity~0
+            :day 00232~0))
+    :snt2 (c4 / crowd-01~24
+        :ARG0-of (c / cause-01~23
+            :ARG1 (l / look-01~28
+                :ARG0 (e / everyone~26)
+                :ARG1 (d2 / diamond~31
+                    :ARG1-of (h / hide-01~30))))
+        :ARG1 (i2 / it~21)
+        :mod (s / so~23)))

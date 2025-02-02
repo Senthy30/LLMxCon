@@ -1,0 +1,21 @@
+#00111 Sentence: 00111 There are plenty of students in their specific gowns, parents and teacher, all looking happy.
+# ::tok 00111 There are plenty of students in their specific gowns , parents and teacher , all looking happy .
+(a3 / and~14
+    :li 00111~0
+    :ARG0-of (l / look-02~16
+        :ARG1 (h / happy-01~17
+            :ARG1 (a2 / and~12
+                :mod (a / all~15)
+                :op1 (p2 / person~5
+                    :quant (p5 / plenty~3)
+                    :ARG0-of (s2 / study-01~5)
+                    :ARG0-of (w / wear-01~6
+                        :ARG1 (d / dress-01~9
+                            :ARG1 p2
+                            :ARG1-of (s / specific-02~8))))
+                :op2 (p3 / person~11
+                    :ARG0-of (h2 / have-rel-role-91~11
+                        :ARG2 (p / parent~11)))
+                :op3 (p4 / person~13
+                    :ARG0-of (t / teach-01~13)))))
+    :op1 a2)

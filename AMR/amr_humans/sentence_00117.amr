@@ -1,0 +1,22 @@
+#00117 Sentence: 00117 There are dancers stretching their legs and fixing their shoes while watching how they look in the mirrors.
+# ::tok 00117 There are dancers stretching their legs and fixing their shoes while watching how they look in the mirrors .
+(a / and~7
+    :op1 (s2 / stretch-01~4
+        :ARG0 (p / person~3
+            :ARG0-of (d / dance-01~3)
+            :part (l / leg~6))
+        :ARG1 l)
+    :op2 (f / fix-02~8
+        :ARG0 p
+        :ARG1 (s / shoe~10
+            :poss p))
+    :time (d2 / date-entity~0
+        :day 11~0
+        :month 7~0
+        :year 2004~0)
+    :time (w / watch-01~12
+        :ARG0 p
+        :ARG1 (t / thing~13
+            :ARG1-of (l2 / look-02~15
+                :ARG0 p
+                :location (m / mirror~18)))))

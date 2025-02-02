@@ -1,0 +1,16 @@
+#00159 Sentence: 00159 The room is quite and elegant, with large and soft movements making the cups clinking as tea is poured in.
+# ::tok 00159 The room is quite and elegant , with large and soft movements making the cups clinking as tea is poured in .
+(a / and~5
+    :li 00159~0
+    :domain (r2 / room~2
+        :ARG1-of (m2 / move-01~12
+            :ARG0-of (m / make-02~13
+                :ARG1 (r / ring-01~16
+                    :ARG1 (c / cup~15)
+                    :time (p / pour-01~20
+                        :ARG1 (t / tea~18)
+                        :ARG2 c)))
+            :ARG1-of (s / soft-02~11)
+            :mod (l / large~9)))
+    :op1 (q / quite~4)
+    :op2 (e / elegant~6))

@@ -1,0 +1,15 @@
+#00024 Sentence: 00024 The orchard bustled with activity, a symphony of rustling leaves and the joyful shouts of children.
+# ::tok 00024 The orchard bustled with activity , a symphony of rustling leaves and the joyful shouts of children .
+(b / bust-01~3
+    :ARG0 (a2 / and~12
+        :op1 (a / activity-06~5)
+        :op2 (s2 / symphony~8
+            :consist-of (l / leaf~11
+                :ARG1-of (r / rust-01~10))
+            :op3 (s / shout-01~15
+                :ARG0 (c / child~17)
+                :manner (j / joyful~14))))
+    :ARG1 (o / orchard~2)
+    :time (d / date-entity~0
+        :day 24~0
+        :month 00024~0))

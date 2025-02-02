@@ -1,0 +1,17 @@
+#00055 Sentence: 00055 The dark room lights up with images of planets, galaxies, and constellations as guide explains the wonders of space.
+# ::tok 00055 The dark room lights up with images of planets , galaxies , and constellations as guide explains the wonders of space .
+(e / explain-01~17
+    :ARG0 (l / light-04~4
+        :ARG0 (r / room~3
+            :ARG1-of (d / dark-02~2))
+        :ARG0 (i / image~7
+            :ARG0-of (g3 / guide-01~16)
+            :topic (a / and~10
+                :op1 (p / planet~9)
+                :op2 (g / galaxy~11)
+                :op3 (g2 / galaxy~14)))
+        :direction (u / up~5))
+    :ARG1 (w / wonder~19
+        :mod (s / space~21))
+    :time (d2 / date-entity~0
+        :year 00055~0))

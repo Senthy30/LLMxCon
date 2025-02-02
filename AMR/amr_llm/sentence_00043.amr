@@ -1,0 +1,28 @@
+#00043 Sentence: 00043 The air vibrated with the rhythmic slap of fish against the docks, the scent of salt and brine heavy in the air, and stalls overflowed with glistening catches, their vendors haggling with eager customers.
+# ::tok 00043 The air vibrated with the rhythmic slap of fish against the docks , the scent of salt and brine heavy in the air , and stalls overflowed with glistening catches , their vendors haggling with eager customers .
+(a5 / and~25
+    :op1 (a3 / and~18
+        :manner (h2 / heavy~20)
+        :op1 (s2 / slap-01~7
+            :ARG1 (f / fish~9)
+            :direction (a / against~10
+                :op1 (d2 / dock-01~12))
+            :mod (r / rhythm~6))
+        :op2 (s3 / smell-01~15
+            :ARG1 (a4 / and~18
+                :op1 (s / salt~17)
+                :op2 (b / brine~19))))
+    :op2 (o / overflow-01~27
+        :ARG1 (m / market~26)
+        :ARG2 (c / catch-01~30
+            :ARG1-of (g / glimmer-01~29)))
+    :op3 (h / haggle-01~34
+        :ARG0 (p / person~33
+            :ARG0-of (v / vend-01~33
+                :ARG1 m))
+        :ARG2 (c2 / customer~37
+            :ARG0-of (e / eager-01~36)))
+    :rel (t / tremble-01~3
+        :ARG1 (a2 / air~2))
+    :time (d / date-entity~0
+        :time 00043~0))

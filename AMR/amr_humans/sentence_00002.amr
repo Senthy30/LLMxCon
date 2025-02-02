@@ -1,0 +1,37 @@
+#00002 Sentence: 00002 It was a very important day for our country so to honor this day, the government decide to schedule a street festival. The scene was very impressive, with a lot of mascots walking on the road while the crowd screamed with happniess.
+# ::tok 00002 It was a very important day for our country so to honor this day , the government decide to schedule a street festival . The scene was very impressive , with a lot of mascots walking on the road while the crowd screamed with happniess .
+(m / multi-sentence~24
+    :snt1 (c / cause-01~10
+        :ARG0 (i / important-01~5
+            :ARG2 (c2 / country~9
+                :poss (w2 / we~8))
+            :degree (v / very~4))
+        :ARG1 (d3 / decide-01~18
+            :purpose (h3 / honor-01~12
+                :ARG0 (g2 / government-organization~17
+                    :ARG0-of (g / govern-01~17))
+                :ARG1 (d2 / day~6
+                    :ARG1-of i
+                    :mod (t / this~13)
+                    :time (d / date-entity~0
+                        :year 00002~0)))
+            :ARG0 g2
+            :ARG1 (s2 / schedule-01~20
+                :ARG0 g2
+                :ARG1 (f / festival~23
+                    :mod (s4 / street~22)))))
+    :snt2 (i2 / impress-01~29
+        :ARG0 (s / scene~26
+            :consist-of (w / walk-01~36
+                :ARG0 (a / animal~35
+                    :quant (l / lot~33)
+                    :ARG0-of (h2 / have-org-role-91~35
+                        :ARG2 (a2 / animal~35
+                            :name (n / name~35
+                                :op1 "narcotic"~35))))
+                :ARG2 (r / road~39)
+                :time (s3 / scream-01~43
+                    :ARG0 (c3 / crowd~42)
+                    :ARG1 (h / happy-01~45
+                        :ARG1 "narcotic"~35))))
+        :degree (v2 / very~28)))

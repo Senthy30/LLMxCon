@@ -1,0 +1,26 @@
+#00228 Sentence: 00228 I miss my last city break in Barcelona and that coffee in the rooftop garden from the hotel; it was so quiet and nice
+# ::tok 00228 I miss my last city break in Barcelona and that coffee in the rooftop garden from the hotel ; it was so quiet and nice
+(m2 / multi-sentence~19
+    :snt1 (m / miss-02~2
+        :ARG0 (i / i~1)
+        :ARG1 (a / and~9
+            :op1 (b / break-19~6
+                :ARG0 i
+                :ARG1 (c / city~5)
+                :location (c2 / city~8
+                    :name (n / name~8
+                        :op1 "Barcelona"~8))
+                :mod (l / last~4))
+            :op2 (c3 / coffee~11
+                :location (g / garden~15
+                    :mod (r / rooftop~14)
+                    :source (h / hotel~18))
+                :mod (t / that~10)))
+        :time (d / date-entity~0
+            :day 00228~0))
+    :snt2 (a2 / and~24
+        :degree (s / so~22)
+        :op1 (q / quiet-04~23
+            :ARG1 (i2 / it~20))
+        :op2 (n2 / nice-01~25
+            :ARG1 i2)))

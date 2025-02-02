@@ -1,0 +1,20 @@
+#00155 Sentence: 00155 The gym buzzed with energy, the crowd a sea of faces, the air thick with anticipation and the squeak of sneakers on the polished floor.
+# ::tok 00155 The gym buzzed with energy , the crowd a sea of faces , the air thick with anticipation and the squeak of sneakers on the polished floor .
+(a2 / and~6
+    :op1 (g / give-01~3
+        :ARG0 (e / energy~5)
+        :ARG1 (g2 / gym~2))
+    :op2 (f / face~12
+        :quant (s / sea~10)
+        :domain (c / crowd~8))
+    :op3 (a / air~15
+        :ARG1-of (t / thick-03~16
+            :ARG3 (a3 / and~19
+                :op1 (a4 / anticipate-01~18
+                    :ARG0 c)
+                :op2 (s3 / squeak-01~21
+                    :ARG1 (s2 / sneaker~23)
+                    :location (f2 / floor~27
+                        :ARG1-of (p / polish-01~26))))))
+    :time (d / date-entity~0
+        :year 00155~0))

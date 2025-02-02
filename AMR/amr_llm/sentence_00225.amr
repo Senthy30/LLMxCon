@@ -1,0 +1,23 @@
+#00225 Sentence: 00225 The waiting room buzzed with excited pets and anxious owners, the air thick with the scent of disinfectant and the clatter of needles.
+# ::tok 00225 The waiting room buzzed with excited pets and anxious owners , the air thick with the scent of disinfectant and the clatter of needles .
+(a2 / and~8
+    :op1 (b / boom-01~4
+        :ARG0 (a3 / and~8
+            :op1 (p2 / pet~7
+                :ARG1-of (e / excite-01~6))
+            :op2 (p / person~10
+                :ARG0-of (o / own-01~10)
+                :ARG1-of (w2 / worry-01~9)))
+        :ARG1 (r / room~3
+            :ARG2-of (w / wait-01~2)))
+    :op2 (t / thick-03~14
+        :ARG1 (a / air~13)
+        :ARG2 (a4 / and~20
+            :op1 (s / smell-01~17
+                :ARG1 (d2 / disinfectant~19))
+            :op2 (c / clatter-01~22
+                :ARG1 (n / needle~24))))
+    :time (d / date-entity~0
+        :day 25~0
+        :month 2~0
+        :year 2003~0))

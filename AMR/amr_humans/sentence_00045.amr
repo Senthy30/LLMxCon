@@ -1,0 +1,16 @@
+#00045 Sentence: 00045 The light of the city covers the atmosphere, while the silence of night creates a felling of peace and reconciliation.
+# ::tok 00045 The light of the city covers the atmosphere , while the silence of night creates a felling of peace and reconciliation .
+(c2 / contrast-01~10
+    :ARG1 (c3 / cover-02~6
+        :ARG1 (a2 / atmosphere~8)
+        :ARG2 (l / light-04~2
+            :ARG0 (c / city~5)))
+    :ARG2 (c4 / create-01~15
+        :ARG0 (s / silent~12
+            :poss (n / night~14))
+        :ARG1 (f / fall-01~17
+            :ARG1 (a / and~20
+                :op1 (p / peace~19)
+                :op2 (r / reconcile-01~21))))
+    :time (d / date-entity~0
+        :time 00045~0))

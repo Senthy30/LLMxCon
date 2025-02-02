@@ -1,0 +1,25 @@
+#00264 Sentence: 00264 Last Friday, during lunch I went to get a burger from a pub with an open kitchen; the grill was sizzling and the smell of fresh patties filled the air.
+# ::tok 00264 Last Friday , during lunch I went to get a burger from a pub with an open kitchen ; the grill was sizzling and the smell of fresh patties filled the air .
+(m / multi-sentence~19
+    :li 00264~0
+    :snt1 (g2 / go-02~7
+        :ARG0 (i / i~6)
+        :ARG4 (g / get-01~9
+            :ARG0 i
+            :ARG1 (b / burger~11)
+            :ARG2 (p / pub~14
+                :ARG0-of (h / have-03~15
+                    :ARG1 (k / kitchen~18
+                        :ARG1-of (o / open-09~17)))))
+        :time (l2 / lunch~5)
+        :time (d / date-entity~2
+            :mod (l / last~1)
+            :weekday (f3 / friday~2)))
+    :snt2 (a2 / and~24
+        :op1 (s / sear-01~23
+            :ARG1 (g3 / grill~21))
+        :op2 (f / fill-01~30
+            :ARG1 (a / air~32)
+            :ARG2 (s2 / smell-01~26
+                :ARG1 (b2 / burger~29
+                    :ARG1-of (f2 / fresh-04~28))))))

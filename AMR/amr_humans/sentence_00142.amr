@@ -1,0 +1,19 @@
+#00142 Sentence: 00142 Atmosphere is almost silent, except for the sounds of pages and pens scratching on paper, with some people typing on their laptops.
+# ::tok 00142 Atmosphere is almost silent , except for the sounds of pages and pens scratching on paper , with some people typing on their laptops .
+(s2 / silent~4
+    :li 00142~0
+    :ARG2-of (e / except-01~6
+        :ARG1 (s4 / sound-02~9
+            :ARG1 (a2 / and~12
+                :op1 (p / page~11)
+                :op2 (n / nail~13
+                    :ARG0-of (w / write-01~13)
+                    :ARG1-of (s / scratch-02~14
+                        :location (p2 / paper~16))))
+            :mod (t / type-01~21
+                :ARG0 (p3 / person~20
+                    :mod (s3 / some~19))
+                :instrument (c / computer~24
+                    :poss p3))))
+    :domain (a3 / atmosphere~1)
+    :mod (a / almost~3))

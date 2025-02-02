@@ -1,0 +1,25 @@
+#00147 Sentence: 00147 Kids climb and shout at each other from afar, parents are either standing by the side and chat or are enjoying a coffee at the nearby shop.
+# ::tok 00147 Kids climb and shout at each other from afar , parents are either standing by the side and chat or are enjoying a coffee at the nearby shop .
+(a / and~3
+    :op1 (a2 / and~3
+        :op1 (c2 / climb-01~2
+            :ARG0 (k / kid~1))
+        :op2 (s2 / shout-01~4
+            :ARG0 k
+            :ARG2 k))
+    :op2 (o / or~20
+        :op1 (a3 / and~18
+            :op1 (s4 / stand-01~14
+                :ARG1 (p2 / person~11
+                    :ARG0-of (h / have-rel-role-91~11
+                        :ARG2 (p / parent~11)))
+                :ARG2 (s3 / side~17))
+            :op2 (c / chat-01~19
+                :ARG0 p2))
+        :op2 (e / enjoy-01~22
+            :ARG0 p2
+            :ARG1 (c3 / coffee~24)
+            :location (s / shop~28
+                :location (n / nearby~27))))
+    :time (d / date-entity~0
+        :year 00147~0))

@@ -1,0 +1,22 @@
+#00269 Sentence: 00269 I move with the beat, the room filled with energy and music was blasting; everyone dances and the instructor was leading us with enthusiasm.
+# ::tok 00269 I move with the beat , the room filled with energy and music was blasting ; everyone dances and the instructor was leading us with enthusiasm .
+(a / and~16
+    :op1 (m / move-01~2
+        :ARG0 (i / i~1)
+        :accompanier (b / beat~5))
+    :op2 (b2 / blast~15
+        :domain (m2 / music~13))
+    :op3 (d / dance-01~18
+        :ARG0 (e3 / everyone~17))
+    :op4 (l / lead-02~23
+        :ARG0 (p / person~21
+            :ARG0-of (i2 / instruct-01~21))
+        :ARG1 (w / we~24)
+        :manner (e2 / enthusiasm~26))
+    :rel (r / room~8
+        :ARG1-of (f / fill-01~9
+            :ARG2 (e / energy~11)))
+    :time (d2 / date-entity~0
+        :day 29~0
+        :month 3~0
+        :year 2007~0))

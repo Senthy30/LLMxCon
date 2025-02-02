@@ -1,0 +1,23 @@
+#00269 Sentence: 00269 The air crackled with energy as the Zumba class began, participants' smiles mirroring the infectious beats and vibrant moves.
+# ::tok 00269 The air crackled with energy as the Zumba class began , participants ' smiles mirroring the infectious beats and vibrant moves .
+(a2 / and~11
+    :op1 (c2 / crack-02~3
+        :ARG1 (a / air~2)
+        :ARG3 (e / energy~5)
+        :time (b2 / begin-01~10
+            :ARG1 (c / class~9
+                :name (n / name~8
+                    :op1 "Zumba"~8))))
+    :op2 (m / mirror-01~15
+        :ARG1 (s / smile-01~14
+            :ARG0 (p2 / person~12
+                :ARG0-of (p / participate-01~12)))
+        :ARG2 (a3 / and~19
+            :op1 (b / beat-01~18
+                :ARG0-of (i / infect-01~17))
+            :op2 (m2 / move-03~21
+                :mod (v / vibrant~20))))
+    :time (d / date-entity~0
+        :day 29~0
+        :month 3~0
+        :year 2007~0))

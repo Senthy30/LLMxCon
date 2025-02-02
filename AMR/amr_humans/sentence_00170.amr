@@ -1,0 +1,14 @@
+#00170 Sentence: 00170 The air is filled with the scent of polish and people are chatting and laughing.
+# ::tok 00170 The air is filled with the scent of polish and people are chatting and laughing .
+(a2 / and~10
+    :op1 (f / fill-01~4
+        :ARG1 (a / air~2)
+        :ARG2 (s / smell-01~7
+            :ARG1 (p2 / polish-01~9)))
+    :op2 (a3 / and~14
+        :op1 (c / chat-01~13
+            :ARG0 (p / person~11))
+        :op2 (l / laugh-01~15
+            :ARG0 p))
+    :time (d / date-entity~0
+        :year 00170~0))

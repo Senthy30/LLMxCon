@@ -1,0 +1,19 @@
+#00002 Sentence: 00002 The air crackled with laughter and the scent of popcorn, while colorful flags fluttered in the breeze, and musicians played lively tunes.
+# ::tok 00002 The air crackled with laughter and the scent of popcorn , while colorful flags fluttered in the breeze , and musicians played lively tunes .
+(a3 / and~20
+    :op2 (f2 / flutter-01~15
+        :ARG1 (f / flag~14
+            :mod (c / colorful~13))
+        :source (b / breeze~18))
+    :op3 (p / play-11~22
+        :ARG0 (m / musician~21)
+        :ARG1 (t / tune-01~24
+            :mod (l2 / lively~23)))
+    :rel (c2 / crack-02~3
+        :ARG0 (a2 / and~6
+            :op1 (l / laugh-01~5)
+            :op2 (s / smell-01~8
+                :ARG1 (p2 / popcorn~10)))
+        :ARG1 (a / air~2))
+    :time (d / date-entity~0
+        :year 00002~0))

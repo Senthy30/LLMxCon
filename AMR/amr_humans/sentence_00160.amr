@@ -1,0 +1,21 @@
+#00160 Sentence: 00160 People are gliding across the ice, some are holding other hands or on the edge because it's their first time skating.
+# ::tok 00160 People are gliding across the ice , some are holding other hands or on the edge because it 's their first time skating .
+(a2 / and~7
+    :op1 (g / glimmer-01~3
+        :ARG1 (p / person~1
+            :ARG2-of (i2 / include-91~8))
+        :path (a / across~4
+            :op1 (i / ice~6)))
+    :op2 (h2 / hold-01~10
+        :ARG0 (s2 / some~8)
+        :ARG1 (o / or~13
+            :op1 (h / hand~12
+                :mod (o3 / other~11))
+            :op2 (e / edge~16))
+        :ARG1-of (c / cause-01~17
+            :ARG0 (s / skate-01~23
+                :ARG0 p
+                :ord (o2 / ordinal-entity~21
+                    :value 1~21))))
+    :time (d / date-entity~0
+        :time 00160~0))

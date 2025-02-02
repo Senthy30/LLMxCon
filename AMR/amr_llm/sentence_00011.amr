@@ -1,0 +1,24 @@
+#00011 Sentence: 00011 The air is thick with the scent of old paper and leather, sunlight streams through dusty windows, illuminating rows upon rows of books, their spines whispering stories of bygone eras.
+# ::tok 00011 The air is thick with the scent of old paper and leather , sunlight streams through dusty windows , illuminating rows upon rows of books , their spines whispering stories of bygone eras .
+(a3 / and~13
+    :li 00011~0
+    :op1 (t / thick-03~4
+        :ARG1 (a / air~2)
+        :ARG2 (s / smell-02~7
+            :ARG1 (a2 / and~11
+                :mod (o / old~9)
+                :op1 (p / paper~10)
+                :op2 (l / leather~12))))
+    :op2 (s4 / stream-01~15
+        :ARG0-of (i / illuminate-01~20
+            :ARG1 (r / row~23
+                :consist-of (b / book~25
+                    :part (s2 / spine~28))))
+        :ARG1 (s5 / sunlight~14)
+        :path (w2 / window~18
+            :mod (d / dusty~17)))
+    :op3 (w / whisper-01~29
+        :ARG0 s2
+        :ARG1 (s3 / story~30
+            :topic (e / era~33
+                :ARG0-of (g / go-02~32)))))

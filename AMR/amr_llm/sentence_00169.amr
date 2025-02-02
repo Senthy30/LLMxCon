@@ -1,0 +1,20 @@
+#00169 Sentence: 00169 The air hummed with hushed whispers and the gentle clinking of glasses as guests marveled at the serene sculptures and vibrant paintings.
+# ::tok 00169 The air hummed with hushed whispers and the gentle clinking of glasses as guests marveled at the serene sculptures and vibrant paintings .
+(h / ho-hum~3
+    :accompanier (a3 / and~7
+        :op1 (w / whisper-01~6
+            :ARG1-of (h2 / hush-01~5))
+        :op2 (c / cluck-01~10
+            :ARG0 (g2 / glasses~12)
+            :ARG1-of (g / gentle-01~9)))
+    :domain (a / air~2)
+    :time (d / date-entity~0
+        :year 00169~0)
+    :time (a2 / amaze-01~15
+        :ARG0 (g3 / guest~14)
+        :ARG1 (a4 / and~20
+            :op1 (t / thing~19
+                :domain (s2 / statue~19)
+                :mod (s / serene~18))
+            :op2 (p / paint-02~22
+                :mod (v / vibrant~21)))))

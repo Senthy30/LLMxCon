@@ -1,0 +1,22 @@
+#00164 Sentence: 00164 The air crackled with anticipation as gleaming chrome and polished leather gleamed under the sun, a symphony of roaring engines filling the air.
+# ::tok 00164 The air crackled with anticipation as gleaming chrome and polished leather gleamed under the sun , a symphony of roaring engines filling the air .
+(a3 / and~16
+    :op1 (d / date-entity~0
+        :year 00164~0)
+    :op2 (c2 / crack-02~3
+        :ARG0 (a4 / anticipate-01~5)
+        :ARG1 (a / air~2)
+        :time (g / glow-01~12
+            :ARG0 (a2 / and~9
+                :op1 (c / chrome~8
+                    :ARG1-of (s / shine-01~7))
+                :op2 (l / leather~11
+                    :ARG1-of (p / polish-01~10)))
+            :location (u / under~13
+                :op1 (s2 / sun~15))))
+    :op3 (f / fill-01~22
+        :ARG1 a
+        :ARG2 (s3 / symphony~18
+            :consist-of (e / engine~21
+                :ARG0-of (r / roar-02~20))))
+    :time d)

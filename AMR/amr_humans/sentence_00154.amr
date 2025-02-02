@@ -1,0 +1,24 @@
+#00154 Sentence: 00154 The store is quite big, with a lot of clothes being from known designers, people are looking and searching for something they like and afford.
+# ::tok 00154 The store is quite big , with a lot of clothes being from known designers , people are looking and searching for something they like and afford .
+(a2 / and~6
+    :op1 (b / big~5
+        :degree (q / quite~4)
+        :domain (s3 / store~2))
+    :op2 (a3 / and~20
+        :op1 (l2 / look-01~19
+            :ARG0 (p2 / person~17)
+            :ARG1 (s2 / something~23
+                :ARG1-of (l / like-01~25
+                    :ARG0 p2)
+                :ARG1-of (a / afford-01~27
+                    :ARG0 p2)))
+        :op2 (s / search-01~21
+            :ARG0 p2
+            :ARG1 s2))
+    :rel (c / clothes~11
+        :quant (l3 / lot~9)
+        :source (p / person~15
+            :ARG0-of (d2 / design-01~15)
+            :ARG1-of (k / know-01~14)))
+    :time (d / date-entity~0
+        :year 00154~0))

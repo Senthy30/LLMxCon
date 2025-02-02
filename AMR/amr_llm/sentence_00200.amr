@@ -1,0 +1,21 @@
+#00200 Sentence: 00200 The gentle rocking of the canoe lulled me into a state of peaceful stillness as the first rays of dawn painted the lake with hues of rose and gold.
+# ::tok 00200 The gentle rocking of the canoe lulled me into a state of peaceful stillness as the first rays of dawn painted the lake with hues of rose and gold .
+(l2 / lull-01~7
+    :ARG0 (r2 / rock-01~3
+        :ARG1 (c / canoe~6)
+        :ARG1-of (g / gentle-01~2))
+    :ARG1 (i / i~8)
+    :ARG3 (s / still~14
+        :mod (p2 / peaceful~13))
+    :time (d / date-entity~0
+        :year 00200~0)
+    :time (p / paint-01~21
+        :ARG0 (r / ray~18
+            :ord (o / ordinal-entity~17
+                :value 1~17)
+            :poss (d2 / dawn~20))
+        :ARG1 (l / lake~23)
+        :ARG2 (c2 / color~25
+            :consist-of (a / and~28
+                :op1 (r3 / rose~27)
+                :op2 (g2 / gold~29)))))

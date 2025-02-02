@@ -1,0 +1,32 @@
+#00212 Sentence: 00212 I miss the times our entire family were together; I miss hearing stories from our grandfather at the campfire and everybody laughing about his unbelievable memories..
+# ::tok 00212 I miss the times our entire family were together ; I miss hearing stories from our grandfather at the campfire and everybody laughing about his unbelievable memories ..
+(a / and~10
+    :op1 (m2 / miss-01~2
+        :ARG0 (i / i~1)
+        :ARG1 (t / time~4
+            :time-of (t2 / together~9
+                :domain (f / family~7
+                    :mod (e / entire~6)
+                    :poss (w / we~5)))))
+    :op2 (m3 / miss-01~12
+        :ARG0 i
+        :ARG1 (a2 / and~21
+            :op1 (h2 / hear-01~13
+                :ARG0 i
+                :ARG1 (s / story~14)
+                :ARG2 (p / person~17
+                    :ARG0-of (h / have-rel-role-91~17
+                        :ARG1 w
+                        :ARG2 (g / grandfather~17)))
+                :location (c / campfire~20))
+            :op2 (l / laugh-01~23
+                :ARG0 (e2 / everybody~22)
+                :ARG2 (m / memory~27
+                    :ARG1-of (b / believe-01~26
+                        :ARG1-of (p2 / possible-01~26
+                            :polarity -~26))
+                    :poss p))))
+    :time (d / date-entity~0
+        :day 12~0
+        :month 12~0
+        :year 2002~0))

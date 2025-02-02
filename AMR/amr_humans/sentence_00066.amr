@@ -1,0 +1,21 @@
+#00066 Sentence: 00066 A beautiful bride sits next to the brides, while in the middle of them stands the priest chosen to marry the two, the people stand by them patiently.
+# ::tok 00066 A beautiful bride sits next to the brides , while in the middle of them stands the priest chosen to marry the two , the people stand by them patiently .
+(a / and~9
+    :op1 (s / sit-01~4
+        :ARG1 (b2 / bride~3
+            :ARG1-of (b / beautiful-02~2))
+        :ARG2 (n / next-to~5
+            :op1 (b3 / bride~8)))
+    :op2 (s2 / stand-01~16
+        :ARG1 (p3 / priest~18
+            :ARG1-of (m / marry-01~21
+                :ARG1-of (c / choose-01~19)
+                :ARG2 (t / two~23
+                    :op1 b3)))
+        :location (m2 / middle~13))
+    :op3 (s3 / stand-by-05~27
+        :ARG1 (p2 / person~26)
+        :ARG2-of (p / patient-01~30
+            :ARG1 p2))
+    :time (d / date-entity~0
+        :year 00066~0))

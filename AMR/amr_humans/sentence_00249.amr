@@ -1,0 +1,28 @@
+#00249 Sentence: 00249 I saw so many fans chatting excitedly before the convention started; now all of us are waiting for the speaker to bring on the main event.
+# ::tok 00249 I saw so many fans chatting excitedly before the convention started ; now all of us are waiting for the speaker to bring on the main event .
+(m3 / multi-sentence~12
+    :snt1 (s / see-01~2
+        :ARG0 (i / i~1)
+        :ARG1 (c / chat-01~6
+            :ARG0 (f / fan~5
+                :ARG1-of (h / have-quant-91~4
+                    :ARG2 (m2 / many~4)
+                    :ARG3 (s2 / so~3)))
+            :ARG0-of (e2 / excite-01~7
+                :ARG1 f)
+            :time (b / before~8
+                :op1 (s4 / start-01~11
+                    :ARG1 (c2 / convention~10))))
+        :time (d / date-entity~0
+            :day 25~0
+            :month 2~0
+            :year 2005~0))
+    :snt2 (w / wait-01~18
+        :ARG1 (w2 / we~16
+            :mod (a / all~14))
+        :ARG2 (b2 / bring-on-06~23
+            :ARG0 (p / person~21
+                :ARG0-of (s3 / speak-01~21))
+            :ARG1 (e / event~27
+                :mod (m / main~26)))
+        :time (n / now~13)))

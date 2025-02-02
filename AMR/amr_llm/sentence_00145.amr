@@ -1,0 +1,16 @@
+#00145 Sentence: 00145 The vineyard, bathed in the warm glow of a peaceful sunrise, seemed to hold its breath as the day began.
+# ::tok 00145 The vineyard , bathed in the warm glow of a peaceful sunrise , seemed to hold its breath as the day began .
+(s / seem-01~14
+    :ARG1 (h / hold-01~16
+        :ARG0 (v / vineyard~2
+            :ARG2-of (b / bathe-01~4
+                :ARG1 (g / glow-01~8
+                    :ARG0 (s2 / sunrise~12
+                        :mod (p / peaceful~11))
+                    :ARG1-of (w / warm-06~7))))
+        :ARG1 (b3 / breathe-01~18
+            :ARG0 v)
+        :time (b2 / begin-01~22
+            :ARG1 (d2 / day~21)))
+    :time (d / date-entity~0
+        :year 00145~0))

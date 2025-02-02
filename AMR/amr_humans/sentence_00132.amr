@@ -1,0 +1,23 @@
+#00132 Sentence: 00132 Dogs wait quietly by their owner sides, while others are doing tricks after witch the owners need to fix their fur.
+# ::tok 00132 Dogs wait quietly by their owner sides , while others are doing tricks after witch the owners need to fix their fur .
+(c / contrast-01~9
+    :ARG1 (w / wait-01~2
+        :ARG1 (d3 / dog~1
+            :part (f2 / fur~22))
+        :ARG1-of (q / quiet-04~3)
+        :ARG2 (s / side~7
+            :poss (p / person~6
+                :ARG0-of (o2 / own-01~6
+                    :ARG1 d3))))
+    :ARG2 (d2 / do-02~12
+        :ARG0 (o / other~10)
+        :ARG1 (t / trick-01~13)
+        :time (a / after~14
+            :op1 (w2 / witch~15
+                :domain (n / need-01~18
+                    :ARG0 p
+                    :ARG1 (f / fix-02~20
+                        :ARG0 p
+                        :ARG1 f2)))))
+    :time (d / date-entity~0
+        :year 00132~0))

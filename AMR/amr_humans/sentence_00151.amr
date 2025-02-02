@@ -1,0 +1,17 @@
+#00151 Sentence: 00151 The bookshop is calm and cozy, soft music playing from a radio, with people slowly wandering around.
+# ::tok 00151 The bookshop is calm and cozy , soft music playing from a radio , with people slowly wandering around .
+(a / and~5
+    :op1 (c / calm-03~4
+        :ARG1 (b / bookshop~2))
+    :op2 (c2 / cozy~6
+        :domain b)
+    :op3 (m / music~9
+        :ARG1-of (s2 / soft-02~8)
+        :ARG1-of (p2 / play-11~10
+            :source (r / radio~13)))
+    :op4 (w / wander-01~18
+        :ARG0 (p / person~16)
+        :ARG1 (a2 / around~19)
+        :ARG1-of (s / slow-05~17))
+    :time (d / date-entity~0
+        :year 00151~0))

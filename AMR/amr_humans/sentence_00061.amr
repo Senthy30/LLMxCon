@@ -1,0 +1,18 @@
+#00061 Sentence: 00061 The flowers placed in fron of the store attract a lot of men fascinated by the colors and shapes of these flowers.
+# ::tok 00061 The flowers placed in fron of the store attract a lot of men fascinated by the colors and shapes of these flowers .
+(a2 / attract-01~9
+    :ARG0 (f2 / flower~2
+        :ARG1-of (p / place-01~3
+            :ARG2 (i / inside~5
+                :part-of (s2 / store~8))))
+    :ARG1 (m / man~13
+        :quant (l / lot~11)
+        :ARG1-of (f / fascinate-01~14
+            :ARG0 (a / and~18
+                :op1 (c / color~17
+                    :poss (f3 / flower~22
+                        :mod (t / this~21)))
+                :op2 (s / shape-01~19
+                    :ARG1 f3))))
+    :time (d / date-entity~0
+        :year 00061~0))

@@ -1,0 +1,20 @@
+#00255 Sentence: 00255 The air crackles with anticipation as players analyze their positions, their minds racing to outmaneuver each other.
+# ::tok 00255 The air crackles with anticipation as players analyze their positions , their minds racing to outmaneuver each other .
+(c / cause-01~6
+    :ARG0 (a2 / analyze-01~8
+        :ARG0 (p / person~7
+            :ARG0-of (p2 / play-01~7))
+        :ARG1 (p3 / position~10
+            :poss p)
+        :time-of (r / race-01~14
+            :ARG0 (m / mind~13
+                :poss p)
+            :ARG2 (o2 / outmatch-01~16
+                :ARG0 p
+                :ARG1 (e / each~17
+                    :mod (o / other~18)))))
+    :ARG1 (c2 / crack-02~3
+        :ARG0 (a3 / anticipate-01~5)
+        :ARG1 (a / air~2))
+    :time (d / date-entity~0
+        :day 00255~0))

@@ -1,0 +1,23 @@
+#00047 Sentence: 00047 The room is full of materials of all types and colors, while at a counter sits an old woman with a smile on her face, waiting for any customer.
+# ::tok 00047 The room is full of materials of all types and colors , while at a counter sits an old woman with a smile on her face , waiting for any customer .
+(c2 / contrast-01~13
+    :ARG1 (f2 / fill-01~4
+        :ARG1 (r / room~2)
+        :ARG2 (m / material~6
+            :mod (t / type~9
+                :mod (a / all~8))
+            :mod (c / color~11
+                :mod a)))
+    :ARG2 (s / sit-01~17
+        :ARG1 (w2 / woman~20
+            :ARG0-of (h / have-03~21
+                :ARG1 (s2 / smile-01~23
+                    :location (f / face~26)))
+            :ARG1-of (w / wait-01~28
+                :ARG2 (c4 / customer~31
+                    :mod (a2 / any~30)))
+            :mod (o / old~19)
+            :part f)
+        :ARG2 (c3 / counter~16))
+    :time (d / date-entity~0
+        :year 00047~0))

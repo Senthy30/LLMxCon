@@ -1,0 +1,19 @@
+#00025 Sentence: 00025 Scaffolding frames the evolving mural as passerby pause to admire the vibrant shapes and figures taking form.
+# ::tok 00025 Scaffolding frames the evolving mural as passerby pause to admire the vibrant shapes and figures taking form .
+(f3 / frame-06~2
+    :ARG0 (c / Scaffolding~1)
+    :ARG1 (m / mural~5
+        :ARG1-of (e / evolve-01~4))
+    :time (d / date-entity~0
+        :day 25~0
+        :year 00025~0)
+    :time (p2 / pause-01~8
+        :purpose (a / admire-01~10
+            :ARG0 (p3 / person~7
+                :ARG0-of (p / pass-by-17~7))
+            :ARG1 (a2 / and~14
+                :ARG1-of (f2 / form-01~17)
+                :mod (v / vibrant~12)
+                :op1 (s / shape-01~13)
+                :op2 (f / figure~15)))
+        :ARG0 p3))

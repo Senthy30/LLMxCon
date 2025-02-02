@@ -1,0 +1,19 @@
+#00151 Sentence: 00151 The scent of aged paper and leather hung heavy in the air, the silence broken only by the rustle of turning pages.
+# ::tok 00151 The scent of aged paper and leather hung heavy in the air , the silence broken only by the rustle of turning pages .
+(a4 / and~13
+    :op1 (h / hang-01~8
+        :ARG1 (s2 / smell-01~2
+            :ARG1 (a3 / and~6
+                :ARG1-of (a / age-01~4)
+                :op1 (p2 / paper~5)
+                :op2 (l / leather~7)))
+        :ARG2 (a2 / air~12)
+        :manner (h2 / heavy~9))
+    :op2 (b / break-19~16
+        :ARG0 (r / rust-01~20
+            :ARG0 (t / turn-01~22
+                :ARG1 (p / page~23))
+            :mod (o / only~17))
+        :ARG1 (s / silence~15))
+    :time (d / date-entity~0
+        :year 00151~0))

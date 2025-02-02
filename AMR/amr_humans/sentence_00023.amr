@@ -1,0 +1,28 @@
+#00023 Sentence: 00023 The view is composed from green and brown as main colors, the closer trees combined with the mountains and rocks in the distance create a beautiful picture that cannot be forgotten.
+# ::tok 00023 The view is composed from green and brown as main colors , the closer trees combined with the mountains and rocks in the distance create a beautiful picture that cannot be forgotten .
+(a2 / and~12
+    :li 00023~0
+    :op1 (c4 / compose-01~4
+        :ARG1 (v / view~2)
+        :ARG2 (a / and~7
+            :mod (c2 / color~11
+                :mod (m / main~10))
+            :op1 (g / green-02~6)
+            :op2 (b2 / brown~8)))
+    :op2 (c5 / create-01~25
+        :ARG0 (t / tree~15
+            :ARG1-of (h / have-degree-91~14
+                :ARG2 (c / close-10~14
+                    :ARG1 t)
+                :ARG3 (m2 / more~14))
+            :ARG1-of (c3 / combine-01~16
+                :ARG2 (a3 / and~20
+                    :location (d / distance~24)
+                    :op1 (m3 / mountain~19
+                        :location d)
+                    :op2 (r / rock~21))))
+        :ARG1 (p / picture~28
+            :ARG1-of (b / beautiful-02~27)
+            :ARG1-of (f / forget-01~32
+                :ARG1-of (p2 / possible-01~30
+                    :polarity -~30)))))

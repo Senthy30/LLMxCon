@@ -1,0 +1,30 @@
+#00222 Sentence: 00222 I remember my first date; we went for a walk along the river and it was a very cozy walk seeing the streelights and hearing the water ripples.
+# ::tok 00222 I remember my first date ; we went for a walk along the river and it was a very cozy walk seeing the streelights and hearing the water ripples .
+(r / remember-01~2
+    :ARG0 (i / i~1)
+    :ARG1 (d / date-02~5
+        :ARG1 i
+        :ord (o / ordinal-entity~4
+            :value 1~4))
+    :example (a2 / and~15
+        :op1 (w / walk-01~11
+            :ARG0 (w4 / we~7)
+            :ARG2 (a / along~12
+                :op1 (r2 / river~14)))
+        :op2 (w2 / walk-01~21
+            :ARG0 i
+            :ARG0-of (c / cause-01~30
+                :ARG1 (a3 / and~25
+                    :op1 (s / see-01~22
+                        :ARG0 i
+                        :ARG1 (l / light~24))
+                    :op2 (h / hear-01~26
+                        :ARG0 i
+                        :ARG1 (r3 / rumble-01~29
+                            :ARG0 (w3 / water~28))
+                        :mod (p / peace~29))))
+            :ARG2 w
+            :mod (c2 / cozy~20
+                :degree (v / very~19))))
+    :time (d2 / date-entity~0
+        :day 00222~0))

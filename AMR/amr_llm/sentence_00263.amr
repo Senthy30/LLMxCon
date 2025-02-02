@@ -1,0 +1,21 @@
+#00263 Sentence: 00263 The air hung thick with the scent of detergent and anticipation as the laundromat buzzed with activity, a symphony of whirring machines and chattering customers.
+# ::tok 00263 The air hung thick with the scent of detergent and anticipation as the laundromat buzzed with activity , a symphony of whirring machines and chattering customers .
+(h / hang-01~3
+    :ARG1 (a2 / air~2)
+    :ARG2 (t / thick-03~4
+        :ARG1 a2)
+    :ARG2 (a3 / and~10
+        :op1 (s / smell-01~7
+            :ARG1 (d2 / detergent~9))
+        :op2 (a5 / anticipate-01~11))
+    :time (d / date-entity~0
+        :mod (e / Republican~15)
+        :year 00263~0)
+    :time (a / activity-06~17
+        :ARG0 (l / laundromat~14
+            :mod (s2 / symphony~20
+                :consist-of (a4 / and~24
+                    :op1 (m / machine~23
+                        :ARG1-of (w / whir-01~22))
+                    :op2 (c2 / customer~26
+                        :ARG0-of (c / chat-01~25)))))))

@@ -1,0 +1,26 @@
+#00208 Sentence: 00208 After we did our training we wanted to go for some smoothies but there were a lot of people waiting in line so we skipped it.
+# ::tok 00208 After we did our training we wanted to go for some smoothies but there were a lot of people waiting in line so we skipped it .
+(c2 / contrast-01~13
+    :ARG1 (w2 / want-01~7
+        :ARG0 (w3 / we~6)
+        :ARG1 (g / go-02~9
+            :ARG0 w3
+            :ARG1 (s2 / smooth-04~12
+                :quant (s3 / some~11)))
+        :time (a / after~1
+            :op1 (t / train-01~5
+                :ARG0 w3
+                :ARG1 w3)))
+    :ARG2 (w / wait-01~20
+        :ARG0-of (c / cause-01~23
+            :ARG1 (s / skip-01~25
+                :ARG0 w3
+                :ARG1 w3))
+        :ARG1 (p / person~19
+            :quant (l2 / lot~17))
+        :ARG2 w3
+        :manner (l / line~22))
+    :time (d / date-entity~0
+        :day 8~0
+        :month 2~0
+        :year 2008~0))

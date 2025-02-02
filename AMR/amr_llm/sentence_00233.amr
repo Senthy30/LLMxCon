@@ -1,0 +1,20 @@
+#00233 Sentence: 00233 The fireplace crackled, casting warm shadows on the worn leather couches and the scent of pine needles and hot cocoa filled the air.
+# ::tok 00233 The fireplace crackled , casting warm shadows on the worn leather couches and the scent of pine needles and hot cocoa filled the air .
+(a3 / and~25
+    :li 00233~0
+    :op1 (c4 / crack-02~3
+        :ARG0-of (c / cast-01~5
+            :ARG1 (s / shadow~7
+                :ARG1-of (w / warm-07~6))
+            :ARG2 (c3 / couch~12
+                :ARG1-of (w2 / wear-06~10)
+                :mod (l / leather~11)))
+        :ARG1 (f2 / fireplace~2))
+    :op2 (f / fill-01~22
+        :ARG1 (a / air~24)
+        :ARG2 (s2 / smell-01~15
+            :ARG1 (a2 / and~19
+                :op1 (n / needle~18
+                    :mod (p / pine~17))
+                :op2 (c2 / cocoa~21
+                    :ARG1-of (h / hot-05~20))))))

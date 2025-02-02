@@ -1,0 +1,30 @@
+#00256 Sentence: 00256 The air hung thick with the scent of ripe grapes, the sun beating down on rows of workers, their faces flushed with exertion as they plucked the fruit, their laughter echoing through the vineyard.
+# ::tok 00256 The air hung thick with the scent of ripe grapes , the sun beating down on rows of workers , their faces flushed with exertion as they plucked the fruit , their laughter echoing through the vineyard .
+(a2 / and~11
+    :li 00256~0
+    :op1 (h / hang-01~3
+        :ARG1 (a / air~2)
+        :ARG2 (t / thick-03~4
+            :ARG1 a)
+        :ARG3 (s / smell-01~7
+            :ARG1 (v / vine~10
+                :ARG1-of (r / ripe-02~9))))
+    :op2 (b / beat-01~14
+        :ARG0 (s2 / sun~13)
+        :ARG1 (r2 / row~17
+            :consist-of (p / person~19
+                :ARG0-of (w / work-01~19)
+                :part (f / face~22)))
+        :direction (d / down~15))
+    :op3 (f2 / flush-01~23
+        :ARG0 (e2 / exert-01~25
+            :ARG0 f)
+        :ARG1 f
+        :time (p2 / pluck-01~28
+            :ARG0 p
+            :ARG1 (f3 / fruit~30)))
+    :op4 (e / echo-01~34
+        :ARG1 (l / laugh-01~33
+            :ARG0 p)
+        :location (t2 / through~35
+            :op1 (v2 / vineyard~37))))

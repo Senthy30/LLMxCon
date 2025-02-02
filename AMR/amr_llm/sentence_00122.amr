@@ -1,0 +1,20 @@
+#00122 Sentence: 00122 The parking lot overflowed with cars, and the overlook, a panorama of fiery sunset hues, was teeming with tourists, snapping photos and sharing stories.
+# ::tok 00122 The parking lot overflowed with cars , and the overlook , a panorama of fiery sunset hues , was teeming with tourists , snapping photos and sharing stories .
+(a / and~8
+    :li 00122~0
+    :op1 (o / overflow-01~4
+        :ARG1 (l / lot~3
+            :ARG2-of (p2 / park-01~2))
+        :ARG2 (c / car~6))
+    :op2 (t / teem-01~20
+        :ARG0 (p3 / person~22
+            :ARG0-of (t2 / tour-01~22)
+            :ARG0-of (s2 / snap-01~24
+                :ARG1 (p4 / photograph-01~25))
+            :ARG0-of (s / share-01~27
+                :ARG1 (s3 / story~28)))
+        :ARG1 (o2 / overlook~10
+            :mod (p / panorama~13
+                :mod (c2 / color~17
+                    :ARG1-of (f / fiery-06~15)
+                    :mod (s4 / sunset~16))))))

@@ -1,0 +1,16 @@
+#00029 Sentence: 00029 The sun warmed my face as I steered the sailboat, the salty breeze whipping through my hair.
+# ::tok 00029 The sun warmed my face as I steered the sailboat , the salty breeze whipping through my hair .
+(w / warm-01~3
+    :ARG0 (s4 / sun~2)
+    :ARG1 (f / face~5)
+    :time (d / date-entity~0
+        :year 00029~0)
+    :time (s3 / steer-01~8
+        :ARG0 (i / i~7
+            :part f
+            :part (h / hair~18))
+        :ARG1 (s / sailboat~10)
+        :time-of (w2 / whip-up-03~15
+            :ARG0 (b / breeze~14
+                :mod (s2 / salty~13))
+            :ARG1 h)))

@@ -1,0 +1,30 @@
+#00207 Sentence: 00207 The Swedish Pub has tonight a special event with traditional folk music; I am sure it will be very cozy and nice to be there.
+# ::tok 00207 The Swedish Pub has tonight a special event with traditional folk music ; I am sure it will be very cozy and nice to be there .
+(m / multi-sentence~13
+    :snt1 (h / have-04~4
+        :ARG0 (p / pub~3
+            :name (n / name~1
+                :op1 "The"~1
+                :op2 "Swedish"~2
+                :op3 "Pub"~3))
+        :ARG1 (e / event~8
+            :ARG1-of (s / special-02~7)
+            :consist-of (m2 / music~12
+                :mod (f / folk~11)
+                :mod (t2 / tradition~10))
+            :time (d2 / date-entity~5
+                :dayperiod (n3 / night~5)
+                :mod (t / today~5)))
+        :time (d / date-entity~0
+            :day 7~0
+            :month 7~0
+            :year 2002~0))
+    :snt2 (s2 / sure-02~16
+        :ARG0 (i / i~14)
+        :ARG1 (a / and~22
+            :op1 (c / cozy~21
+                :degree (v / very~20))
+            :op2 (n2 / nice-01~23
+                :ARG1 (b / be-located-at-91~26
+                    :ARG1 i
+                    :ARG2 p)))))

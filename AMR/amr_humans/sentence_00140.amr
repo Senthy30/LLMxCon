@@ -1,0 +1,25 @@
+#00140 Sentence: 00140 A big glass door opens and inside there are shiny cars, with people running their hand over soft seats, dreaming about taking a car home.
+# ::tok 00140 A big glass door opens and inside there are shiny cars , with people running their hand over soft seats , dreaming about taking a car home .
+(a / and~6
+    :op1 (o / open-01~5
+        :ARG1 (d2 / door~4
+            :consist-of (g / glass~3)
+            :mod (b / big~2)))
+    :op2 (c / car~11
+        :ARG1-of (s2 / shine-01~10)
+        :location (i / inside~7)
+        :location-of (a2 / and~21
+            :op1 (r / run-10~15
+                :ARG0 (p / person~14
+                    :part (h / hand~17))
+                :ARG1 h
+                :ARG2 (s / seat~20
+                    :ARG1-of (s3 / soft-02~19)))
+            :op2 (d3 / dream-01~22
+                :ARG0 p
+                :ARG1 (t / take-01~24
+                    :ARG0 p
+                    :ARG1 (c2 / car~26)
+                    :ARG3 (h2 / home~27)))))
+    :time (d / date-entity~0
+        :year 00140~0))

@@ -1,0 +1,18 @@
+#00141 Sentence: 00141 The air hummed with chatter and the scent of wood smoke, while colorful stalls overflowed with handmade treasures.
+# ::tok 00141 The air hummed with chatter and the scent of wood smoke , while colorful stalls overflowed with handmade treasures .
+(c3 / contrast-01~13
+    :ARG1 (h / ho-hum~3
+        :ARG0 (a2 / and~6
+            :op1 (c / chat-01~5)
+            :op2 (s / smell-01~8
+                :ARG1 (s2 / smoke-01~11
+                    :ARG1 (w / wood~10))))
+        :domain (a / air~2))
+    :ARG2 (o / overflow-01~16
+        :ARG1 (m2 / market~15
+            :mod (c2 / colorful~14))
+        :ARG2 (t / treasure~19
+            :ARG1-of (m / make-01~18
+                :location (h2 / home~18))))
+    :time (d / date-entity~0
+        :year 00141~0))

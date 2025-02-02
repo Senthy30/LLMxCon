@@ -1,0 +1,31 @@
+#00139 Sentence: 00139 Mothers and fathers with their kids are waiting their turn to see the doctor, some kids are crying some are looking sad, few seem happy.
+# ::tok 00139 Mothers and fathers with their kids are waiting their turn to see the doctor , some kids are crying some are looking sad , few seem happy .
+(a2 / and~15
+    :op1 (w / wait-01~8
+        :ARG1 (a / and~2
+            :accompanier (p2 / person~6
+                :ARG0-of (h3 / have-rel-role-91~6
+                    :ARG1 a
+                    :ARG2 (k / kid~6)))
+            :op1 (m / mother~1)
+            :op2 (p / person~3
+                :ARG0-of (h2 / have-rel-role-91~3
+                    :ARG2 (f / father~3))))
+        :ARG2 (t / turn~10
+            :poss a
+            :topic (s2 / see-01~12
+                :ARG0 a
+                :ARG1 (d2 / doctor~14))))
+    :op2 (c / cry-02~19
+        :ARG0 (k2 / kid~17
+            :quant (s4 / some~16)))
+    :op3 (s3 / seem-01~26
+        :ARG1 (h / happy-01~27
+            :ARG1 (k3 / kid~17
+                :quant (s5 / some~20)
+                :quant (f2 / few~25)
+                :ARG0-of (l / look-02~22
+                    :ARG1 (s / sad-02~23
+                        :ARG1 k3)))))
+    :time (d / date-entity~0
+        :year 00139~0))

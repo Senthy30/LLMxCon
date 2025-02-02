@@ -1,0 +1,13 @@
+#00012 Sentence: 00012 Sunlight streamed through the glass roof, illuminating a vibrant tapestry of exotic plants in the greenhouse.
+# ::tok 00012 Sunlight streamed through the glass roof , illuminating a vibrant tapestry of exotic plants in the greenhouse .
+(s / stream-01~2
+    :li 00012~0
+    :ARG0-of (i / illuminate-01~8
+        :ARG1 (t / tapestry~11
+            :consist-of (p / plant~14
+                :mod (e / exotic~13))
+            :location (g2 / greenhouse~17)
+            :mod (v / vibrant~10)))
+    :ARG1 (s2 / sunlight~1)
+    :path (r / roof~6
+        :consist-of (g / glass~5)))

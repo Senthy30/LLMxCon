@@ -1,0 +1,30 @@
+#00016 Sentence: 00016 The beautiful sunset was dominant of color red and yellow, with a very big sun standing just above the skyline and a never ending sea while the sound of the music at the party covered everything in a relaxing feeling.
+# ::tok 00016 The beautiful sunset was dominant of color red and yellow , with a very big sun standing just above the skyline and a never ending sea while the sound of the music at the party covered everything in a relaxing feeling .
+(d / dominate-01~5
+    :li 00016~0
+    :ARG0 (s6 / sunset~3
+        :ARG0-of (h / have-03~12
+            :ARG1 (a3 / and~22
+                :op1 (s4 / stand-01~17
+                    :ARG1 (s5 / sun~16
+                        :mod (b2 / big~15
+                            :degree (v / very~14)))
+                    :ARG2 (a / above~19
+                        :mod (j / just~18)
+                        :op1 (s2 / skyline~21)))
+                :op2 (s / sea~26
+                    :ARG1-of (e / end-01~25
+                        :polarity -~24
+                        :time (e2 / ever~24)))))
+        :ARG1-of (b / beautiful-02~2))
+    :ARG1 (c / color~7
+        :mod (a2 / and~9
+            :op1 (r / red-02~8)
+            :op2 (y / yellow-02~10)))
+    :time (c2 / cover-02~36
+        :ARG0 (s3 / sound-02~29
+            :ARG1 (m / music~32
+                :location (p / party~35)))
+        :ARG1 (e3 / everything~37)
+        :ARG3 (f / feel-01~41
+            :ARG1 (r2 / relax-01~40))))

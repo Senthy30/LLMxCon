@@ -1,0 +1,16 @@
+#00145 Sentence: 00145 The plants seem to wait for the sun to rise in order to ripen their fruits, while birds singing in the cool air.
+# ::tok 00145 The plants seem to wait for the sun to rise in order to ripen their fruits , while birds singing in the cool air .
+(s / seem-01~3
+    :ARG1 (w / wait-01~5
+        :purpose (c / contract~14
+            :mod (f / fruit~16
+                :poss (p / plant~2)))
+        :ARG1 p
+        :ARG2 (r / rise-01~10
+            :ARG1 (s3 / sun~8)))
+    :time (d / date-entity~0
+        :year 00145~0)
+    :time (s2 / sing-01~20
+        :ARG0 (b / bird~19)
+        :location (a / air~24
+            :ARG1-of (c2 / cool-06~23))))

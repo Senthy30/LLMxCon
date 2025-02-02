@@ -1,0 +1,20 @@
+#00159 Sentence: 00159 The room, hushed and fragrant, glowed with warm light filtering through paper screens, as guests sat on tatami mats, their movements precise and graceful.
+# ::tok 00159 The room , hushed and fragrant , glowed with warm light filtering through paper screens , as guests sat on tatami mats , their movements precise and graceful .
+(g / glow-01~8
+    :ARG0 (r / room~2
+        :ARG1-of (h / hush-01~4)
+        :mod (f3 / fragrant~6))
+    :manner (f / filter-02~12
+        :ARG1 (l / light~11
+            :ARG1-of (w / warm-07~10))
+        :ARG2 (s / screen~15
+            :consist-of (p / paper~14)))
+    :time (d / date-entity~0
+        :year 00159~0)
+    :time (s2 / sit-01~19
+        :ARG1 (g3 / guest~18
+            :ARG0-of (m / move-01~25
+                :manner (p2 / precise~26)
+                :mod (g2 / graceful~28)))
+        :ARG2 (f2 / floor~22
+            :mod (t / tatami~21))))

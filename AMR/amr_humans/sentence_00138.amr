@@ -1,0 +1,23 @@
+#00138 Sentence: 00138 Slowly walking between books and looking carefully, people stop from time to time to turn pages of a book that caught their attention.
+# ::tok 00138 Slowly walking between books and looking carefully , people stop from time to time to turn pages of a book that caught their attention .
+(s2 / stop-01~10
+    :purpose (t2 / turn-01~16
+        :ARG0 (p2 / person~9)
+        :ARG1 (p / page~17
+            :part-of (b3 / book~20
+                :ARG0-of (c2 / catch-01~22
+                    :ARG1 (a / attend-02~24
+                        :ARG0 p2)))))
+    :ARG0 p2
+    :frequency (t / time-to-time~12)
+    :manner (l / look-01~6
+        :ARG0 p2
+        :ARG1-of (c / care-04~7
+            :ARG0 p2))
+    :rel (w / walk-01~2
+        :ARG0 p2
+        :ARG1-of (s / slow-01~1)
+        :ARG2 (b / between~3
+            :op1 (b2 / book~4)))
+    :time (d / date-entity~0
+        :year 00138~0))

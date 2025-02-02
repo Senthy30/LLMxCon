@@ -1,0 +1,14 @@
+#00064 Sentence: 00064 Soft sunlight filters through tall windows, casting a gentle glow on simple, wooden benches.
+# ::tok 00064 Soft sunlight filters through tall windows , casting a gentle glow on simple , wooden benches .
+(f / filter-02~3
+    :li 00064~0
+    :ARG0-of (c / cast-01~8
+        :ARG1 (g2 / glow-01~11
+            :ARG1-of (g / gentle-01~10))
+        :location (s / seat-01~16
+            :ARG1-of (s2 / simple-02~13)
+            :consist-of (w2 / wood~15)))
+    :ARG1 (s4 / sunlight~2
+        :ARG1-of (s3 / soft-02~1))
+    :path (w / window~6
+        :mod (t / tall~5)))

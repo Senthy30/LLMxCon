@@ -1,0 +1,22 @@
+#00111 Sentence: 00111 A sea of caps and gowns, the air buzzing with anticipation, the graduates stand poised, ready to embrace the future.
+# ::tok 00111 A sea of caps and gowns , the air buzzing with anticipation , the graduates stand poised , ready to embrace the future .
+(s2 / stand-01~16
+    :ARG1 (p / person~15
+        :ARG1-of (g / graduate-01~15)
+        :ARG1-of (p2 / poise-01~17)
+        :ARG1-of (r / ready-02~19
+            :ARG2 (e / embrace-01~21
+                :ARG0 p
+                :ARG1 (f / future~23))))
+    :manner (a2 / and~5
+        :op1 (c / cap~4)
+        :op2 (d2 / dress-01~6))
+    :rel (s / sea~2
+        :consist-of a2)
+    :rel (b / bounce-01~10
+        :ARG0 (a3 / anticipate-01~12
+            :ARG0 (a / air~9))
+        :ARG1 a)
+    :time (d / date-entity~0
+        :day 11~0
+        :year 00111~0))

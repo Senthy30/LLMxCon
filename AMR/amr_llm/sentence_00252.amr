@@ -1,0 +1,15 @@
+#00252 Sentence: 00252 The room vibrated with a symphony of panting, thumping, and the rhythmic whoosh of sweat-soaked bikes.
+# ::tok 00252 The room vibrated with a symphony of panting , thumping , and the rhythmic whoosh of sweat - soaked bikes .
+(s / shake-01~3
+    :ARG0 (s4 / symphony~6
+        :consist-of (a / and~12
+            :op1 (p / pant-01~8)
+            :op2 (t / thump-01~10)
+            :op3 (w / whoosh-01~15
+                :ARG0 (b / bike-01~20
+                    :ARG1-of (s2 / soak-01~19
+                        :ARG0 (s3 / sweat~17)))
+                :mod (r / rhythm~14))))
+    :ARG1 (r2 / room~2)
+    :time (d / date-entity~0
+        :day 00252~0))

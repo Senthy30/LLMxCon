@@ -1,0 +1,26 @@
+#00118 Sentence: 00118 The air buzzed with the energy of caffeine-fueled conversations, the aroma of freshly brewed coffee filled every corner, and the rhythmic clatter of spoons against ceramic mugs provided a comforting backdrop.
+# ::tok 00118 The air buzzed with the energy of caffeine - fueled conversations , the aroma of freshly brewed coffee filled every corner , and the rhythmic clatter of spoons against ceramic mugs provided a comforting backdrop .
+(a2 / and~23
+    :op1 (b3 / bullshit-01~3
+        :ARG0 (e / energy~6
+            :poss (c6 / converse-01~11
+                :ARG1-of (f3 / fuel-01~10
+                    :ARG2 (c / caffeine~8))))
+        :ARG1 (a / air~2))
+    :op2 (f / fill-01~19
+        :ARG1 (c7 / corner~21
+            :mod (e2 / every~20))
+        :ARG2 (s / smell-01~14
+            :ARG1 (c4 / coffee~18
+                :ARG1-of (b2 / brew-01~17
+                    :ARG1-of (f2 / fresh-04~16)))))
+    :op3 (p / provide-01~32
+        :ARG0 (c3 / clatter-01~26
+            :ARG0 (s2 / spoon~28)
+            :mod (r / rhythm~25)
+            :prep-against (m / mug-01~31
+                :ARG2 (c2 / ceramic~30)))
+        :ARG1 (b / backdrop~35
+            :ARG0-of (c5 / comfort-01~34)))
+    :time (d / date-entity~0
+        :year 00118~0))

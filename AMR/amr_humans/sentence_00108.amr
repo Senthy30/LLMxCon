@@ -1,0 +1,14 @@
+#00108 Sentence: 00108 The view is full of green, there are statues covered by flowers, and trees by the sides.
+# ::tok 00108 The view is full of green , there are statues covered by flowers , and trees by the sides .
+(a / and~7
+    :op1 (f2 / full-09~4
+        :ARG1 (v / view~2)
+        :ARG2 (g / green-02~6))
+    :op2 (a2 / and~15
+        :op1 (s2 / statue~10
+            :ARG1-of (c / cover-02~11
+                :ARG2 (f / flower~13)))
+        :op2 (t / tree~16
+            :location (s / side~19)))
+    :time (d / date-entity~0
+        :day 00108~0))

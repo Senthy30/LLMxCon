@@ -1,0 +1,22 @@
+#00053 Sentence: 00053 A cacophony of announcements, the scent of jet fuel and coffee, and families rushing through security, all contribute to the frenetic energy of the terminal before a holiday.
+# ::tok 00053 A cacophony of announcements , the scent of jet fuel and coffee , and families rushing through security , all contribute to the frenetic energy of the terminal before a holiday .
+(c3 / contribute-01~21
+    :ARG0 (a2 / and~11
+        :mod (a / all~20)
+        :op1 (c / cacophony~2
+            :topic (a4 / announce-01~4))
+        :op2 (s2 / smell-01~7
+            :ARG1 (a3 / and~11
+                :op1 (f3 / fuel~10
+                    :source (j / jet~9))
+                :op2 (c2 / coffee~12)))
+        :op3 (r / rush-01~16
+            :ARG1 (f / family~15)
+            :ARG2 (s / security~18)))
+    :ARG2 (e / energy~25
+        :mod (f2 / frenetic~24)
+        :poss (t / terminal~28)
+        :time (b / before~29
+            :op1 (h / holiday~31)))
+    :time (d / date-entity~0
+        :year 00053~0))

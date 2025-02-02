@@ -1,0 +1,28 @@
+#00056 Sentence: 00056 The vineyard is divided into many rows, while two people are placed to pick in each row. The atmosphere is calm, with yellow and brown autumn colors predominating.
+# ::tok 00056 The vineyard is divided into many rows , while two people are placed to pick in each row . The atmosphere is calm , with yellow and brown autumn colors predominating .
+(m2 / multi-sentence~19
+    :snt1 (c4 / contrast-01~9
+        :ARG1 (d3 / divide-02~4
+            :ARG1 (v / vineyard~2)
+            :ARG2 (r / row~7
+                :quant (m / many~6)))
+        :ARG2 (p3 / place-01~13
+            :purpose (p2 / pick-01~15
+                :ARG0 (p / person~11
+                    :quant 2~10)
+                :location (r2 / row~18
+                    :mod (e / each~17)))
+            :ARG1 p)
+        :time (d / date-entity~0
+            :year 00056~0))
+    :snt2 (c / calm-03~23
+        :ARG0-of (p4 / predominate-01~31
+            :ARG1 (a / and~27
+                :op1 (c2 / color~30
+                    :ARG1-of (y / yellow-02~26)
+                    :time (d2 / date-entity~29
+                        :season (a3 / autumn~29)))
+                :op2 (c3 / color~30
+                    :mod d2
+                    :mod (b / brown~28))))
+        :ARG1 (a2 / atmosphere~21)))

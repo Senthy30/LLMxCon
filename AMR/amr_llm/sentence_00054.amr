@@ -1,0 +1,16 @@
+#00054 Sentence: 00054 The roar of engines filled the air as cars blurred past, a symphony of speed and adrenaline.
+# ::tok 00054 The roar of engines filled the air as cars blurred past , a symphony of speed and adrenaline .
+(f / fill-01~5
+    :ARG1 (a2 / air~7)
+    :ARG2 (r / roar-02~2
+        :ARG0 (e / engine~4)
+        :mod (s2 / symphony~14
+            :consist-of (a3 / and~17
+                :op1 (s / speed~16)
+                :op2 (a / adrenaline~18))))
+    :time (d / date-entity~0
+        :day 4~0
+        :year 00054~0)
+    :time (b / blur-01~10
+        :ARG1 (c / car~9)
+        :direction (p / past~11)))

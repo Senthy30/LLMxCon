@@ -1,0 +1,17 @@
+#00058 Sentence: 00058 Colorful balloons, a bouncy castle, and giggling children are all part of a typical children's birthday party.
+# ::tok 00058 Colorful balloons , a bouncy castle , and giggling children are all part of a typical children 's birthday party .
+(h / have-part-91~13
+    :ARG1 (p / party-01~20
+        :ARG1-of (t / typical-02~16)
+        :mod (b / birthday~19
+            :poss (c3 / child~17)))
+    :ARG2 (a2 / and~8
+        :mod (a / all~12)
+        :op1 (c4 / clown~2
+            :mod (c5 / color~1))
+        :op2 (c / castle~6
+            :mod (b2 / bouncy~5))
+        :op3 (c2 / child~10
+            :ARG0-of (g / giggle-01~9)))
+    :time (d / date-entity~0
+        :year 00058~0))

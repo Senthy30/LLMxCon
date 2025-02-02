@@ -1,0 +1,25 @@
+#00106 Sentence: 00106 Laughter echoed through the air as children zoomed down brightly colored slides and rode merry-go-round horses, the sun warming their faces.
+# ::tok 00106 Laughter echoed through the air as children zoomed down brightly colored slides and rode merry - go - round horses , the sun warming their faces .
+(e / echo-01~2
+    :ARG1 (l / laugh-01~1)
+    :location (a / air~5)
+    :time (d / date-entity~0
+        :day 6~0
+        :year 00106~0)
+    :time (a2 / and~13
+        :op1 (z / zoom-01~8
+            :ARG1 (c / child~7
+                :part (f / face~26))
+            :ARG2 (s / slide-01~12
+                :ARG1-of (c2 / color-01~11
+                    :ARG1-of (b / bright-02~10)))
+            :direction (d2 / down~9))
+        :op2 (r / ride-01~14
+            :ARG0 c
+            :ARG1 (h / horse~20
+                :ARG1-of (g / go-01~17
+                    :ARG4 (r2 / round~19)
+                    :mod (m / merry~15))))
+        :time-of (w / warm-01~24
+            :ARG0 (s2 / sun~23)
+            :ARG1 f)))

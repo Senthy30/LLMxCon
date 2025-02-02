@@ -1,0 +1,15 @@
+#00116 Sentence: 00116 The place is loud, waiters are rushing and there is smell of pizza in the air, specifically of olives.
+# ::tok 00116 The place is loud , waiters are rushing and there is smell of pizza in the air , specifically of olives .
+(a2 / and~9
+    :op1 (l2 / loud~4
+        :domain (p3 / place~2))
+    :op2 (r / rush-01~8
+        :ARG0 (p / person~6
+            :ARG2-of (w / wait-01~6)))
+    :op3 (s / smell-01~12
+        :ARG1 (p2 / pizza~14
+            :ARG1-of (s2 / specific-02~19
+                :ARG2 (l / Olive~21)))
+        :location (a / air~17))
+    :time (d / date-entity~0
+        :day 00116~0))

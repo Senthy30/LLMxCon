@@ -1,0 +1,18 @@
+#00018 Sentence: 00018 The air buzzed with excitement, the smell of popcorn and cotton candy mingling with the vibrant hues of the carnival midway.
+# ::tok 00018 The air buzzed with excitement , the smell of popcorn and cotton candy mingling with the vibrant hues of the carnival midway .
+(b / bullshit-01~3
+    :ARG0 (a2 / and~6
+        :op1 (e / excite-01~5)
+        :op2 (m2 / mingle-01~14
+            :ARG0 (s / smell-01~8
+                :ARG1 (a3 / and~11
+                    :op1 (p / popcorn~10)
+                    :op2 (c / candy~13
+                        :mod (c4 / cotton~12))))
+            :ARG2 (c3 / color-01~18
+                :ARG1 (m / midway~22
+                    :mod (c2 / carnival~21))
+                :ARG2 (v / vibrant~17))))
+    :ARG1 (a / air~2)
+    :time (d / date-entity~0
+        :year 00018~0))

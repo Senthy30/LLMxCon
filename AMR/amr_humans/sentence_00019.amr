@@ -1,0 +1,29 @@
+#00019 Sentence: 00019 Everyone standing on a table, reading their favorite books, some of the studying for the upcoming exams and the beautiful sound of silence covering the atmosphere making you're imagination going wild.
+# ::tok 00019 Everyone standing on a table , reading their favorite books , some of the studying for the upcoming exams and the beautiful sound of silence covering the atmosphere making you 're imagination going wild .
+(a / and~20
+    :li 00019~0
+    :op1 (s4 / stand-01~2
+        :ARG1 (e / everyone~1)
+        :ARG2 (t / table~5))
+    :op2 (r / read-01~7
+        :ARG0 e
+        :ARG1 (b2 / book~10
+            :mod (f / favorite~9)
+            :poss e))
+    :op3 (s5 / study-01~15
+        :ARG1-of (i2 / include-91~12
+            :ARG2 (s6 / study-01~15
+                :purpose (t2 / test~19
+                    :time (u / upcoming~18))
+                :ARG0 e)
+            :ARG3 (s2 / some~12)))
+    :op4 (s3 / sound-02~23
+        :ARG0-of (c / cover-02~26
+            :ARG1 (a2 / atmosphere~28))
+        :ARG0-of (m / make-02~29
+            :ARG1 (g / go-08~33
+                :ARG1 (i / imagine-01~32
+                    :ARG0 (y / you~30))
+                :ARG2 (w / wild~34)))
+        :ARG1 (s / silence-01~25)
+        :ARG1-of (b / beautiful-02~22)))

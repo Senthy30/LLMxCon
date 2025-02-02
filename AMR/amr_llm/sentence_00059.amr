@@ -1,0 +1,22 @@
+#00059 Sentence: 00059 The sun glinted off the pristine lake as we pedaled through the ancient pines, the air filled with the chirping of birds and the scent of pine needles.
+# ::tok 00059 The sun glinted off the pristine lake as we pedaled through the ancient pines , the air filled with the chirping of birds and the scent of pine needles .
+(a3 / and~15
+    :op1 (g / glint-01~3
+        :ARG0 (s2 / sun~2)
+        :ARG1 (l / lake~7
+            :mod (p3 / pristine~6))
+        :time (p / peddle-01~10
+            :ARG0 (w / we~9)
+            :ARG1 (t / through~11
+                :op1 (y / Cypress~14
+                    :mod (a2 / ancient~13)))))
+    :op2 (f / fill-01~18
+        :ARG1 (a / air~17)
+        :ARG2 (a4 / and~24
+            :op1 (c / chirp-01~21
+                :ARG0 (b / bird~23))
+            :op2 (s / smell-01~26
+                :ARG1 (n / needle~29
+                    :mod (p2 / pine~28)))))
+    :time (d / date-entity~0
+        :year 00059~0))

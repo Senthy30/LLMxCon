@@ -1,0 +1,26 @@
+#00222 Sentence: 00222 The last rays of the sun painted the city skyline in hues of orange and purple as I strolled along the riverbank, the gentle murmur of the water a soothing soundtrack to my peaceful walk.
+# ::tok 00222 The last rays of the sun painted the city skyline in hues of orange and purple as I strolled along the riverbank , the gentle murmur of the water a soothing soundtrack to my peaceful walk .
+(m / multi-sentence~23
+    :snt1 (p / paint-01~7
+        :ARG0 (r / ray~3
+            :mod (l / last~2)
+            :poss (s4 / sun~6))
+        :ARG1 (s / skyline~10
+            :mod (c / city~9))
+        :ARG2 (c2 / color~12
+            :mod (o / orange~14)
+            :mod (p4 / purple~16))
+        :time (s3 / stroll-01~19
+            :ARG0 (i / i~18)
+            :ARG1 (a / along~20
+                :op1 (r2 / riverbank~22))))
+    :snt2 (s2 / soundtrack~32
+        :ARG0-of (p2 / peace~31)
+        :domain (m2 / murmur-01~26
+            :ARG0 (w2 / water~29)
+            :ARG1-of (g / gentle-01~25))
+        :prep-to (w / walk-01~36
+            :ARG0 i
+            :manner (p3 / peaceful~35)))
+    :time (d / date-entity~0
+        :day 00222~0))

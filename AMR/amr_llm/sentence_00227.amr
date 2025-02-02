@@ -1,0 +1,29 @@
+#00227 Sentence: 00227 The air crackled with excitement as the family piled out of the car, their laughter echoing through the park, eager to experience the thrill of the rides and the sweet treats of the carnival.
+# ::tok 00227 The air crackled with excitement as the family piled out of the car , their laughter echoing through the park , eager to experience the thrill of the rides and the sweet treats of the carnival .
+(a2 / and~6
+    :op1 (c3 / crack-02~3
+        :ARG0 (e3 / excite-01~5
+            :ARG1 (a / air~2))
+        :ARG1 a)
+    :op2 (p2 / pile-01~9
+        :ARG1 (f / family~8)
+        :ARG2 (o / out-06~10
+            :ARG1 f
+            :ARG2 (c / car~13)))
+    :op3 (e2 / echo-01~17
+        :ARG1 (l / laugh-01~16
+            :ARG0 f)
+        :location (t2 / through~18
+            :op1 (p / park~20)))
+    :op4 (e / eager-01~22
+        :ARG0 f
+        :ARG1 (e4 / experience-01~24
+            :ARG0 f
+            :ARG1 (a3 / and~30
+                :op1 (t / thrill-01~26
+                    :ARG0 (r / ride-01~29))
+                :op2 (t3 / treat-01~33
+                    :ARG0 (c2 / carnival~36)
+                    :ARG2 (s / sweet-05~32)))))
+    :time (d / date-entity~0
+        :day 00227~0))

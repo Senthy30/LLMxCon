@@ -1,0 +1,14 @@
+#00009 Sentence: 00009 We huddled inside, watching the storm rage outside, the flashes of lightning illuminating the room.
+# ::tok 00009 We huddled inside , watching the storm rage outside , the flashes of lightning illuminating the room .
+(h / huddle-01~2
+    :li 00009~0
+    :ARG0 (w2 / we~1
+        :ARG0-of (w / watch-01~5
+            :ARG1 (r / rage-02~8
+                :ARG0 (s2 / storm-01~7)
+                :location (o / outside~9))))
+    :location (i2 / inside~3)
+    :time (i / illuminate-01~15
+        :ARG0 (s / slash~12
+            :op1 (l / lightning-01~14))
+        :ARG1 (r2 / room~17)))

@@ -1,0 +1,26 @@
+#00167 Sentence: 00167 The kitchen is a whirlwind of activity, with chefs moving with precision and speed, chopping, stirring, and plating dishes with practiced ease, all while engaging with the audience through the camera.
+# ::tok 00167 The kitchen is a whirlwind of activity , with chefs moving with precision and speed , chopping , stirring , and plating dishes with practiced ease , all while engaging with the audience through the camera .
+(w / whirlwind~5
+    :consist-of (a / activity-06~7)
+    :domain (k / kitchen~2)
+    :example (a3 / and~21
+        :op1 (m / move-01~11
+            :ARG0 (c2 / chef~10)
+            :manner (a2 / and~14
+                :op1 (p3 / precise~13)
+                :op2 (s / speed-01~15)))
+        :op2 (c3 / chop-01~17
+            :ARG0 c2)
+        :op3 (s2 / stir-01~19
+            :ARG0 c2)
+        :op4 (p / plate~22
+            :ARG0 c2
+            :ARG1 (d2 / dish~23)
+            :ARG1-of (e / easy-05~26
+                :ARG1-of (p2 / practice-01~25)))
+        :op5 (e2 / engage-01~30
+            :ARG0 c2
+            :ARG1 (a4 / audience~33)
+            :medium (c / camera~36)))
+    :time (d / date-entity~0
+        :year 00167~0))

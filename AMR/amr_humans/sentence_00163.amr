@@ -1,0 +1,16 @@
+#00163 Sentence: 00163 Groups of students are laughing or listening to music or studying discussing ideas.
+# ::tok 00163 Groups of students are laughing or listening to music or studying discussing ideas .
+(o / or~6
+    :li 00163~0
+    :op1 (l / laugh-01~5
+        :ARG0 (g / group~1
+            :consist-of (p / person~3
+                :ARG0-of (s / study-01~3))))
+    :op2 (l2 / listen-01~7
+        :ARG0 g
+        :ARG1 (m / music~9))
+    :op3 (s2 / study-01~11
+        :ARG0 g)
+    :op4 (d / discuss-01~12
+        :ARG0 g
+        :ARG1 (i / idea~13)))

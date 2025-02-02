@@ -1,0 +1,18 @@
+#00252 Sentence: 00252 The room was buzzing, instructors shout for motivation as we push through the workout.
+# ::tok 00252 The room was buzzing , instructors shout for motivation as we push through the workout .
+(a / and~5
+    :op1 (d2 / drone-01~4
+        :ARG1 (r / room~2))
+    :op2 (s / shout-01~7
+        :purpose (m / motivate-01~9
+            :ARG1 (p / person~6
+                :ARG0-of (i / instruct-01~6)))
+        :ARG0 p
+        :time (p2 / push-02~12
+            :ARG0 (w / we~11)
+            :ARG1 (w2 / work-out-03~15
+                :ARG0 w)))
+    :time (d / date-entity~0
+        :day 25~0
+        :month 2~0
+        :year 2005~0))

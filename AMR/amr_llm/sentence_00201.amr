@@ -1,0 +1,18 @@
+#00201 Sentence: 00201 The air was thick with the scent of hair tonic and anticipation as the barbershop buzzed with activity on a Saturday morning.
+# ::tok 00201 The air was thick with the scent of hair tonic and anticipation as the barbershop buzzed with activity on a Saturday morning .
+(t / thick-03~4
+    :ARG1 (a2 / air~2)
+    :ARG2 (a3 / and~11
+        :op1 (s2 / smell-01~7
+            :ARG1 (t2 / tonic~10
+                :consist-of (h / hair~9)))
+        :op2 (a4 / anticipate-01~12))
+    :time (d2 / date-entity~0
+        :day 00201~0)
+    :time (d / damn-01~16
+        :ARG0 (a / activity-06~18
+            :ARG0 (b / barbershop~15))
+        :ARG1 b
+        :time (d3 / date-entity~22
+            :dayperiod (m / morning~22)
+            :weekday (s / saturday~21))))

@@ -1,0 +1,25 @@
+#00128 Sentence: 00128 The air was thick with the scent of detergent and stale coffee, a symphony of whirring machines and hushed conversations filling the space as families waited for their clothes to tumble.
+# ::tok 00128 The air was thick with the scent of detergent and stale coffee , a symphony of whirring machines and hushed conversations filling the space as families waited for their clothes to tumble .
+(a3 / and~13
+    :op1 (t / thick-03~4
+        :ARG1 (a / air~2)
+        :ARG2 (s / smell-01~7
+            :ARG1 (a2 / and~10
+                :op1 (d2 / deter-01~9)
+                :op2 (c2 / coffee~12
+                    :mod (s3 / stale~11)))))
+    :op2 (s4 / symphony~15
+        :ARG2-of (f2 / fill-01~22
+            :ARG1 (s2 / space~24)
+            :time (w / wait-01~27
+                :ARG1 (f / family~26)
+                :ARG2 (t2 / tumble-01~32
+                    :ARG1 (c / clothes~30
+                        :poss f))))
+        :consist-of (a4 / and~19
+            :op1 (m / machine~18
+                :ARG1-of (w2 / whir-01~17))
+            :op2 (c3 / converse-01~21
+                :ARG1-of (h / hush-01~20))))
+    :time (d / date-entity~0
+        :year 00128~0))

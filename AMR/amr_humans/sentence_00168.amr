@@ -1,0 +1,12 @@
+#00168 Sentence: 00168 The music pulses and lights are flashing while people move to the beat.
+# ::tok 00168 The music pulses and lights are flashing while people move to the beat .
+(a / and~4
+    :op1 (p2 / pulse-01~3
+        :ARG1 (m2 / music~2))
+    :op2 (f / flash-01~7
+        :ARG1 (l / light~5))
+    :time (d / date-entity~0
+        :year 00168~0)
+    :time (m / move-01~10
+        :ARG0 (p / person~9)
+        :ARG2 (b / beat~13)))

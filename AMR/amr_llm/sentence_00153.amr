@@ -1,0 +1,17 @@
+#00153 Sentence: 00153 The fire crackled, casting dancing shadows on the water as the river murmured its peaceful song.
+# ::tok 00153 The fire crackled , casting dancing shadows on the water as the river murmured its peaceful song .
+(a / and~4
+    :op1 (c2 / crack-02~3
+        :ARG1 (f / fire~2))
+    :op2 (c / cast-01~5
+        :ARG0 f
+        :ARG1 (s / shadow~7
+            :ARG0-of (d / dance-01~6))
+        :ARG2 (w / water~10)
+        :time (m / mutter-01~14
+            :ARG0 (r / river~13)
+            :ARG1 (s2 / song~17
+                :mod (p / peaceful~16)
+                :poss r)))
+    :time (d2 / date-entity~0
+        :year 00153~0))

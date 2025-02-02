@@ -1,0 +1,15 @@
+#00167 Sentence: 00167 People are nervous and some angry, with lots of movements and chopping and pans sizzling.
+# ::tok 00167 People are nervous and some angry , with lots of movements and chopping and pans sizzling .
+(a2 / and~4
+    :accompanier (a3 / and~12
+        :op1 (m / move-01~11
+            :quant (l / lot~9))
+        :op2 (c / chop-01~13)
+        :op3 (s / sear-01~16
+            :ARG1 (a / Pan~15)))
+    :op1 (n / nervous-01~3
+        :ARG1 (p / person~1))
+    :op2 (a4 / anger-01~6
+        :ARG1 (s2 / some~5))
+    :time (d / date-entity~0
+        :year 00167~0))

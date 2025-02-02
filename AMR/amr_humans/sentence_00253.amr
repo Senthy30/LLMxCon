@@ -1,0 +1,22 @@
+#00253 Sentence: 00253 When I went to the pawn shop it was so crowded, items were everywhere and a lot of people wee negotiating deals.
+# ::tok 00253 When I went to the pawn shop it was so crowded , items were everywhere and a lot of people wee negotiating deals .
+(c2 / crowd-01~11
+    :ARG1 (s / shop~7
+        :mod (p / pawn-01~6)
+        :op3 (n2 / negotiate-01~22
+            :ARG0 (p2 / person~20
+                :quant (l / lot~18))
+            :ARG2 (d2 / deal-01~23
+                :ARG0 p2)
+            :degree (n / near~21)))
+    :ARG1-of (c / cause-01~16
+        :ARG0 (e / everywhere~15
+            :location-of (i2 / item~13)))
+    :degree (s2 / so~10)
+    :time (g / go-02~3
+        :ARG0 (i / i~2)
+        :ARG4 s)
+    :time (d / date-entity~0
+        :day 25~0
+        :month 3~0
+        :year 2005~0))

@@ -1,0 +1,24 @@
+#00168 Sentence: 00168 The pulsating bass throbbed through the floor, illuminating a kaleidoscope of swirling bodies in a sea of flashing lights, a vibrant nightclub alive with the energy of a thousand dancing souls.
+# ::tok 00168 The pulsating bass throbbed through the floor , illuminating a kaleidoscope of swirling bodies in a sea of flashing lights , a vibrant nightclub alive with the energy of a thousand dancing souls .
+(a / and~8
+    :op1 (c / certainty~4
+        :location (f2 / floor~7)
+        :mod (d2 / date-entity~0
+            :year 00168~0))
+    :op2 (i / illuminate-01~9
+        :ARG0 (b / bass~3
+            :mod (b3 / building~2))
+        :ARG1 (k / kaleidoscope~11
+            :consist-of (b2 / body~14
+                :ARG1-of (s3 / swirl-01~13)))
+        :location (s / sea~17
+            :consist-of (l / light~20
+                :ARG1-of (f / flash-01~19))))
+    :op3 (n / nightclub~24
+        :ARG0-of (l2 / live-01~25
+            :instrument (e / energy~28
+                :poss (s2 / soul~33
+                    :quant 1000~31
+                    :ARG0-of (d / dance-01~32))))
+        :mod (v / vibrant~23))
+    :time d2)

@@ -1,0 +1,13 @@
+#00133 Sentence: 00133 The air vibrated with the rhythmic tap of manicures and the chatter of excited customers.
+# ::tok 00133 The air vibrated with the rhythmic tap of manicures and the chatter of excited customers .
+(t2 / tremble-01~3
+    :ARG1 (a / air~2)
+    :ARG3 (a2 / and~10
+        :op1 (t / tap-03~7
+            :ARG0 (m / manicure-01~9)
+            :mod (r / rhythm~6))
+        :op2 (c / chatter-away-02~12
+            :ARG0 (c2 / customer~15
+                :ARG1-of (e / excite-01~14))))
+    :time (d / date-entity~0
+        :year 00133~0))

@@ -1,0 +1,18 @@
+#00229 Sentence: 00229 I watch the hives buzz and smoke from the air as golden honey pours from the combs.
+# ::tok 00229 I watch the hives buzz and smoke from the air as golden honey pours from the combs .
+(w / watch-01~2
+    :ARG0 (i / i~1)
+    :ARG1 (a2 / and~6
+        :op1 (b2 / boom-01~5
+            :ARG0 (b / bee~4))
+        :op2 (s / smoke-01~7
+            :source (a / air~10)))
+    :time (d / date-entity~0
+        :ARG2-of (r / ready-02~0)
+        :day 00229~0)
+    :time (p / pour-01~14
+        :ARG1 (h / honey~13
+            :mod (g / gold~12))
+        :ARG2 (t / temporal-quantity~17
+            :quant 1~17
+            :unit (i2 / inch~17))))

@@ -1,0 +1,22 @@
+#00119 Sentence: 00119 The roar of the engines and the smell of burnt rubber filled the air as I zoomed around the track, adrenaline pumping through my veins.
+# ::tok 00119 The roar of the engines and the smell of burnt rubber filled the air as I zoomed around the track , adrenaline pumping through my veins .
+(f / fill-01~12
+    :ARG0 (i / i~16
+        :part (v / vein~26))
+    :ARG1 (a2 / air~14)
+    :ARG2 (a3 / and~6
+        :op1 (r / roar-02~2
+            :ARG0 (e / engine~5))
+        :op2 (s / smell-01~8
+            :ARG1 (r2 / rubber~11
+                :ARG1-of (b / burn-01~10))))
+    :time (d / date-entity~0
+        :day 19~0
+        :year 00119~0)
+    :time (z / zoom-01~17
+        :ARG1 i
+        :ARG2 (a4 / around~18
+            :op1 (t / track~20))
+        :time-of (p / pump-01~23
+            :ARG1 (a / adrenaline~22)
+            :path v)))

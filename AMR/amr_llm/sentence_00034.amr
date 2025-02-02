@@ -1,0 +1,19 @@
+#00034 Sentence: 00034 A crackling fireplace warms the stone hearth, while soft blankets and plush pillows create a haven of warmth and comfort.
+# ::tok 00034 A crackling fireplace warms the stone hearth , while soft blankets and plush pillows create a haven of warmth and comfort .
+(c2 / contrast-01~9
+    :ARG1 (w / warm-01~4
+        :ARG0 (f / fireplace~3
+            :ARG1-of (c3 / crack-02~2))
+        :ARG1 (h2 / hearth~7
+            :mod (s2 / stone~6)))
+    :ARG2 (c4 / create-01~15
+        :ARG0 (a / and~12
+            :op1 (b / blanket~11
+                :ARG1-of (s / soft-02~10))
+            :op2 (p / pill~14
+                :mod (p2 / plush~13)))
+        :ARG1 (h / haven~17
+            :mod (w2 / warm-06~19)
+            :mod (c / comfort-01~21)))
+    :time (d / date-entity~0
+        :year 00034~0))

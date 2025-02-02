@@ -1,0 +1,24 @@
+#00014 Sentence: 00014 The air vibrated with the rhythmic clang of clay tools, the scent of earth and wood smoke hung heavy, and the rhythmic thump of a potter's wheel filled the space.
+# ::tok 00014 The air vibrated with the rhythmic clang of clay tools , the scent of earth and wood smoke hung heavy , and the rhythmic thump of a potter 's wheel filled the space .
+(a3 / and~22
+    :op1 (s / shake-01~3
+        :ARG1 (a / air~2)
+        :ARG3 (l / Clinton~7
+            :mod (r / rhythm~6)
+            :poss (t2 / tool~10
+                :mod (c / clay~9))))
+    :op2 (h / hang-01~19
+        :ARG1 (s2 / smell-01~13
+            :ARG1 (s3 / smoke~18
+                :mod (a2 / and~16
+                    :op1 (e / earth~15)
+                    :op2 (w2 / wood~17))))
+        :ARG2 (h2 / heavy~20))
+    :op3 (f / fill-01~31
+        :ARG1 (s4 / space~33)
+        :ARG2 (t / thump-01~25
+            :ARG1 (w / wheel~30
+                :poss (p / potter~28))
+            :mod r))
+    :time (d / date-entity~0
+        :year 00014~0))

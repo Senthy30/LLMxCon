@@ -1,3 +1,10 @@
-00001 Describe the sights and sounds of a bustling farmers' market.
-00002 Write about a sunrise you saw from the top of a mountain.
-#00003 Imagine walking through a rainforest—describe the experience.
+00161 Share what a community garden looks like in full bloom.
+00162 Describe a busy photo studio during a fashion shoot.
+00163 Tell about a lively college campus during orientation week.
+00164 Share the scene at a vintage car rally.
+00165 Describe a busy pediatric dental office.
+00166 Tell about a kite flying festival on a breezy day.
+00167 Share what a professional kitchen looks like during a live cooking show.
+00168 Describe a vibrant nightclub filled with dancers.
+00169 Tell about a peaceful art gallery during an exhibition opening.
+00170 Share the scene at a busy nail salon on a Saturday.

@@ -1,0 +1,29 @@
+#00009 Sentence: 00009 Every lightning produces by the storm lighted the whole sky, with a beautiful view of the branches of the lightning. After some time it can be heard the frightening sound of thunder and then again the overwhelming sound of silence.
+# ::tok 00009 Every lightning produces by the storm lighted the whole sky , with a beautiful view of the branches of the lightning . After some time it can be heard the frightening sound of thunder and then again the overwhelming sound of silence .
+(m / multi-sentence~22
+    :li 00009~0
+    :snt1 (l / light-04~7
+        :ARG0 (l2 / lightning-01~2
+            :ARG1-of (p2 / produce-01~3
+                :ARG0 (s6 / storm-01~6))
+            :mod (e / every~1)
+            :part (b2 / branch~18))
+        :ARG1 (s2 / sky~10
+            :mod (w / whole~9))
+        :accompanier (v / view-01~15
+            :ARG1 b2
+            :ARG1-of (b / beautiful-02~14)))
+    :snt2 (p / possible-01~27
+        :ARG1 (h / hear-01~29
+            :ARG1 (a3 / and~35
+                :op1 (s4 / sound-02~32
+                    :ARG0-of (f / frighten-01~31)
+                    :ARG1 (t2 / thunder~34))
+                :op2 (s5 / sound-02~40
+                    :ARG0-of (o / overwhelm-01~39)
+                    :ARG1 (s / silence~42)
+                    :mod (a2 / again~37
+                        :time (t / then~36)))))
+        :time (a / after~23
+            :op1 (t3 / time~25
+                :mod (s3 / some~24)))))

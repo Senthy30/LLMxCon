@@ -1,0 +1,17 @@
+#00018 Sentence: 00018 A vibrant carnival with flashing lights, lively music creating an electric atmosphere of fun and excitement.
+# ::tok 00018 A vibrant carnival with flashing lights , lively music creating an electric atmosphere of fun and excitement .
+(c / carnival~3
+    :ARG0-of (h / have-03~4
+        :ARG1 (a / and~7
+            :op1 (l / light~6
+                :ARG1-of (f / flash-01~5))
+            :op2 (m / music~9
+                :ARG0-of (c2 / create-01~10
+                    :ARG1 (a2 / atmosphere~13
+                        :mod (e / electric~12)
+                        :mod (f2 / fun-01~15)
+                        :mod (e2 / excite-01~17)))
+                :mod (l2 / lively~8))))
+    :mod (v / vibrant~2)
+    :time (d / date-entity~0
+        :day 00018~0))

@@ -1,0 +1,17 @@
+#00226 Sentence: 00226 The air crackled with nervous energy as the last seamstress scurried through the studio, adjusting a shimmering dress.
+# ::tok 00226 The air crackled with nervous energy as the last seamstress scurried through the studio , adjusting a shimmering dress .
+(m / multi-sentence~20
+    :snt1 (d / date-entity~0
+        :day 26~0
+        :year 00226~0)
+    :snt2 (c / crack-02~3
+        :ARG0 (e / energy~6
+            :ARG1-of (n / nervous-01~5))
+        :ARG1 (a2 / air~2)
+        :time (s / scurry-01~11
+            :ARG0 (s2 / seamstress~10
+                :ARG0-of (a / adjust-01~16
+                    :ARG1 (d2 / dress~19
+                        :ARG1-of (s3 / sparkle-01~18)))
+                :mod (l / last~9))
+            :ARG1 (s4 / studio~14))))

@@ -1,0 +1,16 @@
+#00247 Sentence: 00247 Everything was so chaotic in the kitchen, chefs were rapidly preparing the first plates.
+# ::tok 00247 Everything was so chaotic in the kitchen , chefs were rapidly preparing the first plates .
+(c / chaos~4
+    :ARG2-of (h / have-degree-91~3
+        :ARG1 (e / everything~1)
+        :ARG3 (s / so~3)
+        :ARG6 (p2 / prepare-01~12
+            :ARG0 (c2 / chef~9)
+            :ARG1 (p / plate~15
+                :ord (o / ordinal-entity~14
+                    :value 1~14))
+            :manner (r / rapid~11)))
+    :domain e
+    :location (k / kitchen~7)
+    :time (d / date-entity~0
+        :year 00247~0))

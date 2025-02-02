@@ -1,0 +1,28 @@
+#00249 Sentence: 00249 The air buzzed with excitement, thick with the scent of popcorn and the chatter of thousands of people, all eager to see their favorite comic book heroes come to life.
+# ::tok 00249 The air buzzed with excitement , thick with the scent of popcorn and the chatter of thousands of people , all eager to see their favorite comic book heroes come to life .
+(a / administrate-01~3
+    :ARG0 (a2 / air~2
+        :ARG1-of (t / thick-03~7
+            :ARG3 (a4 / and~13
+                :op1 (s2 / smell-01~10
+                    :ARG1 (p2 / popcorn~12))
+                :op2 (c / chatter-away-02~15
+                    :ARG0 (p / person~19
+                        :quant (m / multiple~17
+                            :op1 1000~17)
+                        :ARG0-of (e / eager-01~22
+                            :ARG1 (s / see-01~24
+                                :ARG0 p
+                                :ARG1 (c2 / come-04~30
+                                    :ARG1 (h / hero~29
+                                        :mod (b / book~28
+                                            :mod (c3 / comic~27))
+                                        :mod (f / favorite~26))
+                                    :ARG2 (l / live-01~32
+                                        :ARG1 h)))
+                            :mod (a3 / all~21)))))))
+    :ARG0 (e2 / excite-01~5)
+    :time (d / date-entity~0
+        :day 25~0
+        :month 2~0
+        :year 2005~0))

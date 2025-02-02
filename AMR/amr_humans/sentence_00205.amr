@@ -1,0 +1,26 @@
+#00205 Sentence: 00205 When I went to my orthodontist office I saw a bunch of kids in the waiting room because they were having a project for their Biology class.
+# ::tok 00205 When I went to my orthodontist office I saw a bunch of kids in the waiting room because they were having a project for their Biology class .
+(s / see-01~9
+    :ARG0 (i / i~8)
+    :ARG1 (k / kid~13
+        :quant (b2 / bunch~11))
+    :ARG1-of (c / cause-01~18
+        :ARG0 (h / have-03~21
+            :ARG0 k
+            :ARG1 (p2 / project~23
+                :subevent-of (c2 / class~27
+                    :poss k
+                    :topic (b / biology~26)))))
+    :location (r / room~17
+        :purpose (w / wait-01~16
+            :ARG1 i))
+    :time (g / go-02~3
+        :ARG0 i
+        :ARG4 (o / office~7
+            :poss (p / person~6
+                :mod (o2 / orthopedics~6))
+            :poss i))
+    :time (d / date-entity~0
+        :day 5~0
+        :month 2~0
+        :year 2005~0))

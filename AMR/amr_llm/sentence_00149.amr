@@ -1,0 +1,15 @@
+#00149 Sentence: 00149 The air buzzed with laughter and the clatter of plates, a tapestry woven from stories and dreams.
+# ::tok 00149 The air buzzed with laughter and the clatter of plates , a tapestry woven from stories and dreams .
+(b / bullshit-01~3
+    :ARG0 (a2 / and~6
+        :op1 (l / laugh-01~5)
+        :op2 (c / clatter-01~8
+            :ARG0 (p / plate~10
+                :mod (t / tapestry~13
+                    :ARG1-of (w / weave-01~14
+                        :ARG2 (a3 / and~17
+                            :op1 (s / story~16)
+                            :op2 (d2 / dream-01~18)))))))
+    :ARG1 (a / air~2)
+    :time (d / date-entity~0
+        :year 00149~0))

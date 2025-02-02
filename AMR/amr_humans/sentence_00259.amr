@@ -1,0 +1,19 @@
+#00259 Sentence: 00259 I watch as papers pile up and orders were printed quickly while I was waiting for my order too.
+# ::tok 00259 I watch as papers pile up and orders were printed quickly while I was waiting for my order too .
+(w2 / watch-01~2
+    :ARG0 (i / i~1)
+    :ARG1 (a / and~7
+        :op1 (p2 / pile-up-02~5
+            :ARG1 (p / paper~4))
+        :op2 (p3 / print-01~10
+            :ARG1 (o / order-02~8)
+            :ARG1-of (q / quick-02~11)))
+    :time (d / date-entity~0
+        :day 25~0
+        :month 9~0
+        :year 2005~0)
+    :time (w / wait-01~15
+        :ARG1 i
+        :ARG2 (o2 / order-02~18
+            :ARG0 i)
+        :mod (t / too~19)))

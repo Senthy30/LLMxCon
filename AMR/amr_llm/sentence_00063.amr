@@ -1,0 +1,24 @@
+#00063 Sentence: 00063 A cacophony of clanging metal and roaring engines fills the air, as towering cranes lift steel beams into place, while bulldozers carve paths through the earth.
+# ::tok 00063 A cacophony of clanging metal and roaring engines fills the air , as towering cranes lift steel beams into place , while bulldozers carve paths through the earth .
+(f / fill-01~9
+    :ARG1 (a / air~11)
+    :ARG2 (c / cacophony~2
+        :ARG1-of (m / mean-01~4)
+        :consist-of (a2 / and~6
+            :op1 (m2 / metal~5
+                :manner (l2 / loud~4))
+            :op2 (e2 / engine~8
+                :ARG0-of (r / roar-02~7))))
+    :time (d / date-entity~0
+        :year 00063~0)
+    :time (c3 / contrast-01~22
+        :ARG1 (l / lift-01~16
+            :ARG0 (c4 / crane~15
+                :ARG0-of (t / tower-01~14))
+            :ARG1 (b / beam~18
+                :consist-of (s / steel~17))
+            :ARG4 (p / place~20))
+        :ARG2 (c2 / carve-out-03~24
+            :ARG0 c4
+            :ARG1 (s2 / street~25
+                :ARG2 (e / earth~28)))))

@@ -1,0 +1,21 @@
+#00027 Sentence: 00027 The studio was bathed in soft, warm light, the scent of essential oils filled the air, and a gentle breeze rustled the leaves outside.
+# ::tok 00027 The studio was bathed in soft , warm light , the scent of essential oils filled the air , and a gentle breeze rustled the leaves outside .
+(a2 / and~20
+    :op1 (b / bathe-01~4
+        :ARG1 (s3 / studio~2)
+        :ARG2 (l2 / light~9
+            :ARG1-of (w / warm-07~8)
+            :ARG1-of (s2 / soft-02~6)))
+    :op2 (f / fill-01~16
+        :ARG1 (a / air~18)
+        :ARG2 (s / smell-01~12
+            :ARG1 (o / oil~15
+                :mod (e / essential~14))))
+    :op3 (r / rust-01~24
+        :ARG0 (b2 / breeze~23
+            :ARG1-of (g / gentle-01~22))
+        :ARG1 (l / leaf~26
+            :location (o2 / outside~27)))
+    :time (d / date-entity~0
+        :day 27~0
+        :year 00027~0))

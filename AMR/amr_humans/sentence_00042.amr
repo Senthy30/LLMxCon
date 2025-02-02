@@ -1,0 +1,21 @@
+#00042 Sentence: 00042 A beautiful car sits in the middle of the room while a crowd of people admires the beautiful shades of red and details that the car presents.
+# ::tok 00042 A beautiful car sits in the middle of the room while a crowd of people admires the beautiful shades of red and details that the car presents .
+(c2 / contrast-01~11
+    :ARG1 (s2 / sit-01~4
+        :ARG1 (c / car~3
+            :ARG1-of (b / beautiful-02~2))
+        :ARG2 (m / middle~7
+            :part-of (r2 / room~10)))
+    :ARG2 (a / admire-01~16
+        :ARG0 (c3 / crowd~13
+            :consist-of (p / person~15))
+        :ARG1 (a2 / and~22
+            :ARG1-of (p2 / present-01~27
+                :ARG0 c)
+            :op1 (s / shade~19
+                :ARG1-of (b2 / beautiful-02~18
+                    :ARG1 (d2 / detail~23))
+                :ARG1-of (r / red-02~21))
+            :op2 d2))
+    :time (d / date-entity~0
+        :year 00042~0))

@@ -1,0 +1,27 @@
+#00033 Sentence: 00033 The farmer, weathered hands calloused from years of toil, gently watered his rows of sunflowers, their golden heads nodding in the warm breeze.
+# ::tok 00033 The farmer , weathered hands calloused from years of toil , gently watered his rows of sunflowers , their golden heads nodding in the warm breeze .
+(w2 / water-01~13
+    :ARG0 (p / person~2
+        :ARG0-of (f / farm-01~2)
+        :part (h / hand~5
+            :ARG0-of (w3 / weather-01~4)
+            :mod (c / calloused~6
+                :ARG1-of (c2 / cause-01~7
+                    :ARG0 (t2 / toil-01~10
+                        :ARG0 p
+                        :duration (m / multiple~8
+                            :op1 (t / temporal-quantity~8
+                                :quant 1~8
+                                :unit (y / year~8))))))))
+    :ARG1 (r / row~15
+        :consist-of (s / sunflower~17
+            :part (h2 / head~21
+                :mod (g2 / gold~20)))
+        :poss p
+        :time-of (n / nod-01~22
+            :ARG0 h2
+            :condition (b / breeze~26
+                :ARG1-of (w / warm-07~25))))
+    :manner (g / gentle~12)
+    :time (d / date-entity~0
+        :year 00033~0))

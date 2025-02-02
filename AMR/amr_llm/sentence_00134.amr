@@ -1,0 +1,15 @@
+#00134 Sentence: 00134 Laughter echoed through the halls as seniors engaged in a vibrant tapestry of activities, from bingo to line dancing.
+# ::tok 00134 Laughter echoed through the halls as seniors engaged in a vibrant tapestry of activities , from bingo to line dancing .
+(e / echo-01~2
+    :ARG1 (l / laugh-01~1)
+    :location (h / hall~5)
+    :time (d2 / date-entity~0
+        :year 00134~0)
+    :time (e2 / engage-01~8
+        :ARG1 (s / senior~7)
+        :ARG2 (t / tapestry~12
+            :consist-of (a / activity-06~14
+                :example (b / bingo~17))
+            :example (d / dance-01~20
+                :mod (l2 / line~19))
+            :mod (v / vibrant~11))))

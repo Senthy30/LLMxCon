@@ -1,0 +1,19 @@
+#00006 Sentence: 00006 The platform vibrated with the rhythmic clatter of arriving and departing trains, a sea of hurried faces and overflowing luggage.
+# ::tok 00006 The platform vibrated with the rhythmic clatter of arriving and departing trains , a sea of hurried faces and overflowing luggage .
+(t3 / tremble-01~3
+    :ARG1 (p / platform~2)
+    :ARG3 (c / clatter-01~7
+        :ARG0 (a / and~10
+            :consist-of (s / sea~15
+                :consist-of (a2 / and~19
+                    :op1 (f / face~18
+                        :ARG1-of (h / hurry-01~17))
+                    :op2 (l / luggage~21
+                        :ARG1-of (o / overflow-01~20))))
+            :op1 (t / train~12
+                :ARG1-of (a3 / arrive-01~9))
+            :op2 (t2 / train~12
+                :ARG0-of (d2 / depart-01~11)))
+        :mod (r / rhythm~6))
+    :time (d / date-entity~0
+        :year 00006~0))

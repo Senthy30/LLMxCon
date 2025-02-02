@@ -1,0 +1,24 @@
+#00019 Sentence: 00019 Sunlight streams through the arched window, illuminating dust motes dancing in the air as a lone figure hunches over a worn copy of "Pride and Prejudice."
+# ::tok 00019 Sunlight streams through the arched window , illuminating dust motes dancing in the air as a lone figure hunches over a worn copy of " Pride and Prejudice . "
+(s / stream-01~2
+    :ARG0-of (i / illuminate-01~8
+        :ARG1 (w2 / wind~10
+            :ARG0-of (d / dance-01~11
+                :location (a / air~14))
+            :consist-of (d3 / dust~9)))
+    :ARG1 (s2 / sunlight~1)
+    :path (w3 / window~6
+        :mod (r / Arab~5))
+    :time (d2 / date-entity~0
+        :day 00019~0)
+    :time (c2 / crouch-01~19
+        :ARG0 (f / figure~18
+            :mod (l / lone~17))
+        :location (t / thing~23
+            :ARG1-of (w / wear-06~22)
+            :ARG2-of (c / copy-01~23
+                :ARG1 (b / book~25
+                    :name (n / name~28
+                        :op1 "Pride"~26
+                        :op2 "and"~27
+                        :op3 "Prejudice"~28))))))

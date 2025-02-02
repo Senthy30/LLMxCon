@@ -1,0 +1,20 @@
+#00127 Sentence: 00127 The air thrummed with a thousand unseen voices, a symphony of honking horns and distant laughter, punctuated by the rhythmic pulse of neon signs.
+# ::tok 00127 The air thrummed with a thousand unseen voices , a symphony of honking horns and distant laughter , punctuated by the rhythmic pulse of neon signs .
+(r2 / rumble-01~3
+    :li 00127~0
+    :ARG0 (a / air~2)
+    :ARG1 (s3 / symphony~11
+        :ARG1-of (b2 / border-01~19
+            :ARG2 (p / pulse-01~23
+                :ARG1 (s2 / sign~26
+                    :mod (n / neon~25))
+                :mod (r / rhythm~22)))
+        :consist-of (a2 / and~15
+            :op1 (h / horn~14
+                :ARG1-of (b / blare-01~13))
+            :op2 (l / laugh-01~17
+                :ARG1-of (d / distant-02~16)))
+        :domain (v / voice~8
+            :quant 1000~6
+            :ARG1-of (s / see-01~7
+                :polarity -~7))))

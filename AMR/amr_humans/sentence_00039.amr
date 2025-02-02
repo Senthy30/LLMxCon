@@ -1,0 +1,19 @@
+#00039 Sentence: 00039 Beautiful flowers, leafy greens and climbing vines thrive in raised beds, while benches offer a peaceful retreat.
+# ::tok 00039 Beautiful flowers , leafy greens and climbing vines thrive in raised beds , while benches offer a peaceful retreat .
+(c2 / contrast-01~14
+    :ARG1 (t / thrive-01~9
+        :ARG1 (a / and~6
+            :op1 (f / flower~2
+                :ARG1-of (b / beautiful-02~1))
+            :op2 (g / green-02~5
+                :mod (l / leafy~4))
+            :op3 (v / vine~8
+                :ARG0-of (c / climb-01~7)))
+        :location (b2 / bed~12
+            :ARG1-of (r / raise-01~11)))
+    :ARG2 (o / offer-01~16
+        :ARG0 (b3 / bench~15)
+        :ARG1 (r2 / retreat-01~19
+            :mod (p / peaceful~18)))
+    :time (d / date-entity~0
+        :year 00039~0))

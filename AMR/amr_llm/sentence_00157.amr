@@ -1,0 +1,13 @@
+#00157 Sentence: 00157 The vibrant colors of the fish mesmerized me as I wandered through the vast aquarium.
+# ::tok 00157 The vibrant colors of the fish mesmerized me as I wandered through the vast aquarium .
+(m / mesmerize-01~7
+    :ARG0 (c / color-01~3
+        :ARG1 (f / fish~6)
+        :mod (v2 / vibrant~2))
+    :ARG1 (i / i~8)
+    :time (d / date-entity~0
+        :year 00157~0)
+    :time (w / wander-01~11
+        :ARG0 i
+        :ARG1 (a / aquarium~15
+            :mod (v / vast~14))))

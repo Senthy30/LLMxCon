@@ -1,0 +1,26 @@
+#00014 Sentence: 00014 The dominant colors of the workshop were brown and yellow, with a lot of dust over the place, but people standing in a very long queue waiting to buy what they want.
+# ::tok 00014 The dominant colors of the workshop were brown and yellow , with a lot of dust over the place , but people standing in a very long queue waiting to buy what they want .
+(c2 / contrast-01~21
+    :li 00014~0
+    :ARG1 (c / color-01~3
+        :ARG0-of (d / dominate-01~2)
+        :ARG1 (w3 / workshop~6)
+        :ARG2 (a / and~9
+            :op1 (g / gray-02~8)
+            :op2 (y / yellow-02~10)))
+    :ARG2 (s / stand-01~23
+        :purpose (w / wait-01~29
+            :ARG1 (p / person~22)
+            :ARG2 (b / buy-01~31
+                :ARG0 p
+                :ARG1 (t / thing~32
+                    :ARG1-of (w2 / want-01~34
+                        :ARG0 p))))
+        :ARG1 p
+        :ARG2 (q / queue~28
+            :ARG1-of (l / long-03~27
+                :degree (v / very~26))))
+    :rel (d2 / dust~16
+        :quant (l2 / lot~14)
+        :location (o / over~17
+            :op1 (p2 / place~19))))

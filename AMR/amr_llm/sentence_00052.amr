@@ -1,0 +1,20 @@
+#00052 Sentence: 00052 The aroma of paint and coffee hung in the air, a kaleidoscope of colors bursting from every storefront, as I strolled through the vibrant arts district.
+# ::tok 00052 The aroma of paint and coffee hung in the air , a kaleidoscope of colors bursting from every storefront , as I strolled through the vibrant arts district .
+(h / hang-01~7
+    :ARG1 (s / smell-01~2
+        :ARG1 (a2 / and~5
+            :op1 (p / paint-02~4)
+            :op2 (c / coffee~6))
+        :mod (k / kaleidoscope~13
+            :ARG1-of (b / burst-02~16
+                :source (s2 / storefront~19
+                    :mod (e / every~18)))
+            :consist-of (c2 / color~15)))
+    :ARG2 (a / air~10)
+    :time (d / date-entity~0
+        :year 00052~0)
+    :time (s3 / stroll-01~23
+        :ARG0 (i / i~22)
+        :ARG1 (d2 / district~28
+            :mod (a3 / art~27)
+            :mod (v / vibrant~26))))

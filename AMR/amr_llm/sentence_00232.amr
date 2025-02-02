@@ -1,0 +1,28 @@
+#00232 Sentence: 00232 The air buzzed with the energy of bartering and the scent of old books and vintage clothing, a kaleidoscope of colors and textures unfolded before her eyes as she searched for hidden gems.
+# ::tok 00232 The air buzzed with the energy of bartering and the scent of old books and vintage clothing , a kaleidoscope of colors and textures unfolded before her eyes as she searched for hidden gems .
+(m / multi-sentence~35
+    :rel (r / register-01~3
+        :ARG1 (a / air~2)
+        :ARG3 (a2 / and~9
+            :op1 (e / energy~6
+                :mod (b / barter-01~8))
+            :op2 (s3 / smell-01~11
+                :ARG1 (a3 / and~15
+                    :op1 (b3 / book~14
+                        :mod (o / old~13))
+                    :op2 (c / clothing~17
+                        :mod (v / vintage~16))))))
+    :snt1 (d / date-entity~0
+        :year 00232~0)
+    :snt2 (u / unfold-02~25
+        :ARG1 (k / kaleidoscope~20
+            :consist-of (a4 / and~23
+                :op1 (c2 / color~22)
+                :op2 (c3 / color~24)))
+        :location (b2 / before~26
+            :op1 (e2 / eye~28
+                :part-of (s2 / she~27)))
+        :time (s / search-01~31
+            :ARG0 s2
+            :ARG2 (s4 / stone~34
+                :ARG1-of (h / hide-01~33)))))

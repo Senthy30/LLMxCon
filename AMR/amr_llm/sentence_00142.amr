@@ -1,0 +1,17 @@
+#00142 Sentence: 00142 Sunlight streamed through the arched windows, illuminating dust motes dancing in the stillness of the library's quiet study hall.
+# ::tok 00142 Sunlight streamed through the arched windows , illuminating dust motes dancing in the stillness of the library 's quiet study hall .
+(s2 / stream-01~2
+    :ARG0-of (i / illuminate-01~8
+        :ARG1 (w / wind~10
+            :ARG0-of (d / dance-01~11
+                :location (s / still~14
+                    :location (h / hall~21
+                        :ARG1-of (q / quiet-04~19)
+                        :location-of (s3 / study-01~20)
+                        :part-of (l / library~17))))
+            :consist-of (d3 / dust~9)))
+    :ARG1 (s4 / sunlight~1)
+    :path (w2 / window~6
+        :mod (r / Arab~5))
+    :time (d2 / date-entity~0
+        :year 00142~0))

@@ -1,0 +1,16 @@
+#00147 Sentence: 00147 The asphalt gleamed under the fading light, a kaleidoscope of scraped knees and laughter echoing from the jungle gym.
+# ::tok 00147 The asphalt gleamed under the fading light , a kaleidoscope of scraped knees and laughter echoing from the jungle gym .
+(g / glow-01~3
+    :ARG0 (a2 / asphalt~2
+        :mod (k / kaleidoscope~10
+            :consist-of (a / and~14
+                :op1 (k2 / knee~13
+                    :ARG1-of (s / scrap-01~12))
+                :op2 (e / echo-01~16
+                    :ARG1 (l / laugh-01~15)
+                    :source (g2 / gym~20
+                        :mod (j / jungle~19))))))
+    :ARG0 (l2 / light~7
+        :ARG1-of (f / fade-01~6))
+    :time (d / date-entity~0
+        :year 00147~0))

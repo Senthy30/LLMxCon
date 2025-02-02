@@ -1,0 +1,19 @@
+#00262 Sentence: 00262 The air was crisp, the sun was barely peeking over the horizon, and a vibrant tapestry of colors and textures filled the air.
+# ::tok 00262 The air was crisp , the sun was barely peeking over the horizon , and a vibrant tapestry of colors and textures filled the air .
+(a2 / and~15
+    :op1 (c3 / crisp-01~4
+        :ARG1 (a / air~2))
+    :op2 (p / peek-01~10
+        :ARG0 (s / sun~7)
+        :degree (b / barely~9)
+        :location (o / over~11
+            :op1 (h / horizon~13)))
+    :op3 (f / fill-01~23
+        :ARG1 a
+        :ARG2 (t / tapestry~18
+            :consist-of (a3 / and~21
+                :op1 (c / color~20)
+                :op2 (c2 / color~22))
+            :mod (v / vibrant~17)))
+    :time (d / date-entity~0
+        :day 00262~0))

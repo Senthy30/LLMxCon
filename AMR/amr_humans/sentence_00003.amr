@@ -1,0 +1,32 @@
+#00003 Sentence: 00003 It was a beautiful morning at the beach, with a beautiful sun full of colors combined with red and yellow, and while looking at the never ending sea fishing boat was spotted rapidly going to the place where the fishing will take place thorugh tall waves.
+# ::tok 00003 It was a beautiful morning at the beach , with a beautiful sun full of colors combined with red and yellow , and while looking at the never ending sea fishing boat was spotted rapidly going to the place where the fishing will take place thorugh tall waves .
+(a2 / and~23
+    :op1 (m / morning~5
+        :ARG1-of (b3 / beautiful-02~4)
+        :location (b2 / beach~8)
+        :prep-with (s3 / sun~13
+            :ARG1-of (b4 / beautiful-02~12)
+            :ARG1-of (f3 / full-09~14
+                :ARG2 (c / color~16
+                    :ARG1-of (c2 / combine-01~17
+                        :ARG2 (a / and~20
+                            :op1 (r2 / red-02~19)
+                            :op2 (y / yellow-02~21))))))
+        :time (d / date-entity~0
+            :year 00003~0))
+    :op2 (s2 / spot-01~34
+        :ARG1 (g / go-01~36
+            :ARG1 (b5 / boat~32
+                :purpose (f / fish-01~31
+                    :location (s / sea~30))
+                :ARG1-of (e / end-01~29
+                    :polarity -~28
+                    :time (e2 / ever~28)))
+            :ARG4 (p / place~39
+                :location-of (f2 / fish-01~42
+                    :path (b / backward~46
+                        :op1 (w / wave~48
+                            :mod (t / tall~47))))))
+        :manner (r / rapid~35)
+        :time (l / look-01~25
+            :ARG1 b5)))

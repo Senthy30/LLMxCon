@@ -1,0 +1,22 @@
+#00144 Sentence: 00144 Like never before, all the machines are busy, people running, jumping and lifting while wiping their sweat.
+# ::tok 00144 Like never before , all the machines are busy , people running , jumping and lifting while wiping their sweat .
+(b2 / busy-01~9
+    :ARG1 (m / machine~7
+        :mod (a / all~5))
+    :ARG1-of (r / resemble-01~1
+        :ARG2 (b / before~3
+            :polarity -~2
+            :time (e / ever~2)))
+    :ARG2 (a2 / and~15
+        :op1 (r2 / run-02~12
+            :ARG0 (p / person~11))
+        :op2 (j / jump-03~14
+            :ARG0 p)
+        :op3 (l / lift-01~16
+            :ARG0 p)
+        :time (w / wipe-01~18
+            :ARG0 p
+            :ARG1 (s / sweat~20
+                :poss p)))
+    :time (d / date-entity~0
+        :year 00144~0))

@@ -1,0 +1,13 @@
+#00123 Sentence: 00123 The studio hums with activity, a symphony of clicks, pops, and the occasional laugh.
+# ::tok 00123 The studio hums with activity , a symphony of clicks , pops , and the occasional laugh .
+(h / humor-01~3
+    :ARG0 (s / studio~2)
+    :ARG1 (a2 / and~14
+        :op1 (a / activity-06~5)
+        :op2 (s2 / symphony~8
+            :consist-of (c / click-01~10)
+            :consist-of (p / pop~12)
+            :op3 (l / laugh-01~17
+                :frequency (o / occasional~16))))
+    :time (d / date-entity~0
+        :day 00123~0))

@@ -1,0 +1,20 @@
+#00126 Sentence: 00126 The scent of lavender and eucalyptus hung in the air, mingling with the soft murmur of water trickling through the spa's infinity pool.
+# ::tok 00126 The scent of lavender and eucalyptus hung in the air , mingling with the soft murmur of water trickling through the spa 's infinity pool .
+(h / hang-01~7
+    :ARG1 (s / smell-01~2
+        :ARG1 (a2 / and~5
+            :op1 (l / lavender~4)
+            :op2 (e / eucalyptus~6))
+        :ARG1-of (m / mix-01~12
+            :ARG2 (m2 / murmur-01~16
+                :ARG1 (w / water~18
+                    :ARG1-of (t / trickle-01~19
+                        :ARG2 (p / pool~25
+                            :mod (i / infinity~24)
+                            :part-of (s3 / spa~22))))
+                :ARG1-of (s2 / soft-02~15))))
+    :ARG2 (a / air~10)
+    :time (d / date-entity~0
+        :day 26~0
+        :month 12~0
+        :year 2003~0))

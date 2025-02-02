@@ -1,0 +1,27 @@
+#00246 Sentence: 00246 I enjoyed watching dogs learning new tricks; it was funny when the trainer gave a treat to the dogs each tail was wagging.
+# ::tok 00246 I enjoyed watching dogs learning new tricks ; it was funny when the trainer gave a treat to the dogs each tail was wagging .
+(m / multi-sentence~8
+    :snt1 (e2 / enjoy-01~2
+        :ARG0 (i / i~1)
+        :ARG1 (w2 / watch-01~3
+            :ARG0 i
+            :ARG1 (d2 / dog~4
+                :ARG0-of (l / learn-01~5
+                    :ARG1 (t4 / trick-01~7
+                        :ARG1-of (n / new-01~6))))))
+    :snt2 (f / funny~11
+        :domain (g / give-01~15
+            :ARG0 (p / person~14
+                :ARG0-of (t2 / train-01~14))
+            :ARG1 (t3 / treat-03~17
+                :ARG0 p
+                :ARG1 (d3 / dog~20
+                    :part (t / tail~22
+                        :mod (e / each~21))))
+            :ARG2 d3)
+        :domain (w / wag-01~24
+            :ARG0 t))
+    :time (d / date-entity~0
+        :day 26~0
+        :month 2~0
+        :year 2003~0))

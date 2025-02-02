@@ -1,0 +1,21 @@
+#00201 Sentence: 00201 Last Saturday morning I went to the barbershop to get a fresh haircut; it was so crowded...
+# ::tok 00201 Last Saturday morning I went to the barbershop to get a fresh haircut ; it was so crowded ...
+(m2 / multi-sentence~14
+    :snt1 (g2 / go-02~5
+        :purpose (g / get-01~10
+            :ARG0 (i / i~4)
+            :ARG1 (h / haircut~13
+                :ARG1-of (f / fresh-04~12)))
+        :ARG0 i
+        :ARG4 (b / barbershop~8)
+        :time (d2 / date-entity~3
+            :dayperiod (m / morning~3)
+            :mod (l / last~1)
+            :weekday (s / saturday~2))
+        :time (d / date-entity~0
+            :day 1~0
+            :month 2~0
+            :year 2002~0))
+    :snt2 (c / crowd-01~18
+        :ARG1 (i2 / it~15)
+        :degree (s2 / so~17)))

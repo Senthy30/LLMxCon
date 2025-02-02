@@ -1,0 +1,4 @@
+#00038 Sentence: 00038
+# ::tok 00038
+(n / number~0
+    :value "m2038"~0)

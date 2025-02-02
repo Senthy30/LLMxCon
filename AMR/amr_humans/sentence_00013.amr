@@ -1,0 +1,26 @@
+#00013 Sentence: 00013 From such a high the whole city can be viewed, the whole crowd of cars on each road, people walking on the street or standing in shorter building on balcony.
+# ::tok 00013 From such a high the whole city can be viewed , the whole crowd of cars on each road , people walking on the street or standing in shorter building on balcony .
+(p2 / possible-01~8
+    :ARG1 (v / view-01~10
+        :ARG1 (c2 / city~7
+            :mod (w2 / whole~6))
+        :example (o / or~26
+            :op1 (c3 / crowd~14
+                :consist-of (c / car~16)
+                :location (r / road~19
+                    :mod (e / each~18))
+                :mod (w3 / whole~13))
+            :op2 (p / person~21
+                :ARG0-of (w / walk-01~22
+                    :ARG2 (s3 / street~25)))
+            :op3 (s2 / stand-01~27
+                :ARG2 (b2 / building~30
+                    :ARG1-of (h / have-degree-91~29
+                        :ARG2 (s / short-07~29
+                            :ARG1 b2)
+                        :ARG3 (m / more~29))
+                    :location (b / balcony~32)))))
+    :rel (h2 / high-02~4
+        :mod (s4 / such~2))
+    :time (d / date-entity~0
+        :day 00013~0))

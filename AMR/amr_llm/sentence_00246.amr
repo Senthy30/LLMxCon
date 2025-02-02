@@ -1,0 +1,26 @@
+#00246 Sentence: 00246 The morning began with a flurry of wagging tails and excited barks as eager pups tackled basic commands, while the afternoon saw seasoned canines mastering advanced tricks.
+# ::tok 00246 The morning began with a flurry of wagging tails and excited barks as eager pups tackled basic commands , while the afternoon saw seasoned canines mastering advanced tricks .
+(c2 / contrast-01~20
+    :li 00246~0
+    :ARG1 (b3 / begin-01~3
+        :ARG1 (d / date-entity~2
+            :dayperiod (m2 / morning~2))
+        :ARG2 (f / flurry~6
+            :consist-of (a2 / and~10
+                :op1 (w / wag-01~8
+                    :ARG1 (n / nose~9))
+                :op2 (b / bark-01~12
+                    :ARG1-of (e2 / excite-01~11))))
+        :time (t / tackle-01~16
+            :ARG0 (p / puppy~15
+                :ARG0-of (e / eager-01~14))
+            :ARG1 (c / command-02~18
+                :mod (b2 / basic~17))))
+    :ARG2 (s2 / see-01~23
+        :ARG1 (d2 / dog~25
+            :ARG1-of (s / season-01~24))
+        :ARG2 (m / master-01~26
+            :ARG0 d2
+            :ARG1 (t2 / trick-01~28
+                :ARG1-of (a / advanced-02~27)))
+        :time d))

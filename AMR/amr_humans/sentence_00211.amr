@@ -1,0 +1,23 @@
+#00211 Sentence: 00211 It was so nice at the stadium last night; everybody opened their phone light at the end of the game to show support to their favorite team!
+# ::tok 00211 It was so nice at the stadium last night ; everybody opened their phone light at the end of the game to show support to their favorite team !
+(n / nice-01~4
+    :li 00211~0
+    :ARG0-of (c / cause-01~10
+        :ARG1 (o / open-01~12
+            :purpose (s / show-01~23
+                :ARG0 (e2 / everybody~11)
+                :ARG1 (s4 / support-01~24
+                    :ARG0 e2
+                    :ARG1 (t / team~28
+                        :mod (f / favorite~27))))
+            :ARG0 e2
+            :ARG1 (l / light~15
+                :mod (p / phone~14)
+                :poss e2)
+            :time (e / end-01~18
+                :ARG1 (g / game~21))))
+    :degree (s2 / so~3)
+    :location (s3 / stadium~7)
+    :time (d / date-entity~9
+        :dayperiod (n2 / night~9)
+        :mod (y / yesterday~8)))

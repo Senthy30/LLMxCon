@@ -1,0 +1,16 @@
+#00023 Sentence: 00023 Rolling hills, quaint villages, and sparkling rivers painted a picturesque landscape as the train chugged along.
+# ::tok 00023 Rolling hills , quaint villages , and sparkling rivers painted a picturesque landscape as the train chugged along .
+(p / paint-02~10
+    :li 00023~0
+    :ARG0 (a2 / and~7
+        :op1 (h / hill~2
+            :ARG1-of (r2 / roll-01~1))
+        :op2 (v / village~5
+            :mod (q / quaint~4))
+        :op3 (r / river~9
+            :ARG1-of (s / sparkle-01~8)))
+    :ARG1 (l / landscape~13
+        :mod (p2 / picturesque~12))
+    :time (c / chomp-01~17
+        :ARG0 (t / train~16)
+        :path (a / along~18)))

@@ -1,0 +1,27 @@
+#00202 Sentence: 00202 When I arrived for lunch at University, I saw all my classmates already at the table waiting for their food and playing some card games.
+# ::tok 00202 When I arrived for lunch at University , I saw all my classmates already at the table waiting for their food and playing some card games .
+(s / see-01~10
+    :ARG0 (i / i~9)
+    :ARG1 (a3 / and~22
+        :op1 (b / be-located-at-91~15
+            :ARG1 (c2 / classmate~13
+                :ARG1-of (w / wait-01~18
+                    :ARG2 (f / food~21
+                        :poss c2))
+                :mod (a / all~11)
+                :poss i)
+            :ARG2 (t / table~17)
+            :time (a2 / already~14))
+        :op2 (p / play-01~23
+            :ARG0 c2
+            :ARG1 (g / game~26
+                :quant (s2 / some~24)
+                :mod (c / card~25))))
+    :time (a4 / arrive-01~3
+        :ARG1 i
+        :ARG4 (l / lunch~5)
+        :ARG4 (u / university~7))
+    :time (d / date-entity~0
+        :day 2~0
+        :month 2~0
+        :year 2004~0))

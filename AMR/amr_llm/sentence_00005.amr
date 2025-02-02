@@ -1,0 +1,16 @@
+#00005 Sentence: 00005 Sunlight streamed through the glass roof, illuminating a kaleidoscope of wings as butterflies flitted amongst the fragrant blooms.
+# ::tok 00005 Sunlight streamed through the glass roof , illuminating a kaleidoscope of wings as butterflies flitted amongst the fragrant blooms .
+(s / stream-01~2
+    :ARG0-of (i / illuminate-01~8
+        :ARG1 (k / kaleidoscope~10
+            :consist-of (w / wing~12))
+        :time (f2 / flutter-01~15
+            :ARG0 (m / monarch~14)
+            :location (a / amongst~16
+                :op1 (f / flower~19
+                    :mod (f3 / fragrant~18)))))
+    :ARG1 (s2 / sunlight~1)
+    :path (r / roof~6
+        :consist-of (g / glass~5))
+    :time (d / date-entity~0
+        :year 00005~0))

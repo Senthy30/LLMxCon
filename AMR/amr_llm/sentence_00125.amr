@@ -1,0 +1,14 @@
+#00125 Sentence: 00125 The fluorescent lights buzzed overhead, casting a sterile glow on the chaos of the emergency room.
+# ::tok 00125 The fluorescent lights buzzed overhead , casting a sterile glow on the chaos of the emergency room .
+(h / hover-01~4
+    :ARG1 (l / light~3
+        :ARG0-of (c / cast-01~7
+            :ARG1 (g / glow-01~10
+                :ARG1-of (s / sterile-02~9))
+            :ARG2 (c2 / chaos~13
+                :location (r / room~17
+                    :mod (e / emergency~16))))
+        :mod (f / fluorescent~2))
+    :ARG2 (o / overhead~5)
+    :time (d / date-entity~0
+        :year 00125~0))

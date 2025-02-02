@@ -1,0 +1,10 @@
+#00032 Sentence: 00032 Vibrant blooms, filling the air with sweet fragrances.
+# ::tok 00032 Vibrant blooms , filling the air with sweet fragrances .
+(f3 / flower~2
+    :ARG0-of (f2 / fill-01~4
+        :ARG1 (a / air~6)
+        :ARG2 (p / perfume~9
+            :ARG1-of (s / sweet-05~8)))
+    :mod (f / festival~1)
+    :time (d / date-entity~0
+        :year 00032~0))

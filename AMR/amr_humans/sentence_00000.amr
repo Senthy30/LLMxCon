@@ -1,0 +1,21 @@
+#00000 Sentence: 00000 The sun is shining with beautiful colors of red and yellow while everyone is trying to have a bread from the most known bakery in the town.
+# ::tok 00000 The sun is shining with beautiful colors of red and yellow while everyone is trying to have a bread from the most known bakery in the town .
+(s / shine-01~4
+    :li 1000000~0
+    :ARG1 (s2 / sun~2)
+    :ARG1-of (c / color-01~7
+        :ARG1-of (b2 / beautiful-02~6)
+        :ARG2 (a / and~10
+            :op1 (r / red-02~9)
+            :op2 (y / yellow-02~11)))
+    :time (t2 / try-01~15
+        :ARG0 (e / everyone~13)
+        :ARG1 (h / have-03~17
+            :ARG0 e
+            :ARG1 (b3 / bread~19
+                :source (b / bakery~24
+                    :ARG1-of (h2 / have-degree-91~22
+                        :ARG2 (k / know-02~23
+                            :ARG1 b)
+                        :ARG3 (m / most~22))
+                    :location (t / town~27))))))

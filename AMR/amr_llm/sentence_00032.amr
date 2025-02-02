@@ -1,0 +1,17 @@
+#00032 Sentence: 00032 The air was thick with the sweet scent of lilies and roses, and every inch of the shop was a riot of color.
+# ::tok 00032 The air was thick with the sweet scent of lilies and roses , and every inch of the shop was a riot of color .
+(a3 / and~14
+    :op1 (t / thick-03~4
+        :ARG1 (a / air~2)
+        :ARG2 (s2 / smell-01~8
+            :ARG1 (a2 / and~11
+                :op1 (l / lily~10)
+                :op2 (r2 / rose~12))
+            :ARG1-of (s3 / sweet-04~7)))
+    :op2 (r / riot-01~22
+        :ARG1 (c / color~24)
+        :location (i / inch~16
+            :mod (e / every~15)
+            :part-of (s / shop~19)))
+    :time (d / date-entity~0
+        :year 00032~0))

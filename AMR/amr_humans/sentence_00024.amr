@@ -1,0 +1,23 @@
+#00024 Sentence: 00024 The view is full of green, coming from the immense number of trees, while in some points can be oversed a point of red, that is a apple ready to be picked by the people in the orchard.
+# ::tok 00024 The view is full of green , coming from the immense number of trees , while in some points can be oversed a point of red , that is a apple ready to be picked by the people in the orchard .
+(c2 / contrast-01~16
+    :li 00024~0
+    :ARG1 (f / full-09~4
+        :ARG1 (v / view~2)
+        :ARG1-of (c / come-03~8
+            :ARG2 (t / tree~14
+                :quant (n / number~12
+                    :mod (i / immense~11))))
+        :ARG2 (g / green-02~6))
+    :ARG2 (p5 / possible-01~20
+        :ARG1 (o2 / overdo-01~22
+            :ARG1 (p4 / point~24
+                :ARG1-of (r2 / red-02~26)
+                :domain (a / apple~31
+                    :ARG1-of (r / ready-02~32
+                        :ARG2 (p2 / pick-01~35
+                            :ARG0 (p / person~38
+                                :location (o / orchard~41))
+                            :ARG1 a))))
+            :time (p3 / point~19
+                :mod (s / some~18)))))

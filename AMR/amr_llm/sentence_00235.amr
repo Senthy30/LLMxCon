@@ -1,0 +1,18 @@
+#00235 Sentence: 00235 The air crackles with anticipation, a symphony of hushed whispers and rustling programs, as the audience waits for the second act.
+# ::tok 00235 The air crackles with anticipation , a symphony of hushed whispers and rustling programs , as the audience waits for the second act .
+(c / crack-02~3
+    :ARG0 (a4 / anticipate-01~5)
+    :ARG1 (a2 / air~2
+        :mod (s / symphony~8
+            :consist-of (a3 / and~12
+                :op1 (w2 / whisper-01~11
+                    :ARG1-of (h / hush-01~10))
+                :op2 (p / program~14
+                    :ARG1-of (r / rust-01~13)))))
+    :time (d / date-entity~0
+        :year 00235~0)
+    :time (w / wait-01~19
+        :ARG1 (a5 / audience~18)
+        :ARG2 (a / act~23
+            :ord (o / ordinal-entity~22
+                :value 2~22))))

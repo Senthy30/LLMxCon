@@ -1,0 +1,19 @@
+#00056 Sentence: 00056 Sunlight glinted off the rows of plump grapes, their sweet scent filling the air as workers gently plucked them from the vines.
+# ::tok 00056 Sunlight glinted off the rows of plump grapes , their sweet scent filling the air as workers gently plucked them from the vines .
+(g2 / glint-01~2
+    :ARG0 (s2 / sunlight~1)
+    :ARG1 (r / row~5
+        :consist-of (o / orange~8
+            :ARG1-of (p3 / pump-01~7)
+            :ARG1-of (s / smell-02~12
+                :ARG2 (s3 / sweet-04~11)
+                :ARG2-of (f / fill-01~13
+                    :ARG1 (a / air~15)
+                    :time (p2 / pluck-01~19
+                        :ARG0 (p / person~17
+                            :ARG0-of (w / work-01~17))
+                        :ARG1 o
+                        :ARG1-of (g / gentle-01~18)
+                        :ARG2 (v / vine~23))))))
+    :time (d / date-entity~0
+        :year 00056~0))

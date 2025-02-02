@@ -1,0 +1,20 @@
+#00120 Sentence: 00120 The air hung thick with the scent of exotic spices, a kaleidoscope of colors swirling around vendors hawking their wares.
+# ::tok 00120 The air hung thick with the scent of exotic spices , a kaleidoscope of colors swirling around vendors hawking their wares .
+(h / hang-01~3
+    :ARG1 (a / air~2
+        :mod (k / kaleidoscope~13
+            :ARG1-of (s2 / swirl-01~16
+                :location (a2 / around~17
+                    :op1 (p / person~18
+                        :ARG0-of (v / vend-01~18)
+                        :ARG0-of (h2 / hawk~19
+                            :ARG1 (w / ware~21
+                                :poss p)))))
+            :consist-of (c2 / color~15)))
+    :ARG2 (t / thick-03~4
+        :ARG1 a)
+    :ARG3 (s / smell-01~7
+        :ARG1 (c / color~10
+            :mod (e / exotic~9)))
+    :time (d / date-entity~0
+        :year 00120~0))

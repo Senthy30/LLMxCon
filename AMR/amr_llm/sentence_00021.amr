@@ -1,0 +1,20 @@
+#00021 Sentence: 00021 A blanket of snow covered the path, illuminated by the warm glow of street lamps, casting long shadows that danced in the crisp air.
+# ::tok 00021 A blanket of snow covered the path , illuminated by the warm glow of street lamps , casting long shadows that danced in the crisp air .
+(c2 / cover-02~5
+    :ARG1 (p / path~7)
+    :ARG2 (b / blanket-01~2
+        :ARG0-of (c / cast-01~18
+            :ARG1 (s / shadow~20
+                :ARG0-of (d / dance-01~22
+                    :location (a / air~26
+                        :ARG1-of (c3 / crisp-01~25)))
+                :ARG1-of (l2 / long-03~19)))
+        :ARG1-of (i / illuminate-01~9
+            :ARG0 (g / glow-01~13
+                :ARG0 (l / light~16
+                    :mod (s3 / street~15))
+                :ARG1-of (w / warm-07~12)))
+        :ARG2 (s2 / snow~4))
+    :time (d2 / date-entity~0
+        :day 21~0
+        :year 00021~0))

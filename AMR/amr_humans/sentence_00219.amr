@@ -1,0 +1,21 @@
+#00219 Sentence: 00219 At our prom night, there was a moment when averybody was slowly dancing in a big circle knowing that we are finishing a very beautiful step in our lives...
+# ::tok 00219 At our prom night , there was a moment when averybody was slowly dancing in a big circle knowing that we are finishing a very beautiful step in our lives ...
+(m / moment~9
+    :li 00219~0
+    :time (n / night~4
+        :mod (p / prom~3)
+        :poss (w / we~21))
+    :time-of (d / dance-01~14
+        :ARG0 (a / anybody~11
+            :ARG0-of (k / know-01~19
+                :ARG1 (f / finish-01~23
+                    :ARG0 w
+                    :ARG1 (s2 / step-01~27
+                        :ARG0 w
+                        :ARG1-of (b / beautiful-02~26
+                            :degree (v / very~25))
+                        :time (l / life~30
+                            :poss w)))))
+        :ARG0-of (c / circle-01~18
+            :mod (b2 / big~17))
+        :ARG1-of (s / slow-05~13)))

@@ -1,0 +1,23 @@
+#00046 Sentence: 00046 Rainbow kites danced and soared through the crisp, wind-whipped air, their vibrant colors a joyous blur against the blue canvas of the sky.
+# ::tok 00046 Rainbow kites danced and soared through the crisp , wind - whipped air , their vibrant colors a joyous blur against the blue canvas of the sky .
+(a3 / and~4
+    :duration (n / number~0
+        :op1 00046~0)
+    :op1 (d / dance-01~3
+        :ARG0 (w2 / wind~2)
+        :path (a2 / air~13
+            :ARG1-of (w / whip-01~12
+                :ARG0 (w3 / wind~10))
+            :ARG1-of (c3 / crisp-01~8)))
+    :op2 (s2 / soar-01~5
+        :ARG1 w2
+        :path a2)
+    :op3 (b2 / blur-01~20
+        :ARG1 (c2 / color-01~17
+            :ARG1 w2
+            :mod (v / vibrant~16))
+        :mod (j / joyous~19)
+        :prep-against (c / canvas~24
+            :mod (b / blue~23)
+            :mod (s / sky~27)))
+    :rel (a / Rainbow~1))

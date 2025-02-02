@@ -1,0 +1,22 @@
+#00045 Sentence: 00045 The city lights shimmered like a million fallen stars, painting the night sky with a vibrant palette of golds and blues.
+# ::tok 00045 The city lights shimmered like a million fallen stars , painting the night sky with a vibrant palette of golds and blues .
+(a / and~10
+    :op1 (s / shimmer-01~4
+        :ARG1 (l / light~3
+            :mod (c / city~2))
+        :ARG1-of (r / resemble-01~5
+            :ARG2 (s3 / star~9
+                :quant 1000000~7
+                :ARG1-of (f / fall-01~8))))
+    :op2 (p / paint-02~11
+        :ARG0 l
+        :ARG1 (s2 / sky~14
+            :time (d2 / date-entity~13
+                :dayperiod (n2 / night~13)))
+        :ARG2 (p2 / palette~18
+            :consist-of (a2 / and~21
+                :op1 (g / gold~20)
+                :op2 (n / navy~22))
+            :mod (v / vibrant~17)))
+    :time (d / date-entity~0
+        :time 00045~0))

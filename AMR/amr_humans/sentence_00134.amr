@@ -1,0 +1,17 @@
+#00134 Sentence: 00134 A group of people are playing bingo, while others are doing light workouts or dancing on soft music.
+# ::tok 00134 A group of people are playing bingo , while others are doing light workouts or dancing on soft music .
+(o / or~15
+    :op1 (p2 / play-01~6
+        :ARG0 (g / group~2
+            :consist-of (p / person~4))
+        :ARG1 (b / bingo~7))
+    :op2 (d / dance-01~16
+        :ARG0 (o2 / other~10)
+        :medium (m / music~19
+            :ARG1-of (s / soft-02~18)))
+    :rel (w / work-out-03~14
+        :ARG0 o2
+        :ARG1-of (l / light-06~13))
+    :time (d2 / date-entity~0
+        :day 14~0
+        :year 00134~0))

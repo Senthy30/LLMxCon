@@ -1,0 +1,21 @@
+#00265 Sentence: 00265 Sun-dappled paths wound through the estate, leading to whispering trees and ancient stone walls, the air thick with the scent of blooming roses.
+# ::tok 00265 Sun - dappled paths wound through the estate , leading to whispering trees and ancient stone walls , the air thick with the scent of blooming roses .
+(w3 / wind-01~5
+    :ARG0 (t2 / track~4
+        :ARG0-of (l / lead-01~10
+            :ARG4 (a3 / and~14
+                :op1 (t3 / tree~13
+                    :ARG0-of (w2 / whisper-01~12))
+                :op2 (w / wall~17
+                    :consist-of (s2 / stone~16)
+                    :mod (a2 / ancient~15))
+                :op3 (a / air~20
+                    :ARG1-of (t / thick-03~21
+                        :ARG2 (s / smell-01~24
+                            :ARG1 (r / rose~27
+                                :ARG1-of (f / flower-01~26)))))))
+        :ARG1-of (d2 / drench-01~3
+            :ARG2 (s3 / sun~1)))
+    :ARG2 (e / estate~8)
+    :time (d / date-entity~0
+        :year 00265~0))

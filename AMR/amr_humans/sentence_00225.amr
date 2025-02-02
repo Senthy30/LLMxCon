@@ -1,0 +1,29 @@
+#00225 Sentence: 00225 I never saw so many dogs at the same time until I had to go to the veterinary office to schedule my next vaccination days for my dog.
+# ::tok 00225 I never saw so many dogs at the same time until I had to go to the veterinary office to schedule my next vaccination days for my dog .
+(s3 / see-01~3
+    :ARG0 (i / i~1)
+    :ARG1 (d3 / dog~6
+        :quant (m / many~5
+            :mod (s4 / so~4)))
+    :polarity -~2
+    :time (e / ever~2)
+    :time (d / date-entity~0
+        :day 25~0
+        :month 2~0
+        :year 2003~0)
+    :time (s / same-01~9)
+    :time (u / until~11
+        :op1 (o / obligate-01~13
+            :ARG1 i
+            :ARG2 (g / go-02~15
+                :purpose (s2 / schedule-01~21
+                    :ARG0 i
+                    :ARG1 (d2 / day~25
+                        :mod (n / next~23)
+                        :poss i
+                        :time-of (v / vaccinate-01~24
+                            :ARG1 (d4 / dog~28
+                                :poss i))))
+                :ARG0 i
+                :ARG4 (o2 / office~19
+                    :mod (v2 / veterinary~18))))))

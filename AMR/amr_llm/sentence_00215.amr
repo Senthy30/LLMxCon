@@ -1,0 +1,26 @@
+#00215 Sentence: 00215 Sunlight streamed through the windows, illuminating the vibrant tapestry of conversations and laughter as residents enjoyed their afternoon tea and a lively game of bingo.
+# ::tok 00215 Sunlight streamed through the windows , illuminating the vibrant tapestry of conversations and laughter as residents enjoyed their afternoon tea and a lively game of bingo .
+(s / stream-01~2
+    :ARG0-of (i / illuminate-01~7
+        :ARG1 (t / tapestry~10
+            :consist-of (a2 / and~13
+                :op1 (c / converse-01~12)
+                :op2 (l / laugh-01~14))
+            :mod (v / vibrant~9))
+        :time (e / enjoy-01~17
+            :ARG0 (p / person~16
+                :ARG0-of (r / reside-01~16))
+            :ARG1 (a3 / and~21
+                :op1 (t2 / tea~20
+                    :poss p
+                    :time (d2 / date-entity~19
+                        :dayperiod (a / afternoon~19)))
+                :op2 (g / game~24
+                    :mod (l2 / lively~23)
+                    :mod (b / bingo~26)))))
+    :ARG1 (s2 / sunlight~1)
+    :path (w / window~5)
+    :time (d / date-entity~0
+        :day 15~0
+        :month 2~0
+        :year 2005~0))

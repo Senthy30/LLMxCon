@@ -1,0 +1,18 @@
+#00064 Sentence: 00064 Sunlight streamed through stained-glass windows, illuminating the peaceful silence of the monastery courtyard as monks chanted softly in the distance.
+# ::tok 00064 Sunlight streamed through stained - glass windows , illuminating the peaceful silence of the monastery courtyard as monks chanted softly in the distance .
+(s4 / stream-01~2
+    :ARG0-of (i / illuminate-01~9
+        :ARG1 (s / silence-01~12
+            :location (c2 / courtyard~16
+                :part-of (m / monastery~15))
+            :mod (p / peaceful~11)
+            :time (c / chant-01~19
+                :ARG0 (m2 / monk~18)
+                :ARG1-of (s2 / soft-02~20)
+                :location (d2 / distance~23))))
+    :ARG1 (s5 / sunlight~1)
+    :path (w / window~7
+        :consist-of (g / glass~6
+            :ARG1-of (s3 / stain-01~4)))
+    :time (d / date-entity~0
+        :year 00064~0))

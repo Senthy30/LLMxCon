@@ -1,0 +1,22 @@
+#00250 Sentence: 00250 In each morning, I stretch on the sand and see sun rises slowly; I love the fresh air in the morning.
+# ::tok 00250 In each morning , I stretch on the sand and see sun rises slowly ; I love the fresh air in the morning .
+(m3 / multi-sentence~15
+    :li 00250~0
+    :snt1 (a2 / and~10
+        :frequency (r / rate-entity-91~3
+            :ARG4 (d / date-entity~3
+                :dayperiod (m / morning~3
+                    :mod (e / each~2))))
+        :op1 (s4 / stretch-01~6
+            :ARG0 (i / i~5)
+            :ARG2 (s / sand~9))
+        :op2 (s2 / see-01~11
+            :ARG0 i
+            :ARG1 (r2 / rise-01~13
+                :ARG1 (s5 / sun~12)
+                :ARG1-of (s3 / slow-05~14))))
+    :snt2 (l / love-01~17
+        :ARG0 (i2 / i~16)
+        :ARG1 (a / air~20
+            :ARG1-of (f / fresh-04~19))
+        :dayperiod (m2 / morning~23)))

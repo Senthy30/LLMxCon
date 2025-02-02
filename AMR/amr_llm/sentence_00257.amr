@@ -1,0 +1,23 @@
+#00257 Sentence: 00257 Colorful stalls overflowed with antiques, vintage clothing, and handmade crafts, filling the air with the scent of old books and freshly brewed coffee.
+# ::tok 00257 Colorful stalls overflowed with antiques , vintage clothing , and handmade crafts , filling the air with the scent of old books and freshly brewed coffee .
+(o2 / overflow-01~3
+    :ARG0-of (f / fill-01~14
+        :ARG1 (a / air~16)
+        :ARG2 (s / smell-01~19
+            :ARG1 (a3 / and~23
+                :op1 (b / book~22
+                    :mod (o / old~21))
+                :op2 (c2 / coffee~26
+                    :ARG1-of (b2 / brew-01~25
+                        :ARG1-of (f2 / fresh-04~24))))))
+    :ARG1 (m2 / market~2
+        :mod (c3 / color~1))
+    :ARG2 (a2 / and~10
+        :op1 (a4 / antiquity~5)
+        :op2 (c / clothing~8
+            :mod (v / vintage~7))
+        :op3 (c4 / craft~12
+            :ARG1-of (m / make-01~11
+                :ARG0 (h / hand~11))))
+    :time (d / date-entity~0
+        :year 00257~0))

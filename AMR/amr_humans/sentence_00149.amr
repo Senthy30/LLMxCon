@@ -1,0 +1,27 @@
+#00149 Sentence: 00149 Travelers and big backpacks fill the room, some of them are playing card games while other listen music in their headphones.
+# ::tok 00149 Travelers and big backpacks fill the room , some of them are playing card games while other listen music in their headphones .
+(a2 / and~8
+    :op1 (f / fill-01~5
+        :ARG1 (r / room~7)
+        :ARG2 (a / and~2
+            :op1 (p2 / person~1
+                :ARG0-of (t / travel-01~1))
+            :op2 (b / bag~4
+                :ARG2-of (p / pack-01~4)
+                :mod (b2 / big~3))))
+    :op2 (p4 / play-01~13
+        :ARG0 (p3 / person~9
+            :quant (s / some~9)
+            :ARG1-of (i / include-91~10
+                :ARG2 a))
+        :ARG1 (g / game~15
+            :mod (c / card~14))
+        :time (l / listen-01~18
+            :ARG0 (o / other~17)
+            :ARG1 (m / music~19)
+            :instrument (h / headphones~22
+                :poss o)))
+    :time (d / date-entity~0
+        :day 19~0
+        :month 5~0
+        :year 2005~0))

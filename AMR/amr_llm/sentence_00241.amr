@@ -1,0 +1,35 @@
+#00241 Sentence: 00241 The sun, barely peeking over the skyscrapers, casts long shadows across the sprawling green expanse of Central Park, where joggers weave through the early morning air, their footsteps a rhythmic counterpoint to the distant honking of taxis.
+# ::tok 00241 The sun , barely peeking over the skyscrapers , casts long shadows across the sprawling green expanse of Central Park , where joggers weave through the early morning air , their footsteps a rhythmic counterpoint to the distant honking of taxis .
+(c / cast-01~10
+    :ARG0 (s5 / sun~2
+        :ARG0-of (p2 / peek-01~5
+            :degree (b / barely~4)
+            :location (o / over~6
+                :op1 (s2 / skyscraper~8))))
+    :ARG1 (s / shadow~12
+        :ARG1-of (l / long-03~11))
+    :ARG2 (a / across~13
+        :op1 (e2 / expanse~17
+            :ARG1-of (g / green-02~16)
+            :ARG1-of (s3 / sprawl-01~15)
+            :part-of (p / park~20
+                :name (n / name~19
+                    :op1 "Central"~19
+                    :op2 "Park"~20)
+                :location-of (w / weave-01~24
+                    :ARG1 (p3 / person~23
+                        :ARG0-of (j / jog-01~23))
+                    :ARG2 (a2 / air~29
+                        :time (d2 / date-entity~28
+                            :dayperiod (m / morning~28)
+                            :mod (e / early~27)))
+                    :mod (c2 / counterpoint~35
+                        :domain (s4 / step-01~32
+                            :ARG0 p3)
+                        :mod (r / rhythm~34))))))
+    :rel (d3 / distant-02~38
+        :ARG2 (b2 / blare-01~39
+            :ARG1 (t / taxi~41)))
+    :time (d / date-entity~0
+        :day 25~0
+        :year 00241~0))

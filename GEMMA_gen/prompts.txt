@@ -1,0 +1,212 @@
+00000 Describe a morning at a busy bakery.
+00001 Tell about a winter evening by the fireplace.
+00002 Share the scene at a lively street festival.
+00003 Explain what you see on a fishing boat at dawn.
+00004 Describe your view during a mountain hike.
+00005 Tell about an afternoon in a butterfly conservatory.
+00006 Share what a bustling train station looks like during rush hour.
+00007 Describe a night camping in the forest under the stars.
+00008 Explain the sights at a historic castle tour.
+00009 Tell about watching a thunderstorm from a safe place.
+00010 Share the scene of a city park during autumn.
+00011 Describe the inside of a vintage bookstore.
+00012 Tell about a greenhouse filled with exotic plants.
+00013 Share the view from a skyscraper’s top floor.
+00014 Describe a busy pottery workshop.
+00015 Explain what you see at an outdoor yoga session.
+00016 Share the scene at a sunset beach party.
+00017 Describe a breakfast table during a family gathering.
+00018 Tell about a colorful carnival midway.
+00019 Share what a quiet library reading room looks like.
+00020 Describe a bustling flea market.
+00021 Tell about a snowy path lit by street lamps.
+00022 Share the scene at a children's playground.
+00023 Explain the sights on a scenic train ride through the countryside.
+00024 Describe an orchard during apple picking season.
+00025 Tell about a mural painting in progress on a city wall.
+00026 Share what a busy mechanic’s garage looks like.
+00027 Describe a peaceful yoga studio.
+00028 Explain the scene at a lively tapas restaurant.
+00029 Tell about a day spent on a sailboat.
+00030 Describe a coffee shop during a poetry reading.
+00031 Share the scene of a high school football game.
+00032 Tell about a flower shop full of colorful blooms.
+00033 Describe a farmer tending to his crops.
+00034 Share what a cozy winter cabin looks like inside.
+00035 Explain the sights at an art museum.
+00036 Describe a busy veterinary clinic.
+00037 Tell about a pond frozen over for ice skating.
+00038 Share the scene at a local art fair.
+00039 Describe a rooftop garden in a city.
+00040 Tell about a horse-drawn carriage ride in a historic town.
+00041 Share what a busy subway train looks like during the commute.
+00042 Describe an antique car show.
+00043 Explain the scene at a bustling seafood market.
+00044 Tell about a children’s science museum.
+00045 Share the view of a city skyline at night.
+00046 Describe a kite festival on a windy day.
+00047 Tell about a tailor’s shop with fabrics and patterns.
+00048 Share what a backstage area looks like before a theater performance.
+00049 Describe a family reunion at a park.
+00050 Explain the atmosphere in a busy kitchen during a dinner rush.
+00051 Describe a quiet morning at a lakeside cabin.
+00052 Tell about a walk through a vibrant arts district.
+00053 Share what a bustling airport terminal looks like before a holiday.
+00054 Describe a day at the race track with cars zooming by.
+00055 Tell about a visit to a planetarium.
+00056 Share the scene at a vineyard during grape harvest.
+00057 Describe a bustling street during a parade.
+00058 Explain what you see at a children's birthday party.
+00059 Tell about a scenic bicycle tour through a national park.
+00060 Share the inside of a luxury cruise ship.
+00061 Describe a busy florist shop before Valentine’s Day.
+00062 Tell about a cozy bookstore on a rainy day.
+00063 Share what a large construction site looks like.
+00064 Describe a peaceful afternoon in a monastery.
+00065 Explain the sights at a lively bazaar in the Middle East.
+00066 Tell about a traditional wedding ceremony in a village.
+00067 Share the scene at a busy urban skate park.
+00068 Describe a state fair with rides and food stalls.
+00069 Tell about a hot air balloon ride at sunrise.
+00100 Describe the hustle of a downtown lunch spot during the workweek.
+00101 Tell about a serene morning on a farm just as the sun rises.
+00102 Share the scene at a bustling indoor swimming pool during a competition.
+00103 Describe a cozy evening in a mountain lodge with a crackling fire.
+00104 Tell about a walk through a historic cemetery on a foggy morning.
+00105 Share what a busy bridal boutique looks like during wedding season.
+00106 Describe a children's amusement park on a sunny day.
+00107 Tell about the interior of a bustling train during the holiday rush.
+00108 Share the scene at an outdoor sculpture garden.
+00109 Describe a busy tattoo parlor filled with art and customers.
+00110 Tell about a vibrant street mural being painted.
+00111 Share what a high school graduation ceremony looks like.
+00112 Describe an early morning jog in a city park.
+00113 Tell about a family gathering for a Sunday brunch.
+00114 Share the scene at a rock climbing gym.
+00115 Describe a peaceful evening at a seaside fisherman's wharf.
+00116 Tell about a bustling pizzeria on a Friday night.
+00117 Share what a backstage dressing room looks like during a ballet performance.
+00118 Describe a busy urban coffee shop during morning rush.
+00119 Tell about an afternoon spent at a go-kart track.
+00120 Share the scene at a bustling spice market.
+00121 Describe the calm of a meditation room adorned with candles and cushions.
+00122 Tell about a scenic overlook crowded with tourists at sunset.
+00123 Share what a professional recording studio looks like during a session.
+00124 Describe a vibrant classroom filled with young students.
+00125 Tell about a bustling emergency room.
+00126 Share the scene at a luxury spa resort.
+00127 Describe a night walking through a bustling city with neon lights.
+00128 Tell about a busy laundromat on a weekend.
+00129 Share what a historical reenactment festival looks like.
+00130 Describe a day at a digital art exhibit.
+00131 Tell about a local farmers' market early in the morning.
+00132 Share the scene at a competitive dog show.
+00133 Describe a bustling nail salon.
+00134 Tell about a day spent at a senior center filled with activities.
+00135 Share what a busy urban rooftop bar looks like at night.
+00136 Describe a morning yoga session on a beach.
+00137 Tell about a vibrant dance studio during a salsa class.
+00138 Share the scene at a crowded book fair.
+00139 Describe a busy pediatrician’s office.
+00140 Tell about a luxury car dealership.
+00141 Share what a bustling craft fair looks like.
+00142 Describe a quiet study hall in a college library.
+00143 Tell about a lively taproom during a new beer release.
+00144 Share the scene at a busy gym during the New Year resolution rush.
+00145 Describe a peaceful sunrise over a vineyard.
+00146 Tell about a bustling dim sum restaurant during lunch.
+00147 Share what a busy urban playground looks like after school.
+00148 Describe a day at an archery range.
+00149 Tell about a lively hostel common room filled with travelers.
+00150 Describe a bustling food truck during a summer festival.
+00151 Tell about a quiet afternoon in a used bookshop.
+00152 Share the scene at a lively jazz brunch in a city.
+00153 Describe a night camping beside a gently flowing river.
+00154 Tell about the atmosphere in a high-end fashion store during a sale.
+00155 Share what a crowded indoor basketball court looks like during a game.
+00156 Describe a morning spent at a local flea market.
+00157 Tell about a visit to a large aquarium watching colorful fish.
+00158 Share the scene at a busy railway station during the holidays.
+00159 Describe a traditional tea room during a tea ceremony.
+00160 Tell about a bustling ice skating rink in winter.
+00161 Share what a community garden looks like in full bloom.
+00162 Describe a busy photo studio during a fashion shoot.
+00163 Tell about a lively college campus during orientation week.
+00164 Share the scene at a vintage car rally.
+00165 Describe a busy pediatric dental office.
+00166 Tell about a kite flying festival on a breezy day.
+00167 Share what a professional kitchen looks like during a live cooking show.
+00168 Describe a vibrant nightclub filled with dancers.
+00169 Tell about a peaceful art gallery during an exhibition opening.
+00170 Share the scene at a busy nail salon on a Saturday.
+00200 Describe a serene canoe ride on a calm lake at dawn.
+00201 Tell about a bustling barbershop on a Saturday morning.
+00202 Share the scene at a lively university cafeteria during lunchtime.
+00203 Describe an afternoon in a sunlit art studio filled with canvases.
+00204 Tell about a quiet morning in a flower-filled conservatory.
+00205 Share what a busy orthodontist's office looks like.
+00206 Describe a lively square in a small European town during a market day.
+00207 Tell about a cozy evening in a pub with live folk music.
+00208 Share the scene at a bustling smoothie bar after a fitness class.
+00209 Describe a busy day at a comic book store during a new release.
+00210 Tell about a peaceful hike through a misty forest.
+00211 Share what a packed stadium looks like during a soccer match.
+00212 Describe a family gathering around a campfire telling stories.
+00213 Tell about a day spent at an antique auction.
+00214 Share the scene at a lively children's indoor play center.
+00215 Describe a tranquil afternoon at a seniors' community center.
+00216 Tell about a bustling diner during breakfast rush.
+00217 Share what a high-fashion photo shoot looks like in an urban setting.
+00218 Describe a morning spent at a horse stable preparing for a ride.
+00219 Tell about a vibrant dance hall during a tango night.
+00220 Share the scene at a packed lecture hall during a guest speaker event.
+00221 Describe a busy day at a currency exchange in an international airport.
+00222 Tell about a quiet evening walk along a city riverbank.
+00223 Share what a bustling bridal fair looks like with various vendors.
+00224 Describe a morning at a pottery class in a community center.
+00225 Tell about a busy veterinary office during pet vaccination day.
+00226 Share the scene at a fashion designer's studio before a big show.
+00227 Describe a family fun day at a local amusement park.
+00228 Tell about a peaceful morning on a city rooftop garden.
+00229 Share what a busy bee farm looks like during honey collection.
+00230 Describe a bustling street food market in Southeast Asia.
+00231 Tell about a quiet library filled with students during exam week.
+00232 Share the scene at a vibrant flea market hunting for treasures.
+00233 Describe a cozy winter day inside a ski lodge.
+00234 Tell about a busy tailor shop crafting custom suits.
+00235 Share what a packed opera house looks like at intermission.
+00236 Describe a sunny day at a community swimming pool.
+00237 Tell about a spooky haunted house tour during Halloween.
+00238 Share the scene at a bustling juice bar in a health club.
+00239 Describe a day at a film set during a movie shooting.
+00240 Tell about a bustling fish and chips shop by the seaside.
+00241 Share what a morning looks like in a big city's central park.
+00242 Describe a lively indoor basketball game.
+00243 Tell about a boutique during a seasonal fashion sale.
+00244 Share the scene at a busy passport office before holiday season.
+00245 Describe a festive evening at a wedding reception.
+00246 Tell about a day at a dog training school.
+00247 Share what a bustling industrial kitchen looks like during a banquet preparation.
+00248 Describe a quiet afternoon in a sculpture workshop.
+00249 Tell about a crowded comic convention.
+00250 Describe a sunrise yoga session on a beach.
+00251 Tell about the atmosphere in a cozy café during a snowstorm.
+00252 Share the scene at a high-energy spin class.
+00253 Describe a bustling pawn shop.
+00254 Tell about a serene evening at a lakeside fishing spot.
+00255 Share what a competitive chess tournament looks like.
+00256 Describe a day at a vineyard during harvest.
+00257 Tell about a lively indoor flea market.
+00258 Share the scene at a children's costume party.
+00259 Describe a busy print shop working on custom orders.
+00260 Tell about a tranquil art gallery viewing by candlelight.
+00261 Share what a bustling makeup counter looks like during a holiday sale.
+00262 Describe a morning at a local crafts fair.
+00263 Tell about a busy laundromat on a weekend.
+00264 Share the scene at a gourmet burger joint during lunch hour.
+00265 Describe a peaceful stroll through a historic estate.
+00266 Tell about a crowded airport gate waiting for an international flight.
+00267 Share what a bustling urban rooftop restaurant looks like.
+00268 Describe a busy day at a car wash.
+00269 Tell about an energetic Zumba class in a community center.
+00270 Share the scene at a busy tailor’s shop customizing evening dresses.

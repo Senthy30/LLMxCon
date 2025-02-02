@@ -1,0 +1,13 @@
+#00046 Sentence: 00046 Kites of all shapes and colors soar high in the sky, dancing with the breeze.
+# ::tok 00046 Kites of all shapes and colors soar high in the sky , dancing with the breeze .
+(s3 / soar-01~7
+    :ARG1 (m / mind~1
+        :quant 00046~0
+        :ARG1-of (s / shape-01~4)
+        :mod (c / color~6
+            :mod (a / all~3))
+        :poss (y / you~1
+            :ARG0-of (d / dance-01~13
+                :ARG2 (b / breeze~16))))
+    :ARG4 (h / high-02~8
+        :ARG1 (s2 / sky~11)))

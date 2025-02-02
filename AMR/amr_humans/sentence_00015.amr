@@ -1,0 +1,26 @@
+#00015 Sentence: 00015 A beautiful greenfield, with people standing on towels for yoga with a least 2 meters distance between each another. Trees around them felt like a background covering the relaxing session of yoga.
+# ::tok 00015 A beautiful greenfield , with people standing on towels for yoga with a least 2 meters distance between each another . Trees around them felt like a background covering the relaxing session of yoga .
+(m2 / multi-sentence~21
+    :snt1 (g / greenfield~3
+        :li 00015~0
+        :ARG1-of (b2 / beautiful-02~2)
+        :location-of (s2 / stand-01~7
+            :purpose (y / yoga~11)
+            :ARG1 (p / person~6)
+            :instrument (p2 / please~9)
+            :manner (d / distance-01~17
+                :ARG1 p
+                :ARG2 (a2 / at-least~14
+                    :op1 (d2 / distance-quantity~16
+                        :quant 2~15
+                        :unit (m / meter~16))))))
+    :snt2 (f / feel-01~25
+        :ARG0 (t2 / tree~22
+            :location (a / around~23
+                :op1 (t / they~24)))
+        :ARG1 (b / background~28
+            :ARG0-of (c / cover-02~29
+                :ARG1 (s / session~32
+                    :ARG0-of (r / relax-01~31)
+                    :mod (y2 / yoga~34)))
+            :domain t2)))

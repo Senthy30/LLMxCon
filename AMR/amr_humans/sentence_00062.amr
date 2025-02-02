@@ -1,0 +1,16 @@
+#00062 Sentence: 00062 The rain outside creates a deafening silence inside, while the atmosphere of the room is covered by the smell of teas.
+# ::tok 00062 The rain outside creates a deafening silence inside , while the atmosphere of the room is covered by the smell of teas .
+(c / contrast-01~10
+    :ARG1 (c3 / create-01~4
+        :ARG0 (r / rain-01~2
+            :location (o / outside~3))
+        :ARG1 (s / silence-01~7
+            :ARG0-of (d2 / deafen-01~6)
+            :location (i / inside~8)))
+    :ARG2 (c2 / cover-01~17
+        :ARG1 (a / atmosphere~12
+            :poss (r2 / room~15))
+        :ARG2 (s2 / smell-01~20
+            :ARG1 (e / Tea~22)))
+    :time (d / date-entity~0
+        :year 00062~0))

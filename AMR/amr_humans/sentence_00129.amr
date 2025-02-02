@@ -1,0 +1,25 @@
+#00129 Sentence: 00129 Some people are dressed in old-fashioned clothes, with tents filling the place, some of them sell things others are restaurants or mini-theatres.
+# ::tok 00129 Some people are dressed in old - fashioned clothes , with tents filling the place , some of them sell things others are restaurants or mini - theatres .
+(a / and~10
+    :op1 (d2 / dress-01~4
+        :ARG1 (p / person~2
+            :mod (s2 / some~1))
+        :ARG2 (c / clothes~9
+            :mod (f / fashion~8
+                :mod (o / old~6))))
+    :op2 (f2 / fill-01~13
+        :ARG1 (p2 / place~15)
+        :ARG2 (t / tent~12))
+    :op3 (s / sell-01~20
+        :ARG0 (s3 / some~17)
+        :ARG1 (t3 / thing~21
+            :domain (o2 / or~25
+                :op1 (r / restaurant~24)
+                :op2 (t2 / theater~28
+                    :mod (m / mini~26)))))
+    :rel (i / include-91~17
+        :ARG2 p)
+    :time (d / date-entity~0
+        :day 29~0
+        :month 11~0
+        :year 2003~0))

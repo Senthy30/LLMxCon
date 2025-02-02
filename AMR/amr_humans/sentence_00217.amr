@@ -1,0 +1,23 @@
+#00217 Sentence: 00217 My girlfriend applied for a modelling company because this was her dream since she was a child; to see herself in a photo shoot.
+# ::tok 00217 My girlfriend applied for a modelling company because this was her dream since she was a child ; to see herself in a photo shoot .
+(c / cause-01~8
+    :ARG0 (d2 / dream-01~12
+        :ARG0 (p / person~2
+            :ARG0-of (h / have-rel-role-91~2
+                :ARG1 (i / i~1)
+                :ARG2 (g / girlfriend~2)))
+        :ARG1 (t / thing~11
+            :ARG1-of (p2 / photograph-01~24)
+            :ARG1-of (s2 / shoot-03~25)
+            :mod (s / see-01~20
+                :ARG0 p
+                :ARG1 p))
+        :time (s3 / since~13
+            :op1 (c2 / child~17
+                :domain p)))
+    :ARG1 (a / apply-01~3
+        :ARG0 p
+        :ARG2 (c3 / company~7
+            :ARG0-of (m / model-01~6)))
+    :time (d / date-entity~0
+        :day 00217~0))

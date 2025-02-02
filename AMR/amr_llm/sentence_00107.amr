@@ -1,0 +1,24 @@
+#00107 Sentence: 00107 The air was thick with the scent of hot chocolate and anticipation, the rhythmic clatter of the train a counterpoint to the excited chatter of families crammed into every corner.
+# ::tok 00107 The air was thick with the scent of hot chocolate and anticipation , the rhythmic clatter of the train a counterpoint to the excited chatter of families crammed into every corner .
+(a3 / and~13
+    :op1 (t / thick-03~4
+        :ARG1 (a / air~2)
+        :ARG2 (a2 / and~11
+            :op1 (s / smell-01~7
+                :ARG1 (c2 / chocolate~10
+                    :ARG1-of (h / hot-05~9)))
+            :op2 (a4 / anticipate-01~12)))
+    :op2 (c5 / counterpoint~21
+        :domain (c3 / clatter-01~16
+            :ARG0 (t2 / train~19)
+            :mod (r / rhythm~15))
+        :prep-to (c / chat-01~25
+            :ARG0 (f / family~27
+                :ARG1-of (c6 / cram-01~28
+                    :ARG2 (c4 / corner~31
+                        :mod (e / every~30))))
+            :ARG1-of (e2 / excite-01~24)))
+    :time (d / date-entity~0
+        :day 00107~0
+        :month 7~0
+        :year 2001~0))

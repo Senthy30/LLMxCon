@@ -1,0 +1,20 @@
+#00001 Sentence: 00001 The fire crackled merrily, casting dancing shadows on the wall, while snowflakes swirled outside, painting a scene of winter magic.
+# ::tok 00001 The fire crackled merrily , casting dancing shadows on the wall , while snowflakes swirled outside , painting a scene of winter magic .
+(a / and~5
+    :op1 (c2 / crack~3
+        :domain (f / fire~2)
+        :manner (m2 / merry~4))
+    :op2 (c / cast-01~6
+        :ARG0 f
+        :ARG1 (s2 / shadow~8
+            :ARG0-of (d / dance-01~7))
+        :ARG2 (w / wall~11))
+    :time (d2 / date-entity~0
+        :year 00001~0)
+    :time (s4 / swirl-01~15
+        :ARG0-of (p / paint-02~18
+            :ARG1 (s / scene~20
+                :mod (m / magic~23
+                    :mod (w2 / winter~22))))
+        :ARG1 (s3 / snow~14)
+        :location (o / outside~16)))

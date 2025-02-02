@@ -1,0 +1,23 @@
+#00264 Sentence: 00264 The aroma of sizzling patties and melting cheese hung heavy in the air as lunchtime crowds jostled for tables at "Burger Bliss," a gourmet haven.
+# ::tok 00264 The aroma of sizzling patties and melting cheese hung heavy in the air as lunchtime crowds jostled for tables at " Burger Bliss , " a gourmet haven .
+(h / hang-01~9
+    :li 00264~0
+    :ARG1 (a4 / aroma~2
+        :topic (a2 / and~6
+            :op1 (h4 / hot-dog~5
+                :ARG1-of (s / sear-01~4))
+            :op2 (c / cheese~8
+                :ARG1-of (m / melt-01~7))))
+    :ARG2 (a / air~13)
+    :ARG2 (t / table~19
+        :location (c2 / company~22
+            :name (n / name~22
+                :op1 "Burger"~22
+                :op2 "Bliss"~23)
+            :mod (h2 / haven~28
+                :mod (g / gourmet~27))))
+    :manner (h3 / heavy~10)
+    :rel (c3 / crowd~16
+        :mod (l / lunch-01~15)
+        :part (a3 / arm~17))
+    :time a3)

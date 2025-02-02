@@ -1,0 +1,18 @@
+#00061 Sentence: 00061 The air buzzed with the scent of roses and lilies, the shelves overflowing with bouquets and the shop floor a whirlwind of activity.
+# ::tok 00061 The air buzzed with the scent of roses and lilies , the shelves overflowing with bouquets and the shop floor a whirlwind of activity .
+(a4 / and~17
+    :op1 (s4 / sweep-01~3
+        :ARG1 (a2 / air~2)
+        :ARG2 (s3 / smell-01~6
+            :ARG1 (a3 / and~9
+                :op1 (r / rose~8)
+                :op2 (l / lily~10))))
+    :op2 (o / overflow-01~14
+        :ARG1 (s / shelf~13)
+        :ARG2 (f2 / flower~16))
+    :op3 (w / whirlwind~22
+        :domain (f / floor~20
+            :part-of (s2 / shop~19))
+        :mod (a / activity-06~24))
+    :time (d / date-entity~0
+        :year 00061~0))

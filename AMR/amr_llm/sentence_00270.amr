@@ -1,0 +1,12 @@
+#00270 Sentence: 00270 **Please note:** I am looking for a sentence that is vivid and descriptive.
+# ::tok 00270 * * Please note : * * I am looking for a sentence that is vivid and descriptive .
+(n / note-01~4
+    :li 00270~0
+    :ARG0 (y / you~3)
+    :ARG1 (l / look-01~10
+        :ARG0 (i / i~8)
+        :ARG1 (s / sentence~13
+            :ARG0-of (d / describe-01~18)
+            :mod (v / vivid~16)))
+    :mode imperative~3
+    :polite +~3)

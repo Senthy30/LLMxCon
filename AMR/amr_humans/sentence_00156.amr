@@ -1,0 +1,25 @@
+#00156 Sentence: 00156 The marked is packed with tables full of old things, people bargaining with sellers and some kids are urging their parents to go home.
+# ::tok 00156 The marked is packed with tables full of old things , people bargaining with sellers and some kids are urging their parents to go home .
+(a / and~11
+    :op1 (p / pack-01~4
+        :ARG1 (m / mark-02~2)
+        :ARG2 (t / table~6
+            :ARG1-of (f / full-09~7
+                :ARG2 (t2 / thing~10
+                    :mod (o / old~9)))))
+    :op2 (b / bargain-01~13
+        :ARG0 (p3 / person~12)
+        :ARG2 (p4 / person~15
+            :ARG0-of (s / sell-01~15)))
+    :op3 (u / urge-01~20
+        :ARG0 (k / kid~18
+            :quant (s2 / some~17))
+        :ARG1 (p5 / person~22
+            :ARG0-of (h / have-rel-role-91~22
+                :ARG1 k
+                :ARG2 (p2 / parent~22)))
+        :ARG2 (g / go-02~24
+            :ARG0 p5
+            :ARG4 (h2 / home~25)))
+    :time (d / date-entity~0
+        :year 00156~0))

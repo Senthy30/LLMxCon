@@ -1,0 +1,23 @@
+#00261 Sentence: 00261 When I was working part-time during the summer, the holiday sale was the main event; everybody wanted to get the best deals available.
+# ::tok 00261 When I was working part - time during the summer , the holiday sale was the main event ; everybody wanted to get the best deals available .
+(a / and~19
+    :li 00261~0
+    :op1 (e / event~18
+        :domain (s / sell-01~14
+            :mod (h2 / holiday~13))
+        :mod (m / main~17)
+        :time (w2 / work-01~4
+            :ARG0 (i / i~2)
+            :manner (p / part-time~5)
+            :time (d / date-entity~10
+                :season (s2 / summer~10))))
+    :op2 (w / want-01~21
+        :ARG0 (e2 / everybody~20)
+        :ARG1 (g / get-01~23
+            :ARG0 e2
+            :ARG1 (h / have-degree-91~25
+                :ARG1 (d2 / deal~26
+                    :ARG2-of (a2 / available-02~27))
+                :ARG2 (g2 / good-02~25
+                    :ARG1 d2)
+                :ARG3 (m2 / most~25)))))

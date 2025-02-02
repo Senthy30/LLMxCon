@@ -1,0 +1,18 @@
+#00224 Sentence: 00224 The air hung heavy with the scent of clay and wood smoke, and the rhythmic tap of pottery wheels filled the room.
+# ::tok 00224 The air hung heavy with the scent of clay and wood smoke , and the rhythmic tap of pottery wheels filled the room .
+(a3 / and~14
+    :li 00224~0
+    :op1 (h / hang-01~3
+        :ARG1 (a / air~2)
+        :ARG3 (s / smell-01~7
+            :ARG1 (s2 / smoke-01~12
+                :ARG1 (a2 / and~10
+                    :op1 (c / clay~9)
+                    :op2 (w2 / wood~11))))
+        :manner (h2 / heavy~4))
+    :op2 (f / fill-01~21
+        :ARG1 (r2 / room~23)
+        :ARG2 (t / tap-03~17
+            :ARG0 (w / wheel~20
+                :mod (p / pottery~19))
+            :mod (r / rhythm~16))))

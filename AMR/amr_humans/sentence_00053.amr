@@ -1,0 +1,23 @@
+#00053 Sentence: 00053 A lot of people with a lot of luaggage behind them pile up at each terminal to get on the plane as quickly as possible.
+# ::tok 00053 A lot of people with a lot of luaggage behind them pile up at each terminal to get on the plane as quickly as possible .
+(p2 / pile-up-02~12
+    :purpose (g / get-05~18
+        :ARG1 (p / person~4
+            :quant (l / lot~2)
+            :ARG0-of (h / have-03~5
+                :ARG1 (l3 / luaggage~9
+                    :quant (l2 / lot~7)))
+            :location (b / behind~10
+                :op1 p))
+        :ARG2 (p3 / plane~21)
+        :manner (q / quick-02~23
+            :ARG2-of (h2 / have-degree-91~22
+                :ARG1 g
+                :ARG3 (e2 / equal~22)
+                :ARG4 (p4 / possible-01~25
+                    :ARG1 g))))
+    :ARG1 p
+    :location (t / terminal~16
+        :mod (e / each~15))
+    :time (d / date-entity~0
+        :year 00053~0))

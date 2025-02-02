@@ -1,0 +1,24 @@
+#00040 Sentence: 00040 The horses walk slowly, leaving the opportunity to admire the dusty buildings and rooting wood. The scene is full of colors such as yellow and brown.
+# ::tok 00040 The horses walk slowly , leaving the opportunity to admire the dusty buildings and rooting wood . The scene is full of colors such as yellow and brown .
+(m / multi-sentence~17
+    :snt1 (w / walk-01~3
+        :ARG0 (h / horse~2)
+        :ARG0-of (l / leave-13~6
+            :ARG1 (o / opportunity~8
+                :mod (a / admire-01~10
+                    :ARG0 h
+                    :ARG1 (a2 / and~14
+                        :op1 (b2 / building~13
+                            :mod (d2 / dusty~12))
+                        :op2 (r / root-out-01~15
+                            :ARG0 h
+                            :ARG1 (w2 / wood~16))))))
+        :ARG1-of (s2 / slow-05~4)
+        :time (d / date-entity~0
+            :year 00040~0))
+    :snt2 (f / full-09~21
+        :ARG1 (s / scene~19)
+        :ARG2 (c / color~23
+            :example (a3 / and~27
+                :op1 (y / yellow-02~26)
+                :op2 (b / brown~28)))))

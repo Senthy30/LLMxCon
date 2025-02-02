@@ -1,0 +1,18 @@
+#00128 Sentence: 00128 All the machines are spinning, while some people wait in line for one of them to stop in order to use it.
+# ::tok 00128 All the machines are spinning , while some people wait in line for one of them to stop in order to use it .
+(s2 / spin-01~5
+    :ARG1 (m / machine~3
+        :mod (a / all~1))
+    :time (d / date-entity~0
+        :day 00128~0)
+    :time (w / wait-01~10
+        :ARG1 (p / person~9
+            :quant (s / some~8))
+        :ARG2 (s3 / stop-01~18
+            :purpose (u / use-01~22
+                :ARG0 p
+                :ARG1 (i2 / it~23))
+            :ARG0 (o / one~14
+                :ARG1-of (i / include-91~15
+                    :ARG2 m)))
+        :manner (l / line~12)))

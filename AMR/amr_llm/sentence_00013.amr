@@ -1,0 +1,18 @@
+#00013 Sentence: 00013 Imagine yourself standing on the edge of the world, looking down at the sprawling city below.
+# ::tok 00013 Imagine yourself standing on the edge of the world , looking down at the sprawling city below .
+(i / imagine-01~1
+    :li 00013~0
+    :ARG0 (y / you~1)
+    :ARG1 (a / and~10
+        :op1 (s2 / stand-01~3
+            :ARG1 y
+            :ARG2 (e / edge~6
+                :part-of (w / world~9)))
+        :op2 (l / look-01~11
+            :ARG0 y
+            :ARG1 (c / city~16
+                :ARG1-of (s / sprawl-01~15)
+                :location (b / below~17
+                    :op1 e))
+            :direction (d / down~12)))
+    :mode imperative~1)

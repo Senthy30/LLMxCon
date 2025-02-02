@@ -1,0 +1,16 @@
+#00051 Sentence: 00051 The sun has just risen, the lake is surrounded by green trees while insects fly over the lake.
+# ::tok 00051 The sun has just risen , the lake is surrounded by green trees while insects fly over the lake .
+(a / and~6
+    :op1 (r / rise-01~5
+        :ARG1 (s / sun~2)
+        :time (j / just~4))
+    :op2 (s2 / surround-01~10
+        :ARG1 (t / tree~13
+            :ARG1-of (g / green-02~12))
+        :ARG2 (l / lake~8)
+        :time (f / fly-01~16
+            :ARG2 (i / insect~15)
+            :location (o / over~17
+                :op1 l)))
+    :time (d / date-entity~0
+        :time 00051~0))

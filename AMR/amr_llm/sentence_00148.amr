@@ -1,0 +1,20 @@
+#00148 Sentence: 00148 The crisp air stung my nostrils as I walked towards the target, the smell of sawdust and leather filling my senses.
+# ::tok 00148 The crisp air stung my nostrils as I walked towards the target , the smell of sawdust and leather filling my senses .
+(s4 / sting-01~4
+    :ARG1 (n / nose~6
+        :part-of (i / i~5))
+    :ARG2 (a / air~3
+        :mod (c / crisp~2))
+    :time (d / date-entity~0
+        :year 00148~0)
+    :time (w / walk-01~9
+        :ARG0 i
+        :ARG2 (t / target~12))
+    :time (f / fill-01~20
+        :ARG1 (s2 / sense-01~22
+            :ARG0 i)
+        :ARG2 (s3 / smell-01~15
+            :ARG0 i
+            :ARG1 (a2 / and~18
+                :op1 (s / sawdust~17)
+                :op2 (l / leather~19)))))

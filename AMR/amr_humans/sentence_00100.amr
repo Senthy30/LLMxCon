@@ -1,0 +1,18 @@
+#00100 Sentence: 00100 The lunch spot is full of people, some in a hurry, some not, talking and grabbing food.
+# ::tok 00100 The lunch spot is full of people , some in a hurry , some not , talking and grabbing food .
+(f2 / full-09~5
+    :ARG1 (s3 / spot~3
+        :mod (l / lunch-01~2))
+    :ARG2 (p / person~7
+        :ARG0-of (h / hurry-01~12
+            :ARG1 (s / some~9
+                :ARG0-of (t / talk-01~17)))
+        :ARG2-of (i / include-91~9))
+    :rel (h2 / hurry-01~12
+        :ARG1 (s2 / some~14
+            :ARG0-of (g / grab-01~19
+                :ARG1 (f / food~20)))
+        :polarity -~15)
+    :time (d / date-entity~0
+        :day 10~0
+        :year 00100~0))

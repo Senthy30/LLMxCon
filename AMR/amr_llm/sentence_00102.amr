@@ -1,0 +1,21 @@
+#00102 Sentence: 00102 The air crackled with anticipation, a kaleidoscope of brightly colored goggles and synchronized strokes filling the vast, tiled space.
+# ::tok 00102 The air crackled with anticipation , a kaleidoscope of brightly colored goggles and synchronized strokes filling the vast , tiled space .
+(a2 / and~6
+    :op1 (c2 / crack-02~3
+        :ARG0 (a4 / anticipate-01~5)
+        :ARG1 (a / air~2))
+    :op2 (k / kaleidoscope~8
+        :ARG2-of (f / fill-01~16
+            :ARG1 (s / space~21
+                :ARG1-of (t / tile-01~20)
+                :mod (v / vast~18)))
+        :consist-of (a3 / and~13
+            :op1 (g / goggles~12
+                :ARG1-of (c / color-01~11
+                    :ARG1-of (b / bright-02~10)))
+            :op2 (s2 / stroke-01~15
+                :ARG1-of (s3 / synchronize-01~14))))
+    :time (d / date-entity~0
+        :day 2~0
+        :month 11~0
+        :year 2002~0))

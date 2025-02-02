@@ -1,0 +1,18 @@
+#00124 Sentence: 00124 The classroom buzzed with energy, a kaleidoscope of colours and laughter erupting from the excited faces of young learners.
+# ::tok 00124 The classroom buzzed with energy , a kaleidoscope of colours and laughter erupting from the excited faces of young learners .
+(a / and~6
+    :op1 (r / register-01~3
+        :ARG1 (c / classroom~2)
+        :ARG3 (e / energy~5))
+    :op2 (e2 / erupt-01~13
+        :ARG1 (a2 / and~11
+            :op1 (k / kaleidoscope~8
+                :consist-of (c2 / color~10))
+            :op2 (l / laugh-01~12))
+        :source (f / face~17
+            :ARG1-of (e3 / excite-01~16)
+            :part-of (p / person~20
+                :ARG0-of (l2 / learn-01~20)
+                :mod (y / young~19))))
+    :time (d / date-entity~0
+        :year 00124~0))

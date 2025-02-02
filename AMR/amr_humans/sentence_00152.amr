@@ -1,0 +1,18 @@
+#00152 Sentence: 00152 A band is playing nice and rhythmic music, while people are drinking their coffee or enjoy their food.
+# ::tok 00152 A band is playing nice and rhythmic music , while people are drinking their coffee or enjoy their food .
+(p2 / play-11~4
+    :ARG0 (b / band~2)
+    :ARG1 (m / music~8
+        :ARG1-of (n / nice-01~5)
+        :mod (r / rhythm~7))
+    :time (d / date-entity~0
+        :year 00152~0)
+    :time (o / or~16
+        :op1 (d2 / drink-01~13
+            :ARG0 (p / person~11)
+            :ARG1 (c / coffee~15
+                :poss p))
+        :op2 (e / enjoy-01~17
+            :ARG0 p
+            :ARG1 (f / food~19
+                :poss p))))

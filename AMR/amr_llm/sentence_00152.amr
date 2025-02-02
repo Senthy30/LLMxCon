@@ -1,0 +1,18 @@
+#00152 Sentence: 00152 The aroma of freshly brewed coffee mingled with the smoky notes of saxophone as a vibrant crowd gathered around a worn-out piano.
+# ::tok 00152 The aroma of freshly brewed coffee mingled with the smoky notes of saxophone as a vibrant crowd gathered around a worn - out piano .
+(m / mingle-01~7
+    :ARG0 (o / odor~2
+        :topic (c / coffee~6
+            :ARG1-of (b / brew-01~5
+                :ARG1-of (f / fresh-04~4))))
+    :ARG1 (n / note~11
+        :ARG1-of (s2 / smoke-01~10)
+        :mod (s / saxophone~13))
+    :time (d / date-entity~0
+        :year 00152~0)
+    :time (g / gather-03~18
+        :ARG0 (c2 / crowd~17
+            :mod (v / vibrant~16))
+        :location (a / around~19
+            :op1 (p / piano~24
+                :ARG1-of (w / wear-out-03~21)))))

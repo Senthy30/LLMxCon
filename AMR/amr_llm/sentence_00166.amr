@@ -1,0 +1,26 @@
+#00166 Sentence: 00166 The vibrant kites danced and soared through the air, their colorful forms a mesmerizing spectacle against the azure sky, on a day when the wind whipped with playful abandon.
+# ::tok 00166 The vibrant kites danced and soared through the air , their colorful forms a mesmerizing spectacle against the azure sky , on a day when the wind whipped with playful abandon .
+(a3 / and~5
+    :op1 (a4 / and~5
+        :op1 (d / dance-01~4
+            :ARG0 (k / kook~3
+                :mod (v / vibrant~2))
+            :path (a2 / air~9))
+        :op2 (s2 / soar-01~6
+            :ARG1 k
+            :path a2))
+    :op2 (s3 / spectacle~16
+        :ARG0-of (m / mesmerize-01~15)
+        :domain (f / form~13
+            :mod (c / colorful~12)
+            :poss k)
+        :prep-against (s / sky~20
+            :mod (a5 / azure~19)))
+    :time (d2 / date-entity~0
+        :year 00166~0)
+    :time (d3 / day~24
+        :time-of (w / whip-01~28
+            :ARG0 (w2 / wind~27)
+            :ARG1-of (a / abandon-01~31
+                :ARG2 (p / play-01~30
+                    :ARG0 w)))))

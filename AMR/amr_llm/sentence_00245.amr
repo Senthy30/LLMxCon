@@ -1,0 +1,12 @@
+#00245 Sentence: 00245 The room was alive with laughter, music, and the joyous scent of food.
+# ::tok 00245 The room was alive with laughter , music , and the joyous scent of food .
+(l2 / live-01~4
+    :ARG0 (r / room~2)
+    :ARG0 (a / and~10
+        :op1 (l / laugh-01~6)
+        :op2 (m / music~8)
+        :op3 (s / smell-01~13
+            :ARG1 (f / food~15)
+            :mod (j / joyous~12)))
+    :time (d / date-entity~0
+        :year 00245~0))

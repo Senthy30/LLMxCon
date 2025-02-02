@@ -1,0 +1,29 @@
+#00058 Sentence: 00058 A child stands in the middle of the room with a party hat on his head and a cake in his hand, while people stand around him and sign happy birthday to him.
+# ::tok 00058 A child stands in the middle of the room with a party hat on his head and a cake in his hand , while people stand around him and sign happy birthday to him .
+(c3 / contrast-01~24
+    :ARG1 (s2 / stand-01~3
+        :ARG1 (c2 / child~2
+            :ARG0-of (h4 / have-03~10
+                :ARG1 (a / and~17
+                    :op1 (b / be-located-at-91~14
+                        :ARG1 (h3 / hat~13
+                            :mod (p / party~12))
+                        :ARG2 (h5 / head~16))
+                    :op2 (c / cake~19
+                        :location (h / hand~22))))
+            :part h5
+            :part h)
+        :ARG2 (m / middle~6
+            :part-of (r / room~9)))
+    :ARG2 (a2 / and~29
+        :op1 (s3 / stand-01~26
+            :ARG1 (p2 / person~25)
+            :ARG2 (a3 / around~27
+                :op1 c2))
+        :op2 (s / sign-01~30
+            :ARG0 p2
+            :ARG1 (b2 / birthday~32
+                :ARG1-of (h2 / happy-01~31))
+            :ARG2 c2))
+    :time (d / date-entity~0
+        :year 00058~0))

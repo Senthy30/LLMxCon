@@ -1,0 +1,23 @@
+#00116 Sentence: 00116 The air vibrated with the sizzle of pizza dough and the joyous chatter of patrons, the aroma of oregano and melted cheese filling every corner of the pizzeria.
+# ::tok 00116 The air vibrated with the sizzle of pizza dough and the joyous chatter of patrons , the aroma of oregano and melted cheese filling every corner of the pizzeria .
+(t / tremble-01~3
+    :ARG0 (a3 / and~10
+        :op1 (d2 / dough~9
+            :quant (a / S-400~6)
+            :consist-of (p2 / pizza~8
+                :part (c3 / corner~26
+                    :mod (e2 / every~25))))
+        :op2 (c / chat-01~13
+            :ARG0 (p / person~15
+                :ARG1-of (e / employ-01~15))
+            :mod (j / joyous~12))
+        :op3 (s / smell-01~18
+            :ARG1 (a4 / and~21
+                :ARG2-of (f / fill-01~24
+                    :ARG1 c3)
+                :op1 (o / oregano~20)
+                :op2 (c2 / cheese~23
+                    :ARG1-of (m / melt-01~22)))))
+    :ARG1 (a2 / air~2)
+    :time (d / date-entity~0
+        :day 00116~0))

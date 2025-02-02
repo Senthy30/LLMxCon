@@ -1,0 +1,20 @@
+#00048 Sentence: 00048 People are running around to make the last possible arrangements to make the festival perfect, while the main artist is being arranged for the show.
+# ::tok 00048 People are running around to make the last possible arrangements to make the festival perfect , while the main artist is being arranged for the show .
+(c / contrast-01~17
+    :ARG1 (r / run-02~3
+        :purpose (a2 / arrange-01~10
+            :purpose (m2 / make-02~12
+                :ARG0 (p2 / person~1)
+                :ARG1 (p / perfect-02~15
+                    :ARG1 (f / festival~14)))
+            :ARG0 p2
+            :ARG1-of (p3 / possible-01~9
+                :mod (l / last~8)))
+        :ARG0 p2
+        :direction (a / around~4))
+    :ARG2 (a3 / arrange-01~23
+        :purpose (s / show-04~26)
+        :ARG1 (a4 / artist~20
+            :mod (m / main~19)))
+    :time (d / date-entity~0
+        :year 00048~0))

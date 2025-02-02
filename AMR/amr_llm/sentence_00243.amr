@@ -1,0 +1,20 @@
+#00243 Sentence: 00243 The boutique was alive with the energy of a seasonal fashion sale, racks overflowing with discounted clothing and the air buzzing with excited shoppers.
+# ::tok 00243 The boutique was alive with the energy of a seasonal fashion sale , racks overflowing with discounted clothing and the air buzzing with excited shoppers .
+(l / live-01~4
+    :ARG0 (b / boutique~2)
+    :ARG0 (e / energy~7
+        :poss (s2 / sell-01~12
+            :ARG1 (f / fashion~11
+                :mod (s / season~10))))
+    :example (a2 / and~19
+        :op1 (o / overflow-01~15
+            :ARG1 (s3 / shelf~14)
+            :ARG2 (c / clothing~18
+                :ARG1-of (d2 / discount-01~17)))
+        :op2 (b2 / bustle-01~22
+            :ARG0 (a / air~21)
+            :ARG0 (p / person~25
+                :ARG0-of (s4 / shop-01~25)
+                :ARG1-of (e2 / excite-01~24))))
+    :time (d / date-entity~0
+        :day 00243~0))

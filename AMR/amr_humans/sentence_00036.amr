@@ -1,0 +1,25 @@
+#00036 Sentence: 00036 Veterinarians and technicians move swiftly between exam rooms, checking wagging tail, soothing nervous pets and administering treatments.
+# ::tok 00036 Veterinarians and technicians move swiftly between exam rooms , checking wagging tail , soothing nervous pets and administering treatments .
+(m / move-01~4
+    :ARG0 (a2 / and~2
+        :op1 (v / veterinarian~1)
+        :op2 (t2 / technician~3))
+    :ARG2 (b / between~6
+        :op1 (r2 / room~8
+            :mod (e / exam~7)))
+    :manner (s / swift~5)
+    :time (d / date-entity~0
+        :year 00036~0)
+    :time-of (a3 / and~17
+        :op1 (c / check-01~10
+            :ARG0 a2
+            :ARG1 (t / tail~12
+                :ARG0-of (w / wag-01~11)))
+        :op2 (r / reassure-01~14
+            :ARG0 a2
+            :ARG1 (p / pet~16
+                :ARG1-of (n / nervous-01~15)))
+        :op3 (a / administer-01~18
+            :ARG0 a2
+            :ARG1 (t3 / treat-03~19
+                :ARG1 p))))

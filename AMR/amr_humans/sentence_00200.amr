@@ -1,0 +1,21 @@
+#00200 Sentence: 00200 Me and my best friend had a great time with our canoe at the lake.
+# ::tok 00200 Me and my best friend had a great time with our canoe at the lake .
+(h / have-06~6
+    :ARG0 (a / and~2
+        :op1 (i / i~1)
+        :op2 (p / person~5
+            :ARG0-of (h3 / have-rel-role-91~5
+                :ARG1 i
+                :ARG2 (f / friend~5
+                    :ARG1-of (h2 / have-degree-91~4
+                        :ARG2 (g / good-02~4
+                            :ARG1 f)
+                        :ARG3 (m / most~4))))))
+    :ARG1 (t / time~9
+        :mod (g2 / great~8))
+    :location (l / lake~15)
+    :prep-with (c / canoe~12
+        :poss (w / we~11))
+    :time (d / date-entity~0
+        :month 2~0
+        :year 2005~0))

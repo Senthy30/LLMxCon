@@ -1,0 +1,18 @@
+#00138 Sentence: 00138 The air buzzed with excitement as stacks of books towered high, vying for attention in the bustling book fair.
+# ::tok 00138 The air buzzed with excitement as stacks of books towered high , vying for attention in the bustling book fair .
+(d2 / drone-01~3
+    :ARG0 (e / excite-01~5
+        :ARG1 (a / air~2))
+    :ARG1 a
+    :time (d / date-entity~0
+        :year 00138~0)
+    :time (t / tower-01~10
+        :ARG0 (s / stack-01~7
+            :ARG0-of (v / vie-01~13
+                :ARG2 (a2 / attend-02~15
+                    :ARG1 s
+                    :location (f / fair~20
+                        :ARG0-of (b3 / bustle-01~18)
+                        :mod (b2 / book~19))))
+            :ARG1 (b / book~9))
+        :ARG1-of (h / high-02~11)))

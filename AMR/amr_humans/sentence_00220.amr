@@ -1,0 +1,25 @@
+#00220 Sentence: 00220 I remember going to a book release event and the speaker told us to stay quiet because of the eager whispers.
+# ::tok 00220 I remember going to a book release event and the speaker told us to stay quiet because of the eager whispers .
+(r2 / remember-01~2
+    :ARG0 (i / i~1)
+    :ARG1 (a / and~9
+        :op1 (g / go-02~3
+            :ARG0 i
+            :ARG4 (e2 / event~8
+                :mod (r / release-01~7
+                    :ARG1 (b / book~6))))
+        :op2 (t / tell-01~12
+            :ARG0 (p / person~11
+                :ARG0-of (s / speak-01~11))
+            :ARG1 (s2 / stay-01~15
+                :ARG1 (w / we~13)
+                :ARG1-of (c / cause-01~17
+                    :ARG0 (w2 / whisper-01~21
+                        :ARG0-of (e / eager-01~20)))
+                :ARG3 (q / quiet-04~16
+                    :ARG1 w))
+            :ARG2 w))
+    :time (d / date-entity~0
+        :day 20~0
+        :month 2~0
+        :year 2004~0))

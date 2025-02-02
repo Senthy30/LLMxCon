@@ -1,0 +1,27 @@
+#00163 Sentence: 00163 The quad buzzed with energy, filled with students eager to make new friends and explore their newfound freedom.
+# ::tok 00163 The quad buzzed with energy , filled with students eager to make new friends and explore their newfound freedom .
+(a / and~6
+    :op1 (r / rank-01~3
+        :ARG1 (q / quad~2)
+        :ARG2 (b / buzzed~3)
+        :ARG3 (e2 / energy~5))
+    :op2 (f / fill-01~7
+        :ARG1 q
+        :ARG2 (p / person~9
+            :ARG0-of (s / study-01~9)
+            :ARG0-of (e / eager-01~10
+                :ARG1 (a2 / and~15
+                    :op1 (m / make-01~12
+                        :ARG0 p
+                        :ARG1 (p2 / person~14
+                            :ARG0-of (h / have-rel-role-91~14
+                                :ARG1 p
+                                :ARG2 (f3 / friend~14))
+                            :ARG1-of (n / new-01~13)))
+                    :op2 (e3 / explore-01~16
+                        :ARG0 p
+                        :ARG1 (f2 / free-04~19
+                            :ARG1 p
+                            :mod (n2 / newfound~18)))))))
+    :time (d / date-entity~0
+        :year 00163~0))

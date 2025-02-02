@@ -1,0 +1,24 @@
+#00020 Sentence: 00020 A kaleidoscope of colors, sights, and sounds assaulted the senses as vendors hawked their wares, their voices competing with the rhythmic thump of a nearby drum.
+# ::tok 00020 A kaleidoscope of colors , sights , and sounds assaulted the senses as vendors hawked their wares , their voices competing with the rhythmic thump of a nearby drum .
+(a2 / assault-01~10
+    :ARG0 (k / kaleidoscope~2
+        :consist-of (a / and~8
+            :op1 (c / color~4)
+            :op2 (s2 / sight-01~6)
+            :op3 (s3 / sound-02~9)))
+    :ARG1 (s / sense-01~12)
+    :time (d / date-entity~0
+        :day 20~0
+        :year 00020~0)
+    :time (h / hawk~15
+        :ARG0 (p / person~14
+            :ARG0-of (v / vend-01~14))
+        :ARG1 (w / ware~17
+            :poss p))
+    :time-of (c2 / compete-01~21
+        :ARG0 (v2 / voice-01~20
+            :ARG0 p)
+        :ARG1 (t / thump-01~25
+            :ARG1 (d2 / drum~29
+                :location (n / nearby~28))
+            :mod (r / rhythm~24))))

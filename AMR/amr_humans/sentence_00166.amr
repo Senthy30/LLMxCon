@@ -1,0 +1,13 @@
+#00166 Sentence: 00166 Colorful kites are up in the wind, with people on the beach admiring the landscape.
+# ::tok 00166 Colorful kites are up in the wind , with people on the beach admiring the landscape .
+(a2 / and~8
+    :op1 (u / up-03~4
+        :ARG1 (l2 / life~2
+            :mod (c / color~1))
+        :ARG2 (w / wind~7))
+    :op2 (a / admire-01~14
+        :ARG0 (p / person~10
+            :location (b / beach~13))
+        :ARG1 (l / landscape~16))
+    :time (d / date-entity~0
+        :year 00166~0))

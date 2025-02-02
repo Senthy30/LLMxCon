@@ -1,0 +1,15 @@
+#00123 Sentence: 00123 All the people from the room are focused, musicians signing and headphones are scattered all over the place.
+# ::tok 00123 All the people from the room are focused , musicians signing and headphones are scattered all over the place .
+(a3 / and~9
+    :ARG1-of (s / scatter-01~15
+        :ARG2 (a2 / all-over~17
+            :op1 (p2 / place~19)))
+    :op1 (f / focus-01~8
+        :ARG0 (p / person~3
+            :mod (a / all~1)
+            :source (r / room~6)))
+    :op2 (s2 / sign-01~11
+        :ARG0 (m / musician~10))
+    :op3 (s3 / speaker~13)
+    :time (d / date-entity~0
+        :day 00123~0))

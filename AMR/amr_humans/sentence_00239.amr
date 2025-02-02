@@ -1,0 +1,29 @@
+#00239 Sentence: 00239 I watch the crew hustle, trying to get the best set and the actors were getting ready; every detail is perfected for the next scene.
+# ::tok 00239 I watch the crew hustle , trying to get the best set and the actors were getting ready ; every detail is perfected for the next scene .
+(m2 / multi-sentence~19
+    :snt1 (w / watch-01~2
+        :ARG0 (i / i~1)
+        :ARG1 (a2 / and~6
+            :op1 (b / bustle-01~5
+                :purpose (t / try-01~7
+                    :ARG0 (c / crew~4)
+                    :ARG1 (g / get-01~9
+                        :ARG0 c
+                        :ARG1 (s2 / set~12
+                            :ARG1-of (h / have-degree-91~11
+                                :ARG2 (g2 / good-02~11
+                                    :ARG1 s2)
+                                :ARG3 (m / most~11)))))
+                :ARG0 c)
+            :op2 (r / ready-01~18
+                :ARG1 (p2 / person~15
+                    :ARG0-of (a / act-01~15))))
+        :time (d / date-entity~0
+            :day 25~0
+            :month 9~0
+            :year 2003~0))
+    :snt2 (p / perfect-01~23
+        :ARG1 (d2 / detail~21
+            :mod (e / every~20))
+        :ARG2 (s / scene~27
+            :mod (n / next~26))))

@@ -1,0 +1,12 @@
+#00049 Sentence: 00049 Generations gather on picnic blankets, sharing stories and enjoying homemade dishes.
+# ::tok 00049 Generations gather on picnic blankets , sharing stories and enjoying homemade dishes .
+(g / gather-03~2
+    :li 00049~0
+    :ARG0 (g2 / generation~1
+        :ARG0-of (s / share-01~7
+            :ARG1 (s2 / story~8))
+        :ARG0-of (e / enjoy-01~10
+            :ARG1 (d / dish~12
+                :mod (h / homemade~11))))
+    :location (b / blanket~5
+        :mod (p / picnic-01~4)))

@@ -1,0 +1,21 @@
+#00119 Sentence: 00119 The sound is infernal, kids are laughing while parents watch them and the smell of burnt gasoline fills the air.
+# ::tok 00119 The sound is infernal , kids are laughing while parents watch them and the smell of burnt gasoline fills the air .
+(a2 / and~5
+    :op1 (i / infernal~4
+        :domain (s2 / sound-02~2))
+    :op2 (l / laugh-01~8
+        :ARG0 (k / kid~6)
+        :time (w / watch-01~11
+            :ARG0 (p2 / person~10
+                :ARG0-of (h / have-rel-role-91~10
+                    :ARG1 k
+                    :ARG2 (p / parent~10)))
+            :ARG1 k))
+    :op3 (f / fill-01~19
+        :ARG1 (a / air~21)
+        :ARG2 (s / smell-01~15
+            :ARG1 (g / gasoline~18
+                :ARG1-of (b / burn-01~17))))
+    :time (d / date-entity~0
+        :day 19~0
+        :year 00119~0))

@@ -1,0 +1,14 @@
+#00104 Sentence: 00104 There is a calmness and mistery in the air, gravestones are covered by the leaves.
+# ::tok 00104 There is a calmness and mistery in the air , gravestones are covered by the leaves .
+(m2 / multi-sentence~10
+    :snt1 (a2 / and~5
+        :location (a / air~9)
+        :op1 (c / calm-03~4)
+        :op2 (m / mistery~6))
+    :snt2 (c2 / cover-01~13
+        :ARG1 (g / gravestone~11)
+        :ARG2 (l / leaf~16))
+    :time (d / date-entity~0
+        :day 4~0
+        :month 11~0
+        :year 2004~0))

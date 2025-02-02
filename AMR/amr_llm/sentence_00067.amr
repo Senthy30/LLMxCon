@@ -1,0 +1,16 @@
+#00067 Sentence: 00067 The air vibrated with the thrum of wheels and the shouts of skaters as they launched themselves into the air.
+# ::tok 00067 The air vibrated with the thrum of wheels and the shouts of skaters as they launched themselves into the air .
+(s / shake-01~3
+    :ARG0 (a3 / and~9
+        :op1 (w2 / whir-01~6
+            :ARG1 (w / wheel~8))
+        :op2 (s2 / shout-01~11
+            :ARG0 (p / person~13
+                :ARG0-of (s3 / ski-01~13))
+            :time-of (l / launch-01~16
+                :ARG0 p
+                :ARG1 p
+                :destination (a2 / air~20))))
+    :ARG1 (a / air~2)
+    :time (d / date-entity~0
+        :year 00067~0))

@@ -1,0 +1,26 @@
+#00207 Sentence: 00207 The flickering candlelight danced across the worn wooden tables, casting long shadows as a lively folk band filled the pub with their infectious melodies.
+# ::tok 00207 The flickering candlelight danced across the worn wooden tables , casting long shadows as a lively folk band filled the pub with their infectious melodies .
+(a2 / and~10
+    :op1 (d / dance-01~4
+        :ARG0 (c / candlelight~3
+            :ARG1-of (f2 / flicker-01~2))
+        :path (a / across~5
+            :op1 (t / table~9
+                :ARG1-of (w / wear-06~7)
+                :consist-of (w2 / wood~8))))
+    :op2 (c2 / cast-01~11
+        :ARG0 c
+        :ARG1 (s / shadow~13
+            :ARG1-of (l2 / long-03~12))
+        :time (f / fill-01~19
+            :ARG0 (b / band~18
+                :mod (f3 / folk~17)
+                :mod (l / lively~16))
+            :ARG1 (p / pub~21)
+            :ARG2 (l3 / lyric~25
+                :ARG0-of (i / infect-01~24)
+                :poss b)))
+    :time (d2 / date-entity~0
+        :day 00207~0
+        :month 7~0
+        :year 2002~0))

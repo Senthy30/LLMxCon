@@ -1,0 +1,21 @@
+#00115 Sentence: 00115 The salty air carried the scent of fish and seaweed, and the gentle lapping of waves against the weathered docks provided a soothing soundtrack to the evening.
+# ::tok 00115 The salty air carried the scent of fish and seaweed , and the gentle lapping of waves against the weathered docks provided a soothing soundtrack to the evening .
+(a3 / and~12
+    :op1 (c / carry-01~4
+        :ARG0 (a / air~3
+            :mod (s / salty~2))
+        :ARG1 (s3 / smell-01~6
+            :ARG1 (a2 / and~9
+                :op1 (f / fish~8)
+                :op2 (s2 / seaweed~10))))
+    :op2 (p / provide-01~22
+        :ARG0 (l / lick-01~15
+            :ARG1 (w / wave~17)
+            :ARG1-of (g / gentle-01~14)
+            :prep-against (d2 / dock-01~21
+                :ARG1-of (w2 / weather-01~20)))
+        :ARG1 (s4 / soundtrack~25
+            :ARG0-of (c2 / comfort-01~24
+                :ARG2 (e / evening~28))))
+    :time (d / date-entity~0
+        :day 00115~0))

@@ -1,0 +1,20 @@
+#00263 Sentence: 00263 I was waiting so long for my laundry on Saturday; the room was full of people waiting.
+# ::tok 00263 I was waiting so long for my laundry on Saturday ; the room was full of people waiting .
+(a / and~11
+    :op1 (w / wait-01~3
+        :ARG1 (i / i~1)
+        :ARG1-of (l2 / long-03~5
+            :degree (s2 / so~4))
+        :ARG2 (l / laundry~8
+            :poss i)
+        :time (d2 / date-entity~10
+            :weekday (s / saturday~10)))
+    :op2 (f / full-09~15
+        :ARG1 (r / room~13)
+        :ARG2 (p / person~17
+            :ARG1-of (w2 / wait-01~18
+                :location r)))
+    :time (d / date-entity~0
+        :day 13~0
+        :month 3~0
+        :year 2005~0))

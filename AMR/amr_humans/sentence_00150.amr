@@ -1,0 +1,22 @@
+#00150 Sentence: 00150 The grilling meat is sizzling in the truck kitchen while customers have made a long queue, with some holding beer in their hands.
+# ::tok 00150 The grilling meat is sizzling in the truck kitchen while customers have made a long queue , with some holding beer in their hands .
+(c / contrast-01~10
+    :ARG1 (a / S-400~5
+        :location (k / kitchen~9
+            :part-of (t / truck~8))
+        :op1 (m2 / meat~3
+            :ARG0-of (b2 / broil-01~2)))
+    :ARG2 (m / make-01~13
+        :ARG0 (c2 / customer~11
+            :ARG2-of (i2 / include-91~19
+                :ARG1 (c3 / customer~11
+                    :ARG0-of (h / hold-01~20
+                        :ARG1 (b / beer~21)
+                        :manner (i / in-ones-hands-04~24
+                            :ARG0 c3
+                            :ARG1 b))
+                    :mod (s / some~19))))
+        :ARG1 (q / queue~16
+            :ARG1-of (l / long-03~15)))
+    :time (d / date-entity~0
+        :time 00150~0))

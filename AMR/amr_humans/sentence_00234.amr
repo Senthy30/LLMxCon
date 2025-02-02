@@ -1,0 +1,19 @@
+#00234 Sentence: 00234 The tailor was so busy when I arrived; he was measuring a custom suit for a old man having a very important meeting.
+# ::tok 00234 The tailor was so busy when I arrived ; he was measuring a custom suit for a old man having a very important meeting .
+(b / busy-01~5
+    :ARG0-of (c / cause-01~9
+        :ARG1 (m2 / measure-01~12
+            :ARG0 (t / tailor~2)
+            :ARG1 (s2 / suit~15
+                :mod (c2 / custom~14))
+            :ARG3 (m / man~19
+                :ARG0-of (m3 / meet-03~24
+                    :ARG1-of (i2 / important-01~23
+                        :degree (v / very~22)))
+                :mod (o / old~18))))
+    :ARG1 t
+    :degree (s / so~4)
+    :time (d / date-entity~0
+        :year 00234~0)
+    :time (a / arrive-01~8
+        :ARG1 (i / i~7)))

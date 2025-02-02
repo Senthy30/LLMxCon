@@ -1,0 +1,17 @@
+#00017 Sentence: 00017 The table was full of different types of food, starting with eggs, cheese, olive, but also the essential milk with cereal.
+# ::tok 00017 The table was full of different types of food , starting with eggs , cheese , olive , but also the essential milk with cereal .
+(f2 / full-09~4
+    :li 00017~0
+    :ARG1 (t / table~2)
+    :ARG2 (f / food~9
+        :ARG0-of (s / start-01~11
+            :ARG2 (a2 / and~14
+                :op1 (e / egg~13)
+                :op2 (c2 / cheese~15)
+                :op3 (o / olive~17)
+                :op4 (m / milk~23
+                    :accompanier (c / cereal~25)
+                    :mod (e2 / essential~22)
+                    :mod (a / also~20))))
+        :mod (t2 / type~7
+            :ARG1-of (d / differ-02~6))))

@@ -1,0 +1,22 @@
+#00025 Sentence: 00025 The air vibrated with the rhythmic strokes of paint as a young artist brought the mural to life, transforming the blank canvas of the city wall into a vibrant tapestry of color and emotion.
+# ::tok 00025 The air vibrated with the rhythmic strokes of paint as a young artist brought the mural to life , transforming the blank canvas of the city wall into a vibrant tapestry of color and emotion .
+(s / shake-01~3
+    :li 00025~0
+    :ARG0 (s2 / stroke-01~7
+        :ARG1 (p / paint~9)
+        :mod (r / rhythm~6))
+    :ARG1 (a / air~2)
+    :time (b2 / bring-01~14
+        :ARG0 (a2 / artist~13
+            :mod (y / young~12))
+        :ARG0-of (t2 / transform-01~20
+            :ARG1 (c / canvas~23
+                :mod (b / blank~22)
+                :part-of (w / wall~27
+                    :mod (c2 / city~26)))
+            :ARG2 (t / tapestry~31
+                :mod (v / vibrant~30)
+                :mod (c3 / color~33)
+                :mod (e / emotion~35)))
+        :ARG1 (m / mural~16)
+        :ARG2 (l / life~18)))

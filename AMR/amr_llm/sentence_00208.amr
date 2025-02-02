@@ -1,0 +1,22 @@
+#00208 Sentence: 00208 The air hung thick with the scent of fresh fruit and exertion, the smoothie bar a hive of activity after the morning's workout.
+# ::tok 00208 The air hung thick with the scent of fresh fruit and exertion , the smoothie bar a hive of activity after the morning 's workout .
+(a5 / and~13
+    :op1 (h / hang-01~3
+        :ARG1 (a3 / air~2)
+        :ARG2 (t / thick-03~4
+            :ARG1 a3)
+        :ARG3 (s / smell-01~7
+            :ARG1 (a4 / and~11
+                :op1 (f2 / fruit~10
+                    :ARG1-of (f / fresh-04~9))
+                :op2 (e / exert-01~12))))
+    :op2 (h2 / hive~18
+        :consist-of (a / activity-06~20
+            :time (a2 / after~21
+                :op1 (w / work-out-03~25
+                    :time (d2 / date-entity~23
+                        :dayperiod (m / morning~23)))))
+        :domain (b / bar~16
+            :mod (s2 / smoothie~15)))
+    :time (d / date-entity~0
+        :day 00208~0))

@@ -1,0 +1,13 @@
+#00144 Sentence: 00144 The air vibrated with a cacophony of grunts, clangs, and the rhythmic thump of weights.
+# ::tok 00144 The air vibrated with a cacophony of grunts , clangs , and the rhythmic thump of weights .
+(t2 / tremble-01~3
+    :ARG1 (a / air~2)
+    :ARG3 (c / cacophony~6
+        :consist-of (a2 / and~12
+            :op1 (g / grumble-01~8)
+            :op2 (l / Clinton~10)
+            :op3 (t / thump-01~15
+                :ARG1 (w / weight~17)
+                :mod (r / rhythm~14))))
+    :time (d / date-entity~0
+        :year 00144~0))

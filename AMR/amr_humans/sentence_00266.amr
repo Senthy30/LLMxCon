@@ -1,0 +1,21 @@
+#00266 Sentence: 00266 I stand among a crowd, luggage everywhere, announcements echo, and people chatting excitedly made me anxious.
+# ::tok 00266 I stand among a crowd , luggage everywhere , announcements echo , and people chatting excitedly made me anxious .
+(a2 / and~13
+    :op1 (s / stand-01~2
+        :ARG1 (i / i~1)
+        :ARG2 (a / among~3
+            :op1 (c2 / crowd~5)
+            :op3 (l / luggage~7
+                :location (e2 / everywhere~8)))
+        :time (d / date-entity~0
+            :day 26~0
+            :month 2~0
+            :year 2006~0))
+    :op2 (e / echo-01~11
+        :ARG1 (a3 / announce-01~10))
+    :op3 (m / make-02~17
+        :ARG0 (c / chat-01~15
+            :ARG0 (p / person~14)
+            :ARG0-of (e3 / excite-01~16))
+        :ARG1 (a4 / anxious~19
+            :domain i)))

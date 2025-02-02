@@ -1,0 +1,21 @@
+#00139 Sentence: 00139 The waiting room buzzes with the chaotic energy of a dozen families, all clutching their children and whispering anxieties.
+# ::tok 00139 The waiting room buzzes with the chaotic energy of a dozen families , all clutching their children and whispering anxieties .
+(c / cause-01~5
+    :ARG1 (b / boom-01~4
+        :ARG0 (e / energy~8
+            :mod (c2 / chaos~7)
+            :poss (f / family~12
+                :quant 12~11
+                :ARG0-of (c4 / clutch-01~15
+                    :ARG1 (p / person~17
+                        :ARG0-of (h / have-rel-role-91~17
+                            :ARG1 f
+                            :ARG2 (c3 / child~17)))
+                    :mod (a / all~14))
+                :ARG0-of (w2 / whisper-01~19
+                    :ARG1 (w3 / worry-01~20
+                        :ARG1 f))))
+        :ARG1 (r / room~3
+            :ARG2-of (w / wait-01~2)))
+    :time (d / date-entity~0
+        :year 00139~0))

@@ -1,0 +1,23 @@
+#00244 Sentence: 00244 A line of weary travelers snaked through the passport office, each clutching a crumpled boarding pass and a growing sense of urgency.
+# ::tok 00244 A line of weary travelers snaked through the passport office , each clutching a crumpled boarding pass and a growing sense of urgency .
+(s2 / sneak-01~6
+    :ARG1 (l / line~2
+        :consist-of (p3 / person~5
+            :ARG0-of (t / travel-01~5)
+            :ARG1-of (w / weary-01~4))
+        :mod (e / each~12
+            :ARG0-of (c / clutch-01~13
+                :ARG1 (a / and~18
+                    :op1 (p / pass~17
+                        :ARG1-of (c2 / crumple-01~15)
+                        :mod (b / board-01~16))
+                    :op2 (s / sense-01~21
+                        :ARG0 p3
+                        :ARG1 (u / urgent~23)
+                        :ARG1-of (g / grow-01~20))))))
+    :path (o / office~10
+        :mod (p2 / passport~9))
+    :time (d / date-entity~0
+        :day 25~0
+        :month 4~0
+        :year 2002~0))

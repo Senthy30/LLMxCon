@@ -1,0 +1,11 @@
+#00161 Sentence: 00161 The garden bursts with colors, with bees buzzing around the flowers.
+# ::tok 00161 The garden bursts with colors , with bees buzzing around the flowers .
+(b2 / burst-02~3
+    :ARG1 (g / garden~2)
+    :ARG3 (c / color~5)
+    :time (d / date-entity~0
+        :year 00161~0)
+    :time (d2 / drone-01~9
+        :ARG0 (b / bee~8)
+        :location (a / around~10
+            :op1 (f / flower~12))))

@@ -1,0 +1,18 @@
+#00157 Sentence: 00157 Soft blue color lights the rooms, children pressing their hands against the glass of aquariums.
+# ::tok 00157 Soft blue color lights the rooms , children pressing their hands against the glass of aquariums .
+(a2 / and~7
+    :op1 (l / light-04~4
+        :ARG0 (c2 / color~3
+            :ARG1-of (s / soft-02~1)
+            :mod (b / blue~2))
+        :ARG1 (r / room~6))
+    :op2 (p / press-01~9
+        :ARG0 (c / child~8
+            :part (h / hand~11))
+        :ARG1 h
+        :ARG2 (a / against~12
+            :op1 (g2 / glass~14
+                :mod (e / elect~16)
+                :mod (g / gallon~16))))
+    :time (d / date-entity~0
+        :year 00157~0))

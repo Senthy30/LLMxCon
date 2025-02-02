@@ -1,0 +1,29 @@
+#00026 Sentence: 00026 A car standing in the middle of the garage, with table around, placed next to the wall. On each table is a lot of tools, of different sizes, used to repair the broken car, while a man is under the car.
+# ::tok 00026 A car standing in the middle of the garage , with table around , placed next to the wall . On each table is a lot of tools , of different sizes , used to repair the broken car , while a man is under the car .
+(m3 / multi-sentence~20
+    :li 00026~0
+    :snt1 (s2 / stand-01~3
+        :ARG1 (c / car~2
+            :ARG0-of (h / have-03~11
+                :ARG1 (t / table~12
+                    :location (a / around~13)))
+            :ARG1-of (p / place-01~15
+                :ARG2 (n / next-to~16
+                    :op1 (w / wall~19))))
+        :ARG2 (m2 / middle~6
+            :part-of (g / garage~9)))
+    :snt2 (b / be-located-at-91~24
+        :ARG1 (t3 / tool~28
+            :quant (l / lot~26)
+            :ARG1-of (u2 / use-01~34
+                :ARG2 (r / repair-01~36
+                    :ARG1 (c2 / car~39
+                        :ARG1-of (b3 / break-01~38))
+                    :time (b2 / be-located-at-91~45
+                        :ARG1 (m / man~43)
+                        :ARG2 (u / under~45
+                            :op1 c))))
+            :mod (s / size~32
+                :ARG1-of (d / differ-02~31)))
+        :ARG2 (t2 / table~23
+            :mod (e / each~22))))

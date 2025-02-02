@@ -1,0 +1,20 @@
+#00068 Sentence: 00068 The air smells of cotton candy and sizzling food from stalls offering corn dogs, funnel cakes, and roasted nuts.
+# ::tok 00068 The air smells of cotton candy and sizzling food from stalls offering corn dogs , funnel cakes , and roasted nuts .
+(s2 / smell-01~3
+    :ARG0 (a / air~2)
+    :ARG1 (a2 / and~7
+        :op1 (c2 / candy~6
+            :mod (c4 / cotton~5))
+        :op2 (f / food~9
+            :ARG2-of (s / sear-01~8)
+            :source (m / market~11
+                :ARG0-of (o / offer-01~12
+                    :ARG1 (a3 / and~15
+                        :op1 (d2 / dog~14
+                            :mod (c3 / corn~13))
+                        :op2 (c / cake~17
+                            :mod (f2 / funnel~16))
+                        :op3 (n / nut~21
+                            :ARG1-of (r / roast-01~20)))))))
+    :time (d / date-entity~0
+        :year 1968~0))

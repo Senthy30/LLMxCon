@@ -1,0 +1,30 @@
+#00240 Sentence: 00240 The air hung thick with the scent of frying batter and salt, while the shop's windows were filled with a kaleidoscope of brightly colored fish and chips, each one a tempting promise of seaside indulgence.
+# ::tok 00240 The air hung thick with the scent of frying batter and salt , while the shop 's windows were filled with a kaleidoscope of brightly colored fish and chips , each one a tempting promise of seaside indulgence .
+(c3 / contrast-01~14
+    :ARG1 (h / hang-01~3
+        :ARG1 (a / air~2)
+        :ARG2 (t2 / thick-03~4
+            :ARG1 a)
+        :ARG3 (s4 / smell-01~7
+            :ARG1 (a2 / and~11
+                :op1 (b / batter~10
+                    :ARG1-of (f3 / fry-01~9))
+                :op2 (s / salt~12))))
+    :ARG2 (f / fill-01~20
+        :ARG1 (w / window~18
+            :part-of (s3 / shop~16))
+        :ARG2 (k / kaleidoscope~23
+            :consist-of (a3 / and~28
+                :ARG1-of (c2 / color-01~26
+                    :ARG1-of (b2 / bright-02~25))
+                :op1 (f2 / fish~27
+                    :op2 (a4 / and~28
+                        :mod (e / each~31)
+                        :op1 f2
+                        :op2 (c / chip~29)
+                        :op2 (p / promise-01~35
+                            :ARG0-of (t / tempt-01~34)
+                            :ARG1 (i / indulge-01~38
+                                :location (s2 / seaside~37))))))))
+    :time (d / date-entity~0
+        :year 00240~0))

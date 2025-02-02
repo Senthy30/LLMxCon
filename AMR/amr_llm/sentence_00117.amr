@@ -1,0 +1,25 @@
+#00117 Sentence: 00117 A hush falls over the room as the dancers prepare, their costumes shimmering under the soft light, while makeup brushes and hairspray bottles stand in silent readiness.
+# ::tok 00117 A hush falls over the room as the dancers prepare , their costumes shimmering under the soft light , while makeup brushes and hairspray bottles stand in silent readiness .
+(f / fall-01~3
+    :ARG1 (h2 / hush~2)
+    :ARG4 (o / over~4
+        :op1 (r2 / room~6))
+    :time (d2 / date-entity~0
+        :year 00117~0)
+    :time (s4 / stand-01~26
+        :ARG1 (a / and~23
+            :op1 (b2 / brush~22
+                :mod (m / makeup~21))
+            :op2 (b / bottle~25
+                :mod (h / hairspray~24)))
+        :ARG2 (r / ready-02~29
+            :ARG1 a
+            :mod (s2 / silent~28)))
+    :time-of (p2 / prepare-02~10
+        :ARG0 (p / person~9
+            :ARG0-of (d / dance-01~9))
+        :time-of (s / shimmer-01~14
+            :ARG0 (l / light~18
+                :ARG1-of (s3 / soft-02~17))
+            :ARG1 (u / uniform~13
+                :poss p))))

@@ -1,0 +1,17 @@
+#00108 Sentence: 00108 Sunlight dappled through the leaves of ancient trees, casting long shadows over the vibrant sculptures in the outdoor garden.
+# ::tok 00108 Sunlight dappled through the leaves of ancient trees , casting long shadows over the vibrant sculptures in the outdoor garden .
+(d2 / drench-01~2
+    :ARG1 (s3 / sunlight~1
+        :ARG0-of (c / cast-01~10
+            :ARG1 (s / shadow~12
+                :ARG1-of (l2 / long-03~11))
+            :ARG2 (s2 / statue~16
+                :location (g / garden~20
+                    :location (o / outdoor~19))
+                :mod (v / vibrant~15))))
+    :ARG2 (l / leaf~5
+        :part-of (t / tree~8
+            :mod (a / ancient~7)))
+    :time (d / date-entity~0
+        :day 8~0
+        :year 00108~0))

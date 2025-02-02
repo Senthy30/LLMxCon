@@ -1,0 +1,20 @@
+#00010 Sentence: 00010 The trees were full of orange and brown colors, while leafs falled on the cars and covering them like a clothe.
+# ::tok 00010 The trees were full of orange and brown colors , while leafs falled on the cars and covering them like a clothe .
+(c5 / contrast-01~11
+    :li 00010~0
+    :ARG1 (f2 / full-09~4
+        :ARG1 (t / tree~2)
+        :ARG2 (a / and~7
+            :op1 (c3 / color~9
+                :mod (o / orange~6))
+            :op2 (c4 / color~9
+                :mod (b / brown~8))))
+    :ARG2 (a2 / and~17
+        :op1 (f / fall-01~13
+            :ARG1 (l / leaf~12)
+            :ARG4 (c / car~16))
+        :op2 (c6 / cover-02~18
+            :ARG1 l
+            :ARG1-of (r / resemble-01~20
+                :ARG2 (c2 / clothe~22))
+            :ARG2 c)))

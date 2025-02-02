@@ -1,0 +1,22 @@
+#00130 Sentence: 00130 Sunlight streamed through the gallery windows, illuminating the vibrant digital canvases, while visitors whispered amongst themselves, captivated by the interactive installations.
+# ::tok 00130 Sunlight streamed through the gallery windows , illuminating the vibrant digital canvases , while visitors whispered amongst themselves , captivated by the interactive installations .
+(s / stream-01~2
+    :ARG0-of (i / illuminate-01~8
+        :ARG1 (p / paint-02~12
+            :mod (d2 / digital~11)
+            :mod (v / vibrant~10)))
+    :ARG1 (s2 / sunlight~1)
+    :path (w2 / window~6
+        :part-of (g / gallery~5))
+    :time (d / date-entity~0
+        :day 30~0
+        :month 10~0
+        :year 2003~0)
+    :time (w / whisper-01~16
+        :ARG0 (p2 / person~15
+            :ARG0-of (v2 / visit-01~15)
+            :ARG1-of (c / capture-01~20
+                :ARG0 (i2 / installation~24
+                    :mod (i3 / interactive~23))))
+        :location (a / amongst~17
+            :op1 p2)))

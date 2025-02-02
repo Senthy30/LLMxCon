@@ -1,0 +1,36 @@
+#00206 Sentence: 00206 There were a lot of people in the center square; I saw kids running and playing all over the place, there were people with their dogs walking down the street and so on; it was very crowded, but very nice in the same time
+# ::tok 00206 There were a lot of people in the center square ; I saw kids running and playing all over the place , there were people with their dogs walking down the street and so on ; it was very crowded , but very nice in the same time
+(m / multi-sentence~36
+    :snt1 (b / be-located-at-91~7
+        :ARG1 (p / person~6
+            :quant (l / lot~4))
+        :ARG2 (s3 / square~10
+            :mod (c / center~9)))
+    :snt2 (s2 / see-01~13
+        :ARG0 (i / i~12)
+        :ARG1 (a2 / and~16
+            :location (a / all-over~19
+                :op1 (p3 / place~21))
+            :op1 (r / run-02~15
+                :ARG0 (k / kid~14))
+            :op2 (p4 / play-01~17
+                :ARG0 k)
+            :op3 (w / walk-01~29
+                :ARG0 (a3 / and~26
+                    :op1 (p2 / person~25)
+                    :op2 (d2 / dog~28
+                        :poss p2))
+                :ARG2 (s4 / street~32)
+                :direction (d3 / down~30))
+            :op4 (e / et-cetera~34)))
+    :snt3 (c2 / contrast-01~42
+        :ARG1 (c3 / crowd-01~40
+            :ARG1 (i2 / it~37)
+            :degree (v / very~39))
+        :ARG2 (n / nice-01~44
+            :ARG1 i2
+            :degree (v2 / very~39)
+            :time (t / time~48
+                :ARG1-of (s / same-01~47))))
+    :time (d / date-entity~0
+        :day 00206~0))

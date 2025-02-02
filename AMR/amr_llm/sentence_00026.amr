@@ -1,0 +1,19 @@
+#00026 Sentence: 00026 The air is thick with oil and grease, the floor littered with tools, and the smell of burnt rubber hangs heavy in the air.
+# ::tok 00026 The air is thick with oil and grease , the floor littered with tools , and the smell of burnt rubber hangs heavy in the air .
+(a3 / and~16
+    :op1 (t / thick-03~4
+        :ARG1 (a / air~2)
+        :ARG2 (a2 / and~7
+            :op1 (o / oil~6)
+            :op2 (g / grease~8)))
+    :op2 (l / litter-01~12
+        :ARG1 (t2 / tool~14)
+        :ARG2 (f / floor~11))
+    :op3 (h / hang-01~22
+        :ARG1 (s / smell-01~18
+            :ARG1 (r / rubber~21
+                :ARG1-of (b / burn-01~20)))
+        :ARG2 a
+        :manner (h2 / heavy~23))
+    :time (d / date-entity~0
+        :year 00026~0))

@@ -1,0 +1,18 @@
+#00242 Sentence: 00242 When I went to the last basketball game, I saw a very nice slam dunk and the court was filled with energy.
+# ::tok 00242 When I went to the last basketball game , I saw a very nice slam dunk and the court was filled with energy .
+(a / and~17
+    :li 00242~0
+    :op1 (s / see-01~11
+        :ARG0 (i / i~10)
+        :ARG1 (d / dunk-02~16
+            :ARG1-of (n / nice-01~14
+                :degree (v / very~13))
+            :manner (s2 / slam-02~15)))
+    :op2 (f / fill-01~21
+        :ARG1 (c / court~19)
+        :ARG2 (e / energy~23))
+    :time (g2 / go-02~3
+        :ARG0 i
+        :ARG4 (g / game~8
+            :mod (b / basketball~7)
+            :mod (l / last~6))))

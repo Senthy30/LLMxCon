@@ -1,0 +1,31 @@
+#00230 Sentence: 00230 When I visited Asia I remember walking in a street food market and seeing a lot of tasty things; that market was surrounded by lively chatter and tempting smells.
+# ::tok 00230 When I visited Asia I remember walking in a street food market and seeing a lot of tasty things ; that market was surrounded by lively chatter and tempting smells .
+(m2 / multi-sentence~20
+    :snt1 (r / remember-01~6
+        :ARG0 (i / i~5)
+        :ARG1 (a / and~13
+            :op1 (w / walk-01~7
+                :ARG0 i
+                :ARG2 (m / market~12
+                    :mod (f / food~11
+                        :location (s3 / street~10))))
+            :op2 (s / see-01~14
+                :ARG0 i
+                :ARG1 (t3 / thing~19
+                    :quant (l2 / lot~16)
+                    :mod (t / tasty~18))))
+        :time (v / visit-01~3
+            :ARG0 i
+            :ARG1 (c2 / continent~4
+                :name (n / name~4
+                    :op1 "Asia"~4)))
+        :time (d / date-entity~0
+            :year 00230~0))
+    :snt2 (s4 / surround-01~24
+        :ARG1 (a2 / and~28
+            :op1 (c / chat-01~27
+                :mod (l / lively~26))
+            :op2 (t4 / thing~30
+                :ARG0-of (t2 / tempt-01~29)
+                :ARG1-of (s2 / smell-01~30)))
+        :ARG2 m))

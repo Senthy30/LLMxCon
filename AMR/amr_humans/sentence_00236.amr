@@ -1,0 +1,22 @@
+#00236 Sentence: 00236 Last Sunday we want to the pool; it was a sunny day and we wanted to have a great time; we laughed so much.
+# ::tok 00236 Last Sunday we want to the pool ; it was a sunny day and we wanted to have a great time ; we laughed so much .
+(m2 / multi-sentence~22
+    :snt1 (w / want-01~4
+        :ARG0 (w3 / we~3)
+        :ARG1 (p / pool~7)
+        :time (d2 / date-entity~2
+            :mod (l / last~1)
+            :weekday (s2 / sunday~2)))
+    :snt2 (a / and~14
+        :op1 (d3 / day~13
+            :mod (s3 / sunny~12))
+        :op2 (w2 / want-01~16
+            :ARG0 w3
+            :ARG1 (t / time~21
+                :mod (g / great~20))))
+    :snt3 (l2 / laugh-01~24
+        :ARG0 (w4 / we~23)
+        :degree (m / much~26
+            :degree (s / so~25)))
+    :time (d / date-entity~0
+        :day 00236~0))

@@ -1,0 +1,14 @@
+#00109 Sentence: 00109 Artists are doing their work, with a buzzing sound of their tatoo machines being the main sound.
+# ::tok 00109 Artists are doing their work , with a buzzing sound of their tatoo machines being the main sound .
+(w / work-01~5
+    :ARG0 (a / artist~1)
+    :accompanier (s / sound-02~10
+        :ARG2 (d2 / drone-01~9)
+        :mod (m2 / main~17)
+        :poss (m / machine~14
+            :mod (t / tatoo~13)
+            :poss a))
+    :time (d / date-entity~0
+        :day 9~0
+        :month 9~0
+        :year 2001~0))

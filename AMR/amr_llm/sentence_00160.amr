@@ -1,0 +1,23 @@
+#00160 Sentence: 00160 The air crackled with the energy of a thousand skaters, their laughter and the rhythmic thump of skates against ice a symphony of winter joy.
+# ::tok 00160 The air crackled with the energy of a thousand skaters , their laughter and the rhythmic thump of skates against ice a symphony of winter joy .
+(a3 / and~14
+    :op1 (d / date-entity~0
+        :year 00160~0)
+    :op2 (c / crack-02~3
+        :ARG1 (a2 / air~2)
+        :ARG3 (e / energy~6
+            :poss (p / person~10
+                :quant 1000~9
+                :ARG0-of (s / skate-01~10))))
+    :op3 (s2 / symphony~23
+        :domain (t / thump-01~17
+            :ARG1 p
+            :ARG4 (a / against~20
+                :op1 (i / ice~21))
+            :mod (r / rhythm~16))
+        :mod (j / joy~26
+            :mod (d2 / date-entity~25
+                :season (w / winter~25))))
+    :rel (l / laugh-01~13
+        :ARG0 p)
+    :time d)

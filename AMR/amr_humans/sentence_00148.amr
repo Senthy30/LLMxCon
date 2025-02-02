@@ -1,0 +1,24 @@
+#00148 Sentence: 00148 Archer adjusts their stances and their breathe before shooting an arrow, they are really happy when doing a good shot.
+# ::tok 00148 Archer adjusts their stances and their breathe before shooting an arrow , they are really happy when doing a good shot .
+(a3 / and~12
+    :op1 (a / adjust-01~2
+        :ARG0 (p / person~1
+            :name (n / name~1
+                :op1 "Arab"~1))
+        :ARG1 (a2 / and~5
+            :op1 (s3 / stand-11~4
+                :ARG0 p)
+            :op2 (b2 / breathe-01~7
+                :ARG0 p))
+        :time (b / before~8
+            :op1 (s / shoot-02~9
+                :ARG0 p
+                :ARG1 (a4 / arrow~11))))
+    :op2 (h / happy-01~16
+        :ARG1 p
+        :degree (r / really~15)
+        :time (s2 / shoot-02~21
+            :ARG0 a4
+            :ARG1-of (g / good-02~20)))
+    :time (d / date-entity~0
+        :year 00148~0))

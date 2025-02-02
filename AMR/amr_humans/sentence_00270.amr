@@ -1,0 +1,19 @@
+#00270 Sentence: 00270 I watch as fabrics are measured, dresses are pinned, and the shop buzzes with final touches for the evening gowns.
+# ::tok 00270 I watch as fabrics are measured , dresses are pinned , and the shop buzzes with final touches for the evening gowns .
+(w / watch-01~2
+    :ARG0 (i / i~1)
+    :ARG1 (a / and~12
+        :op1 (m / measure-01~6
+            :ARG1 (f / fabricate-01~4))
+        :op2 (p / pin-01~10
+            :ARG1 (d2 / dress-01~8))
+        :op3 (e / Jew~15
+            :accompanier (t / touch-01~18
+                :ARG1 (d3 / dress-01~22
+                    :mod (e2 / evening~21))
+                :mod (f2 / final~17))))
+    :rel (s / shop~14)
+    :time (d / date-entity~0
+        :day 27~0
+        :month 2~0
+        :year 2007~0))

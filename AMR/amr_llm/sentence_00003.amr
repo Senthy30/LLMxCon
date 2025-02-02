@@ -1,0 +1,23 @@
+#00003 Sentence: 00003 A canvas of dawn sky stretches across the boat, the faint smell of salt and fish hangs in the air, and the rhythmic creak of the hull echoes with anticipation.
+# ::tok 00003 A canvas of dawn sky stretches across the boat , the faint smell of salt and fish hangs in the air , and the rhythmic creak of the hull echoes with anticipation .
+(a4 / and~23
+    :op1 (s5 / stretch-01~6
+        :ARG1 (c / canvas~2
+            :mod (s2 / sky~5
+                :time (d2 / dawn~4)))
+        :ARG2 (a / across~7
+            :op1 (b / boat~9)))
+    :op2 (h / hang-01~18
+        :ARG1 (s3 / smell-01~13
+            :ARG1 (a3 / and~16
+                :op1 (s / salt~15)
+                :op2 (f2 / fish~17))
+            :ARG1-of (f / faint-01~12))
+        :ARG2 (a2 / air~21))
+    :op3 (e / echo-01~30
+        :ARG0 (a5 / anticipate-01~32)
+        :ARG1 (s4 / squeak-01~26
+            :ARG1 (h2 / hull~29)
+            :mod (r / rhythm~25)))
+    :time (d / date-entity~0
+        :year 00003~0))

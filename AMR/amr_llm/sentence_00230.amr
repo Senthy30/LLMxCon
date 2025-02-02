@@ -1,0 +1,28 @@
+#00230 Sentence: 00230 The air hung thick with the aroma of lemongrass, fish sauce, and sizzling spices as vendors hawked their wares, their voices a vibrant symphony in a sea of colorful stalls.
+# ::tok 00230 The air hung thick with the aroma of lemongrass , fish sauce , and sizzling spices as vendors hawked their wares , their voices a vibrant symphony in a sea of colorful stalls .
+(h / hang-01~3
+    :ARG0 (s4 / smell-01~7
+        :ARG1 (a2 / and~10
+            :op1 (l / lemongrass~9)
+            :op2 (s / sauce~12
+                :mod (f / fish~11))))
+    :ARG1 (a / air~2)
+    :ARG2 (t / thick-03~4
+        :ARG1 a)
+    :rel (s3 / sear-01~15)
+    :time (d / date-entity~0
+        :time-of (s5 / symphony~27
+            :domain (v3 / voice-01~24
+                :ARG0 (p2 / person~18
+                    :ARG0-of (v / vend-01~18)))
+            :location (s2 / sea~30
+                :consist-of (m / market~33
+                    :mod (c / colorful~32)))
+            :mod (v2 / vibrant~26)
+            :mode expressive~16)
+        :year 00230~0)
+    :time (p / peddle-01~19
+        :ARG0 p2
+        :ARG1 (w / ware~21
+            :poss p2)
+        :mode expressive~16))

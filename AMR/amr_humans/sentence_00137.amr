@@ -1,0 +1,21 @@
+#00137 Sentence: 00137 In a corner some beginners are rehearsing their moves, while the ones with more experience dance in the middle on fast music.
+# ::tok 00137 In a corner some beginners are rehearsing their moves , while the ones with more experience dance in the middle on fast music .
+(c / contrast-01~11
+    :ARG1 (r / rehearse-01~7
+        :ARG0 (p / person~5
+            :quant (s / some~4)
+            :ARG0-of (b / begin-01~5))
+        :ARG1 (m3 / move-01~9
+            :ARG0 p))
+    :ARG2 (d / dance-01~17
+        :ARG0 (o / one~13
+            :ARG0-of (e / experience-01~16
+                :ARG2-of (h / have-degree-91~15
+                    :ARG1 o
+                    :ARG3 (m2 / more~15))))
+        :accompanier (m4 / music~23
+            :ARG1-of (f / fast-02~22))
+        :location (m / middle~20))
+    :location (c2 / corner~3)
+    :time (d2 / date-entity~0
+        :year 00137~0))

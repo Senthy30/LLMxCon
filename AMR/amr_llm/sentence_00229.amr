@@ -1,0 +1,28 @@
+#00229 Sentence: 00229 A flurry of bees buzzes around the hive, their golden bodies glistening as they diligently collect nectar and pollen, while workers meticulously remove the honeycombs, their faces dusted with golden pollen.
+# ::tok 00229 A flurry of bees buzzes around the hive , their golden bodies glistening as they diligently collect nectar and pollen , while workers meticulously remove the honeycombs , their faces dusted with golden pollen .
+(a2 / and~21
+    :li 00229~0
+    :op1 (d2 / drone-01~5
+        :ARG0 (b / bee~4
+            :quant (f2 / flurry~2)
+            :part (b3 / body~12
+                :ARG1-of (g / glimmer-01~13
+                    :time (c / collect-01~17
+                        :ARG0 b
+                        :ARG1 (a / and~19
+                            :op1 (n / nectar~18)
+                            :op2 (p2 / pollen~20))
+                        :manner (d / diligent~16)))
+                :mod (g2 / gold~11)))
+        :location (a3 / around~6
+            :op1 (h / hive~8)))
+    :op2 (r / remove-01~25
+        :ARG0 (p / person~23
+            :ARG0-of (w / work-01~23)
+            :ARG1-of (d3 / dust-01~31
+                :ARG1 (p3 / pollen~34
+                    :mod g2)
+                :ARG2 (f / face~30))
+            :part f)
+        :ARG1 (b2 / bee~27)
+        :manner (m / meticulous~24)))

@@ -1,0 +1,12 @@
+#00069 Sentence: 00069 As the sun rises, the sky glows in soft oranges and pinks.
+# ::tok 00069 As the sun rises , the sky glows in soft oranges and pinks .
+(g / glimmer-01~8
+    :ARG1 (s / sky~7)
+    :ARG2 (a / and~12
+        :ARG1-of (s2 / soft-02~10)
+        :op1 (o / orange~11)
+        :op2 (p / pink-04~13))
+    :time (r / rise-01~4
+        :ARG1 (s3 / sun~3))
+    :time (d / date-entity~0
+        :year 00069~0))

@@ -1,0 +1,19 @@
+#00103 Sentence: 00103 The lodge is warm, the sound of fire burning is nice and the wind outside makes the atmoshpere more calmin.
+# ::tok 00103 The lodge is warm , the sound of fire burning is nice and the wind outside makes the atmoshpere more calmin .
+(a / and~13
+    :op1 (w / warm-01~4
+        :ARG1 (l / lodge~2))
+    :op2 (n / nice-01~12
+        :ARG1 (s / sound-02~7
+            :ARG1 (b / burn-01~10
+                :ARG1 (f / fire~9))))
+    :op3 (m / make-02~17
+        :ARG0 (w2 / wind~15
+            :location (o / outside~16))
+        :ARG1 (h / have-degree-91~20
+            :ARG1 (a2 / atmoshpere~19)
+            :ARG2 (c / calm-03~21
+                :ARG1 a2)
+            :ARG3 (m2 / more~20)))
+    :time (d / date-entity~0
+        :day 00103~0))

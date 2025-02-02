@@ -1,0 +1,16 @@
+#00041 Sentence: 00041 The doors hiss open, a rush of bodies flood in, the air thick with exhaust and anticipation.
+# ::tok 00041 The doors hiss open , a rush of bodies flood in , the air thick with exhaust and anticipation .
+(a2 / and~5
+    :op1 (o / open-01~4
+        :ARG1 (d2 / door~2))
+    :op2 (f / flood-01~10
+        :ARG2 (r / rush-01~7
+            :ARG2 (b / body~9)))
+    :op3 (t / thick-03~15
+        :ARG1 (a / air~14)
+        :ARG2 (a3 / and~18
+            :op1 (e / exhaust-01~17)
+            :op2 (a4 / anticipate-01~19)))
+    :time (d / date-entity~0
+        :day 10~0
+        :year 00041~0))

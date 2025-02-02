@@ -1,0 +1,22 @@
+#00030 Sentence: 00030 The aroma of freshly brewed coffee mingled with the scent of old paper and the hushed anticipation of the audience, as a lone poet took the stage.
+# ::tok 00030 The aroma of freshly brewed coffee mingled with the scent of old paper and the hushed anticipation of the audience , as a lone poet took the stage .
+(m / mingle-01~7
+    :ARG0 (s / smell-01~2
+        :ARG1 (c / coffee~6
+            :ARG1-of (b / brew-01~5
+                :ARG1-of (f / fresh-04~4))))
+    :ARG1 (a / and~14
+        :op1 s
+        :op2 (s2 / smell-01~10
+            :ARG1 (p / paper~13
+                :mod (o / old~12)))
+        :op3 (a2 / anticipate-01~17
+            :ARG0 (a3 / audience~20)
+            :ARG1-of (h / hush-01~16)))
+    :time (d / date-entity~0
+        :day 30~0
+        :month 30~0)
+    :time (t / take-01~26
+        :ARG0 (p2 / poet~25
+            :mod (l / lone~24))
+        :ARG1 (s3 / stage~28)))

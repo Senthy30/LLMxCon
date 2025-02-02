@@ -1,0 +1,16 @@
+#00067 Sentence: 00067 Children and teenagers gathered to have fun on the beautiful skate park during a beautiful summer day.
+# ::tok 00067 Children and teenagers gathered to have fun on the beautiful skate park during a beautiful summer day .
+(g / gather-03~4
+    :purpose (f / fun-01~7
+        :ARG0 (a / and~2
+            :op1 (c / child~1)
+            :op2 (t / teenager~3))
+        :ARG1 (p / park~12
+            :ARG1-of (b / beautiful-02~10)
+            :mod (s / skate-01~11)))
+    :ARG0 a
+    :time (d / date-entity~0
+        :year 00067~0)
+    :time (d3 / day~17
+        :mod (d2 / date-entity~16
+            :season (s2 / summer~16))))

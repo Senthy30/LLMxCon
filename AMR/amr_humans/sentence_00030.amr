@@ -1,0 +1,24 @@
+#00030 Sentence: 00030 A lot of people gather around a table, while a single man is standing on it and starts to read peotry, while the smell of coffee fills the room.
+# ::tok 00030 A lot of people gather around a table , while a single man is standing on it and starts to read peotry , while the smell of coffee fills the room .
+(a / and~18
+    :op1 (s3 / stand-01~15
+        :ARG0 (m / man~13
+            :ARG1-of (s / single-03~12))
+        :ARG2 (t / table~8))
+    :op2 (s4 / start-01~19
+        :ARG0 m
+        :ARG1 (r / read-01~21
+            :ARG0 m
+            :ARG1 (p / peotry~22)))
+    :rel (g / gather-03~5
+        :ARG0 (p2 / person~4
+            :quant (l / lot~2))
+        :location (a2 / around~6
+            :op1 t))
+    :time (d / date-entity~0
+        :day 30~0
+        :month 30~0)
+    :time (f / fill-01~29
+        :ARG1 (r2 / room~31)
+        :ARG2 (s2 / smell-01~26
+            :ARG1 (c / coffee~28))))

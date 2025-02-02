@@ -1,0 +1,37 @@
+#00227 Sentence: 00227 At my 12th anniversary me and my family went to a park and we had such a great time; we bought sugary treats, we laughed a lot and I finally could ride the biggest rollercoaster.
+# ::tok 00227 At my 12th anniversary me and my family went to a park and we had such a great time ; we bought sugary treats , we laughed a lot and I finally could ride the biggest rollercoaster .
+(a2 / and~13
+    :op1 (g / go-02~9
+        :ARG0 (a / and~6
+            :op1 (i / i~5)
+            :op2 (f / family~8
+                :poss i)
+            :op3 (b2 / buy-01~22
+                :ARG0 a
+                :ARG1 (t2 / treat-03~24
+                    :mod (s2 / sugary~23))))
+        :ARG4 (p / park~12)
+        :time (a3 / anniversary~4
+            :ord (o / ordinal-entity~3
+                :value 12~3)
+            :poss i))
+    :op2 (h / have-06~15
+        :ARG0 a
+        :ARG1 (t / time~19
+            :mod (g2 / great~18
+                :degree (s / such~16))))
+    :op4 (l / laugh-01~27
+        :quant (l2 / lot~29)
+        :ARG0 a)
+    :op5 (p2 / possible-01~33
+        :ARG1 (r / ride-01~34
+            :ARG0 i
+            :ARG1 (r2 / roller-coaster~37
+                :ARG1-of (h2 / have-degree-91~36
+                    :ARG2 (b / big~36)
+                    :ARG3 (m / most~36))))
+        :time (f2 / final~32))
+    :time (d / date-entity~0
+        :day 27~0
+        :month 2~0
+        :year 2003~0))

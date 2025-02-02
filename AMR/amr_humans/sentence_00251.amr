@@ -1,0 +1,19 @@
+#00251 Sentence: 00251 The atmosphere in the cafe was so peaceful, I was sipping my warm drink and listening to the soft music in background.
+# ::tok 00251 The atmosphere in the cafe was so peaceful , I was sipping my warm drink and listening to the soft music in background .
+(h / have-degree-91~7
+    :li 00251~0
+    :ARG1 (a2 / atmosphere~2
+        :location (c / cafe~5))
+    :ARG2 (p / peaceful~8)
+    :ARG3 (s2 / so~7)
+    :ARG6 (a / and~16
+        :op1 (s / sip-01~12
+            :ARG0 (i / i~10)
+            :ARG1 (d / drink~15
+                :ARG1-of (w / warm-07~14)
+                :poss i))
+        :op2 (l / listen-01~17
+            :ARG0 i
+            :ARG1 (m / music~21
+                :ARG1-of (s3 / soft-02~20)
+                :location (b / background~23)))))

@@ -1,0 +1,10 @@
+#00044 Sentence: 00044 A room filled with interactive exhibits that spark curiosity.
+# ::tok 00044 A room filled with interactive exhibits that spark curiosity .
+(r / room~2
+    :ARG1-of (f / fill-01~3
+        :ARG2 (e / exhibit-01~6
+            :ARG0-of (s / spark-01~8
+                :ARG1 (c / curiosity~9))
+            :mod (i / interactive~5)))
+    :time (d / date-entity~0
+        :year 00044~0))

@@ -1,0 +1,19 @@
+#00052 Sentence: 00052 Full of color and creativity, mural decorate walls, galleries showcase unique art.
+# ::tok 00052 Full of color and creativity , mural decorate walls , galleries showcase unique art .
+(a2 / and~10
+    :op1 (d2 / decorate-01~8
+        :ARG1 (w / wall~9)
+        :ARG2 (m / mural~7))
+    :op2 (e / exhibit-01~11
+        :ARG0-of (s / showcase-01~12
+            :ARG1 (a3 / art~14
+                :ARG1-of (u / unique-01~13)))
+        :ARG1 (s2 / store~11
+            :name (n / name~11
+                :op1 "galleries"~11)))
+    :rel (f / full-09~1
+        :ARG2 (a / and~4
+            :op1 (c / color~3)
+            :op2 (c2 / creativity~5)))
+    :time (d / date-entity~0
+        :year 00052~0))

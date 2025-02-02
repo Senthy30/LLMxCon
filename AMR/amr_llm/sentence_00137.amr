@@ -1,0 +1,20 @@
+#00137 Sentence: 00137 The air crackled with energy as bodies swayed to the beat, a kaleidoscope of colorful costumes and smiles illuminating the vibrant dance studio.
+# ::tok 00137 The air crackled with energy as bodies swayed to the beat , a kaleidoscope of colorful costumes and smiles illuminating the vibrant dance studio .
+(a2 / and~12
+    :op1 (d2 / date-entity~0
+        :year 00137~0)
+    :op2 (c2 / crack-02~3
+        :ARG1 (a / air~2)
+        :ARG3 (e / energy~5)
+        :time (s3 / sway-02~8
+            :ARG0 (b2 / body~7)
+            :ARG2 (b / beat~11)))
+    :op3 (k / kaleidoscope~14
+        :ARG0-of (i / illuminate-01~20
+            :ARG1 (s2 / studio~24
+                :mod (d / dance-01~23)
+                :mod (v / vibrant~22)))
+        :consist-of (a3 / and~18
+            :op1 (u / uniform~17
+                :mod (c / colorful~16))
+            :op2 (s / smile-01~19))))

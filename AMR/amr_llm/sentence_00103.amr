@@ -1,0 +1,29 @@
+#00103 Sentence: 00103 The fire crackled merrily in the stone hearth, casting dancing shadows on the walls of the cozy mountain lodge as guests gathered around, sipping hot cocoa and sharing stories.
+# ::tok 00103 The fire crackled merrily in the stone hearth , casting dancing shadows on the walls of the cozy mountain lodge as guests gathered around , sipping hot cocoa and sharing stories .
+(c4 / crack~3
+    :ARG0-of (c / cast-01~10
+        :ARG1 (s / shadow~12
+            :ARG0-of (d / dance-01~11))
+        :ARG2 (w / wall~15
+            :part-of (l / lodge~20
+                :mod (m2 / mountain~19)
+                :mod (c3 / cozy~18)))
+        :time (g / gather-03~23
+            :ARG0 (p / person~22
+                :ARG0-of (h / have-org-role-91~22
+                    :ARG2 (g2 / guest~22)))
+            :location (a2 / around~24)
+            :time-of (a / and~29
+                :op1 (s3 / sip-01~26
+                    :ARG0 p
+                    :ARG1 (c2 / cocoa~28
+                        :ARG1-of (h3 / hot-05~27)))
+                :op2 (s2 / share-01~30
+                    :ARG0 p
+                    :ARG1 (s5 / story~31)))))
+    :domain (f / fire~2)
+    :location (h2 / hearth~8
+        :consist-of (s4 / stone~7))
+    :manner (m / merry~4)
+    :time (d2 / date-entity~0
+        :day 00103~0))

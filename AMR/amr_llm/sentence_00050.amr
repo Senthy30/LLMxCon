@@ -1,0 +1,19 @@
+#00050 Sentence: 00050 The air crackles with the energy of a hundred moving parts, a symphony of clanging pots, sizzling pans, and hurried voices.
+# ::tok 00050 The air crackles with the energy of a hundred moving parts , a symphony of clanging pots , sizzling pans , and hurried voices .
+(m2 / multi-sentence~12
+    :snt1 (c2 / crack-02~3
+        :ARG0 (e / energy~6
+            :poss (p / part~11
+                :quant 100~9
+                :ARG0-of (m / move-01~10)))
+        :ARG1 (a2 / air~2))
+    :snt2 (s2 / symphony~14
+        :consist-of (a3 / and~22
+            :op1 (p2 / pot~17
+                :ARG0-of (c / clatter-01~16))
+            :op2 (a / Pan~20
+                :ARG1-of (s / sear-01~19))
+            :op3 (v / voice~24
+                :ARG1-of (h / hurry-01~23))))
+    :time (d / date-entity~0
+        :year 00050~0))

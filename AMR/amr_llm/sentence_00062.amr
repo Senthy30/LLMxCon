@@ -1,0 +1,22 @@
+#00062 Sentence: 00062 The aroma of old paper and brewing coffee filled the air as rain pattered against the windowpanes, creating a perfect atmosphere for browsing the shelves of the cozy bookstore.
+# ::tok 00062 The aroma of old paper and brewing coffee filled the air as rain pattered against the windowpanes , creating a perfect atmosphere for browsing the shelves of the cozy bookstore .
+(f / fill-01~9
+    :ARG0-of (c3 / create-01~19
+        :ARG1 (a4 / atmosphere~22
+            :ARG1-of (p2 / perfect-02~21
+                :ARG2 (b3 / browse-01~24
+                    :ARG1 (s / shelf~26
+                        :part-of (b / bookstore~30
+                            :mod (c2 / cozy~29)))))))
+    :ARG1 (a2 / air~11)
+    :ARG2 (s2 / smell-01~2
+        :ARG1 (a3 / and~6
+            :op1 (p / paper~5
+                :mod (o / old~4))
+            :op2 (c / coffee~8
+                :ARG1-of (b2 / brew-01~7))))
+    :time (d / date-entity~0
+        :year 00062~0)
+    :time (a / Pat~14
+        :ARG0 (r / rain-01~13)
+        :location (w / window~17)))

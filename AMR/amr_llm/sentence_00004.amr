@@ -1,0 +1,21 @@
+#00004 Sentence: 00004 The wind whipped through my hair, carrying the scent of pine and the distant cry of a hawk as I gazed out over the vast, snow-capped peaks.
+# ::tok 00004 The wind whipped through my hair , carrying the scent of pine and the distant cry of a hawk as I gazed out over the vast , snow - capped peaks .
+(w / whip-01~3
+    :ARG0 (w2 / wind~2
+        :ARG0-of (c2 / carry-01~8
+            :ARG1 (a / and~13
+                :op1 (s / smell-01~10
+                    :ARG1 (p / pine~12))
+                :op2 (c3 / cry-01~16
+                    :ARG0 (h2 / hawk~19)
+                    :ARG1-of (d2 / distant-02~15)))))
+    :ARG1 (h / hair~6
+        :part-of (i / i~5))
+    :time (d / date-entity~0
+        :year 00004~0)
+    :time (l / look-01~22
+        :ARG0 i
+        :ARG1 (m / mountain~31
+            :ARG1-of (c / cap-01~30
+                :ARG2 (s2 / snow~28))
+            :mod (v / vast~26))))

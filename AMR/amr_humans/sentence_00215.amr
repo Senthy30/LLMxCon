@@ -1,0 +1,30 @@
+#00215 Sentence: 00215 In my high school we had a team of volunteers which organized a visit to the seniors' community center; I remember that it was a very quiet place and the people there were so nice and humble
+# ::tok 00215 In my high school we had a team of volunteers which organized a visit to the seniors ' community center ; I remember that it was a very quiet place and the people there were so nice and humble
+(m / multi-sentence~21
+    :snt1 (h / have-03~6
+        :li 00215~0
+        :ARG0 (w / we~5)
+        :ARG1 (t / team~8
+            :ARG0-of (o / organize-01~12
+                :ARG1 (v2 / visit-01~14
+                    :ARG1 (c / center~20
+                        :mod (c2 / community~19)
+                        :poss (s / senior~17))))
+            :consist-of (p / person~10
+                :ARG0-of (v3 / volunteer-01~10)))
+        :location (h2 / high-school~4
+            :poss (i / i~2)))
+    :snt2 (r / remember-01~23
+        :ARG0 i
+        :ARG1 (a / and~31
+            :op1 (p3 / place~30
+                :ARG1-of (q / quiet-04~29
+                    :degree (v / very~28))
+                :domain (i2 / it~25))
+            :op2 (a2 / and~38
+                :op1 (n / nice-01~37
+                    :ARG1 (p2 / person~33
+                        :location p3)
+                    :degree (s2 / so~36))
+                :op2 (h3 / humble~39
+                    :degree s2)))))

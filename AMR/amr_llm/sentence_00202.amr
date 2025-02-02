@@ -1,0 +1,17 @@
+#00202 Sentence: 00202 The clatter of trays, the murmur of conversations, and the aroma of freshly brewed coffee filled the air.
+# ::tok 00202 The clatter of trays , the murmur of conversations , and the aroma of freshly brewed coffee filled the air .
+(f / fill-01~18
+    :ARG1 (a / air~20)
+    :ARG2 (a2 / and~11
+        :op1 (c / clatter-01~2
+            :ARG1 (r / Trayvon~4))
+        :op2 (m / mumble-01~7
+            :ARG1 (c3 / converse-01~9))
+        :op3 (o / odor~13
+            :ARG1 (c2 / coffee~17
+                :ARG1-of (b / brew-01~16
+                    :ARG1-of (f2 / fresh-04~15)))))
+    :time (d / date-entity~0
+        :day 2~0
+        :month 2~0
+        :year 2004~0))

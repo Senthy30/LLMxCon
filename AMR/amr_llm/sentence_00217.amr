@@ -1,0 +1,11 @@
+#00217 Sentence: 00217 *This prompt is designed to be interpreted in a creative and imaginative way.
+# ::tok 00217 * This prompt is designed to be interpreted in a creative and imaginative way .
+(d / design-01~5
+    :li 00217~0
+    :ARG1 (p / prompt~3
+        :mod (t / this~2))
+    :ARG3 (i2 / interpret-01~8
+        :ARG1 p
+        :manner (w / way~14
+            :mod (i / imaginative~13)
+            :mod (c / creative~11))))

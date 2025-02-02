@@ -1,0 +1,28 @@
+#00146 Sentence: 00146 The air vibrated with the rhythmic clinking of chopsticks and the excited chatter of patrons, the aroma of savory dumplings and sweet buns filling every corner of the bustling dim sum restaurant.
+# ::tok 00146 The air vibrated with the rhythmic clinking of chopsticks and the excited chatter of patrons , the aroma of savory dumplings and sweet buns filling every corner of the bustling dim sum restaurant .
+(t2 / tremble-01~3
+    :ARG0 (a3 / and~10
+        :op1 (c / cluck-01~7
+            :ARG1 (s2 / spoon~9)
+            :manner (r2 / rhythm~6))
+        :op2 (t / talk-01~13
+            :ARG0 (p / person~15
+                :ARG0-of (d3 / drink-01~15))
+            :ARG1-of (e2 / excite-01~12
+                :ARG2 p))
+        :op3 (a5 / aroma~18
+            :ARG2-of (f / fill-01~25
+                :ARG1 (c2 / corner~27
+                    :mod (e / every~26)
+                    :part-of (r / restaurant~33
+                        :ARG0-of (b / bustle-01~30)
+                        :mod (s3 / sum~32
+                            :mod (d2 / dim~31)))))
+            :topic (a4 / and~22
+                :op1 (n / noodle~21
+                    :mod (s / savory~20))
+                :op2 (a / B~24
+                    :ARG1-of (s4 / sweet-04~23)))))
+    :ARG1 (a2 / air~2)
+    :time (d / date-entity~0
+        :year 00146~0))

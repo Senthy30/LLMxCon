@@ -1,0 +1,25 @@
+#00216 Sentence: 00216 The aroma of sizzling bacon and coffee beans hung thick in the air, a symphony of clanging trays and hurried conversations filling the diner's heart.
+# ::tok 00216 The aroma of sizzling bacon and coffee beans hung thick in the air , a symphony of clanging trays and hurried conversations filling the diner 's heart .
+(a3 / and~14
+    :op1 (d / date-entity~0
+        :day 16~0
+        :month 2~0
+        :year 2004~0)
+    :op2 (h / hang-01~9
+        :ARG1 (s2 / smell-01~2
+            :ARG1 (a2 / and~6
+                :op1 (b / bacon~5
+                    :ARG1-of (s / sear-01~4))
+                :op2 (b2 / bean~8
+                    :mod (c2 / coffee~7))))
+        :ARG2 (a / air~13)
+        :manner (t / thick-03~10))
+    :op3 (s3 / symphony~16
+        :ARG2-of (f / fill-01~23
+            :ARG1 (h2 / heart~27
+                :part-of (d2 / diner~25)))
+        :consist-of (a4 / and~20
+            :op1 (p / plate~19
+                :ARG0-of (c / clatter-01~18))
+            :op2 (c3 / converse-01~22
+                :ARG1-of (h3 / hurry-01~21)))))

@@ -1,0 +1,17 @@
+#00238 Sentence: 00238 It was so nice when we went to the juice bar; I learnt a new recipe for a healthy breakfast.
+# ::tok 00238 It was so nice when we went to the juice bar ; I learnt a new recipe for a healthy breakfast .
+(a / and~12
+    :op1 (n2 / nice-01~4
+        :degree (s / so~3)
+        :time (g / go-02~7
+            :ARG0 (w / we~6)
+            :ARG4 (b / bar~11
+                :mod (j / juice~10))))
+    :op2 (l / learn-01~14
+        :ARG0 (i / i~13)
+        :ARG1 (r / recipe~17
+            :purpose (b2 / breakfast-01~21
+                :mod (h / health~20))
+            :ARG1-of (n / new-01~16)))
+    :time (d / date-entity~0
+        :year 00238~0))

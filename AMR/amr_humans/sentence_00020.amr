@@ -1,0 +1,22 @@
+#00020 Sentence: 00020 Shoppers weave through colorful stalls, haggling over unique finds as music and chatter fill the air.
+# ::tok 00020 Shoppers weave through colorful stalls , haggling over unique finds as music and chatter fill the air .
+(a2 / and~6
+    :op1 (w / weave-01~2
+        :ARG1 (p / person~1
+            :ARG0-of (s / shop-01~1))
+        :ARG2 (m / market~5
+            :mod (c2 / colorful~4)))
+    :op2 (h / haggle-01~7
+        :ARG0 p
+        :ARG1 (t / thing~10
+            :ARG1-of (u / unique-01~9)
+            :ARG1-of (f2 / find-01~10
+                :ARG0 p)))
+    :time (d / date-entity~0
+        :day 20~0
+        :year 00020~0)
+    :time (f / fill-01~15
+        :ARG1 (a / air~17)
+        :ARG2 (a3 / and~13
+            :op1 (m2 / music~12)
+            :op2 (c / chat-01~14))))

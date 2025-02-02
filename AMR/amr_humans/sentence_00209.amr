@@ -1,0 +1,29 @@
+#00209 Sentence: 00209 Yesterday was full at the comic book store, because the famous writer just released his new work and there were a lot of kids waiting to get their books signed by him.
+# ::tok 00209 Yesterday was full at the comic book store , because the famous writer just released his new work and there were a lot of kids waiting to get their books signed by him .
+(f2 / full-09~3
+    :ARG1 (y / yesterday~1)
+    :ARG1-of (c / cause-01~10
+        :ARG0 (a / and~19
+            :op1 (r / release-01~15
+                :ARG0 (p / person~13
+                    :ARG0-of (w3 / write-01~13)
+                    :ARG1-of (f / fame-01~12))
+                :ARG1 (w2 / work-01~18
+                    :ARG0 p
+                    :ARG1-of (n / new-01~17))
+                :time (j / just~14))
+            :op2 (w / wait-01~26
+                :ARG1 (k / kid~25
+                    :quant (l / lot~23))
+                :ARG2 (s / sign-01~31
+                    :ARG0 k
+                    :ARG1 (b2 / book~30
+                        :poss k)
+                    :ARG2 p))))
+    :location (s2 / store~8
+        :mod (b / book~7
+            :mod (c2 / comic~6)))
+    :time (d / date-entity~0
+        :day 9~0
+        :month 2~0
+        :year 2004~0))

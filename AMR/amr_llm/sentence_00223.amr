@@ -1,0 +1,19 @@
+#00223 Sentence: 00223 A kaleidoscope of dresses, flowers, and vendors bustling with excitement filled the hall, creating a symphony of laughter and chatter.
+# ::tok 00223 A kaleidoscope of dresses , flowers , and vendors bustling with excitement filled the hall , creating a symphony of laughter and chatter .
+(f / fill-01~13
+    :li 00223~0
+    :ARG0-of (c2 / create-01~17
+        :ARG1 (s / symphony~19
+            :consist-of (a2 / and~22
+                :op1 (l / laugh-01~21)
+                :op2 (c / chatter-away-02~23))))
+    :ARG1 (h / hall~15)
+    :ARG2 (k / kaleidoscope~2
+        :consist-of (a / and~8
+            :ARG1-of (b / bustle-01~10
+                :ARG0 (e / excite-01~12
+                    :ARG1 k))
+            :op1 (d / dress-01~4)
+            :op2 (f2 / flower~6)
+            :op3 (p / person~9
+                :ARG0-of (v / vend-01~9)))))

@@ -1,0 +1,17 @@
+#00220 Sentence: 00220 The room buzzed with anticipation, a sea of faces intently focused on the speaker as he took the stage.
+# ::tok 00220 The room buzzed with anticipation , a sea of faces intently focused on the speaker as he took the stage .
+(a / and~6
+    :op2 (g / give-01~3
+        :ARG0 (a2 / anticipate-01~5)
+        :ARG1 (r / room~2))
+    :op3 (f2 / focus-01~12
+        :ARG1 (f / face~10
+            :quant (s / sea~8))
+        :ARG2 (p / person~15
+            :ARG0-of (s2 / speak-01~15))
+        :ARG2-of (i / interest-01~11)
+        :time (t / take-01~18
+            :ARG0 p
+            :ARG1 (s3 / stage~20)))
+    :time (d / date-entity~0
+        :year 00220~0))

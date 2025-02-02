@@ -1,0 +1,27 @@
+#00209 Sentence: 00209 The air crackled with anticipation, a symphony of excited chatter and the rustling of comic bags as customers swarmed the aisles, eager to get their hands on the latest issue.
+# ::tok 00209 The air crackled with anticipation , a symphony of excited chatter and the rustling of comic bags as customers swarmed the aisles , eager to get their hands on the latest issue .
+(c3 / crack-02~3
+    :ARG0 (a3 / and~12
+        :op1 (a5 / anticipate-01~5)
+        :op2 (s2 / symphony~8
+            :consist-of (a4 / and~12
+                :op1 (c / chat-01~11
+                    :ARG1-of (e2 / excite-01~10))
+                :op2 (r / rust-01~14
+                    :ARG1 (b / bag~17
+                        :mod (c2 / comic~16))))))
+    :ARG1 (a / air~2)
+    :time (d / date-entity~0
+        :day 9~0
+        :month 2~0
+        :year 00209~0)
+    :time (s / swarm-01~20
+        :ARG0 (c4 / customer~19
+            :ARG0-of (e / eager-01~24
+                :ARG1 (g / get-04~26
+                    :ARG0 c4
+                    :ARG1 (i / in-ones-hands-04~28
+                        :ARG0 c4
+                        :ARG1 (i2 / issue-02~32
+                            :mod (l / last~31))))))
+        :ARG1 (a2 / aisle~22)))

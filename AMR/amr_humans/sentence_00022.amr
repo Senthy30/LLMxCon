@@ -1,0 +1,28 @@
+#00022 Sentence: 00022 Children alongside with their parents having fun and playing togheter. The sand in the playground is all over the place, while the trees around create a background and shelter feeling.
+# ::tok 00022 Children alongside with their parents having fun and playing togheter . The sand in the playground is all over the place , while the trees around create a background and shelter feeling .
+(m / multi-sentence~11
+    :li 00022~0
+    :rel (p2 / person~5
+        :ARG0-of (h / have-rel-role-91~5
+            :ARG1 (c / child~1
+                :quant 00022~0)
+            :ARG2 (p / parent~5)))
+    :snt1 (a2 / and~8
+        :op1 (f2 / fun-01~7
+            :ARG0 c)
+        :op2 (p4 / play-01~9
+            :ARG0 c
+            :mod (t / together~10)))
+    :snt2 (c2 / contrast-01~23
+        :ARG1 (b2 / be-located-at-91~19
+            :ARG1 (s / sand~13
+                :location (p5 / playground~16))
+            :ARG2 (a / all-over~19
+                :op1 (p3 / place~21)))
+        :ARG2 (c3 / create-01~27
+            :ARG0 (t2 / tree~25
+                :location (a4 / around~26))
+            :ARG1 (a3 / and~30
+                :op1 (b / background~29)
+                :op2 (f / feel-01~32
+                    :ARG1 (s2 / shelter-01~31))))))

@@ -1,0 +1,25 @@
+#00126 Sentence: 00126 Soft music welcomes you and everyone is nice with you, while some people are going out looking relaxed in their robes.
+# ::tok 00126 Soft music welcomes you and everyone is nice with you , while some people are going out looking relaxed in their robes .
+(c / contrast-01~12
+    :ARG1 (a / and~5
+        :op1 (w2 / welcome-01~3
+            :ARG0 (m / music~2
+                :ARG1-of (s / soft-02~1))
+            :ARG1 (y / you~4))
+        :op2 (n / nice-01~8
+            :ARG1 (e / everyone~6)
+            :ARG2 y))
+    :ARG2 (g / go-out-17~16
+        :ARG0 (p / person~14
+            :ARG0-of (l / look-02~18
+                :ARG1 (r / relax-01~19
+                    :ARG1 p
+                    :manner (w / wear-01~20
+                        :ARG0 p
+                        :ARG1 (r2 / robe~22
+                            :poss p))))
+            :mod (s2 / some~13)))
+    :time (d / date-entity~0
+        :day 26~0
+        :month 12~0
+        :year 2005~0))

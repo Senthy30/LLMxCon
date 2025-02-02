@@ -1,0 +1,26 @@
+#00254 Sentence: 00254 As twilight painted the sky in hues of orange and purple, a gentle breeze rustled the leaves, carrying the sweet scent of pine and the distant murmur of a lone fisherman's reel.
+# ::tok 00254 As twilight painted the sky in hues of orange and purple , a gentle breeze rustled the leaves , carrying the sweet scent of pine and the distant murmur of a lone fisherman 's reel .
+(a2 / and~19
+    :li 00254~0
+    :op1 (p / paint-01~3
+        :ARG0 (t / twilight~2)
+        :ARG1 (s / sky~5)
+        :ARG2 (c2 / color~7
+            :mod (o / orange~9)
+            :mod (a / and~10)
+            :mod (p4 / purple~11)))
+    :op2 (r2 / rust-01~16
+        :ARG0 (b / breeze~15
+            :ARG0-of (c / carry-01~20
+                :ARG1 (a3 / and~26
+                    :op1 (s2 / smell-01~23
+                        :ARG1 (p3 / pine~25)
+                        :ARG1-of (s3 / sweet-03~22))
+                    :op2 (m / murmur-01~29
+                        :ARG1-of (d / distant-02~28)
+                        :poss (r / reel~35
+                            :poss (p2 / person~33
+                                :ARG0-of (f / fish-01~33)
+                                :mod (l2 / lone~32))))))
+            :ARG1-of (g / gentle-01~14))
+        :ARG1 (l / leaf~18)))

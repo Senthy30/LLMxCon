@@ -1,0 +1,24 @@
+#00129 Sentence: 00129 The air crackles with excitement as costumed participants engage in lively demonstrations, while the scent of woodsmoke and freshly baked bread wafts through the bustling crowd.
+# ::tok 00129 The air crackles with excitement as costumed participants engage in lively demonstrations , while the scent of woodsmoke and freshly baked bread wafts through the bustling crowd .
+(c / contrast-01~14
+    :ARG1 (c3 / crack-02~3
+        :ARG0 (e2 / excite-01~5
+            :ARG0 (e / engage-01~9
+                :ARG0 (p2 / person~8
+                    :ARG0-of (p / participate-01~8)
+                    :ARG1-of (c2 / cost-01~7))
+                :ARG2 (d2 / demonstrate-01~12
+                    :ARG0 p2
+                    :mod (l / lively~11))))
+        :ARG1 (a / air~2))
+    :ARG2 (w / waver-01~23
+        :ARG1 (s / smell-01~16
+            :ARG1 (a2 / and~19
+                :op1 (w2 / woodsmoke~18)
+                :op2 (b2 / bread~22
+                    :ARG1-of (b / bake-01~21
+                        :ARG1-of (f / fresh-04~20)))))
+        :ARG2 (c4 / crowd~27
+            :ARG0-of (b3 / bustle-01~26)))
+    :time (d / date-entity~0
+        :year 00129~0))

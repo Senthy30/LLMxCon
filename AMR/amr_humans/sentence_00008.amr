@@ -1,0 +1,38 @@
+#00008 Sentence: 00008 The sight was very interesting, with a very old knight armor in the left, a rusty broken helmet in the middle of the view, with few papyrus describing certains event in the right. The castle was big, rusty, few broken walls and a lot of dust.
+# ::tok 00008 The sight was very interesting , with a very old knight armor in the left , a rusty broken helmet in the middle of the view , with few papyrus describing certains event in the right . The castle was big , rusty , few broken walls and a lot of dust .
+(m2 / multi-sentence~37
+    :snt1 (i / interest-01~5
+        :ARG2 (s / sight-01~2
+            :ARG0-of (h / have-03~7
+                :ARG1 (a / and~16
+                    :op1 (a3 / armor-01~12
+                        :ARG1 (k / knight~11)
+                        :ARG1-of (l / left-20~15)
+                        :mod (o / old~10
+                            :degree (v2 / very~9)))
+                    :op2 (h2 / helmet~20
+                        :ARG1-of (b2 / break-01~19)
+                        :ARG1-of (r2 / rust-01~18)
+                        :location (m / middle~23
+                            :part-of (v3 / view-01~26)))
+                    :op3 (p / papyrus~30
+                        :quant (f / few~29)
+                        :ARG0-of (d2 / describe-01~31
+                            :ARG1 (e / event~33
+                                :ARG1-of (c2 / certify-01~32)
+                                :ARG1-of (r / right-04~36)))))))
+        :degree (v / very~4))
+    :snt2 (a2 / and~42
+        :op1 (b / big~41
+            :domain (c / castle~39))
+        :op2 (r3 / rust-01~43
+            :ARG1 c)
+        :op3 (w / wall~47
+            :quant (f2 / few~45)
+            :ARG1-of (b3 / break-01~46))
+        :op4 (d3 / dust~52
+            :quant (l2 / lot~50)))
+    :time (d / date-entity~0
+        :day 8~0
+        :month 8~0
+        :year 2008~0))

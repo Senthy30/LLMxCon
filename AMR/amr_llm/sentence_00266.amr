@@ -1,0 +1,25 @@
+#00266 Sentence: 00266 The fluorescent lights buzzed overhead, casting a sterile glow on the sea of anxious faces crammed into the small gate area, their eyes glued to the departure screens.
+# ::tok 00266 The fluorescent lights buzzed overhead , casting a sterile glow on the sea of anxious faces crammed into the small gate area , their eyes glued to the departure screens .
+(a / and~6
+    :op1 (a2 / annoy-01~4
+        :ARG0 (l / light~3
+            :mod (f2 / fluorescent~2))
+        :location (o / overhead~5))
+    :op2 (c / cast-01~7
+        :ARG0 l
+        :ARG1 (g2 / glow-01~10
+            :ARG1-of (s4 / sterile-02~9))
+        :ARG2 (s2 / sea~13
+            :consist-of (f / face~16
+                :ARG0-of (g3 / glue-01~26
+                    :ARG1 (e / eye~25)
+                    :ARG2 (s / screen~30
+                        :purpose (d2 / depart-01~29)))
+                :ARG1-of (w / worry-01~15)
+                :ARG1-of (c2 / cram-01~17
+                    :ARG2 (a3 / area~22
+                        :mod (g / gate~21)
+                        :mod (s3 / small~20)))
+                :part e)))
+    :time (d / date-entity~0
+        :year 00266~0))

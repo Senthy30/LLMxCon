@@ -1,0 +1,19 @@
+#00104 Sentence: 00104 The fog hung low, shrouding the ancient headstones in an eerie silence as I walked through the historic cemetery.
+# ::tok 00104 The fog hung low , shrouding the ancient headstones in an eerie silence as I walked through the historic cemetery .
+(h / hang-01~3
+    :ARG1 (f / fog~2
+        :ARG0-of (s / shroud-01~6
+            :ARG1 (g / gravestone~9
+                :mod (a / ancient~8))
+            :ARG2 (s2 / silence-01~13
+                :mod (e / eerie~12))
+            :time (w / walk-01~16
+                :ARG0 (i / i~15)
+                :ARG2 (t / through~17
+                    :op1 (c / cemetery~20
+                        :mod (h2 / history~19))))))
+    :ARG4 (l / low-04~4)
+    :time (d / date-entity~0
+        :day 4~0
+        :month 11~0
+        :year 2004~0))

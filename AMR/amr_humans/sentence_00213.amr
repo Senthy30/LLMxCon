@@ -1,0 +1,30 @@
+#00213 Sentence: 00213 I remember that day when my father took me with him to that antique auction; I got sooo bored while he was searching a lot of weird things.
+# ::tok 00213 I remember that day when my father took me with him to that antique auction ; I got sooo bored while he was searching a lot of weird things .
+(m / multi-sentence~16
+    :snt1 (r / remember-01~2
+        :ARG0 (i / i~1)
+        :ARG1 (t / take-01~8
+            :ARG0 (p / person~7
+                :ARG0-of (h / have-rel-role-91~7
+                    :ARG1 i
+                    :ARG2 (f / father~7)))
+            :ARG1 i
+            :ARG4 (a2 / auction-02~15
+                :mod (a / antique~14)
+                :mod (t3 / that~13))
+            :accompanier (h2 / he~11)
+            :time (d2 / day~4
+                :mod (t2 / that~3)))
+        :time (d / date-entity~0
+            :day 13~0
+            :year 00213~0))
+    :snt2 (g / get-03~18
+        :ARG1 i
+        :ARG2 (b / bore-02~20
+            :ARG0 i
+            :degree (s2 / so~19)
+            :time (s / search-01~24
+                :ARG0 (h3 / he~22)
+                :ARG1 (t4 / thing~29
+                    :quant (l / lot~26)
+                    :mod (w / weird~28))))))

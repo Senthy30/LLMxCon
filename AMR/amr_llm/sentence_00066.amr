@@ -1,0 +1,26 @@
+#00066 Sentence: 00066 Under a canopy of ancient banyan trees, the villagers gathered to witness the union of two souls, their laughter mingling with the rhythmic beat of drums and the scent of jasmine flowers.
+# ::tok 00066 Under a canopy of ancient banyan trees , the villagers gathered to witness the union of two souls , their laughter mingling with the rhythmic beat of drums and the scent of jasmine flowers .
+(g / gather-03~11
+    :purpose (w / witness-01~13
+        :ARG0 (v / villager~10)
+        :ARG1 (u2 / union-02~15
+            :ARG1 (s2 / soul~18
+                :quant 2~17)))
+    :ARG0 v
+    :ARG0-of (m / mingle-01~22
+        :ARG1 (l / laugh-01~21
+            :ARG0 v)
+        :ARG3 (a2 / and~29
+            :op1 (b2 / beat-01~26
+                :ARG1 (d2 / drum~28)
+                :mod (r / rhythm~25))
+            :op2 (s / smell-01~31
+                :ARG1 (f / flower~34
+                    :mod (j / jasmine~33)))))
+    :location (u / under~1
+        :op1 (c / canopy~3
+            :consist-of (t / tree~7
+                :mod (b / banyan~6)
+                :mod (a / ancient~5))))
+    :time (d / date-entity~0
+        :year 00066~0))

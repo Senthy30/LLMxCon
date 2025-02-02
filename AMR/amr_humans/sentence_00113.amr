@@ -1,0 +1,18 @@
+#00113 Sentence: 00113 There is a big table were all the members are gathered, they are talking and sharing food.
+# ::tok 00113 There is a big table were all the members are gathered , they are talking and sharing food .
+(m2 / multi-sentence~12
+    :snt1 (t / table~5
+        :location-of (g / gather-03~11
+            :ARG0 (p / person~9
+                :ARG0-of (h / have-org-role-91~9
+                    :ARG2 (m / member~9))
+                :mod (a / all~7)))
+        :mod (b / big~4))
+    :snt2 (a2 / and~16
+        :op1 (t2 / talk-01~15
+            :ARG0 p)
+        :op2 (s / share-01~17
+            :ARG0 p
+            :ARG1 (f / food~18)))
+    :time (d / date-entity~0
+        :year 00113~0))

@@ -1,0 +1,13 @@
+#00248 Sentence: 00248 I carve in silence and the sculpture slowly started to take shape.
+# ::tok 00248 I carve in silence and the sculpture slowly started to take shape .
+(a / and~5
+    :op1 (c / carve-out-03~2
+        :ARG0 (i / i~1)
+        :manner (s3 / silence-01~4)
+        :time (d / date-entity~0
+            :day 24~0
+            :year 00248~0))
+    :op2 (s5 / start-01~9
+        :ARG1 (s2 / shape-01~12
+            :ARG1 (s / sculpture~7))
+        :ARG1-of (s4 / slow-05~8)))

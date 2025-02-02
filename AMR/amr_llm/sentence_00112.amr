@@ -1,0 +1,20 @@
+#00112 Sentence: 00112 The crisp morning air filled my lungs as I pounded the pavement, the city waking up around me.
+# ::tok 00112 The crisp morning air filled my lungs as I pounded the pavement , the city waking up around me .
+(a2 / and~13
+    :op1 (f / fill-01~5
+        :ARG1 (l / lung~7)
+        :ARG2 (a / air~4
+            :time (d2 / date-entity~3
+                :dayperiod (m / morning~3
+                    :mod (c2 / crisp~2))))
+        :time (p2 / pound-02~10
+            :ARG0 (i / i~9
+                :part l)
+            :ARG1 (p / pavement~12)))
+    :op2 (w / wake-up-02~16
+        :ARG1 (c / city~15)
+        :location (a3 / around~18
+            :op1 i))
+    :time (d / date-entity~0
+        :day 12~0
+        :month 11~0))

@@ -1,0 +1,20 @@
+#00258 Sentence: 00258 The kids were having so much fun, the room was full of laughter and colorful costumes were thrown everywhere.
+# ::tok 00258 The kids were having so much fun , the room was full of laughter and colorful costumes were thrown everywhere .
+(m2 / multi-sentence~8
+    :snt1 (f2 / fun-01~7
+        :ARG0 (k / kid~2)
+        :ARG1-of (h / have-quant-91~6
+            :ARG2 (m / much~6)
+            :ARG3 (s / so~5)))
+    :snt2 (a / and~15
+        :op1 (f / full-09~12
+            :ARG1 (r / room~10)
+            :ARG2 (l / laugh-01~14))
+        :op2 (t / throw-01~19
+            :ARG1 (u / uniform~17
+                :mod (c / colorful~16))
+            :ARG2 (e / everywhere~20)))
+    :time (d / date-entity~0
+        :day 26~0
+        :month 6~0
+        :year 2005~0))

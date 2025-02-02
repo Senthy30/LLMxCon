@@ -1,0 +1,19 @@
+#00041 Sentence: 00041 Many people on the platform pile up as the subway arrives at the station, while the background noise from the crowd covers the entire atmosphere.
+# ::tok 00041 Many people on the platform pile up as the subway arrives at the station , while the background noise from the crowd covers the entire atmosphere .
+(c / contrast-01~16
+    :ARG1 (p2 / pile-up-02~6
+        :ARG1 (p / person~2
+            :quant (m / many~1))
+        :location (p3 / platform~5)
+        :time (a / arrive-01~11
+            :ARG1 (s2 / subway~10)
+            :ARG4 (s / station~14)))
+    :ARG2 (c2 / cover-02~23
+        :ARG1 (a2 / atmosphere~26
+            :mod (e / entire~25))
+        :ARG2 (n / noise~19
+            :mod (b / background~18)
+            :source (c3 / crowd~22)))
+    :time (d / date-entity~0
+        :day 10~0
+        :year 00041~0))

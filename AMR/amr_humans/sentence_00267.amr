@@ -1,0 +1,29 @@
+#00267 Sentence: 00267 I went to a nice rooftop restaurant and I enjoyed watching the city lights sparkling; the waiters weave through tables and the atmosphere hums with energy.
+# ::tok 00267 I went to a nice rooftop restaurant and I enjoyed watching the city lights sparkling ; the waiters weave through tables and the atmosphere hums with energy .
+(m / multi-sentence~16
+    :snt1 (a / and~8
+        :op1 (g / go-02~2
+            :ARG0 (i / i~1)
+            :ARG4 (r / restaurant~7
+                :ARG1-of (n / nice-01~5)
+                :location (r2 / rooftop~6)))
+        :op2 (e2 / enjoy-01~10
+            :ARG0 i
+            :ARG1 (w2 / watch-01~11
+                :ARG0 i
+                :ARG1 (s / sparkle-01~15
+                    :ARG1 (l / light~14
+                        :mod (c / city~13)))))
+        :time (d / date-entity~0
+            :day 26~0
+            :month 3~0
+            :year 2007~0))
+    :snt2 (a2 / and~22
+        :op1 (w3 / weave-01~19
+            :ARG1 (p / person~18
+                :ARG0-of (w / wait-01~18))
+            :ARG2 (t2 / through~20
+                :op1 (t / table~21)))
+        :op2 (h / ho-hum~25
+            :ARG3 (e / energy~27)
+            :domain (a3 / atmosphere~24))))

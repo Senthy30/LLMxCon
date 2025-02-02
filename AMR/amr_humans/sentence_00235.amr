@@ -1,0 +1,18 @@
+#00235 Sentence: 00235 When I arrived, the lobby was buzzing with conversations and I was seeing only elegant outfits and champagne glasses.
+# ::tok 00235 When I arrived , the lobby was buzzing with conversations and I was seeing only elegant outfits and champagne glasses .
+(a / and~11
+    :op1 (s2 / swarm-01~8
+        :ARG0 (l / lobby~6)
+        :ARG1 (c2 / converse-01~10))
+    :op2 (s / see-01~14
+        :ARG0 (i / i~2)
+        :ARG1 (a2 / and~18
+            :mod (o / only~15)
+            :op1 (o2 / outfit~17
+                :mod (e / elegant~16))
+            :op2 (g / glass~20
+                :mod (c / champagne~19))))
+    :time (a3 / arrive-01~3
+        :ARG1 i)
+    :time (d / date-entity~0
+        :year 00235~0))

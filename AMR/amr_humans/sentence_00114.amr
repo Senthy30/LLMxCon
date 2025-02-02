@@ -1,0 +1,30 @@
+#00114 Sentence: 00114 There are not too many people, some are better at climbing, some are not, holding tightly to the ropes that are meant to protect them in case of falling.
+# ::tok 00114 There are not too many people , some are better at climbing , some are not , holding tightly to the ropes that are meant to protect them in case of falling .
+(a / and~7
+    :li 00114~0
+    :op1 (h2 / have-quant-91~4
+        :ARG1 (p / person~6
+            :ARG2-of (i / include-91~14
+                :ARG1 (p2 / person~8
+                    :quant (s / some~8))))
+        :ARG2 (m / many~5)
+        :ARG3 (t2 / too~4)
+        :polarity -~3)
+    :rel (h / have-degree-91~10
+        :ARG1 p2
+        :ARG2 (g / good-03~10
+            :ARG1 p2
+            :ARG2 (c / climb-01~12
+                :ARG0 p2))
+        :ARG3 (m3 / more~10))
+    :rel (c2 / climb-01~12
+        :polarity -~16)
+    :rel (s2 / some~14
+        :ARG0-of (h3 / hold-01~18
+            :ARG1 (w / wire~22
+                :ARG0-of (p3 / protect-01~27
+                    :ARG1 p2
+                    :ARG1-of (m2 / mean-02~25)
+                    :condition (f / fall-01~32
+                        :ARG1 p2)))
+            :ARG1-of (t / tight-05~19))))

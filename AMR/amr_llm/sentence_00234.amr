@@ -1,0 +1,25 @@
+#00234 Sentence: 00234 The air hung thick with the scent of fabric and leather as the tailor's hands moved with practiced precision, stitching together a symphony of custom suits.
+# ::tok 00234 The air hung thick with the scent of fabric and leather as the tailor 's hands moved with practiced precision , stitching together a symphony of custom suits .
+(h2 / hang-01~3
+    :ARG1 (a / air~2)
+    :ARG2 (t2 / thick-03~4
+        :ARG1 a)
+    :ARG3 (s / smell-02~7
+        :ARG1 (a2 / and~10
+            :op1 (f / fabric~9)
+            :op2 (l / leather~11)))
+    :time (d / date-entity~0
+        :year 00234~0)
+    :time (m2 / move-01~17
+        :ARG0 (h / hand~16
+            :part-of (p / person~14
+                :ARG0-of (m / make-01~14
+                    :ARG1 (t / tailor~14))))
+        :manner (p3 / precise~20
+            :ARG1-of (p2 / practice-01~19))
+        :time-of (s2 / stitch-01~22
+            :ARG0 h
+            :ARG1 (s4 / symphony~25
+                :consist-of (s3 / suit~28
+                    :mod (c / custom~27)))
+            :mod (t3 / together~23))))

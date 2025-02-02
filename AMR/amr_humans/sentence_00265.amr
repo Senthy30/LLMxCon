@@ -1,0 +1,15 @@
+#00265 Sentence: 00265 I wander along old stone paths surrounded by peaceful gardens.
+# ::tok 00265 I wander along old stone paths surrounded by peaceful gardens .
+(w / wander-01~2
+    :ARG0 (i / i~1
+        :ARG2-of (s3 / surround-01~7
+            :ARG1 (g / garden~10
+                :mod (p / peaceful~9))))
+    :ARG1 (a / along~3
+        :op1 (s2 / street~6
+            :consist-of (s / stone~5)
+            :mod (o / old~4)))
+    :time (d / date-entity~0
+        :day 25~0
+        :month 3~0
+        :year 2005~0))

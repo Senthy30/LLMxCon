@@ -1,0 +1,18 @@
+#00154 Sentence: 00154 The air crackled with excitement and anticipation, a tangible buzz of bargain hunters and the promise of designer treasures.
+# ::tok 00154 The air crackled with excitement and anticipation , a tangible buzz of bargain hunters and the promise of designer treasures .
+(c / crack-02~3
+    :ARG0 (a2 / and~6
+        :op1 (e / excite-01~5)
+        :op2 (a3 / anticipate-01~7)
+        :op3 (w / wow-01~11
+            :ARG0 (p / person~14
+                :ARG0-of (h / hunt-01~14
+                    :ARG1 (b / bargain-01~13)))
+            :mod (t / tangible~10))
+        :op4 (p3 / promise-01~17
+            :ARG1 (t2 / treasure~20
+                :source (p2 / person~19
+                    :ARG0-of (d2 / design-01~19)))))
+    :ARG1 (a / air~2)
+    :time (d / date-entity~0
+        :year 00154~0))

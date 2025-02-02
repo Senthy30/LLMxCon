@@ -1,0 +1,16 @@
+#00101 Sentence: 00101 The atmosphere is quite, sun is rising, and the birds singing is the only sound.
+# ::tok 00101 The atmosphere is quite , sun is rising , and the birds singing is the only sound .
+(a / and~10
+    :op1 (a2 / atmosphere~2
+        :mod (q / quite~4))
+    :op2 (r / rise-01~8
+        :ARG1 (s3 / sun~6))
+    :op3 (t / thing~15
+        :ARG1-of (s2 / sound-02~17)
+        :domain (s / sing-01~13
+            :ARG0 (b / bird~12))
+        :mod (o / only~16))
+    :time (d / date-entity~0
+        :day 1~0
+        :month 1~0
+        :year 2008~0))

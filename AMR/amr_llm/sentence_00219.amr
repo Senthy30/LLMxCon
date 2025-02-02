@@ -1,0 +1,12 @@
+#00219 Sentence: 00219 The air crackled with anticipation, the floor thrummed with a heartbeat of passionate tango.
+# ::tok 00219 The air crackled with anticipation , the floor thrummed with a heartbeat of passionate tango .
+(a2 / and~6
+    :li 00219~0
+    :op1 (c / crack-02~3
+        :ARG0 (a3 / anticipate-01~5)
+        :ARG1 (a / air~2))
+    :op2 (r / rumble-01~9
+        :ARG0 (f / floor~8)
+        :ARG0 (h / heartbeat~12
+            :mod (t / tango-01~15
+                :mod (p / passionate~14)))))

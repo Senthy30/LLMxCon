@@ -1,0 +1,12 @@
+#00039 Sentence: 00039 A vibrant oasis of greenery, the rooftop garden offered a sanctuary from the concrete jungle.
+# ::tok 00039 A vibrant oasis of greenery , the rooftop garden offered a sanctuary from the concrete jungle .
+(o2 / offer-01~10
+    :li 00039~0
+    :ARG0 (g / garden~9
+        :location (r / rooftop~8)
+        :mod (o / oasis~3
+            :consist-of (g2 / greenery~5)
+            :mod (v / vibrant~2)))
+    :ARG1 (s / sanctuary~12
+        :source (j / jungle~16
+            :mod (c / concrete~15))))

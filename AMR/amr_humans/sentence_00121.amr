@@ -1,0 +1,16 @@
+#00121 Sentence: 00121 Although the room is quite, there are sounds from the outside, but they are absorbed, also some candles are craking from time to time.
+# ::tok 00121 Although the room is quite , there are sounds from the outside , but they are absorbed , also some candles are craking from time to time .
+(h / have-concession-91~1
+    :li 00121~0
+    :ARG1 (c2 / contrast-01~14
+        :ARG1 (s2 / sound-02~9
+            :source (o / outside~12))
+        :ARG2 (a / absorb-01~17
+            :ARG1 (t / they~15))
+        :op3 (c3 / crap-01~23
+            :ARG0 (c / candle~21
+                :mod (s / some~20))
+            :frequency (t2 / time-to-time~25)
+            :mod (a2 / also~19)))
+    :ARG2 (q / quite~5
+        :domain (r / room~3)))

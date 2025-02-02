@@ -1,0 +1,12 @@
+#00015 Sentence: 00015 Sunlight filters through trees, illuminating a group of people in various yoga poses.
+# ::tok 00015 Sunlight filters through trees , illuminating a group of people in various yoga poses .
+(f / filter-02~2
+    :li 00015~0
+    :ARG0-of (i / illuminate-01~6
+        :ARG1 (g / group~8
+            :consist-of (p / person~10
+                :ARG0-of (p2 / pose-01~14
+                    :mod (y / yoga~13)
+                    :mod (v / various~12)))))
+    :ARG1 (s / sunlight~1)
+    :ARG2 (t / tree~4))

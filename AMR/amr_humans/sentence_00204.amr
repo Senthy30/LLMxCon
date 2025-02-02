@@ -1,0 +1,22 @@
+#00204 Sentence: 00204 I saw the gardener in the morning at the conservatory taking care of the beautiful flowers he planted some time ago.
+# ::tok 00204 I saw the gardener in the morning at the conservatory taking care of the beautiful flowers he planted some time ago .
+(s / see-01~2
+    :ARG0 (i / i~1)
+    :ARG1 (p / person~4
+        :ARG0-of (g / garden-01~4)
+        :ARG0-of (c / care-03~12
+            :ARG1 (f / flower~16
+                :ARG1-of (b / beautiful-02~15)
+                :ARG1-of (p2 / plant-01~18
+                    :ARG0 p
+                    :time (b2 / before~21
+                        :quant (t / time~20
+                            :mod (s2 / some~19))
+                        :op1 (n / now~21))))))
+    :location (c2 / conservatory~10)
+    :time (d / date-entity~0
+        :day 4~0
+        :month 2~0
+        :year 2004~0)
+    :time (d2 / date-entity~7
+        :dayperiod (m / morning~7)))

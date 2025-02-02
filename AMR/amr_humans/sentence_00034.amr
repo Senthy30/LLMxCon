@@ -1,0 +1,13 @@
+#00034 Sentence: 00034 A very warm fire in a fireplace, while outside it is snowing and falling.
+# ::tok 00034 A very warm fire in a fireplace , while outside it is snowing and falling .
+(c / contrast-01~9
+    :ARG1 (f2 / fire~4
+        :ARG1-of (w / warm-07~3
+            :degree (v / very~2))
+        :location (f3 / fireplace~7))
+    :ARG2 (a / and~14
+        :location (o / outside~10)
+        :op1 (s / snow-01~13)
+        :op2 (f / fall-01~15))
+    :time (d / date-entity~0
+        :year 00034~0))

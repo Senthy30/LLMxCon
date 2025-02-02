@@ -1,0 +1,26 @@
+#00250 Sentence: 00250 The golden rays of the rising sun kissed the sand as the ocean waves whispered, while the gentle sway of yoga mats and the rhythmic breathing of participants created a tranquil symphony.
+# ::tok 00250 The golden rays of the rising sun kissed the sand as the ocean waves whispered , while the gentle sway of yoga mats and the rhythmic breathing of participants created a tranquil symphony .
+(c / contrast-01~17
+    :ARG1 (k / kiss-01~8
+        :ARG0 (r / ray~3
+            :mod (g2 / golden~2)
+            :poss (s2 / sun~7
+                :ARG1-of (r3 / rise-01~6)))
+        :ARG1 (s / sand~10)
+        :time (w2 / whisper-01~15
+            :ARG0 (w / wave~14
+                :mod (o / ocean~13))))
+    :ARG2 (c2 / create-01~30
+        :ARG0 (a / and~24
+            :op1 (s3 / sway-01~20
+                :ARG1 (b / blanket~23
+                    :mod (y / yoga~22))
+                :ARG1-of (g / gentle-01~19))
+            :op2 (b2 / breathe-01~27
+                :ARG0 (p2 / person~29
+                    :ARG0-of (p / participate-01~29))
+                :manner (r2 / rhythm~26)))
+        :ARG1 (s4 / symphony~33
+            :mod (t / tranquil~32)))
+    :time (d / date-entity~0
+        :year 00250~0))

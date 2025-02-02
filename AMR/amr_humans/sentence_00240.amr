@@ -1,0 +1,29 @@
+#00240 Sentence: 00240 It was so crowded at the fish and chips shop; orders were shouted by everyone because the food there was so tasty; I stayed in a very big queue for about one hour.
+# ::tok 00240 It was so crowded at the fish and chips shop ; orders were shouted by everyone because the food there was so tasty ; I stayed in a very big queue for about one hour .
+(m / multi-sentence~24
+    :snt1 (c3 / crowd-01~4
+        :degree (s3 / so~3)
+        :location (s / shop~10
+            :mod (a2 / and~8
+                :op1 (f / fish~7)
+                :op2 (c2 / chip~9)))
+        :time (d / date-entity~0
+            :day 25~0
+            :year 00240~0))
+    :snt2 (s2 / shout-01~14
+        :ARG0 (e / everyone~16)
+        :ARG1 (o / order-01~12)
+        :ARG1-of (c / cause-01~17
+            :ARG0 (t / tasty~23
+                :degree (s4 / so~22)
+                :domain (f2 / food~19
+                    :location s))))
+    :snt3 (s5 / stay-01~26
+        :ARG1 (i / i~25)
+        :ARG3 (q / queue~31
+            :mod (b / big~30
+                :degree (v / very~29)))
+        :duration (a / about~33
+            :op1 (t2 / temporal-quantity~35
+                :quant 1~34
+                :unit (h / hour~35)))))

@@ -1,0 +1,14 @@
+#00121 Sentence: 00121 A hushed room, bathed in the gentle glow of candles, was filled with soft cushions, inviting stillness.
+# ::tok 00121 A hushed room , bathed in the gentle glow of candles , was filled with soft cushions , inviting stillness .
+(f / fill-01~14
+    :li 00121~0
+    :ARG1 (r / room~3
+        :ARG1-of (h / hush-01~2)
+        :ARG1-of (b / bathe-01~5
+            :ARG2 (g2 / glow-01~9
+                :ARG0 (c / candle~11)
+                :ARG1-of (g / gentle-01~8))))
+    :ARG2 (c2 / cushion~17
+        :ARG0-of (i / invite-01~19
+            :ARG2 (s2 / still~20))
+        :ARG1-of (s / soft-02~16)))

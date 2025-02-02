@@ -1,0 +1,24 @@
+#00054 Sentence: 00054 The loud noise of the cars creates a remarkable adrenaline rush, while the drivers give their best to emerge victorious.
+# ::tok 00054 The loud noise of the cars creates a remarkable adrenaline rush , while the drivers give their best to emerge victorious .
+(c2 / contrast-01~13
+    :ARG1 (c3 / create-01~7
+        :ARG0 (n / noise~3
+            :mod (l / loud~2)
+            :poss (c / car~6))
+        :ARG1 (r2 / rush-01~11
+            :ARG1 (a / adrenaline~10)
+            :ARG1-of (r / remarkable-02~9)))
+    :ARG2 (g / give-01~16
+        :purpose (e / emerge-02~20
+            :ARG0 (p / person~15
+                :ARG0-of (d2 / drive-01~15))
+            :ARG1 (w / win-01~21
+                :ARG0 p))
+        :ARG0 p
+        :ARG1 (t / thing~18
+            :ARG1-of (h / have-degree-91~18
+                :ARG2 (g2 / good-02~18
+                    :ARG1 t)
+                :ARG3 (m / most~18))))
+    :time (d / date-entity~0
+        :year 00054~0))

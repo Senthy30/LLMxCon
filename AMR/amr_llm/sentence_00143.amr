@@ -1,0 +1,17 @@
+#00143 Sentence: 00143 The taproom buzzed with excitement, the air thick with the aroma of hops and anticipation as the new brew was unveiled.
+# ::tok 00143 The taproom buzzed with excitement , the air thick with the aroma of hops and anticipation as the new brew was unveiled .
+(a2 / and~6
+    :op1 (g / give-01~3
+        :ARG0 (e / excite-01~5)
+        :ARG1 (t / taproom~2))
+    :op2 (t2 / thick-03~9
+        :ARG1 (a / air~8)
+        :ARG2 (a3 / and~15
+            :op1 (s / smell-01~12
+                :ARG1 (h / hop-01~14))
+            :op2 (a4 / anticipate-01~16
+                :time (u / unveil-01~22
+                    :ARG1 (b / brew~20
+                        :ARG1-of (n / new-01~19))))))
+    :time (d / date-entity~0
+        :year 00143~0))

@@ -1,0 +1,24 @@
+#00060 Sentence: 00060 Step inside the opulence of a luxury cruise ship, where marble floors gleam under the soft glow of chandeliers and the scent of fine dining lingers in the air.
+# ::tok 00060 Step inside the opulence of a luxury cruise ship , where marble floors gleam under the soft glow of chandeliers and the scent of fine dining lingers in the air .
+(s5 / step-01~1
+    :ARG0 (y / you~1)
+    :ARG2 (i / inside~2
+        :op1 (o / opulence~4
+            :location-of (a2 / and~21
+                :op1 (s / shimmer-01~14
+                    :ARG1 (f2 / floor~13
+                        :consist-of (m / marble~12))
+                    :prep-under (g / glow-01~18
+                        :ARG0 (c / ceiling~20)
+                        :ARG1-of (s4 / soft-02~17)))
+                :op2 (l / linger-01~27
+                    :ARG1 (s3 / smell-01~23
+                        :ARG1 (d2 / dine-01~26
+                            :ARG1-of (f / fine-03~25)))
+                    :location (a / air~30)))
+            :poss (s2 / ship~9
+                :mod (c2 / cruise-01~8)
+                :mod (l2 / luxury~7))))
+    :mode imperative~1
+    :time (d / date-entity~0
+        :year 00060~0))

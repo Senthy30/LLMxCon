@@ -1,0 +1,20 @@
+#00000 Sentence: 00000 The air was thick with the smell of freshly baked bread and sugar, and the rhythmic thumping of the dough mixer filled the room.
+# ::tok 00000 The air was thick with the smell of freshly baked bread and sugar , and the rhythmic thumping of the dough mixer filled the room .
+(m2 / multi-sentence~0
+    :snt1 (a3 / and~15
+        :op1 (t / thick-03~4
+            :ARG1 (a / air~2)
+            :ARG2 (s / smell-01~7
+                :ARG1 (a2 / and~12
+                    :op1 (b2 / bread~11
+                        :ARG1-of (b / bake-01~10
+                            :ARG1-of (f2 / fresh-04~9)))
+                    :op2 (s2 / sugar~13))))
+        :op2 (f / fill-01~23
+            :ARG1 (r2 / room~25)
+            :ARG2 (t3 / thump-01~18
+                :ARG1 (t2 / thing~22
+                    :ARG0-of (m / mix-01~22
+                        :ARG1 (d / dough~21)))
+                :mod (r / rhythm~17))))
+    :value 1000000~0)

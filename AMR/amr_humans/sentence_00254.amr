@@ -1,0 +1,25 @@
+#00254 Sentence: 00254 When I was a kid, I loved fishing; I remember sitting by the calm water at the lake from my village and the only sound was the gentle ripple of the lake.
+# ::tok 00254 When I was a kid , I loved fishing ; I remember sitting by the calm water at the lake from my village and the only sound was the gentle ripple of the lake .
+(a / and~10
+    :li 00254~0
+    :op1 (l2 / love-01~8
+        :ARG0 (i / i~7)
+        :ARG1 (f / fish-01~9
+            :ARG0 i)
+        :time (k / kid~5
+            :domain i))
+    :op2 (r / remember-01~12
+        :ARG0 i
+        :ARG1 (s / sit-01~13
+            :ARG1 i
+            :ARG2 (b / by~14
+                :op1 (w / water~17
+                    :ARG1-of (c / calm-03~16)
+                    :location (l / lake~20
+                        :source (v / village~23
+                            :poss i))))))
+    :op3 (s2 / sound-02~27
+        :ARG3 (s3 / sweep-01~31
+            :ARG1 l
+            :ARG1-of (g / gentle-01~30))
+        :mod (o / only~26)))

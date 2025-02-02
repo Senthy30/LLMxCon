@@ -1,0 +1,48 @@
+#00004 Sentence: 00004 At around 4000 meters above the sea the curvature of the earth can be spotted, with clouds lower than your position, with a big and shining sun above your head. At such an altitude, everything around you is white, a lot of ice that can make you fall, with very little vegatation or none.
+# ::tok 00004 At around 4000 meters above the sea the curvature of the earth can be spotted , with clouds lower than your position , with a big and shining sun above your head . At such an altitude , everything around you is white , a lot of ice that can make you fall , with very little vegatation or none .
+(m4 / multi-sentence~33
+    :consist-of (i / ice~48
+        :quant (l2 / lot~46)
+        :ARG0-of (m / make-02~51
+            :ARG1 (f / fall-01~53
+                :ARG1 (y2 / you~41)
+                :prep-with (o / or~59
+                    :op1 (g / geography~58
+                        :mod (l / little~57
+                            :degree (v / very~56)))
+                    :op2 (n2 / none~60)))
+            :ARG1-of (p4 / possible-01~50)))
+    :snt1 (p3 / possible-01~13
+        :li 00004~0
+        :ARG1 (s3 / spot-01~15
+            :ARG1 (c2 / curvature~9
+                :ARG0-of (h / have-03~17
+                    :ARG1 (c / cloud~18
+                        :ARG0-of (h2 / have-03~24
+                            :ARG1 (s5 / sun~29
+                                :ARG1-of (s2 / shine-01~28)
+                                :location (a2 / above~30
+                                    :op1 (h4 / head~32))
+                                :mod (b / big~26)))
+                        :ARG1-of (l3 / low-04~19
+                            :ARG2-of (h3 / have-degree-91~19
+                                :ARG1 c
+                                :ARG3 (m3 / more~19)
+                                :ARG4 (p2 / position~22
+                                    :poss (y / you~21
+                                        :part h4))))))
+                :poss (p / planet~12
+                    :name (n / name~12
+                        :op1 "Earth"~12))))
+        :location (a / above~5
+            :quant (a4 / around~2
+                :op1 (d / distance-quantity~4
+                    :quant 4000~3
+                    :unit (m2 / meter~4)))
+            :op1 (s / sea~7)))
+    :snt2 (w / white-03~43
+        :ARG1 (e / everything~39
+            :location (a5 / around~40
+                :op1 y2))
+        :location (a3 / altitude~37
+            :mod (s4 / such~35))))

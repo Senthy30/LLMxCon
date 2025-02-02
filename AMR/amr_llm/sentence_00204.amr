@@ -1,0 +1,21 @@
+#00204 Sentence: 00204 Sunlight streamed through the glass roof, illuminating a kaleidoscope of blooms in the hushed conservatory, their petals unfurling like whispered secrets.
+# ::tok 00204 Sunlight streamed through the glass roof , illuminating a kaleidoscope of blooms in the hushed conservatory , their petals unfurling like whispered secrets .
+(s2 / stream-01~2
+    :ARG0-of (i / illuminate-01~8
+        :ARG1 (k / kaleidoscope~10
+            :consist-of (f / flower~12
+                :ARG0-of (u / unfurl-01~20
+                    :ARG1 (p / petal~19)
+                    :ARG1-of (r / resemble-01~21
+                        :ARG2 (s / secret~23
+                            :ARG1-of (w / whisper-01~22))))
+                :location (c / conservatory~16
+                    :ARG1-of (h / hush-01~15))
+                :part p)))
+    :ARG1 (s3 / sunlight~1)
+    :path (r2 / roof~6
+        :consist-of (g / glass~5))
+    :time (d / date-entity~0
+        :day 4~0
+        :month 2~0
+        :year 2003~0))

@@ -1,0 +1,19 @@
+#00016 Sentence: 00016 Laughter mingled with the crashing waves as the sun dipped below the horizon, painting the sky in vibrant hues of orange and purple.
+# ::tok 00016 Laughter mingled with the crashing waves as the sun dipped below the horizon , painting the sky in vibrant hues of orange and purple .
+(m / mingle-01~2
+    :ARG0-of (p / paint-02~15
+        :ARG1 (s / sky~17)
+        :ARG2 (c / color~20
+            :domain (a / and~23
+                :op1 (o / orange~22)
+                :op2 (p2 / purple~24))
+            :mod (v / vibrant~19)))
+    :ARG1 (l / laugh-01~1)
+    :ARG2 (w / wave~6
+        :ARG1-of (c2 / crash-01~5))
+    :time (d / date-entity~0
+        :day 00016~0)
+    :time (d2 / dip-01~10
+        :ARG1 (s2 / sun~9)
+        :ARG4 (b / below~11
+            :op1 (h / horizon~13))))

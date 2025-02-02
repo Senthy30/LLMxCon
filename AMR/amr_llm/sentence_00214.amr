@@ -1,0 +1,22 @@
+#00214 Sentence: 00214 The air buzzed with laughter and the clatter of plastic toys as children raced through tunnels, climbed on jungle gyms, and built towers of blocks.
+# ::tok 00214 The air buzzed with laughter and the clatter of plastic toys as children raced through tunnels , climbed on jungle gyms , and built towers of blocks .
+(s / sweep-01~3
+    :li 00214~0
+    :ARG0 (a2 / and~6
+        :op1 (l / laugh-01~5)
+        :op2 (c2 / clatter-01~8
+            :ARG0 (t2 / toy~11
+                :consist-of (p / plastic~10))))
+    :ARG1 (a / air~2)
+    :time (a3 / and~23
+        :op1 (r / race-02~14
+            :ARG0 (c / child~13)
+            :ARG1 (t3 / tunnel~16))
+        :op2 (c3 / climb-01~18
+            :ARG0 c
+            :ARG1 (g / gym~21
+                :mod (j / jungle~20)))
+        :op3 (b2 / build-01~24
+            :ARG0 c
+            :ARG1 (t / tower~25
+                :consist-of (b / block~27)))))

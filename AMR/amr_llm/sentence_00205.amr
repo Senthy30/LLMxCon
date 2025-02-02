@@ -1,0 +1,5 @@
+#00205 Sentence: 00205
+# ::tok 00205
+(d / date-entity~0
+    :day 5~0
+    :rel 2~0)

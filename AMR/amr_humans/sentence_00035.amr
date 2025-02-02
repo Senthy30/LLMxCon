@@ -1,0 +1,19 @@
+#00035 Sentence: 00035 A beautiful painting is surrounded by a lot of people who give their opinion and admire the beauty of the colors and shapes presented.
+# ::tok 00035 A beautiful painting is surrounded by a lot of people who give their opinion and admire the beauty of the colors and shapes presented .
+(s2 / surround-01~5
+    :ARG1 (p2 / person~10
+        :quant (l / lot~8)
+        :ARG0-of (g / give-01~12
+            :ARG1 (t / thing~14
+                :ARG1-of (o / opine-01~14
+                    :ARG0 p2)))
+        :ARG0-of (a / admire-01~16
+            :ARG1 (b2 / beautiful-02~18
+                :ARG1 (a2 / and~22
+                    :ARG1-of (p3 / present-01~24)
+                    :op1 (c / color~21)
+                    :op2 (s / shape-01~23)))))
+    :ARG2 (p / paint-02~3
+        :ARG1-of (b / beautiful-02~2))
+    :time (d / date-entity~0
+        :year 00035~0))

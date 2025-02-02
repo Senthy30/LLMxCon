@@ -1,0 +1,17 @@
+#00260 Sentence: 00260 I was moving slowly through the art gallery when I saw the most beautiful painting of a tree.
+# ::tok 00260 I was moving slowly through the art gallery when I saw the most beautiful painting of a tree .
+(m2 / move-01~3
+    :ARG0 (i / i~1)
+    :ARG1-of (s2 / slow-05~4)
+    :ARG2 (g / gallery~8
+        :mod (a / art~7))
+    :time (d / date-entity~0
+        :year 00260~0)
+    :time (s / see-01~11
+        :ARG0 i
+        :ARG1 (p / paint-02~15
+            :ARG1 (t / tree~18)
+            :ARG1-of (h / have-degree-91~13
+                :ARG2 (b / beautiful-02~14
+                    :ARG1 p)
+                :ARG3 (m / most~13)))))

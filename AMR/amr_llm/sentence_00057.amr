@@ -1,0 +1,13 @@
+#00057 Sentence: 00057 The street pulsed with life, a vibrant tapestry of colors and sounds as the parade marched by.
+# ::tok 00057 The street pulsed with life , a vibrant tapestry of colors and sounds as the parade marched by .
+(s3 / swell-01~3
+    :ARG0 (l / life~5
+        :mod (t / tapestry~9
+            :consist-of (c / color~11)
+            :consist-of (s / sound-02~13)
+            :mod (v / vibrant~8)))
+    :ARG1 (s2 / street~2)
+    :time (d / date-entity~0
+        :time 00057~0)
+    :time (m / march-01~17
+        :ARG0 (p / parade-02~16)))

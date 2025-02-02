@@ -1,0 +1,31 @@
+#00233 Sentence: 00233 Last winter I went to that Ski resort I always dreamed of; it was so nice to finally be there with a warm drink in my hands and see the snowflakes falling everywhere
+# ::tok 00233 Last winter I went to that Ski resort I always dreamed of ; it was so nice to finally be there with a warm drink in my hands and see the snowflakes falling everywhere
+(a2 / and~13
+    :li 00233~0
+    :op1 (g / go-02~4
+        :ARG0 (i / i~3)
+        :ARG4 (r / resort~8
+            :ARG1-of (d2 / dream-01~11
+                :ARG0 i
+                :time (a / always~10))
+            :mod (s2 / ski-01~7)
+            :mod (t / that~6))
+        :time (d / date-entity~2
+            :mod (l / last~1)
+            :season (w2 / winter~2)))
+    :op2 (n / nice-01~17
+        :ARG1 (a3 / and~29
+            :op1 (b / be-located-at-91~20
+                :ARG1 i
+                :ARG2 r
+                :manner (i2 / in-ones-hands-04~28
+                    :ARG0 i
+                    :ARG1 (d3 / drink~25
+                        :ARG1-of (w / warm-07~24)))
+                :mod (f2 / final~19))
+            :op2 (s / see-01~30
+                :ARG0 i
+                :ARG1 (s3 / snow~32
+                    :ARG1-of (f / fall-01~33
+                        :location (e / everywhere~34)))))
+        :degree (s4 / so~16)))

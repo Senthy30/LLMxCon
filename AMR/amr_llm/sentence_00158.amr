@@ -1,0 +1,18 @@
+#00158 Sentence: 00158 The air crackled with the excitement of families, their luggage piled high, as they rushed to catch their trains.
+# ::tok 00158 The air crackled with the excitement of families , their luggage piled high , as they rushed to catch their trains .
+(c2 / crack-02~3
+    :ARG0 (e / excite-01~6
+        :ARG1 (f / family~8
+            :ARG0-of (p / pile-01~12
+                :ARG1 (l / luggage~11
+                    :poss f)
+                :ARG1-of (h / high-02~13))))
+    :ARG1 (a / air~2)
+    :time (d / date-entity~0
+        :year 00158~0)
+    :time (r / rush-01~17
+        :ARG1 f
+        :ARG2 (c / catch-01~19
+            :ARG0 f
+            :ARG1 (t / train~21
+                :poss f))))

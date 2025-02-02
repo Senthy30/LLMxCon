@@ -1,0 +1,17 @@
+#00102 Sentence: 00102 There is a specific noise and smell of chlorine, water is splashing and people are cheering.
+# ::tok 00102 There is a specific noise and smell of chlorine , water is splashing and people are cheering .
+(a / and~6
+    :op1 (a2 / and~6
+        :ARG1-of (s2 / specific-02~4)
+        :op1 (n / noise~5
+            :topic (c2 / chlorine~9))
+        :op2 (s / smell-01~7
+            :ARG1 c2))
+    :op2 (s3 / splash-01~13
+        :ARG1 (w / water~11))
+    :op3 (c / cheer-02~17
+        :ARG0 (p / person~15))
+    :time (d / date-entity~0
+        :day 2~0
+        :month 11~0
+        :year 2002~0))

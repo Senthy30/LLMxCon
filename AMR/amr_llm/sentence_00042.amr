@@ -1,0 +1,20 @@
+#00042 Sentence: 00042 The air crackled with excitement as vintage automobiles, gleaming under the afternoon sun, lined the rows of pristine asphalt.
+# ::tok 00042 The air crackled with excitement as vintage automobiles , gleaming under the afternoon sun , lined the rows of pristine asphalt .
+(c / cause-01~6
+    :ARG0 (l / line-01~16
+        :ARG0 (a4 / automobile~8
+            :ARG1-of (s / shine-01~10
+                :ARG0 (u / under~11
+                    :op1 (s2 / sun~14
+                        :time (d2 / date-entity~13
+                            :dayperiod (a / afternoon~13)))))
+            :mod (v / vintage~7))
+        :ARG1 (r / row~18
+            :consist-of (a3 / asphalt~21
+                :mod (p / pristine~20))))
+    :ARG1 (c2 / crack-02~3
+        :ARG0 (e / excite-01~5
+            :ARG1 (a2 / air~2))
+        :ARG1 a2)
+    :time (d / date-entity~0
+        :time 00042~0))

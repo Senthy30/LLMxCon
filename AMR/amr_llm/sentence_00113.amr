@@ -1,0 +1,22 @@
+#00113 Sentence: 00113 The aroma of cinnamon rolls and freshly brewed coffee filled the air as the family gathered for their weekly Sunday brunch.
+# ::tok 00113 The aroma of cinnamon rolls and freshly brewed coffee filled the air as the family gathered for their weekly Sunday brunch .
+(f2 / fill-01~10
+    :li 00113~0
+    :ARG1 (a / air~12)
+    :ARG2 (s / smell-01~2
+        :ARG1 (a2 / and~6
+            :op1 (r2 / roll~5
+                :mod (c / cinnamon~4))
+            :op2 (c2 / coffee~9
+                :ARG1-of (b / brew-01~8
+                    :ARG1-of (f3 / fresh-04~7)))))
+    :time (g / gather-03~16
+        :purpose (b2 / brunch~21
+            :frequency (r / rate-entity-91~19
+                :ARG3 (t / temporal-quantity~19
+                    :quant 1~19
+                    :unit (w / week~19)))
+            :poss (f / family~15)
+            :time (d / date-entity~20
+                :weekday (s2 / sunday~20)))
+        :ARG0 f))

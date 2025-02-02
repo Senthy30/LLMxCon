@@ -1,0 +1,27 @@
+#00253 Sentence: 00253 The air hung thick with the scent of old paper and stale coffee, a cacophony of clanging bells and hurried voices filling the space as customers bartered for trinkets and treasures.
+# ::tok 00253 The air hung thick with the scent of old paper and stale coffee , a cacophony of clanging bells and hurried voices filling the space as customers bartered for trinkets and treasures .
+(h / hang-01~3
+    :ARG1 (a / air~2)
+    :ARG2 (t / thick-03~4
+        :ARG1 a)
+    :ARG3 (s / smell-01~7
+        :ARG1 (a2 / and~11
+            :op1 (p / paper~10
+                :mod (o / old~9))
+            :op2 (c2 / coffee~13
+                :mod (s3 / stale~12))))
+    :mod (c / cacophony~16
+        :consist-of (a3 / and~20
+            :ARG2-of (f / fill-01~23
+                :ARG1 (s2 / space~25)
+                :time (b / barter-01~28
+                    :ARG0 (c3 / customer~27)
+                    :ARG3 (a4 / and~31
+                        :op1 (o2 / ornament~30)
+                        :op2 (t2 / treasure~32))))
+            :op1 (b2 / bell~19
+                :ARG0-of (r / ring-01~18))
+            :op2 (v / voice~22
+                :ARG1-of (h2 / hurry-01~21))))
+    :time (d / date-entity~0
+        :day 00253~0))

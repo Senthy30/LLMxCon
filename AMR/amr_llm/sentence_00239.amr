@@ -1,0 +1,27 @@
+#00239 Sentence: 00239 The air crackled with anticipation as the director barked instructions, the crew scurried, and the actors, bathed in the warm glow of the setting sun, prepared to bring the story to life.
+# ::tok 00239 The air crackled with anticipation as the director barked instructions , the crew scurried , and the actors , bathed in the warm glow of the setting sun , prepared to bring the story to life .
+(c / crack-02~3
+    :ARG0 (a4 / anticipate-01~5
+        :ARG1 (a3 / and~6
+            :op1 (b / bark-01~9
+                :ARG0 (p / person~8
+                    :ARG0-of (h / have-org-role-91~8
+                        :ARG2 (d2 / director~8)))
+                :ARG1 (i / instruct-01~10))
+            :op2 (s / scurry-01~14
+                :ARG0 (c2 / crew~13))
+            :op3 (p3 / prepare-02~30
+                :ARG0 (p2 / person~18
+                    :ARG0-of (a / act-01~18)
+                    :ARG1-of (b2 / bathe-01~20
+                        :ARG2 (g / glow-01~24
+                            :ARG0 (s4 / sun~28
+                                :ARG1-of (s2 / set-02~27))
+                            :ARG1-of (w / warm-07~23))))
+                :ARG2 (b3 / bring-01~32
+                    :ARG0 p2
+                    :ARG1 (s3 / story~34)
+                    :ARG2 (l / life~36)))))
+    :ARG1 (a2 / air~2)
+    :time (d / date-entity~0
+        :year 00239~0))

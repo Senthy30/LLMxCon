@@ -1,0 +1,17 @@
+#00106 Sentence: 00106 There are kids laughing and yelling with parents on the sides watching them
+# ::tok 00106 There are kids laughing and yelling with parents on the sides watching them
+(a / and~5
+    :op1 (l / laugh-01~4
+        :ARG0 (k / kid~3))
+    :op2 (y / yell-01~6
+        :ARG0 k)
+    :op3 (w / watch-01~12
+        :ARG0 (p2 / person~8
+            :ARG0-of (h / have-rel-role-91~8
+                :ARG1 k
+                :ARG2 (p / parent~8))
+            :location (s / side~11))
+        :ARG1 k)
+    :time (d / date-entity~0
+        :day 6~0
+        :year 00106~0))

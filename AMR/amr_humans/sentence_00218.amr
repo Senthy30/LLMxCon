@@ -1,0 +1,23 @@
+#00218 Sentence: 00218 When we arrived, horses were prepared for the ride; we just saw the people there adjusting their saddles and getting ready for the start.
+# ::tok 00218 When we arrived , horses were prepared for the ride ; we just saw the people there adjusting their saddles and getting ready for the start .
+(a2 / and~11
+    :li 00218~0
+    :op1 (p2 / prepare-02~7
+        :ARG1 (h / horse~5)
+        :ARG2 (r2 / ride-01~10
+            :ARG0 h)
+        :time (a4 / arrive-01~3
+            :ARG1 (w / we~2)))
+    :op2 (s2 / see-01~14
+        :ARG0 w
+        :ARG1 (a3 / and~21
+            :op1 (a / adjust-01~18
+                :ARG0 (p / person~16
+                    :location (t / there~17))
+                :ARG1 (s / saddle-01~20
+                    :ARG0 p))
+            :op2 (r / ready-01~23
+                :ARG0 p
+                :ARG1 p
+                :ARG2 (s3 / start-01~26)))
+        :mod (j / just~13)))

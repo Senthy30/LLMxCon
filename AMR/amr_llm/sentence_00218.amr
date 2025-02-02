@@ -1,0 +1,22 @@
+#00218 Sentence: 00218 The crisp morning air filled with the scent of hay and leather as I arrived at the stable, ready to embark on a journey through the fields.
+# ::tok 00218 The crisp morning air filled with the scent of hay and leather as I arrived at the stable , ready to embark on a journey through the fields .
+(f2 / fill-01~5
+    :ARG1 (a / air~4
+        :mod (c / crisp~2)
+        :time (d2 / date-entity~3
+            :dayperiod (m / morning~3)))
+    :ARG2 (s / smell-01~8
+        :ARG1 (a2 / and~11
+            :op1 (h / hay~10)
+            :op2 (l / leather~12)))
+    :time (d / date-entity~0
+        :day 00218~0)
+    :time (a3 / arrive-01~15
+        :ARG1 (i / i~14
+            :ARG1-of (r / ready-02~20
+                :ARG2 (e / embark-01~22
+                    :ARG0 i
+                    :ARG1 (j / journey-01~25
+                        :ARG0 i
+                        :path (f / field~28)))))
+        :ARG4 (s2 / stable~18)))

@@ -1,0 +1,19 @@
+#00203 Sentence: 00203 The afternoon sun streamed through the studio windows, illuminating a kaleidoscope of canvases, each one a testament to the artist's passion.
+# ::tok 00203 The afternoon sun streamed through the studio windows , illuminating a kaleidoscope of canvases , each one a testament to the artist 's passion .
+(s / stream-01~4
+    :ARG0-of (i / illuminate-01~10
+        :ARG1 (k / kaleidoscope~12)
+        :ARG1-of (t / testify-01~19
+            :ARG0 (a2 / and~15
+                :op1 (p2 / passion~24
+                    :poss (a3 / artist~22))
+                :op2 (o / one~17
+                    :mod (e / each~16)))))
+    :ARG1 (s3 / sun~3
+        :time (d / date-entity~0
+            :day 00203~0
+            :dayperiod (a / afternoon~2)))
+    :path (w / window~8
+        :mod (s2 / studio~7))
+    :rel (p / paint-02~14)
+    :time d)

@@ -1,0 +1,16 @@
+#00007 Sentence: 00007 The crackling fire, the symphony of crickets, and the vast expanse of stars above painted a picture of pure tranquility.
+# ::tok 00007 The crackling fire , the symphony of crickets , and the vast expanse of stars above painted a picture of pure tranquility .
+(p / paint-02~17
+    :li 00007~0
+    :ARG0 (a2 / and~10
+        :op1 (f / fire~3
+            :ARG1-of (c / crack-02~2))
+        :op2 (s2 / symphony~6
+            :consist-of (c2 / cricket~8))
+        :op3 (e / expanse~13
+            :consist-of (s / star~15)
+            :location (a / above~16)
+            :mod (v / vast~12)))
+    :ARG1 (p2 / picture~19
+        :ARG2 (t / tranquility~22
+            :ARG1-of (p3 / pure-02~21))))

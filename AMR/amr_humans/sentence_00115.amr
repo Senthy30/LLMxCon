@@ -1,0 +1,17 @@
+#00115 Sentence: 00115 The water is calm, even though there is a bit of wind and rain, boats are rocking gently and there is a smell of salt in the air.
+# ::tok 00115 The water is calm , even though there is a bit of wind and rain , boats are rocking gently and there is a smell of salt in the air .
+(h / have-concession-91~7
+    :ARG1 (c / calm-03~4
+        :ARG1 (w / water~2))
+    :ARG2 (a2 / and~14
+        :quant (b / bit~11)
+        :op1 (w2 / wind~13)
+        :op2 (r / rain-01~15)
+        :op3 (r2 / rock-01~19
+            :ARG1 (b2 / boat~17)
+            :manner (g / gentle~20))
+        :op4 (s2 / smell-01~25
+            :ARG1 (s / salt~27)
+            :location (a / air~30)))
+    :time (d / date-entity~0
+        :day 00115~0))

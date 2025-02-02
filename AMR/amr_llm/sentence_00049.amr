@@ -1,0 +1,19 @@
+#00049 Sentence: 00049 Laughter echoed through the park as families gathered, sharing stories and laughter under the warm summer sun.
+# ::tok 00049 Laughter echoed through the park as families gathered , sharing stories and laughter under the warm summer sun .
+(e / echo-01~2
+    :ARG1 (l / laugh-01~1)
+    :location (p / park~5)
+    :time (d / date-entity~0
+        :day 00049~0)
+    :time (g / gather-03~8
+        :ARG0 (f / family~7
+            :ARG0-of (s / share-01~10
+                :ARG1 (a / and~12
+                    :op1 (s2 / story~11)
+                    :op2 (l2 / laugh-01~13
+                        :ARG0 f))
+                :location (u / under~14
+                    :op1 (s4 / sun~18
+                        :ARG1-of (w / warm-07~16)
+                        :time (d2 / date-entity~17
+                            :season (s3 / summer~17))))))))

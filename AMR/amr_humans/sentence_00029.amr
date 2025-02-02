@@ -1,0 +1,29 @@
+#00029 Sentence: 00029 The waves were hitting the boat, while the sun is shinning brighter than ever, while the never ending sea around the sailboat creates a feeling of loneliness and insignificance compared to the big nature.
+# ::tok 00029 The waves were hitting the boat , while the sun is shinning brighter than ever , while the never ending sea around the sailboat creates a feeling of loneliness and insignificance compared to the big nature .
+(c2 / contrast-01~8
+    :li 00029~0
+    :ARG1 (h2 / hit-01~4
+        :ARG0 (w / wave~2)
+        :ARG1 (b2 / boat~6))
+    :ARG2 (s2 / shine-01~12
+        :ARG1 (s4 / sun~10)
+        :ARG1-of (h / have-degree-91~13
+            :ARG2 (b3 / bright-02~13
+                :ARG1 s2)
+            :ARG3 (m / more~13)
+            :ARG4 (e2 / ever~15)))
+    :ARG2 (c3 / create-01~25
+        :ARG0 (s / sea~21
+            :ARG1-of (e / end-01~20
+                :polarity -~19
+                :time (e3 / ever~19))
+            :location (a2 / around~22
+                :op1 b2))
+        :ARG1 (f / feel-01~27
+            :ARG1 (a / and~30
+                :op1 (l / loneliness~29)
+                :op2 (s3 / significant-02~31
+                    :polarity -~19))
+            :ARG1-of (c / compare-01~32
+                :ARG2 (n / nature~36
+                    :mod (b / big~35))))))

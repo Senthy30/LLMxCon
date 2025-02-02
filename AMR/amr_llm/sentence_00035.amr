@@ -1,0 +1,19 @@
+#00035 Sentence: 00035 From renowned paintings to intricate sculptures, art museums offer a captivating display of human creativity.
+# ::tok 00035 From renowned paintings to intricate sculptures , art museums offer a captivating display of human creativity .
+(d / date-entity~0
+    :rel (p / paint-02~3)
+    :rel (r2 / renown-01~2)
+    :time-of (o / offer-01~10
+        :ARG0 (m / museum~9
+            :mod (a2 / art~8))
+        :ARG1 (d2 / display-01~13
+            :ARG0-of (c / captivate-01~12)
+            :ARG1 (c2 / creativity~16
+                :mod (h / human~15)))
+        :ARG1-of (r / range-01~1
+            :ARG3 (a / and~7
+                :op1 (p2 / picture~3
+                    :ARG1-of r)
+                :op2 (s / statue~6
+                    :mod (i / intricate~5)))))
+    :year 00035~0)

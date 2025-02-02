@@ -1,0 +1,19 @@
+#00031 Sentence: 00031 The roar of the crowd was deafening as the quarterback launched the ball downfield, the crisp autumn air filled with anticipation.
+# ::tok 00031 The roar of the crowd was deafening as the quarterback launched the ball downfield , the crisp autumn air filled with anticipation .
+(a2 / and~8
+    :op1 (d3 / deafen-01~7
+        :ARG0 (r / roar-02~2
+            :ARG0 (c2 / crowd~5))
+        :time (l / launch-01~11
+            :ARG0 (q / quarterback~10)
+            :ARG1 (b / ball~13)
+            :ARG4 (d4 / downfield~14)))
+    :op2 (f / fill-01~20
+        :ARG1 (a / air~19
+            :mod (c / crisp~17)
+            :time (d2 / date-entity~18
+                :season (a4 / autumn~18)))
+        :ARG2 (a3 / anticipate-01~22))
+    :time (d / date-entity~0
+        :day 31~0
+        :year 00031~0))

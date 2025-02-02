@@ -1,0 +1,21 @@
+#00161 Sentence: 00161 A tapestry of vibrant colors, bursting with life, unfolds before your eyes, each plant a testament to the shared passion of the community.
+# ::tok 00161 A tapestry of vibrant colors , bursting with life , unfolds before your eyes , each plant a testament to the shared passion of the community .
+(a / and~15
+    :op1 (u / unfold-02~11
+        :ARG1 (t / tapestry~2
+            :ARG1-of (b2 / burst-02~7
+                :ARG0 (l / life~9))
+            :consist-of (c / color~5
+                :mod (v / vibrant~4)))
+        :location (b / before~12
+            :op1 (e2 / eye~14
+                :part-of (y / you~13))))
+    :op2 (p2 / plant-01~17
+        :ARG0 (e / each~16)
+        :ARG1 (t3 / thing~18
+            :ARG0-of (t2 / testify-01~19
+                :ARG1 (p / passion~23
+                    :ARG1-of (s / share-01~22)
+                    :poss (c2 / community~26)))))
+    :time (d / date-entity~0
+        :year 00161~0))

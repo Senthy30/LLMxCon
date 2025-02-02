@@ -1,0 +1,27 @@
+#00224 Sentence: 00224 My classmates had such a great time at that pottery class from the old community center; they told me they felt great learning how to shape things.
+# ::tok 00224 My classmates had such a great time at that pottery class from the old community center ; they told me they felt great learning how to shape things .
+(a / and~17
+    :li 00224~0
+    :op1 (h / have-03~3
+        :ARG0 (c3 / classmate~2
+            :poss (i / i~1))
+        :ARG1 (t4 / time~7
+            :mod (g / great~6
+                :degree (s2 / such~4)))
+        :location (c2 / class~11
+            :source (c / center~16
+                :mod (c4 / community~15)
+                :mod (o / old~14))
+            :topic (p / pottery~10)))
+    :op2 (t / tell-01~19
+        :ARG0 c3
+        :ARG1 (f / feel-01~22
+            :ARG0 c3
+            :ARG0 (l / learn-01~24
+                :ARG0 c3
+                :ARG1 (t2 / thing~25
+                    :manner-of (s / shape-01~27
+                        :ARG0 c3
+                        :ARG1 (t3 / thing~28))))
+            :ARG1 (g2 / great~23))
+        :ARG2 i))

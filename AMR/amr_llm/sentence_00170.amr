@@ -1,0 +1,18 @@
+#00170 Sentence: 00170 The air buzzed with the rhythmic click of nail polish bottles, the chatter of excited clients, and the gentle hum of the air conditioner.
+# ::tok 00170 The air buzzed with the rhythmic click of nail polish bottles , the chatter of excited clients , and the gentle hum of the air conditioner .
+(a / administrate-01~3
+    :ARG0 (a2 / air~2)
+    :ARG0 (a4 / and~19
+        :op1 (c2 / click-01~7
+            :ARG0 (b / bottle~11
+                :mod (p / polish~10
+                    :mod (n / nail~9)))
+            :mod (r / rhythm~6))
+        :op2 (c / chatter-away-02~14
+            :ARG0 (c3 / client~17
+                :ARG1-of (e / excite-01~16)))
+        :op3 (h / ho-hum~22
+            :ARG1-of (g / gentle-01~21)
+            :poss (a3 / air-conditioning~26)))
+    :time (d / date-entity~0
+        :year 00170~0))

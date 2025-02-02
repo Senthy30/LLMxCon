@@ -1,0 +1,26 @@
+#00238 Sentence: 00238 The air vibrated with the hum of blenders and the excited chatter of gym-goers, their faces flushed from a morning workout.
+# ::tok 00238 The air vibrated with the hum of blenders and the excited chatter of gym - goers , their faces flushed from a morning workout .
+(a2 / and~9
+    :op1 (d / date-entity~0
+        :year 00238~0)
+    :op2 (t2 / tremble-01~3
+        :ARG1 (a / air~2)
+        :ARG3 (a3 / and~9
+            :op1 (h / ho-hum~6
+                :poss (p / person~8
+                    :mod (c / company~8
+                        :name (n / name~8
+                            :op1 "Blair"~8))))
+            :op2 (t / talk-01~12
+                :ARG0 (p2 / person~16
+                    :ARG0-of (g / go-02~16
+                        :ARG1 (g2 / gym~14))
+                    :part (f / face~19))
+                :ARG1-of (e / excite-01~11))))
+    :op4 (f2 / flush-01~20
+        :ARG0 (w / work-out-03~24
+            :ARG0 p2
+            :time (d2 / date-entity~23
+                :dayperiod (m / morning~23)))
+        :ARG1 f)
+    :time d)

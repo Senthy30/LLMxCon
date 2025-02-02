@@ -1,0 +1,13 @@
+#00165 Sentence: 00165 The air vibrated with the excited chatter of children and the rhythmic click of drills.
+# ::tok 00165 The air vibrated with the excited chatter of children and the rhythmic click of drills .
+(t / tremble-01~3
+    :ARG1 (a / air~2)
+    :ARG3 (a2 / and~10
+        :op1 (c / chat-01~7
+            :ARG0 (c2 / child~9)
+            :ARG1-of (e / excite-01~6))
+        :op2 (c3 / click-01~13
+            :ARG0 (d2 / drill-02~15)
+            :manner (r / rhythm~12)))
+    :time (d / date-entity~0
+        :year 00165~0))

@@ -1,0 +1,30 @@
+#00047 Sentence: 00047 The air hung thick with the scent of freshly cut fabric and the promise of new creations, as rows upon rows of vibrant patterns and textures stretched before me, beckoning me to bring them to life.
+# ::tok 00047 The air hung thick with the scent of freshly cut fabric and the promise of new creations , as rows upon rows of vibrant patterns and textures stretched before me , beckoning me to bring them to life .
+(h / hang-01~3
+    :ARG1 (a / air~2)
+    :ARG2 (t / thick-03~4
+        :ARG1 a)
+    :ARG3 (a2 / and~12
+        :op1 (s / smell-01~7
+            :ARG1 (f / fabric~11
+                :ARG1-of (c3 / cut-01~10
+                    :ARG1-of (f2 / fresh-04~9))))
+        :op2 (p2 / promise-01~14
+            :ARG1 (t2 / thing~17
+                :ARG1-of (n / new-01~16)
+                :ARG1-of (c2 / create-01~17))))
+    :time (d / date-entity~0
+        :year 00047~0)
+    :time (s2 / stretch-01~28
+        :ARG1 (r / row~22
+            :ARG0-of (e / Beck~32
+                :ARG2 (l / live-01~38
+                    :ARG0 (a3 / and~26
+                        :op1 (p / pattern~25
+                            :mod (v / vibrant~24))
+                        :op2 (c / color~27
+                            :mod v)))
+                :beneficiary (i / i~30))
+            :consist-of a3)
+        :location (b / before~29
+            :op1 i)))

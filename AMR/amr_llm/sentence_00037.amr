@@ -1,0 +1,16 @@
+#00037 Sentence: 00037 The pond, a sheet of glistening ice, stretched before them, inviting laughter and the thrill of gliding.
+# ::tok 00037 The pond , a sheet of glistening ice , stretched before them , inviting laughter and the thrill of gliding .
+(s2 / stretch-01~10
+    :ARG0-of (i2 / invite-01~14
+        :ARG1 (a / and~16
+            :op1 (l / laugh-01~15)
+            :op2 (t2 / thrill-01~18
+                :ARG0 (g2 / glimmer-01~20))))
+    :ARG1 (p / pond~2
+        :consist-of (s / sheet~5
+            :consist-of (i / ice~8
+                :ARG1-of (g / glimmer-01~7))))
+    :location (b / before~11
+        :op1 (t / they~12))
+    :time (d / date-entity~0
+        :year 00037~0))

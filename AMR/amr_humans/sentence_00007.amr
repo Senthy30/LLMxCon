@@ -1,0 +1,28 @@
+#00007 Sentence: 00007 The light pollution was very low that the stars shined more than ever, with a lot of shooting stars and the silence of forest that was fulfilled with the sound of night birds such as owl.
+# ::tok 00007 The light pollution was very low that the stars shined more than ever , with a lot of shooting stars and the silence of forest that was fulfilled with the sound of night birds such as owl .
+(c / cause-01~14
+    :li 00007~0
+    :ARG0 (p / pollute-01~3
+        :ARG1 (l / light~2))
+    :ARG1 (s / shine-01~10
+        :ARG0 (a / and~21
+            :op1 (s7 / star~20
+                :quant (l2 / lot~17)
+                :ARG1-of (s3 / shoot-02~19))
+            :op2 (s4 / silence~23
+                :ARG1-of (f2 / fulfill-01~28
+                    :ARG2 (s5 / sound-02~31
+                        :ARG1 (b / bird~34
+                            :example (o / owl~37)
+                            :time (d / date-entity~33
+                                :dayperiod (n / night~33)))))
+                :poss (f / forest~25)))
+        :ARG1 (s6 / star~9)
+        :ARG1-of (h / have-quant-91~11
+            :ARG3 (m / more~11)
+            :ARG4 (s2 / shine-01~10
+                :ARG1 s6
+                :time (e / ever~13))))
+    :rel (l3 / low-04~6
+        :ARG1 p
+        :degree (v / very~5)))

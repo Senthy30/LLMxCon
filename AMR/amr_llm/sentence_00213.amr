@@ -1,0 +1,18 @@
+#00213 Sentence: 00213 The air crackled with anticipation as I navigated the labyrinthine aisles of the antique auction, my eyes scanning for hidden treasures.
+# ::tok 00213 The air crackled with anticipation as I navigated the labyrinthine aisles of the antique auction , my eyes scanning for hidden treasures .
+(c / crack-02~3
+    :li 00213~0
+    :ARG0 (a3 / anticipate-01~5
+        :ARG0 (i / i~7
+            :part (e / eye~18)))
+    :ARG1 (a / air~2)
+    :time (n / navigate-01~8
+        :ARG0 i
+        :ARG1 (a2 / aisle~11
+            :mod (l / labyrinthine~10)
+            :part-of (a5 / auction-02~15
+                :mod (a4 / antique~14)))
+        :time-of (s / scan-01~19
+            :ARG0 e
+            :ARG2 (t / treasure~22
+                :ARG1-of (h / hide-01~21)))))

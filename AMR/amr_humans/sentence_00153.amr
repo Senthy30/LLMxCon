@@ -1,0 +1,19 @@
+#00153 Sentence: 00153 The river flows softly under the night sky, while campfire is crackling with people sitting on tree stamps around it.
+# ::tok 00153 The river flows softly under the night sky , while campfire is crackling with people sitting on tree stamps around it .
+(f / flow-01~3
+    :ARG1 (r / river~2)
+    :ARG1-of (s3 / soft-02~4)
+    :location (u / under~5
+        :op1 (s2 / sky~8
+            :time (d2 / date-entity~7
+                :dayperiod (n / night~7))))
+    :time (d / date-entity~0
+        :year 00153~0)
+    :time (c2 / crack-02~13
+        :ARG0 (p / person~15
+            :ARG1-of (s / sit-01~16
+                :ARG2 (s4 / stamp~19
+                    :mod (t / tree~18))
+                :location (a / around~20
+                    :op1 r)))
+        :ARG1 (c / campfire~11)))

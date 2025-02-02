@@ -1,0 +1,23 @@
+#00101 Sentence: 00101 A gentle breeze carried the scent of dew-kissed hay, and the first rays of the sun painted the fields in hues of gold and rose.
+# ::tok 00101 A gentle breeze carried the scent of dew - kissed hay , and the first rays of the sun painted the fields in hues of gold and rose .
+(a / and~13
+    :op1 (c / carry-01~4
+        :ARG0 (b / breeze~3
+            :ARG1-of (g / gentle-01~2))
+        :ARG1 (s / smell-01~6
+            :ARG1 (h / hay~11
+                :ARG1-of (k / kiss-01~10
+                    :ARG0 (d2 / dew~8)))))
+    :op2 (p / paint-01~20
+        :ARG0 (r / ray~16
+            :ord (o / ordinal-entity~15
+                :value 1~15)
+            :poss (s2 / sun~19))
+        :ARG1 (f / field~22)
+        :ARG2 (c2 / color~24
+            :mod (g2 / gold~26)
+            :mod (r2 / rose~28)))
+    :time (d / date-entity~0
+        :day 1~0
+        :month 1~0
+        :year 2008~0))

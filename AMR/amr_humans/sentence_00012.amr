@@ -1,0 +1,32 @@
+#00012 Sentence: 00012 The view was a splendit pallet of colors, starting from red, blue, yellow, but the main interesting color being purple. Every plant contains at least four times of different colors, with beautiful flowers and interesting shape of leaf for each plant.
+# ::tok 00012 The view was a splendit pallet of colors , starting from red , blue , yellow , but the main interesting color being purple . Every plant contains at least four times of different colors , with beautiful flowers and interesting shape of leaf for each plant .
+(m2 / multi-sentence~25
+    :snt1 (c4 / contrast-01~18
+        :li 00012~0
+        :ARG1 (p / pallet~6
+            :ARG1-of (s3 / start-01~10
+                :ARG2 (a / and~13
+                    :op1 (r / red-02~12)
+                    :op2 (b2 / blue~14)
+                    :op3 (y / yellow-02~16)))
+            :consist-of (c / color~8)
+            :domain (v / view~2)
+            :mod (s2 / splendit~5))
+        :ARG2 (p4 / purple~24
+            :ARG2-of (i / interest-01~21)
+            :mod (m / main~20)))
+    :snt2 (c3 / contain-01~28
+        :ARG0 (p2 / plant~27
+            :accompanier (a2 / and~40
+                :beneficiary (p3 / plant~47
+                    :mod (e / each~46))
+                :op1 (f / flower~39
+                    :ARG1-of (b / beautiful-02~38))
+                :op2 (s / shape~42
+                    :ARG2-of (i2 / interest-01~41)
+                    :mod (l / leaf~44)))
+            :mod (e2 / every~26))
+        :ARG1 (c2 / color~35
+            :quant (a3 / at-least~30
+                :op1 4~31)
+            :ARG1-of (d / differ-02~34))))

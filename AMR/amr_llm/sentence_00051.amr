@@ -1,0 +1,27 @@
+#00051 Sentence: 00051 The sun, barely peeking over the horizon, cast long, golden shadows across the placid lake, while a gentle breeze carried the scent of pine and damp earth into the cozy cabin.
+# ::tok 00051 The sun , barely peeking over the horizon , cast long , golden shadows across the placid lake , while a gentle breeze carried the scent of pine and damp earth into the cozy cabin .
+(c4 / contrast-01~20
+    :ARG1 (c3 / cast-01~10
+        :ARG0 (s3 / sun~2
+            :ARG0-of (p / peek-01~5
+                :degree (b / barely~4)
+                :location (o / over~6
+                    :op1 (h / horizon~8))))
+        :ARG1 (s / shadow~14
+            :ARG1-of (l2 / long-03~11)
+            :mod (g2 / gold~13))
+        :ARG2 (a / across~15
+            :op1 (l / lake~18
+                :mod (p3 / placid~17))))
+    :ARG2 (c2 / carry-01~24
+        :ARG0 (b2 / breeze~23
+            :ARG1-of (g / gentle-01~22))
+        :ARG1 (s2 / smell-01~26
+            :ARG1 (a2 / and~29
+                :op1 (p2 / pine~28)
+                :op2 (e / earth~31
+                    :ARG1-of (d / damp-03~30))))
+        :ARG4 (c / cabin~35
+            :mod (c5 / cozy~34)))
+    :time (d2 / date-entity~0
+        :time 00051~0))

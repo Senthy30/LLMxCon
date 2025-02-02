@@ -1,0 +1,21 @@
+#00131 Sentence: 00131 The market wakes up with people setting their tables and preparing the thing they will sell by carefully arranging them on the table.
+# ::tok 00131 The market wakes up with people setting their tables and preparing the thing they will sell by carefully arranging them on the table .
+(w / wake-up-02~3
+    :ARG1 (m / market~2)
+    :ARG3 (a / and~10
+        :op1 (s2 / set-01~7
+            :ARG0 (p / person~6)
+            :ARG1 (t / table-01~9
+                :ARG0 p))
+        :op2 (p2 / prepare-02~11
+            :ARG0 p
+            :ARG1 (t2 / thing~13
+                :ARG1-of (s / sell-01~16
+                    :ARG0 p))
+            :manner (a2 / arrange-01~19
+                :ARG0 p
+                :ARG1 t2
+                :ARG1-of (c / care-04~18
+                    :ARG0 p))))
+    :time (d / date-entity~0
+        :day 00131~0))

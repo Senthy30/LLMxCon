@@ -1,0 +1,19 @@
+#00248 Sentence: 00248 The air hung thick with the scent of clay and sawdust, the only sound the rhythmic rasp of a chisel against stone.
+# ::tok 00248 The air hung thick with the scent of clay and sawdust , the only sound the rhythmic rasp of a chisel against stone .
+(a3 / and~12
+    :op1 (h / hang-01~3
+        :ARG1 (a / air~2)
+        :ARG2 (t / thick-03~4
+            :ARG1 a)
+        :ARG2 (s2 / smell-01~7
+            :ARG1 (a2 / and~10
+                :op1 (c2 / clay~9)
+                :op2 (s / sawdust~11))))
+    :op2 (s3 / sound-02~15
+        :ARG3 (r2 / rumble-01~18
+            :ARG0 (c / chisel~21)
+            :mod (r / rhythm~17)
+            :prep-against (s4 / stone~23))
+        :mod (o / only~14))
+    :time (d / date-entity~0
+        :year 00248~0))

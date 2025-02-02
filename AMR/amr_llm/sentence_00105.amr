@@ -1,0 +1,21 @@
+#00105 Sentence: 00105 The boutique bustles with activity, a whirlwind of appointments, fittings, and excited brides, their dresses shimmering under the soft lighting.
+# ::tok 00105 The boutique bustles with activity , a whirlwind of appointments , fittings , and excited brides , their dresses shimmering under the soft lighting .
+(b3 / bust-01~3
+    :ARG0 (a / activity-06~5
+        :ARG0 (a3 / and~14
+            :op1 (a4 / appointment-02~10)
+            :op2 (w / whirlwind~8
+                :ARG0-of (c / cause-01~21
+                    :ARG1 (s / shimmer-01~20
+                        :ARG0 (l / lighting~24
+                            :ARG1-of (s2 / soft-02~23))
+                        :ARG1 (d2 / dress-01~19
+                            :ARG1 (b2 / bride~16
+                                :ARG1-of (e / excite-01~15)))))
+                :consist-of (a2 / and~11
+                    :op1 a4
+                    :op2 (f / fit-01~12)
+                    :op3 b2))))
+    :ARG1 (b / boutique~2)
+    :time (d / date-entity~0
+        :year 00105~0))

@@ -1,0 +1,23 @@
+#00158 Sentence: 00158 People rushing and running with luggage, some are just travelling, some are going home to spend their time with family.
+# ::tok 00158 People rushing and running with luggage , some are just travelling , some are going home to spend their time with family .
+(a2 / and~7
+    :op1 (a / and~3
+        :op1 (r2 / rush-01~2
+            :ARG1 (p / person~1))
+        :op2 (r / run-02~4
+            :ARG0 p
+            :instrument (l / luggage~6)))
+    :op2 (t2 / travel-01~11
+        :ARG0 (p2 / person~8
+            :quant (s / some~8))
+        :mod (j / just~10))
+    :op3 (g / go-02~15
+        :purpose (s2 / spend-02~18
+            :ARG0 p2
+            :ARG1 (t / time~20
+                :poss p2)
+            :ARG2 (f / family~22))
+        :ARG0 p2
+        :ARG4 (h / home~16))
+    :time (d / date-entity~0
+        :year 00158~0))

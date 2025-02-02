@@ -1,0 +1,35 @@
+#00216 Sentence: 00216 Our last diner was so lively and fun; we had some friends visiting us from far away and we stayed late and enjoy our time discussing about old memories.
+# ::tok 00216 Our last diner was so lively and fun ; we had some friends visiting us from far away and we stayed late and enjoy our time discussing about old memories .
+(m2 / multi-sentence~9
+    :snt1 (a / and~7
+        :degree (s / so~5)
+        :domain (d2 / diner~3
+            :mod (l / last~2))
+        :op1 (l3 / lively~6)
+        :op2 (f3 / fun-01~8))
+    :snt2 (a2 / and~23
+        :op1 (v / visit-01~14
+            :ARG0 (p / person~13
+                :quant (s2 / some~12)
+                :ARG0-of (h / have-rel-role-91~13
+                    :ARG1 (w / we~10)
+                    :ARG2 (f2 / friend~13)))
+            :ARG1 w
+            :source (a4 / away~18
+                :extent (f / far~17)))
+        :op2 (a3 / and~23
+            :ARG2 (d3 / discuss-01~27
+                :ARG0 w
+                :ARG1 (m / memory~30
+                    :mod (o / old~29)))
+            :op1 (s3 / stay-01~21
+                :ARG1 w
+                :time (l2 / late~22))
+            :op2 (e / enjoy-01~24
+                :ARG0 w
+                :ARG1 (t / time~26
+                    :poss w))))
+    :time (d / date-entity~0
+        :day 16~0
+        :month 2~0
+        :year 2004~0))

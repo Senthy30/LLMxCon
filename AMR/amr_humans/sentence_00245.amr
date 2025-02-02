@@ -1,0 +1,14 @@
+#00245 Sentence: 00245 The dance floor was full, everybody had fun at my wedding.
+# ::tok 00245 The dance floor was full , everybody had fun at my wedding .
+(a / and~6
+    :op1 (f2 / full-09~5
+        :ARG1 (f / floor~3
+            :location-of (d / dance-01~2))
+        :time (d2 / date-entity~0
+            :year 00245~0))
+    :op2 (h / have-03~8
+        :ARG0 (e / everybody~7)
+        :ARG1 (f3 / fun-01~9
+            :ARG0 e)
+        :location (w / wed-01~12
+            :ARG1 (i / i~11))))

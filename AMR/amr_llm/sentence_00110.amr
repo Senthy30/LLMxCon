@@ -1,0 +1,18 @@
+#00110 Sentence: 00110 The air buzzed with the rhythmic scrape of brushes against paint, and a kaleidoscope of colors burst onto the brick wall.
+# ::tok 00110 The air buzzed with the rhythmic scrape of brushes against paint , and a kaleidoscope of colors burst onto the brick wall .
+(a2 / and~13
+    :op1 (r / register-01~3
+        :ARG1 (a / air~2)
+        :ARG3 (s / scrape-01~7
+            :ARG1 (b2 / brush~9)
+            :ARG2 (p / paint~11)
+            :manner (r2 / rhythm~6)))
+    :op2 (b3 / burst-02~18
+        :ARG1 (k / kaleidoscope~15
+            :consist-of (c / color~17))
+        :location (w / wall~22
+            :consist-of (b / brick~21)))
+    :time (d / date-entity~0
+        :day 10~0
+        :month 10~0
+        :year 2005~0))

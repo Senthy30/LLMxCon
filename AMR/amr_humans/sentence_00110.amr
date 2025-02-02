@@ -1,0 +1,16 @@
+#00110 Sentence: 00110 It looks like the mural is growing or evolving as the people continue painting it.
+# ::tok 00110 It looks like the mural is growing or evolving as the people continue painting it .
+(l / look-02~2
+    :ARG1 (o / or~8
+        :op1 (g / grow-01~7
+            :ARG1 (m / mural~5))
+        :op2 (e / evolve-01~9
+            :ARG1 m)
+        :time (c / continue-01~13
+            :ARG0 (p2 / person~12)
+            :ARG1 (p / paint-02~14
+                :ARG0 p2
+                :ARG1 m)))
+    :time (d / date-entity~0
+        :day 10~0
+        :month 10~0))

@@ -1,0 +1,23 @@
+#00221 Sentence: 00221 I did not like the currency exchange place in the airport because there were a lot of hurried people coming from different countries trying to exchange their money
+# ::tok 00221 I did not like the currency exchange place in the airport because there were a lot of hurried people coming from different countries trying to exchange their money
+(c / cause-01~12
+    :ARG0 (c2 / come-01~20
+        :ARG1 (p / person~19
+            :quant (l / lot~16)
+            :ARG1-of (h / hurry-01~18))
+        :ARG3 (c3 / country~23
+            :ARG1-of (d2 / differ-02~22))
+        :manner (t / try-01~24
+            :ARG0 p
+            :ARG1 (e2 / exchange-01~26
+                :ARG0 p
+                :ARG1 (m / money~28
+                    :poss p))))
+    :ARG1 (d3 / dislike-01~4
+        :ARG0 (i / i~1)
+        :ARG1 (p2 / place~8
+            :location (a / airport~11)
+            :location-of (e / exchange-01~7
+                :ARG1 (c4 / currency~6))))
+    :time (d / date-entity~0
+        :day 00221~0))

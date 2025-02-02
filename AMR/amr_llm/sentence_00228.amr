@@ -1,0 +1,19 @@
+#00228 Sentence: 00228 The morning sun kissed the rooftop garden, casting dappled shadows and a gentle breeze rustling through the vibrant flowers.
+# ::tok 00228 The morning sun kissed the rooftop garden , casting dappled shadows and a gentle breeze rustling through the vibrant flowers .
+(k / kiss-01~4
+    :ARG0 (s2 / sun~3
+        :ARG0-of (c / cast-01~9
+            :ARG1 (a / and~12
+                :op1 (s / shadow~11
+                    :ARG1-of (d3 / drug-01~10))
+                :op2 (b / breeze~15
+                    :ARG1-of (g2 / gentle-01~14)
+                    :ARG1-of (r2 / rust-01~16
+                        :path (f / flower~20
+                            :mod (v / vibrant~19))))))
+        :time (d2 / date-entity~2))
+    :ARG1 (g / garden~7
+        :location (r / rooftop~6))
+    :rel (m / morning~2)
+    :time (d / date-entity~0
+        :day 00228~0))

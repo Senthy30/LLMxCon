@@ -1,0 +1,23 @@
+#00251 Sentence: 00251 The aroma of cinnamon and coffee hung thick in the air, a warm haven against the howling wind and swirling snow outside, as soft jazz played in the background.
+# ::tok 00251 The aroma of cinnamon and coffee hung thick in the air , a warm haven against the howling wind and swirling snow outside , as soft jazz played in the background .
+(h / hang-01~7
+    :li 00251~0
+    :ARG1 (s / smell-01~2
+        :ARG1 (a2 / and~5
+            :op1 (c / cinnamon~4)
+            :op2 (c2 / coffee~6))
+        :mod (h2 / haven~15
+            :ARG0-of (c3 / counter-01~16
+                :ARG1 (a3 / and~20
+                    :op1 (w2 / wind~19
+                        :ARG0-of (h3 / howl-01~18))
+                    :op2 (s2 / snow~22
+                        :ARG1-of (s4 / swirl-01~21)
+                        :location (o / outside~23))))
+            :ARG1-of (w / warm-07~14)))
+    :ARG2 (t / thick-03~8)
+    :ARG2 (a / air~11)
+    :time (p / play-11~28
+        :ARG1 (j / jazz~27
+            :ARG1-of (s3 / soft-02~26))
+        :location (b / background~31)))

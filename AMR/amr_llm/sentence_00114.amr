@@ -1,0 +1,18 @@
+#00114 Sentence: 00114 The air hung thick with the scent of chalk and sweat, the rhythmic clang of harnesses echoing off the towering walls.
+# ::tok 00114 The air hung thick with the scent of chalk and sweat , the rhythmic clang of harnesses echoing off the towering walls .
+(a3 / and~12
+    :op1 (h / hang-01~3
+        :ARG1 (a / air~2)
+        :ARG2 (t / thick-03~4
+            :ARG1 a)
+        :ARG3 (s / smell-01~7
+            :ARG1 (a2 / and~10
+                :op1 (c / chalk~9)
+                :op2 (s2 / sweat~11))))
+    :op2 (e / echo-01~18
+        :ARG1 (r / rhythm~14
+            :poss (l / latch~17))
+        :ARG3 (w / wall~22
+            :ARG0-of (t2 / tower-01~21)))
+    :time (d / date-entity~0
+        :year 00114~0))

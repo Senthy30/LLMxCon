@@ -1,0 +1,25 @@
+#00059 Sentence: 00059 The vey tall trees create the atmosphere of a green bunker, while the path on which the bike goes is full of brown colored leaves and the vegatation next to it creates a remarkable background.
+# ::tok 00059 The vey tall trees create the atmosphere of a green bunker , while the path on which the bike goes is full of brown colored leaves and the vegatation next to it creates a remarkable background .
+(c2 / contrast-01~13
+    :ARG1 (c3 / create-01~5
+        :ARG0 (t2 / tree~4
+            :mod (t / tall~3))
+        :ARG1 (a2 / atmosphere~7
+            :mod (b4 / bunker~11
+                :ARG1-of (g2 / green-02~10))))
+    :ARG2 (a / and~27
+        :op1 (f / full-09~22
+            :ARG1 (p / path~15
+                :ARG4-of (g / go-02~20
+                    :ARG0 (b2 / bike~19)))
+            :ARG2 (l / leaf~26
+                :ARG1-of (c / color-01~25
+                    :ARG2 (b3 / brown~24))))
+        :op2 (c4 / create-01~33
+            :ARG0 (v / vegetable~29
+                :location (n / next-to~30
+                    :op1 p))
+            :ARG1 (b / background~36
+                :ARG1-of (r / remarkable-02~35))))
+    :time (d / date-entity~0
+        :year 00059~0))

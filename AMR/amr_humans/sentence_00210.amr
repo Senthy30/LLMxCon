@@ -1,0 +1,39 @@
+#00210 Sentence: 00210 After I completed my assignment, I went for a short walk in the misty forest; I had such a great time, it was so cozy and I got my mind cleared seeing such a beautiful place.
+# ::tok 00210 After I completed my assignment , I went for a short walk in the misty forest ; I had such a great time , it was so cozy and I got my mind cleared seeing such a beautiful place .
+(m3 / multi-sentence~17
+    :snt1 (g2 / go-02~8
+        :ARG0 (i / i~7)
+        :ARG1 (w / walk-01~12
+            :ARG0 i
+            :ARG1-of (s2 / short-07~11)
+            :ARG2 (f / forest~16
+                :mod (m2 / misty~15)))
+        :time (a / after~1
+            :op1 (c2 / complete-01~3
+                :ARG0 i
+                :ARG1 (t / thing~5
+                    :ARG1-of (a3 / assign-01~5
+                        :ARG0 i))))
+        :time (d / date-entity~0
+            :day 10~0
+            :month 2~0
+            :year 2005~0))
+    :snt2 (h / have-06~19
+        :ARG0 (i2 / i~18)
+        :ARG1 (t2 / time~23
+            :mod (g3 / great~22
+                :degree (s4 / such~20))))
+    :snt3 (a2 / and~29
+        :op1 (c3 / cozy~28
+            :degree (s3 / so~27)
+            :domain (i3 / it~25))
+        :op2 (g / get-04~31
+            :ARG0 i2
+            :ARG1 (c / clear-08~34
+                :ARG0 (s / see-01~35
+                    :ARG0 i2
+                    :ARG1 (p / place~39
+                        :ARG1-of (b / beautiful-02~38
+                            :degree (s5 / such~36))))
+                :ARG1 (m / mind~33
+                    :poss i2)))))

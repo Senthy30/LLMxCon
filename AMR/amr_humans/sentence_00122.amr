@@ -1,0 +1,17 @@
+#00122 Sentence: 00122 The tourists overwhelm the place and they take photos of the sky for it's orange and violet colors.
+# ::tok 00122 The tourists overwhelm the place and they take photos of the sky for it 's orange and violet colors .
+(a / and~6
+    :li 00122~0
+    :op1 (o2 / overwhelm-01~3
+        :ARG0 (p / person~2
+            :ARG0-of (t / tour-01~2))
+        :ARG1 (p3 / place~5))
+    :op2 (p2 / photograph-01~9
+        :ARG0 p
+        :ARG1 (s / sky~12
+            :purpose (a2 / and~17
+                :op1 (c2 / color-01~19
+                    :ARG1 s
+                    :ARG2 (o / orange~16))
+                :op2 (c / color~19
+                    :mod (v / violet~18))))))

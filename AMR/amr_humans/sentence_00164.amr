@@ -1,0 +1,24 @@
+#00164 Sentence: 00164 All the cars are polished and look great, you can't even believe some are more than 100 years old.
+# ::tok 00164 All the cars are polished and look great , you ca n't even believe some are more than 100 years old .
+(a3 / and~9
+    :op1 (a2 / and~6
+        :op1 (p / polish-01~5
+            :ARG1 (c / car~3
+                :mod (a / all~1)))
+        :op2 (l / look-02~7
+            :ARG0 (c2 / car~3
+                :quant (s / some~15))
+            :ARG1 (g / great~8)))
+    :op2 (p2 / possible-01~11
+        :ARG1 (b2 / believe-01~14
+            :ARG0 (y2 / you~10)
+            :ARG1 (b / be-temporally-at-91~21
+                :ARG1 c2
+                :ARG2 (m / more-than~17
+                    :op1 (t / temporal-quantity~20
+                        :quant 100~19
+                        :unit (y / year~20)))))
+        :mod (e / even~13)
+        :polarity -~12)
+    :time (d / date-entity~0
+        :year 00164~0))

@@ -1,0 +1,21 @@
+#00226 Sentence: 00226 Everybody finished their final touches and there was a lot of excitement in the air, all the models were waiting to start the show.
+# ::tok 00226 Everybody finished their final touches and there was a lot of excitement in the air , all the models were waiting to start the show .
+(a3 / and~6
+    :op1 (f2 / finish-01~2
+        :ARG0 (e / everybody~1)
+        :ARG1 (t / touch-07~5
+            :ARG0 e
+            :mod (f / final~4)))
+    :op2 (e2 / excite-01~12
+        :quant (l / lot~10)
+        :ARG1 (a / air~15))
+    :op3 (w / wait-01~21
+        :ARG1 (m / model~19
+            :mod (a2 / all~17))
+        :ARG2 (s2 / start-01~23
+            :ARG0 m
+            :ARG1 (s / show-04~25)))
+    :time (d / date-entity~0
+        :day 26~0
+        :month 2~0
+        :year 2005~0))

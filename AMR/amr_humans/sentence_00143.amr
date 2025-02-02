@@ -1,0 +1,18 @@
+#00143 Sentence: 00143 The glasses are clinking while people enjoy their drinks, judging the taste of the new beer.
+# ::tok 00143 The glasses are clinking while people enjoy their drinks , judging the taste of the new beer .
+(a / and~10
+    :ARG0-of (j / judge-01~11
+        :ARG1 (t3 / thing~13
+            :ARG2-of (t / taste-02~13
+                :ARG1 (b / beer~17
+                    :ARG1-of (n / new-01~16)))))
+    :op1 (d / date-entity~0
+        :year 00143~0)
+    :op2 (r / ring-01~4
+        :ARG1 (g / glasses~2))
+    :rel (e / enjoy-01~7
+        :ARG0 (p / person~6)
+        :ARG1 (t2 / thing~9
+            :ARG1-of (d2 / drink-01~9
+                :ARG0 p)))
+    :time d)

@@ -1,0 +1,17 @@
+#00210 Sentence: 00210 Sunlight dappled through the misty canopy, illuminating a path of fallen leaves beneath my feet.
+# ::tok 00210 Sunlight dappled through the misty canopy , illuminating a path of fallen leaves beneath my feet .
+(p2 / provide-01~2
+    :ARG0 (s / sunlight~1)
+    :ARG0-of (i2 / illuminate-01~8
+        :ARG1 (p / path~10
+            :consist-of (l / leaf~13
+                :ARG1-of (f / fall-01~12)
+                :location (b / beneath~14
+                    :op1 (f2 / foot~16
+                        :part-of (i / i~15))))))
+    :ARG1 (c / canopy~6
+        :ARG1-of (m / mist-03~5))
+    :time (d / date-entity~0
+        :day 10~0
+        :month 2~0
+        :year 2003~0))

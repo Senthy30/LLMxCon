@@ -1,0 +1,20 @@
+#00237 Sentence: 00237 When I was a kid I visited a haunted house during the Halloween and I got so scared from their special effects.
+# ::tok 00237 When I was a kid I visited a haunted house during the Halloween and I got so scared from their special effects .
+(a / and~14
+    :op1 (v / visit-01~7
+        :ARG0 (i / i~6)
+        :ARG1 (h2 / house~10
+            :ARG1-of (h / haunt-01~9))
+        :time (k / kid~5
+            :domain i)
+        :time (f / festival~13
+            :name (n / name~13
+                :op1 "Halloween"~13)))
+    :op2 (s / scare-01~18
+        :ARG0 (e / effect~22
+            :ARG1-of (s3 / special-02~21)
+            :poss (t / they~20))
+        :ARG1 i
+        :degree (s2 / so~17))
+    :time (d / date-entity~0
+        :year 00237~0))

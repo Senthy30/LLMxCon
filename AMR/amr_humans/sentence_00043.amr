@@ -1,0 +1,27 @@
+#00043 Sentence: 00043 The market overflows with energy as vendors call out daily specials and customers weave through rows of fresh fish, crabs, and oysters on ice.
+# ::tok 00043 The market overflows with energy as vendors call out daily specials and customers weave through rows of fresh fish , crabs , and oysters on ice .
+(a / and~12
+    :op1 (c / call-03~8
+        :ARG0 (p / person~7
+            :ARG0-of (v / vend-01~7))
+        :ARG1 (t2 / thing~11
+            :ARG1-of (s / special-02~11)
+            :frequency (r / rate-entity-91~10
+                :ARG3 (t / temporal-quantity~10
+                    :quant 1~10
+                    :unit (d2 / day~10)))))
+    :op2 (w / weave-01~14
+        :ARG0 (c4 / customer~13)
+        :ARG2 (t3 / through~15
+            :op1 (r2 / row~16
+                :consist-of (a2 / and~20
+                    :location (i / ice~26)
+                    :op1 (f / fish~19
+                        :ARG1-of (f2 / fresh-04~18))
+                    :op2 (c2 / crab~21)
+                    :op3 (c3 / crab~24)))))
+    :rel (o / overflow-01~3
+        :ARG0 (e / energy~5)
+        :ARG1 (m / market~2))
+    :time (d / date-entity~0
+        :year 00043~0))

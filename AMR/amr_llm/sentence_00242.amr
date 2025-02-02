@@ -1,0 +1,19 @@
+#00242 Sentence: 00242 The gym echoed with the thump of sneakers on the hardwood, the roar of the crowd a constant hum, and the swish of the net a symphony of victory.
+# ::tok 00242 The gym echoed with the thump of sneakers on the hardwood , the roar of the crowd a constant hum , and the swish of the net a symphony of victory .
+(a / and~22
+    :op1 (e / echo-01~3
+        :ARG1 (g / gym~2))
+    :op2 (h2 / ho-hum~20
+        :domain (r / roar-02~14
+            :ARG0 (c2 / crowd~17))
+        :mod (c / constant~19))
+    :op3 (s3 / symphony~29
+        :domain (s2 / swim-01~24
+            :ARG0 (n / net~27))
+        :mod (w / win-01~31))
+    :rel (t / thump-01~6
+        :ARG1 (s / sneaker~8)
+        :location (h / hardwood~11))
+    :time (d / date-entity~0
+        :day 25~0
+        :year 00242~0))

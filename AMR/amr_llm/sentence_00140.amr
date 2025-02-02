@@ -1,0 +1,24 @@
+#00140 Sentence: 00140 The gleaming showroom, filled with the scent of new leather and polished chrome, showcased the epitome of automotive luxury, from sleek sports cars to opulent SUVs.
+# ::tok 00140 The gleaming showroom , filled with the scent of new leather and polished chrome , showcased the epitome of automotive luxury , from sleek sports cars to opulent SUVs .
+(s / showcase-01~16
+    :ARG0 (s2 / showroom~3
+        :ARG1-of (f / fill-01~5
+            :ARG2 (s4 / smell-02~8
+                :ARG1 (a / and~12
+                    :op1 (l / leather~11
+                        :ARG1-of (n / new-01~10))
+                    :op2 (c3 / chrome~14
+                        :ARG1-of (p / polish-01~13)))))
+        :mode expressive~2)
+    :ARG1 (e / epitome~18
+        :ARG1-of (r / range-01~23
+            :ARG3 (c / car~26
+                :mod (s5 / sport~25)
+                :mod (s3 / sleek~24))
+            :ARG4 (c2 / car-make~26
+                :mod (o / opulent~28)
+                :mod (u / utility~29)))
+        :mod (l2 / luxury~21
+            :mod (a2 / automotive~20)))
+    :time (d / date-entity~0
+        :year 00140~0))

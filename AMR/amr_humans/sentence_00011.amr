@@ -1,0 +1,26 @@
+#00011 Sentence: 00011 A very big bookstore, while at least one hundred rows, each dedicated to a specific topic. The bookshelf was dusty, with torn books of which cover turned to a very yellow color because of the time passed.
+# ::tok 00011 A very big bookstore , while at least one hundred rows , each dedicated to a specific topic . The bookshelf was dusty , with torn books of which cover turned to a very yellow color because of the time passed .
+(m / multi-sentence~19
+    :li 00011~0
+    :rel (b4 / bookstore~4
+        :mod (b / big~3
+            :degree (v / very~2)))
+    :snt1 (d / dedicate-01~14
+        :ARG1 (r / row~11
+            :quant (a / at-least~8
+                :op1 100~10))
+        :ARG2 (t3 / topic~18
+            :ARG1-of (s / specific-02~17))
+        :mod (e / each~13))
+    :snt2 (d2 / dusty~23
+        :consist-of (b2 / book~27
+            :ARG1-of (t / tear-01~26)
+            :ARG1-of (t4 / turn-01~31
+                :ARG1-of (c / cause-01~37
+                    :ARG0 (p / pass-03~41
+                        :ARG1 (t2 / time~40)))
+                :ARG4 (c2 / color~36
+                    :ARG1-of (y / yellow-02~35
+                        :degree (v2 / very~34))))
+            :ARG2-of (c3 / cover-02~30))
+        :domain (b3 / bookshelf~21)))

@@ -1,0 +1,31 @@
+#00237 Sentence: 00237 As the sun dipped below the horizon, casting long shadows across the cobblestone streets, we embarked on a spine-chilling haunted house tour, our hearts pounding with anticipation and a healthy dose of fear.
+# ::tok 00237 As the sun dipped below the horizon , casting long shadows across the cobblestone streets , we embarked on a spine - chilling haunted house tour , our hearts pounding with anticipation and a healthy dose of fear .
+(e / embark-01~18
+    :ARG0 (w / we~17
+        :part (h3 / heart~29))
+    :ARG1 (t / tour-01~26
+        :ARG0 w
+        :ARG1 (h5 / house~25
+            :ARG0-of (c2 / chill-01~23
+                :ARG1 (s2 / spine~21))
+            :ARG1-of (h / haunt-01~24)))
+    :time (d2 / dip-01~4
+        :ARG1 (s4 / sun~3
+            :ARG0-of (c / cast-01~9
+                :ARG1 (s / shadow~11
+                    :ARG1-of (l / long-03~10))
+                :location (a / across~12
+                    :op1 (s3 / street~15
+                        :mod (c3 / cobblestone~14)))))
+        :ARG4 (b / below~5
+            :op1 (h4 / horizon~7)))
+    :time (d / date-entity~0
+        :year 00237~0)
+    :time-of (p / pound-02~30
+        :ARG0 (a2 / and~33
+            :op1 (a3 / anticipate-01~32
+                :ARG0 w)
+            :op2 (d3 / dose-01~36
+                :ARG2 (f / fear-01~38)
+                :mod (h2 / healthy~35)))
+        :ARG1 h3))

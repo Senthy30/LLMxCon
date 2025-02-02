@@ -1,0 +1,27 @@
+#00244 Sentence: 00244 I was standing in line thinking about my next travel and being so happy that finally I will visit my friend from Asia.
+# ::tok 00244 I was standing in line thinking about my next travel and being so happy that finally I will visit my friend from Asia .
+(s2 / stand-01~3
+    :ARG1 (i / i~1
+        :ARG0-of (t / think-01~6
+            :ARG1 (t2 / travel-01~10
+                :ARG0 i
+                :mod (n2 / next~9)))
+        :ARG1-of (h2 / have-degree-91~13
+            :ARG2 (h / happy-01~14
+                :ARG1 i)
+            :ARG3 (s / so~13)
+            :ARG6 (v / visit-01~19
+                :ARG0 i
+                :ARG1 (p / person~21
+                    :ARG0-of (h3 / have-rel-role-91~21
+                        :ARG1 i
+                        :ARG2 (f2 / friend~21)))
+                :source (c / continent~23
+                    :name (n / name~23
+                        :op1 "Asia"~23))
+                :time (f / final~16))))
+    :ARG2 (l / line~5)
+    :time (d / date-entity~0
+        :day 25~0
+        :month 4~0
+        :year 2003~0))

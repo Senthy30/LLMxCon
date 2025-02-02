@@ -1,0 +1,23 @@
+#00048 Sentence: 00048 The backstage area hummed with a quiet energy, a symphony of whispers and rustling costumes, as actors adjusted their makeup and technicians checked the lights.
+# ::tok 00048 The backstage area hummed with a quiet energy , a symphony of whispers and rustling costumes , as actors adjusted their makeup and technicians checked the lights .
+(s / sweep-01~4
+    :ARG1 (a5 / area~3
+        :location (b / backstage~2))
+    :ARG3 (e / energy~8
+        :ARG1-of (q / quiet-04~7))
+    :mod (s2 / symphony~11
+        :consist-of (a3 / and~14
+            :op1 (w / whisper-01~13)
+            :op2 (c2 / costume-01~16
+                :ARG1-of (r / rust-01~15))))
+    :time (d / date-entity~0
+        :year 00048~0)
+    :time (a4 / and~23
+        :op1 (a2 / adjust-01~20
+            :ARG0 (p / person~19
+                :ARG0-of (a / act-01~19))
+            :ARG1 (m / makeup~22
+                :poss p))
+        :op2 (c / check-01~25
+            :ARG0 (t / technician~24)
+            :ARG1 (l / light~27))))

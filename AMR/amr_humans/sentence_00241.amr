@@ -1,0 +1,27 @@
+#00241 Sentence: 00241 I jog past trees, the birds chirp above, the people were sipping coffee and the skyline rises as the park seems to come alive with morning energy.
+# ::tok 00241 I jog past trees , the birds chirp above , the people were sipping coffee and the skyline rises as the park seems to come alive with morning energy .
+(a2 / and~16
+    :op1 (j / jog-01~2
+        :ARG0 (i / i~1)
+        :path (p2 / past~3
+            :op1 (t / tree~4))
+        :time (d / date-entity~0
+            :day 25~0
+            :month 2~0
+            :year 2005~0))
+    :op2 (c / chirp-01~8
+        :ARG0 (b / bird~7)
+        :location (a / above~9))
+    :op3 (s2 / sip-01~14
+        :ARG0 (p3 / person~12)
+        :ARG1 (c2 / coffee~15))
+    :op4 (r / rise-01~19
+        :ARG1 (s3 / skyline~18))
+    :time (s / seem-01~23
+        :ARG1 (c3 / come-04~25
+            :ARG1 (p / park~22)
+            :ARG2 (l / live-01~26
+                :ARG0 p
+                :ARG0 (e / energy~29
+                    :time (d2 / date-entity~28
+                        :dayperiod (m / morning~28)))))))

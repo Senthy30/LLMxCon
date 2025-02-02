@@ -1,0 +1,24 @@
+#00162 Sentence: 00162 Lights are flashing from all the direction, people are walking carefully to not disturb the models and make up artists are ready to touch up their faces.
+# ::tok 00162 Lights are flashing from all the direction , people are walking carefully to not disturb the models and make up artists are ready to touch up their faces .
+(a2 / and~8
+    :op1 (f2 / flash-01~3
+        :ARG1 (l / light~1)
+        :source (d2 / direction~7
+            :mod (a / all~5)))
+    :op2 (w / walk-01~11
+        :purpose (d3 / disturb-01~15
+            :ARG0 (p / person~9)
+            :ARG1 (m2 / model~17)
+            :polarity -~14)
+        :ARG0 p
+        :ARG1-of (c / care-04~12
+            :ARG0 p))
+    :op3 (r / ready-02~23
+        :ARG1 (a3 / artist~21
+            :mod (m / makeup~19)
+            :part (f / face~28))
+        :ARG2 (t / touch-up-03~25
+            :ARG0 a3
+            :ARG1 f))
+    :time (d / date-entity~0
+        :year 00162~0))

@@ -1,0 +1,26 @@
+#00156 Sentence: 00156 The air was thick with the scent of old books and freshly baked goods, and the sun was just beginning to peek over the horizon, casting long shadows across the stalls.
+# ::tok 00156 The air was thick with the scent of old books and freshly baked goods , and the sun was just beginning to peek over the horizon , casting long shadows across the stalls .
+(a4 / and~16
+    :op1 (t / thick-03~4
+        :ARG1 (a2 / air~2)
+        :ARG2 (s2 / smell-01~7
+            :ARG1 (a3 / and~11
+                :op1 (b3 / book~10
+                    :mod (o / old~9))
+                :op2 (g / good~14
+                    :ARG1-of (b / bake-01~13
+                        :ARG1-of (f / fresh-04~12))))))
+    :op2 (b2 / begin-01~21
+        :ARG1 (p / peek-01~23
+            :ARG0 (s4 / sun~18
+                :ARG0-of (c / cast-01~28
+                    :ARG1 (s / shadow~30
+                        :ARG1-of (l / long-03~29))
+                    :ARG2 (a / across~31
+                        :op1 (m / market~33
+                            :ARG1-of (s3 / stall-01~33)))))
+            :location (o2 / over~24
+                :op1 (h / horizon~26)))
+        :mod (j / just~20))
+    :time (d / date-entity~0
+        :year 00156~0))

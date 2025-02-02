@@ -1,0 +1,16 @@
+#00130 Sentence: 00130 Big screens showing images, there are some showcases which have holograms inside.
+# ::tok 00130 Big screens showing images , there are some showcases which have holograms inside .
+(a / and~5
+    :op1 (s / screen~2
+        :ARG0-of (s2 / show-01~3
+            :ARG1 (i / image~4))
+        :mod (b / big~1))
+    :op2 (t / thing~10
+        :quant (s4 / some~8)
+        :ARG0-of (h / have-03~11
+            :ARG1 (r / robot~12
+                :location (i2 / inside~13
+                    :op1 t)))
+        :ARG2-of (s3 / showcase-01~9))
+    :time (d / date-entity~0
+        :year 00130~0))

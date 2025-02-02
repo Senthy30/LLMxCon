@@ -1,0 +1,16 @@
+#00127 Sentence: 00127 Lights are glowing and from time to time an ambulance alarm is disturbing the buzzing sound of the traffic.
+# ::tok 00127 Lights are glowing and from time to time an ambulance alarm is disturbing the buzzing sound of the traffic .
+(a3 / and~4
+    :op1 (g / glow-01~3
+        :ARG1 (l / light~1))
+    :op2 (d2 / disturb-01~13
+        :ARG0 (a / alarm-01~11
+            :ARG1 (a2 / ambulance~10))
+        :ARG1 (s / sound-02~16
+            :ARG1 (t2 / traffic~19)
+            :ARG3 (d3 / drone-01~15))
+        :frequency (t / time-to-time~8))
+    :time (d / date-entity~0
+        :day 00127~0
+        :month 12~0
+        :year 2005~0))

@@ -1,0 +1,15 @@
+#00060 Sentence: 00060 Plus lounges, sparkling chandeliers, and large windows offer stunning ocean views.
+# ::tok 00060 Plus lounges , sparkling chandeliers , and large windows offer stunning ocean views .
+(o2 / offer-01~10
+    :ARG0 (a / and~7
+        :mod (p / plus~1)
+        :op1 (l2 / lounge-01~2)
+        :op2 (c / ceiling~5
+            :ARG1-of (s / sparkle-01~4))
+        :op3 (w / window~9
+            :mod (l / large~8)))
+    :ARG1 (v / view-01~13
+        :ARG0-of (s2 / stun-01~11)
+        :ARG1 (o / ocean~12))
+    :time (d / date-entity~0
+        :year 00060~0))
